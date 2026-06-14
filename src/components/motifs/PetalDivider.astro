@@ -1,0 +1,25 @@
+---
+/*
+ * PetalDivider — a fine gold hairline centred on a small lotus glyph, used as
+ * the ornament between major sections. Sparing and classy by design.
+ */
+interface Props {
+  class?: string;
+}
+const { class: className = "" } = Astro.props;
+---
+
+<div
+  class:list={["flex items-center justify-center gap-4 text-gold", className]}
+  role="presentation"
+  data-motif
+>
+  <span class="hairline-gold w-12 sm:w-24"></span>
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" class="h-5 w-5 shrink-0" aria-hidden="true">
+    <path d="M12 16 C10.5 12 10.5 8.5 12 5 C13.5 8.5 13.5 12 12 16 Z" />
+    <path d="M12 16 C9 13.5 7 10.5 6.5 7.5 C9.5 9 11 12.5 12 16 Z" />
+    <path d="M12 16 C15 13.5 17 10.5 17.5 7.5 C14.5 9 13 12.5 12 16 Z" />
+    <path d="M5 17 Q12 20 19 17" />
+  </svg>
+  <span class="hairline-gold w-12 sm:w-24"></span>
+</div>

@@ -1,0 +1,63 @@
+---
+import Container from "../ui/Container.astro";
+import Button from "../ui/Button.astro";
+import Mandala from "../motifs/Mandala.astro";
+import { site } from "../../data/site";
+import { whatsappLink, phoneLink, emailLink } from "../../lib/content";
+
+const wa = whatsappLink(
+  `Namaste, I would like to book a consultation with ${site.name}.`,
+);
+const tel = phoneLink();
+const mail = emailLink();
+---
+
+<section class="relative overflow-hidden bg-teal text-onteal">
+  <!-- Mandala motif, faint on the deep teal "sanctum" band -->
+  <Mandala
+    class="pointer-events-none absolute -bottom-28 -left-24 h-[420px] w-[420px] text-gold opacity-10"
+  />
+
+  <Container class="relative py-20 text-center sm:py-24">
+    <div class="mx-auto max-w-2xl" data-reveal>
+      <p class="text-xs uppercase tracking-widest2 text-gold-soft">
+        Begin when you feel ready
+      </p>
+      <h2 class="mt-4 font-serif text-3xl text-onteal sm:text-4xl">
+        {site.primaryCta}
+      </h2>
+      <p class="mt-4 leading-relaxed text-onteal/80">
+        There is no pressure and no obligation — only a calm conversation about
+        what you are seeking.
+      </p>
+
+      <div class="mt-9 flex flex-wrap items-center justify-center gap-4">
+        <Button href="/contact" variant="light" size="lg">{site.primaryCta}</Button>
+        {
+          wa && (
+            <Button href={wa} variant="outlineLight" size="lg" target="_blank" rel="noopener noreferrer">
+              Chat on WhatsApp
+            </Button>
+          )
+        }
+      </div>
+
+      {
+        (tel || mail) && (
+          <div class="mt-8 flex flex-wrap justify-center gap-x-8 gap-y-2 text-sm text-onteal/80">
+            {tel && (
+              <a href={tel} class="transition-colors hover:text-onteal">
+                Call {site.contact.phone}
+              </a>
+            )}
+            {mail && (
+              <a href={mail} class="transition-colors hover:text-onteal">
+                Email {site.contact.email}
+              </a>
+            )}
+          </div>
+        )
+      }
+    </div>
+  </Container>
+</section>

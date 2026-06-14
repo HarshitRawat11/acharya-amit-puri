@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Acharya Amit Puri">
+  <!-- Brand mark: ashtadala (eight-petal) mandala crest. Swap with your own logo
+       in /public if you like — keep the filename. -->
+  <circle cx="32" cy="32" r="31" fill="#163a37" />
+  <g fill="none" stroke="#c9a14a" stroke-width="1.6">
+    <circle cx="32" cy="32" r="24" />
+    <g>
+      <path d="M32 30 C29 26 29 22 32 18 C35 22 35 26 32 30 Z" />
+      <path d="M32 30 C29 26 29 22 32 18 C35 22 35 26 32 30 Z" transform="rotate(45 32 32)" />
+      <path d="M32 30 C29 26 29 22 32 18 C35 22 35 26 32 30 Z" transform="rotate(90 32 32)" />
+      <path d="M32 30 C29 26 29 22 32 18 C35 22 35 26 32 30 Z" transform="rotate(135 32 32)" />
+      <path d="M32 30 C29 26 29 22 32 18 C35 22 35 26 32 30 Z" transform="rotate(180 32 32)" />
+      <path d="M32 30 C29 26 29 22 32 18 C35 22 35 26 32 30 Z" transform="rotate(225 32 32)" />
+      <path d="M32 30 C29 26 29 22 32 18 C35 22 35 26 32 30 Z" transform="rotate(270 32 32)" />
+      <path d="M32 30 C29 26 29 22 32 18 C35 22 35 26 32 30 Z" transform="rotate(315 32 32)" />
+    </g>
+  </g>
+  <circle cx="32" cy="32" r="3" fill="#c9a14a" />
+</svg>

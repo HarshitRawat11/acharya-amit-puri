@@ -1,0 +1,116 @@
+---
+import Container from "./ui/Container.astro";
+import Mandala from "./motifs/Mandala.astro";
+import { site } from "../data/site";
+import {
+  activeSocials,
+  phoneLink,
+  emailLink,
+  filled,
+} from "../lib/content";
+
+const socials = activeSocials();
+const tel = phoneLink();
+const mail = emailLink();
+const location = filled(site.contact.location);
+const year = new Date().getFullYear();
+
+const explore = [
+  { href: "/", label: "Home" },
+  { href: "/about", label: "About" },
+  { href: "/services", label: "Services" },
+  { href: "/contact", label: "Contact" },
+];
+
+// Minimal inline glyphs so footer social links carry an icon (hidden if empty).
+const socialPaths: Record<string, string> = {
+  instagram:
+    "M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm5 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10Zm5.5-.5h.01",
+  facebook:
+    "M14 9h3V6h-3a3 3 0 0 0-3 3v2H8v3h3v7h3v-7h2.5l.5-3H14V9Z",
+  youtube:
+    "M22 8.5a3 3 0 0 0-2.1-2.1C18 6 12 6 12 6s-6 0-7.9.4A3 3 0 0 0 2 8.5 31 31 0 0 0 1.7 12 31 31 0 0 0 2 15.5a3 3 0 0 0 2.1 2.1C6 18 12 18 12 18s6 0 7.9-.4a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .3-3.5 31 31 0 0 0-.3-3.5ZM10 15V9l5 3-5 3Z",
+};
+---
+
+<footer class="bg-surface-alt text-ink">
+  <div class="hairline-gold w-full"></div>
+  <Container class="grid gap-10 py-14 md:grid-cols-12">
+    <!-- Brand -->
+    <div class="md:col-span-5">
+      <a href="/" class="flex items-center gap-3" aria-label={`${site.name} — home`}>
+        <Mandala simple class="h-9 w-9 text-gold" />
+        <span class="font-serif text-xl text-teal">{site.name}</span>
+      </a>
+      <p class="mt-4 max-w-sm text-sm leading-relaxed text-muted">
+        Calm, considered guidance in Vastu, Vedic astrology, numerology,
+        Prakriti and palmistry — offered with respect and care.
+      </p>
+      {
+        socials.length > 0 && (
+          <ul class="mt-6 flex gap-3">
+            {socials.map((s) => (
+              <li>
+                <a
+                  href={s.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={s.label}
+                  class="flex h-10 w-10 items-center justify-center rounded-full border border-hair text-teal transition-colors hover:border-gold hover:text-gold"
+                >
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="h-5 w-5" aria-hidden="true">
+                    <path d={socialPaths[s.key]} stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </a>
+              </li>
+            ))}
+          </ul>
+        )
+      }
+    </div>
+
+    <!-- Explore -->
+    <nav class="md:col-span-3" aria-label="Footer">
+      <h2 class="text-xs uppercase tracking-widest2 text-muted">Explore</h2>
+      <ul class="mt-4 space-y-2.5">
+        {
+          explore.map((l) => (
+            <li>
+              <a href={l.href} class="text-sm text-ink transition-colors hover:text-teal">
+                {l.label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </nav>
+
+    <!-- Contact -->
+    <div class="md:col-span-4">
+      <h2 class="text-xs uppercase tracking-widest2 text-muted">Get in touch</h2>
+      <ul class="mt-4 space-y-2.5 text-sm text-ink">
+        {tel && (
+          <li>
+            <a href={tel} class="transition-colors hover:text-teal">{site.contact.phone}</a>
+          </li>
+        )}
+        {mail && (
+          <li>
+            <a href={mail} class="transition-colors hover:text-teal">{site.contact.email}</a>
+          </li>
+        )}
+        {location && <li class="text-muted">{location}</li>}
+        {!tel && !mail && !location && (
+          <li class="text-muted">Contact details coming soon.</li>
+        )}
+      </ul>
+    </div>
+  </Container>
+
+  <Container>
+    <div class="flex flex-col items-center justify-between gap-2 border-t border-hair py-6 text-xs text-muted sm:flex-row">
+      <p>© {year} {site.name}. All rights reserved.</p>
+      <p>Guidance offered for reflection and wellbeing.</p>
+    </div>
+  </Container>
+</footer>

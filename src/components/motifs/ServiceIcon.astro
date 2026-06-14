@@ -1,0 +1,86 @@
+---
+/*
+ * ServiceIcon — a monoline, single-stroke-family icon for each discipline, so
+ * the whole set reads as one hand. Colour via a text utility (e.g. text-gold).
+ *   vastu-report   → nine-point Vastu grid (Vastu Purusha Mandala)
+ *   astro-advice   → planetary orbits + sun
+ *   numero-advice  → yantra (circle + shatkona + bindu)
+ *   prakriti-advice→ lotus
+ *   design-advice  → home + celestial mark
+ *   palmistry-advice→ open palm + line
+ */
+interface Props {
+  slug: string;
+  class?: string;
+}
+const { slug, class: className = "h-9 w-9" } = Astro.props;
+---
+
+<svg
+  viewBox="0 0 40 40"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="1.4"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  class={className}
+  data-motif
+  aria-hidden="true"
+>
+  {slug === "vastu-report" && (
+    <Fragment>
+      <rect x="8" y="8" width="24" height="24" rx="1.5" />
+      <path d="M16 8V32 M24 8V32 M8 16H32 M8 24H32" />
+      <circle cx="20" cy="20" r="1.5" fill="currentColor" stroke="none" />
+    </Fragment>
+  )}
+
+  {slug === "astro-advice" && (
+    <Fragment>
+      <circle cx="20" cy="20" r="2.6" fill="currentColor" stroke="none" />
+      <ellipse cx="20" cy="20" rx="15" ry="6" transform="rotate(28 20 20)" />
+      <ellipse cx="20" cy="20" rx="15" ry="6" transform="rotate(-38 20 20)" />
+      <circle cx="32.5" cy="15" r="1.7" fill="currentColor" stroke="none" />
+    </Fragment>
+  )}
+
+  {slug === "numero-advice" && (
+    <Fragment>
+      <circle cx="20" cy="20" r="14" />
+      <path d="M20 7 L31 26 L9 26 Z" />
+      <path d="M20 33 L9 14 L31 14 Z" />
+      <circle cx="20" cy="20" r="1.7" fill="currentColor" stroke="none" />
+    </Fragment>
+  )}
+
+  {slug === "prakriti-advice" && (
+    <Fragment>
+      <path d="M20 26 C17.5 19 17.5 13 20 8 C22.5 13 22.5 19 20 26 Z" />
+      <path d="M20 26 C15 21 12 16 11 11 C16 13 19 19 20 26 Z" />
+      <path d="M20 26 C25 21 28 16 29 11 C24 13 21 19 20 26 Z" />
+      <path d="M9 27 Q20 31 31 27" />
+    </Fragment>
+  )}
+
+  {slug === "design-advice" && (
+    <Fragment>
+      <path d="M9 21 L20 11 L31 21" />
+      <path d="M12 21 V32 H28 V21" />
+      <path d="M17 32 V25 H23 V32" />
+      <circle cx="30" cy="9.5" r="2.2" />
+      <path d="M30 5.6 V4 M34 9.5 H35.6 M32.9 6.6 L34 5.5" />
+    </Fragment>
+  )}
+
+  {slug === "palmistry-advice" && (
+    <Fragment>
+      <rect x="14" y="21" width="13" height="12" rx="3.5" />
+      <path d="M14.5 24 L10.5 21.5" />
+      <path d="M16.5 21 L15.6 12.5" />
+      <path d="M19.7 21 L19.7 11.5" />
+      <path d="M22.8 21 L23.7 12.5" />
+      <path d="M25.2 21 L26.2 14.5" />
+      <path d="M17.5 22.5 Q20 27 19 32.5" />
+    </Fragment>
+  )}
+</svg>

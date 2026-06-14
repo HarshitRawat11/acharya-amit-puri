@@ -1,0 +1,41 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHero from "../../components/PageHero.astro";
+import Container from "../../components/ui/Container.astro";
+import Section from "../../components/ui/Section.astro";
+import ServiceCard from "../../components/ServiceCard.astro";
+import Process from "../../components/home/Process.astro";
+import ContactCta from "../../components/home/ContactCta.astro";
+import { site } from "../../data/site";
+
+const title =
+  "Services — Vastu, Astrology, Numerology & More | Acharya Amit Puri";
+const description =
+  "Explore consultations with Acharya Amit Puri: Vastu reports, Vedic astrology, numerology, Prakriti, horoscope-based home design and palmistry.";
+---
+
+<BaseLayout title={title} description={description}>
+  <PageHero
+    eyebrow="What I offer"
+    title="Areas of Guidance"
+    subtitle="Six considered practices — each a different lens on the same intention: greater harmony, clarity and ease."
+  />
+
+  <Section variant="surface-alt">
+    <Container>
+      <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          site.services.map((s, i) => (
+            <div data-reveal style={`transition-delay:${i * 70}ms`}>
+              <ServiceCard slug={s.slug} name={s.name} tagline={s.tagline} summary={s.summary} />
+            </div>
+          ))
+        }
+      </div>
+    </Container>
+  </Section>
+
+  <Process />
+
+  <ContactCta />
+</BaseLayout>

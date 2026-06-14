@@ -1,0 +1,19 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Hero from "../components/home/Hero.astro";
+import ServicesGrid from "../components/home/ServicesGrid.astro";
+import AboutPreview from "../components/home/AboutPreview.astro";
+import Process from "../components/home/Process.astro";
+import Testimonials from "../components/home/Testimonials.astro";
+import ContactCta from "../components/home/ContactCta.astro";
+import { site } from "../data/site";
+---
+
+<BaseLayout title={site.seo.defaultTitle} description={site.seo.defaultDescription}>
+  <Hero />
+  <ServicesGrid />
+  <AboutPreview />
+  <Process />
+  <Testimonials />
+  <ContactCta />
+</BaseLayout>

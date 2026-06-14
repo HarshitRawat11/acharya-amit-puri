@@ -1,0 +1,58 @@
+---
+/*
+ * Button — renders an <a> when `href` is given, otherwise a <button>.
+ * Variants follow the brand contrast rules (gold is a stroke, never a small
+ * label). Use light / outlineLight ON dark teal bands.
+ */
+interface Props {
+  href?: string;
+  variant?: "primary" | "secondary" | "ghost" | "light" | "outlineLight";
+  size?: "md" | "lg";
+  type?: "button" | "submit";
+  class?: string;
+  "aria-label"?: string;
+  target?: string;
+  rel?: string;
+  id?: string;
+}
+const {
+  href,
+  variant = "primary",
+  size = "md",
+  type = "button",
+  class: className = "",
+  ...rest
+} = Astro.props;
+
+const base =
+  "inline-flex items-center justify-center gap-2 rounded-lg font-medium transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-teal";
+
+const sizes: Record<string, string> = {
+  md: "px-5 py-2.5 text-sm",
+  lg: "px-7 py-3.5 text-base",
+};
+
+const variants: Record<string, string> = {
+  // For light backgrounds
+  primary: "bg-teal text-onteal shadow-soft hover:bg-teal-dark hover:shadow-lift",
+  secondary: "border border-teal text-teal hover:bg-teal hover:text-onteal",
+  ghost: "border border-gold text-teal hover:bg-gold/10",
+  // For dark teal backgrounds
+  light: "bg-surface text-teal shadow-soft hover:bg-paper hover:text-teal-dark",
+  outlineLight: "border border-gold text-onteal hover:bg-white/10 focus-visible:ring-onteal focus-visible:ring-offset-teal",
+};
+
+const cls = [base, sizes[size], variants[variant], className].join(" ");
+---
+
+{
+  href ? (
+    <a href={href} class={cls} {...rest}>
+      <slot />
+    </a>
+  ) : (
+    <button type={type} class={cls} {...rest}>
+      <slot />
+    </button>
+  )
+}

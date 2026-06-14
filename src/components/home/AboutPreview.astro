@@ -1,0 +1,54 @@
+---
+import Container from "../ui/Container.astro";
+import Section from "../ui/Section.astro";
+import Button from "../ui/Button.astro";
+import Mandala from "../motifs/Mandala.astro";
+import { site } from "../../data/site";
+import { filled } from "../../lib/content";
+
+const bio = filled(site.about.bio);
+// First paragraph only for the preview; the full bio lives on /about.
+const previewParagraph = bio ? bio.split(/\n\n+/)[0] : undefined;
+---
+
+<Section variant="surface-alt" labelledby="about-title">
+  <Container class="grid items-center gap-12 md:grid-cols-2">
+    <!-- Portrait (placeholder until a photo is added) -->
+    <div data-reveal>
+      <div class="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-card border border-hair bg-surface shadow-soft">
+        <div class="flex h-full flex-col items-center justify-center gap-4 px-6 text-center">
+          <Mandala simple class="h-14 w-14 text-gold opacity-70" />
+          <p class="text-sm text-muted">
+            Portrait of {site.name}
+            <span class="mt-1 block text-xs">A photo can be added later (see CONTENT.md)</span>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Intro -->
+    <div data-reveal>
+      <p class="text-xs uppercase tracking-widest2 text-muted">Meet the Acharya</p>
+      <h2 id="about-title" class="mt-3 font-serif text-3xl text-teal sm:text-4xl">
+        {site.name}
+      </h2>
+
+      {
+        previewParagraph ? (
+          <p class="mt-5 max-w-prose2 leading-relaxed text-muted">{previewParagraph}</p>
+        ) : (
+          <p class="mt-5 max-w-prose2 leading-relaxed text-muted">
+            A calm, respectful approach to Vastu, Vedic astrology, numerology,
+            Prakriti and palmistry — meeting each person where they are, and
+            offering grounded guidance for greater harmony.
+            <span class="mt-2 block text-sm text-ink/60">
+              A short biography can be added later (see CONTENT.md).
+            </span>
+          </p>
+        )
+      }
+
+      <Button href="/about" variant="secondary" class="mt-7">More about the Acharya</Button>
+    </div>
+  </Container>
+</Section>

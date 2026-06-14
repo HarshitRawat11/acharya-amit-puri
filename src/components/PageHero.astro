@@ -1,0 +1,38 @@
+---
+/* PageHero — a compact, branded hero for the inner pages. */
+import Container from "./ui/Container.astro";
+import Mandala from "./motifs/Mandala.astro";
+
+interface Props {
+  eyebrow?: string;
+  title: string;
+  subtitle?: string;
+}
+const { eyebrow, title, subtitle } = Astro.props;
+---
+
+<section class="relative overflow-hidden bg-paper">
+  <Mandala
+    class="pointer-events-none absolute -right-24 -top-28 h-[360px] w-[360px] text-gold opacity-[0.05]"
+  />
+  <Container class="relative py-16 sm:py-20">
+    <div class="max-w-3xl" data-reveal>
+      {
+        eyebrow && (
+          <p class="flex items-center gap-3 text-xs uppercase tracking-widest2 text-muted">
+            <span class="h-px w-8 bg-gold" />
+            {eyebrow}
+          </p>
+        )
+      }
+      <h1 class="mt-5 font-serif text-4xl leading-tight text-teal sm:text-5xl">
+        {title}
+      </h1>
+      {
+        subtitle && (
+          <p class="mt-5 max-w-2xl text-lg leading-relaxed text-muted">{subtitle}</p>
+        )
+      }
+    </div>
+  </Container>
+</section>

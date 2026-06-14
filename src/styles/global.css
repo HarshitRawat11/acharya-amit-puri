@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+ * ════════════════════════════════════════════════════════════════════════════
+ *  BRAND DESIGN TOKENS — "Temple Tank & Brass Lamp"
+ * ════════════════════════════════════════════════════════════════════════════
+ *  The colour palette lives in tailwind.config.mjs (the single source for
+ *  utility classes like bg-paper / text-teal). The variables below cover the
+ *  few places we write raw CSS (fonts, gradients). Keep them in sync.
+ *
+ *  Verified contrast (WCAG 2.x sRGB): ink on paper 13.3:1 · muted on paper
+ *  6.7:1 · teal headings on paper 7.3:1 · onteal on teal 7.6:1. Gold #A67C2E
+ *  is 3.4:1 on paper → LARGE TEXT / DECORATION ONLY, never body copy.
+ * ════════════════════════════════════════════════════════════════════════════
+ */
+:root {
+  --font-serif: "Marcellus", "Georgia", "Cambria", serif;
+  --font-sans: "Inter Variable", "Inter", system-ui, -apple-system, "Segoe UI",
+    sans-serif;
+
+  --paper: #f7f3ec;
+  --ink: #1c2b2a;
+  --teal: #0e5a52;
+  --gold: #a67c2e;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    font-feature-settings: "liga" 1, "calt" 1;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: var(--font-serif);
+    font-weight: 400; /* Marcellus ships a single, elegant weight */
+    letter-spacing: 0.01em;
+  }
+
+  /* Accessible, always-visible focus — teal ring, never colour-only. */
+  :focus-visible {
+    outline: 2px solid var(--teal);
+    outline-offset: 2px;
+    border-radius: 2px;
+  }
+
+  ::selection {
+    background: var(--gold);
+    color: #fff;
+  }
+}
+
+@layer components {
+  /* A short, centred gold hairline used around section-divider petal glyphs. */
+  .hairline-gold {
+    height: 1px;
+    background: linear-gradient(
+      to right,
+      transparent,
+      var(--gold),
+      transparent
+    );
+  }
+
+  /* Form fields (contact page). */
+  .field {
+    @apply w-full rounded-lg border border-hair bg-surface px-4 py-2.5 text-ink shadow-sm transition-colors;
+    @apply placeholder:text-muted/70 focus:border-teal focus:outline-none focus:ring-2 focus:ring-teal/30;
+  }
+}
+
+/*
+ * ── Gentle reveal-on-scroll ──────────────────────────────────────────────
+ *  Progressive enhancement: content is fully visible by default. Only once
+ *  JS adds the `.js` class do elements start hidden and fade/slide in. So a
+ *  visitor with JS disabled (or before hydration) always sees everything.
+ */
+.js [data-reveal] {
+  opacity: 0;
+  transform: translateY(16px);
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s ease;
+  will-change: opacity, transform;
+}
+
+.js [data-reveal].is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+/* Respect users who prefer reduced motion: no movement, no fade-in delay. */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .js [data-reveal] {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+}
+
+/* Windows High Contrast / forced-colors: let decorative linework recede. */
+@media (forced-colors: active) {
+  .hairline-gold,
+  [data-motif] {
+    forced-color-adjust: none;
+  }
+}

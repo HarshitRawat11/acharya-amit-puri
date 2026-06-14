@@ -1,0 +1,64 @@
+---
+import Container from "../ui/Container.astro";
+import Button from "../ui/Button.astro";
+import Mandala from "../motifs/Mandala.astro";
+import { site } from "../../data/site";
+import { whatsappLink, isFilled } from "../../lib/content";
+
+const wa = whatsappLink(
+  `Namaste, I would like to book a consultation with ${site.name}.`,
+);
+// Show only stats that have a real value (placeholders stay hidden).
+const stats = site.stats.filter((s) => isFilled(s.value));
+---
+
+<section class="relative overflow-hidden bg-paper">
+  <!-- Sacred mandala watermark, bleeding off the top-right corner -->
+  <Mandala
+    class="pointer-events-none absolute -right-28 -top-28 h-[460px] w-[460px] text-gold opacity-[0.06] sm:-right-16 sm:-top-20"
+  />
+
+  <Container class="relative py-24 sm:py-32 lg:py-40">
+    <div class="max-w-3xl" data-reveal>
+      <p class="flex items-center gap-3 text-xs uppercase tracking-widest2 text-muted">
+        <span class="h-px w-8 bg-gold"></span>
+        Guidance rooted in tradition
+      </p>
+
+      <h1 class="mt-6 font-serif text-[2.7rem] leading-[1.08] text-teal sm:text-6xl">
+        {site.name}
+      </h1>
+
+      <p class="mt-6 max-w-xl text-lg leading-relaxed text-muted">
+        {site.heroValueLine}
+      </p>
+
+      <div class="mt-9 flex flex-wrap items-center gap-4">
+        <Button href="/contact" size="lg">{site.primaryCta}</Button>
+        {
+          wa && (
+            <Button href={wa} variant="ghost" size="lg" target="_blank" rel="noopener noreferrer">
+              Chat on WhatsApp
+            </Button>
+          )
+        }
+        <a href="/services" class="text-sm font-medium text-teal underline-offset-4 hover:underline">
+          View services →
+        </a>
+      </div>
+
+      {
+        stats.length > 0 && (
+          <dl class="mt-14 flex flex-wrap gap-x-12 gap-y-6">
+            {stats.map((s) => (
+              <div>
+                <dt class="font-serif text-3xl text-teal">{s.value}</dt>
+                <dd class="text-xs uppercase tracking-widest text-muted">{s.label}</dd>
+              </div>
+            ))}
+          </dl>
+        )
+      }
+    </div>
+  </Container>
+</section>

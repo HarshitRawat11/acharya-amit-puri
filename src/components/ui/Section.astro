@@ -1,0 +1,24 @@
+---
+/* Section — a vertical band with consistent rhythm and a background variant. */
+interface Props {
+  id?: string;
+  variant?: "paper" | "surface-alt" | "teal";
+  class?: string;
+  labelledby?: string;
+}
+const { id, variant = "paper", class: className = "", labelledby } = Astro.props;
+
+const bg: Record<string, string> = {
+  paper: "bg-paper text-ink",
+  "surface-alt": "bg-surface-alt text-ink",
+  teal: "bg-teal text-onteal",
+};
+---
+
+<section
+  id={id}
+  aria-labelledby={labelledby}
+  class:list={["py-20 sm:py-28", bg[variant], className]}
+>
+  <slot />
+</section>
