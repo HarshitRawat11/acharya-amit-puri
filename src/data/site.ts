@@ -55,6 +55,12 @@ export interface Testimonial {
   location?: string;
 }
 
+/** A frequently-asked question and its answer. */
+export interface FaqItem {
+  q: string;
+  a: string;
+}
+
 export const site = {
   // ──────────────────────────────────────────────────────────────────────────
   //  IDENTITY  (the name is real & final — do not replace)
@@ -273,6 +279,37 @@ export const site = {
     { quote: "{{TESTIMONIAL_2}}", name: "{{TESTIMONIAL_2_NAME}}", location: "" },
     { quote: "{{TESTIMONIAL_3}}", name: "{{TESTIMONIAL_3_NAME}}", location: "" },
   ] satisfies Testimonial[],
+
+  // ──────────────────────────────────────────────────────────────────────────
+  //  FREQUENTLY ASKED QUESTIONS  (editable — refine the wording freely)
+  //  Calm, honest answers. Also powers FAQ structured data (SEO) on the home page.
+  // ──────────────────────────────────────────────────────────────────────────
+  faqs: [
+    {
+      q: "How do consultations take place — online or in person?",
+      a: "Most consultations are arranged remotely, so you can take part comfortably from wherever you are. Reach out by WhatsApp, phone, or the contact form and we'll find a time that suits you.",
+    },
+    {
+      q: "What details will I need to provide?",
+      a: "It depends on the service. A Vedic birth-chart reading needs your date, time, and place of birth; a Vastu report is helped by photographs or a simple floor plan of your space. I'll let you know exactly what's useful when you get in touch.",
+    },
+    {
+      q: "How long does it take, and when will I receive my report?",
+      a: "A consultation conversation usually takes around an hour, and written reports are typically prepared within a few days. Timings vary with the depth of the work — I'll always give you a clear estimate up front.",
+    },
+    {
+      q: "Is this a substitute for medical, legal, or financial advice?",
+      a: "No. This guidance is offered for reflection and wellbeing, and is not a substitute for professional medical, legal, or financial advice. You remain free in every decision you make.",
+    },
+    {
+      q: "Will my information be kept private?",
+      a: "Yes. Anything you share is treated as confidential and used only to prepare your consultation.",
+    },
+    {
+      q: "I'm completely new to this — is that okay?",
+      a: "Absolutely. Many people come with little or no prior knowledge. There's no pressure and no judgement — only a calm, respectful conversation about what you're seeking.",
+    },
+  ] satisfies FaqItem[],
 
   // ──────────────────────────────────────────────────────────────────────────
   //  CONTACT FORM

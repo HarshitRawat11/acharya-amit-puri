@@ -100,11 +100,18 @@ placeholders, but you are free to polish the wording. All of it lives in
 - **The six service descriptions** — each has a short summary, "what it is",
   "who it's for", and "what you receive". _(Names & taglines are final.)_
 - **"How a consultation works"** steps (`process`)
+- **Frequently asked questions** (`faqs`) — shown on the Home page and used for
+  FAQ rich-results in Google. Refine the wording or add/remove questions freely.
 - **SEO title & description** (`seo`)
 
-Later (Phase 1+), longer service write-ups and any future articles will live as
-plain-text Markdown files you can edit without touching code. This document will
-be updated to point you to them.
+### Publishing articles (optional)
+
+The site has a blog-style **Articles** section (linked in the footer, at
+`/articles`). To publish a piece **without touching code**, add a Markdown file
+to `src/content/articles/` — copy `welcome.md` as a template, fill in the
+`title`, `description`, and `pubDate`, set `draft: false`, and write your text
+below the dashes. It appears on the Articles page automatically. (A hidden draft
+sample is included to show the format.)
 
 ---
 
@@ -128,6 +135,8 @@ be updated to point you to them.
 | Services         | `/services`            | Overview of all six                              |
 | Service detail   | `/services/<slug>`     | One page per service (6 in total)                |
 | Contact          | `/contact`             | Form + WhatsApp + tap-to-call/email              |
+| Articles         | `/articles`            | Blog-style list (footer link); add Markdown files |
+| Article          | `/articles/<slug>`     | One page per published Markdown article          |
 
 Service detail routes:
 `/services/vastu-report`, `/services/astro-advice`, `/services/numero-advice`,

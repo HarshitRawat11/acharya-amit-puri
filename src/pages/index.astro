@@ -5,15 +5,32 @@ import ServicesGrid from "../components/home/ServicesGrid.astro";
 import AboutPreview from "../components/home/AboutPreview.astro";
 import Process from "../components/home/Process.astro";
 import Testimonials from "../components/home/Testimonials.astro";
+import FaqSection from "../components/home/FaqSection.astro";
 import ContactCta from "../components/home/ContactCta.astro";
 import { site } from "../data/site";
+
+// FAQ structured data (SEO) — built from the editable FAQs in site.ts.
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: site.faqs.map((f) => ({
+    "@type": "Question",
+    name: f.q,
+    acceptedAnswer: { "@type": "Answer", text: f.a },
+  })),
+};
 ---
 
-<BaseLayout title={site.seo.defaultTitle} description={site.seo.defaultDescription}>
+<BaseLayout
+  title={site.seo.defaultTitle}
+  description={site.seo.defaultDescription}
+  structuredData={[faqSchema]}
+>
   <Hero />
   <ServicesGrid />
   <AboutPreview />
   <Process />
   <Testimonials />
+  <FaqSection />
   <ContactCta />
 </BaseLayout>

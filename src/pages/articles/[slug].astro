@@ -1,0 +1,57 @@
+---
+import type { GetStaticPaths } from "astro";
+import { getCollection, render } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import PageHero from "../../components/PageHero.astro";
+import Container from "../../components/ui/Container.astro";
+import Section from "../../components/ui/Section.astro";
+import Button from "../../components/ui/Button.astro";
+import ContactCta from "../../components/home/ContactCta.astro";
+import { site } from "../../data/site";
+
+export const getStaticPaths = (async () => {
+  const published = (await getCollection("articles")).filter((e) => !e.data.draft);
+  return published.map((entry) => ({ params: { slug: entry.id }, props: { entry } }));
+}) satisfies GetStaticPaths;
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+
+const fmt = (d: Date) =>
+  d.toLocaleDateString("en-IN", { year: "numeric", month: "long", day: "numeric" });
+
+const title = `${entry.data.title} | ${site.name}`;
+const description = entry.data.description;
+
+const articleSchema = {
+  "@context": "https://schema.org",
+  "@type": "Article",
+  headline: entry.data.title,
+  description: entry.data.description,
+  datePublished: entry.data.pubDate.toISOString(),
+  author: { "@type": "Person", name: site.name },
+  url: new URL(Astro.url.pathname, Astro.site).href,
+};
+---
+
+<BaseLayout title={title} description={description} structuredData={[articleSchema]}>
+  <PageHero
+    eyebrow={fmt(entry.data.pubDate)}
+    title={entry.data.title}
+    subtitle={entry.data.description}
+  />
+
+  <Section variant="paper">
+    <Container>
+      <article class="prose-content mx-auto max-w-prose2" data-reveal>
+        <Content />
+      </article>
+
+      <div class="mx-auto mt-12 max-w-prose2">
+        <Button href="/articles" variant="secondary">← All articles</Button>
+      </div>
+    </Container>
+  </Section>
+
+  <ContactCta />
+</BaseLayout>
