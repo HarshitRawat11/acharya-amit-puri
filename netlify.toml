@@ -1,0 +1,72 @@
+# ═══════════════════════════════════════════════════════════════════════════
+#  NETLIFY CONFIGURATION
+# ═══════════════════════════════════════════════════════════════════════════
+#  You normally never need to touch this file. It tells Netlify how to build
+#  the site and how to serve it quickly and safely.
+#
+#  The site is fully static, so it works identically in Chrome, Safari, Edge
+#  and Firefox, on Android, iPhone, tablet and desktop.
+# ═══════════════════════════════════════════════════════════════════════════
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  # Pin the Node version so Netlify's build matches a known-good one.
+  NODE_VERSION = "22"
+
+# ── Deploy Previews ─────────────────────────────────────────────────────────
+# Every pull request gets its own preview URL before it reaches the live site.
+[context.deploy-preview]
+  command = "npm run build"
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  CACHING
+# ─────────────────────────────────────────────────────────────────────────────
+# Astro fingerprints everything in /_astro/ with a content hash, so those files
+# can be cached forever — a new build produces new filenames.
+[[headers]]
+  for = "/_astro/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# HTML must always be revalidated, so edits appear immediately.
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Icons and the share image change rarely; cache for a day.
+[[headers]]
+  for = "/*.png"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
+[[headers]]
+  for = "/favicon.svg"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  SECURITY HEADERS
+# ─────────────────────────────────────────────────────────────────────────────
+# The Content-Security-Policy allows exactly what this site uses and nothing
+# else: its own files, its own inline scripts/styles, and the Web3Forms
+# endpoint the contact form submits to.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "DENY"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://api.web3forms.com; form-action 'self' https://api.web3forms.com; frame-ancestors 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests"
+
+# Netlify serves dist/404.html automatically for unknown URLs — the page is
+# built from src/pages/404.astro, so no redirect rule is needed here.

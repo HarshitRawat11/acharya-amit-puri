@@ -18,10 +18,7 @@ const previewParagraph = bio ? bio.split(/\n\n+/)[0] : undefined;
       <div class="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-card border border-hair bg-surface shadow-soft">
         <div class="flex h-full flex-col items-center justify-center gap-4 px-6 text-center">
           <Mandala simple class="h-14 w-14 text-gold opacity-70" />
-          <p class="text-sm text-muted">
-            Portrait of {site.name}
-            <span class="mt-1 block text-xs">A photo can be added later (see CONTENT.md)</span>
-          </p>
+          <p class="text-sm text-muted">{site.name}</p>
         </div>
       </div>
     </div>
@@ -41,9 +38,6 @@ const previewParagraph = bio ? bio.split(/\n\n+/)[0] : undefined;
             A calm, respectful approach to Vastu, Vedic astrology, numerology,
             Prakriti and palmistry — meeting each person where they are, and
             offering grounded guidance for greater harmony.
-            <span class="mt-2 block text-sm text-ink/60">
-              A short biography can be added later (see CONTENT.md).
-            </span>
           </p>
         )
       }

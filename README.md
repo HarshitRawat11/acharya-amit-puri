@@ -70,99 +70,138 @@ node scripts/generate-assets.mjs   # regenerate favicon + share image from the p
 ```
 src/
   data/site.ts          ← EDIT THIS: all content, contacts, services, SEO
-  pages/                ← the pages (home, about, services, contact, robots.txt)
+  pages/                ← the pages (home, about, services, contact, 404, robots.txt)
     services/[slug].astro  ← one detail page per service (auto-generated)
   components/           ← reusable UI (header, footer, cards, motifs…)
   layouts/BaseLayout    ← shared shell + SEO/structured data
   content/articles/     ← optional: add Markdown articles here later
   styles/global.css     ← design tokens / base styles
 public/                 ← favicon, icons, og-image (+ your future photos)
-astro.config.mjs        ← SET YOUR DOMAIN here (SITE_URL)
+astro.config.mjs        ← the site address (SITE_URL)
+netlify.toml            ← how Netlify builds & serves it (no need to edit)
 ```
 
 ---
+## 🚀 Deploying on the internet (Netlify)
 
-## 🚀 Deploying free on the internet (Cloudflare Pages)
-
-**Recommended host: [Cloudflare Pages](https://pages.cloudflare.com).** It's
-**permanently free** (not a 12-month trial), needs **no credit card**, gives you
-**automatic HTTPS** and a **global CDN**, and redeploys automatically every time
-you push to GitHub. (Netlify and Vercel are equally good free alternatives — same
-steps, noted at the bottom. AWS is skipped on purpose: it needs a card, is more
-complex, and its free tier expires after 12 months.)
+**Host: [Netlify](https://www.netlify.com) — free tier.** Automatic HTTPS, a
+global CDN, and a fresh deploy every time you push to GitHub. The build
+settings are already committed in **`netlify.toml`**, so Netlify configures
+itself — you never type a build command.
 
 ### Step 1 — Put the code on GitHub
 
-A local git repo with your first commit is **already created** for you. You just
-need to send it to GitHub:
-
 1. Create a new **empty** repository at <https://github.com/new>
-   (name it e.g. `acharya-amit-puri`; do **not** add a README/.gitignore there).
-2. Copy the URL it shows you, then run (replace the URL with yours):
+   (name it e.g. `acharya-amit-puri`; do **not** tick "Add a README").
+2. Connect it and push:
 
 ```bash
-git remote add origin https://github.com/YOUR-USERNAME/acharya-amit-puri.git
+git remote add origin git@github.com:YOUR-USERNAME/acharya-amit-puri.git
 git push -u origin main
 ```
 
-> Later, whenever you change content: `git add -A && git commit -m "Update content" && git push`
-> — Cloudflare rebuilds and redeploys within ~1 minute.
+> Later, whenever you change content:
+> `git add -A && git commit -m "Update content" && git push`
+> — Netlify rebuilds and redeploys within about a minute.
 
-### Step 2 — Connect the repo to Cloudflare Pages
+### Step 2 — Connect the repo to Netlify
 
-1. Sign up / log in at <https://dash.cloudflare.com> → **Workers & Pages** →
-   **Create** → **Pages** → **Connect to Git**.
-2. Authorize GitHub and pick your `acharya-amit-puri` repository.
-3. On the build settings screen, set:
+1. Log in at <https://app.netlify.com> → **Add new site** → **Import an
+   existing project** → **GitHub**.
+2. Authorise Netlify and pick your `acharya-amit-puri` repository.
+3. The build settings are read from `netlify.toml` automatically:
 
-   | Setting | Value |
-   | --- | --- |
-   | **Framework preset** | `Astro` |
-   | **Build command** | `npm run build` |
-   | **Build output directory** | `dist` |
+   | Setting | Value | Where it comes from |
+   | --- | --- | --- |
+   | Build command | `npm run build` | `netlify.toml` |
+   | Publish directory | `dist` | `netlify.toml` |
+   | Node version | `22` | `netlify.toml` |
 
-4. Add an **Environment variable** (Settings → Environment variables):
-   `NODE_VERSION` = `20`  *(ensures a modern Node on the build server)*.
+4. Click **Deploy**. In a minute or two the site is live with HTTPS already on.
 
-### Step 3 — Deploy
+### Step 3 — Set the site name
 
-Click **Save and Deploy**. In ~1–2 minutes your site is live at a free
-`https://acharya-amit-puri.pages.dev` address, with HTTPS already on. 🎉
+Netlify assigns a random address like `spontaneous-tanuki-4f2a1c.netlify.app`.
+Change it under **Site configuration → Site details → Change site name** to:
 
-### Step 4 — Connect your custom domain (when you have one)
+```
+acharya-amit-puri
+```
 
-Once you own a domain (`{{DOMAIN}}`):
+giving you **`https://acharya-amit-puri.netlify.app`**.
 
-1. **Tell the site its address:** open `astro.config.mjs`, set
-   `SITE_URL` to your domain (e.g. `https://www.acharyaamitpuri.com`), then
-   commit & push. This keeps canonical links, the sitemap, robots.txt and share
+> ⚠️ **This must match `SITE_URL` in `astro.config.mjs`.** If you pick a
+> different site name, change that one line to match, then commit and push —
+> otherwise the canonical links, sitemap and share image will point at the
+> wrong address.
+
+### Step 4 — Connect a custom domain (when you buy one)
+
+1. **Tell the site its address:** open `astro.config.mjs` and set `SITE_URL`
+   to the real domain (e.g. `https://www.acharyaamitpuri.com`), then commit
+   and push. This keeps canonical links, the sitemap, robots.txt and the share
    image correct.
-2. In Cloudflare Pages → your project → **Custom domains** → **Set up a domain**,
-   enter your domain and follow the prompts.
+2. In Netlify → your site → **Domain management** → **Add a domain**, enter the
+   domain and follow the prompts.
 
-   - **Easiest path:** if your domain's **nameservers point to Cloudflare**
-     (free — add the domain under Cloudflare → *Websites* and update nameservers
-     at your registrar), Cloudflare creates the correct DNS records automatically.
-   - **Keeping DNS at your current registrar:** add a **`CNAME`** record —
-     name `www`, target `acharya-amit-puri.pages.dev`. For the bare/apex domain
-     (`example.com` with no `www`), use your registrar's `ALIAS`/`ANAME`/“CNAME
-     flattening” to the same target, or set up a redirect to `www`.
+   - **Easiest path:** let Netlify handle DNS — point your registrar's
+     nameservers at the ones Netlify shows you. Records are then created for you.
+   - **Keeping DNS at your registrar:** add a **`CNAME`** record — name `www`,
+     target `acharya-amit-puri.netlify.app`. For the bare/apex domain, use your
+     registrar's `ALIAS`/`ANAME`/CNAME-flattening to the same target, or
+     redirect the apex to `www`.
 
-3. **HTTPS** is provisioned automatically (free SSL certificate) within a few
-   minutes — no action needed.
+3. **HTTPS** is issued automatically (free Let's Encrypt certificate) within a
+   few minutes — no action needed.
+
+### What `netlify.toml` already handles for you
+
+- **Build** — command, publish folder, and a pinned Node 22.
+- **Caching** — hashed assets cached for a year; HTML always revalidated, so
+  edits appear immediately.
+- **Security headers** — CSP, `X-Content-Type-Options`, `X-Frame-Options`,
+  `Referrer-Policy`, `Permissions-Policy`.
+- **404** — `src/pages/404.astro` builds to `dist/404.html`, which Netlify
+  serves for unknown URLs automatically.
+- **Deploy Previews** — every pull request gets its own preview URL.
 
 ### Alternative free hosts (same idea)
 
-- **Netlify** — New site → import from GitHub → build `npm run build`, publish `dist`.
-- **Vercel** — Add New Project → import repo → Framework preset **Astro** (build/output auto-detected).
+- **Cloudflare Pages** — Connect to Git → build `npm run build`, output `dist`.
+- **Vercel** — Add New Project → import repo → framework preset **Astro**.
 
 ---
 
 ## ✅ Pre-launch checklist
 
-- [ ] Fill in the placeholders in `src/data/site.ts` (see **CONTENT.md**)
-- [ ] Add your **Web3Forms** key so the contact form works (CONTENT.md → §2)
-- [ ] Set your domain in `astro.config.mjs` (`SITE_URL`)
-- [ ] (Optional) Add the Acharya's photo and ask to wire it in
-- [ ] (Optional) Re-run `node scripts/generate-assets.mjs` if you changed colours
-- [ ] `npm run build` passes, then push to GitHub
+Everything below is tracked in **CONTENT.md**. Items marked **required** must be
+done before handing the site to the client.
+
+**Required**
+
+- [ ] `{{PHONE}}` — phone number (`src/data/site.ts`)
+- [ ] `{{WHATSAPP}}` — WhatsApp number, digits only (`src/data/site.ts`)
+- [ ] `{{EMAIL}}` — email address (`src/data/site.ts`)
+- [ ] `{{LOCATION}}` — city, state, country (`src/data/site.ts`)
+- [ ] `{{ABOUT_BIO}}` — the Acharya's biography (`src/data/site.ts`)
+- [ ] `{{FORM_KEY}}` — free [Web3Forms](https://web3forms.com) key, or the
+      contact form stays hidden (`src/data/site.ts`)
+
+**Recommended**
+
+- [ ] `{{YEARS_EXPERIENCE}}` and `{{CLIENTS_SERVED}}` — the stat counters stay
+      hidden until filled
+- [ ] A portrait photo of the Acharya (a mandala placeholder shows until then)
+- [ ] Real, consented testimonials — **never invent these**
+- [ ] Social links (`{{INSTAGRAM}}`, `{{FACEBOOK}}`, `{{YOUTUBE}}`)
+- [ ] Set `SITE_URL` in `astro.config.mjs` once the real domain is bought
+
+**Before every deploy**
+
+- [ ] `npm run check` reports 0 errors
+- [ ] `npm run build` passes
+- [ ] `git push` — Netlify does the rest
+
+> **Nothing half-finished is shown to visitors.** Any value still left as a
+> `{{PLACEHOLDER}}` is detected and its section is hidden automatically, so the
+> site always reads as complete.

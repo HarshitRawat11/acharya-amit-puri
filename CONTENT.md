@@ -78,13 +78,17 @@ Tick these off as you go. "Example" shows the format expected — not a real val
 | Placeholder    | What it is                                                                 | Where        | Done |
 | -------------- | -------------------------------------------------------------------------- | ------------ | :--: |
 | `{{FORM_KEY}}` | Free access key from [web3forms.com](https://web3forms.com) so the contact form can email you | `src/data/site.ts` |  ☐   |
-| `{{DOMAIN}}`   | Your final website address (used for SEO links). Set once you have a domain | `astro.config.mjs` (the `SITE_URL` value) |  ☐   |
+| `SITE_URL`     | The site address (used for SEO links). Currently the free Netlify address `https://acharya-amit-puri.netlify.app`. Change it once a real domain is bought | `astro.config.mjs` |  ☑   |
 
 ### Activating the contact form (Web3Forms — free, no server needed)
 
 1. Go to [web3forms.com](https://web3forms.com) and enter **the email address where you want enquiries delivered** (use your real `{{EMAIL}}`). They email you an **Access Key** instantly.
 2. Open `src/data/site.ts`, find `form: { accessKey: "{{FORM_KEY}}" }`, and paste the key between the quotes.
-3. That's it — submissions now arrive at the email you registered. The orange "Setup needed" notice on the Contact page disappears automatically once the key is in place.
+3. That's it — submissions now arrive at the email you registered. The form appears on the Contact page automatically once the key is in place.
+
+> **Until the key is added, the form is not shown at all.** A form without a key
+> would accept a message and silently throw it away, so a short, calm note
+> stands in its place instead. Nothing looks broken to a visitor.
 
 > Note: the form delivers to the email tied to your Web3Forms key (step 1), **not** to the `{{EMAIL}}` shown on the page. Use the same address for both so everything is consistent.
 
@@ -135,6 +139,7 @@ sample is included to show the format.)
 | Services         | `/services`            | Overview of all six                              |
 | Service detail   | `/services/<slug>`     | One page per service (6 in total)                |
 | Contact          | `/contact`             | Form + WhatsApp + tap-to-call/email              |
+| Not found        | `/404`                 | Shown automatically for any unknown address      |
 | Articles         | `/articles`            | Blog-style list (footer link); add Markdown files |
 | Article          | `/articles/<slug>`     | One page per published Markdown article          |
 

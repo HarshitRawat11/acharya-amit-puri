@@ -1,0 +1,79 @@
+---
+/*
+ * 404 — shown when a visitor reaches an address that doesn't exist.
+ * Netlify serves the built dist/404.html for unknown URLs automatically.
+ */
+import BaseLayout from "../layouts/BaseLayout.astro";
+import Container from "../components/ui/Container.astro";
+import Section from "../components/ui/Section.astro";
+import Button from "../components/ui/Button.astro";
+import Mandala from "../components/motifs/Mandala.astro";
+import PetalDivider from "../components/motifs/PetalDivider.astro";
+import { site } from "../data/site";
+
+const title = `Page not found | ${site.name}`;
+const description =
+  "The page you were looking for could not be found. Explore the services or get in touch with Acharya Amit Puri.";
+
+const elsewhere = [
+  { href: "/services", label: "Services", note: "The six areas of guidance" },
+  { href: "/about", label: "About", note: "Meet the Acharya" },
+  { href: "/articles", label: "Articles", note: "Reflections and writings" },
+  { href: "/contact", label: "Contact", note: "Book a consultation" },
+];
+---
+
+<BaseLayout title={title} description={description}>
+  <Section variant="paper" class="relative overflow-hidden">
+    <Mandala
+      class="pointer-events-none absolute -right-28 -top-24 h-[420px] w-[420px] text-gold opacity-[0.06]"
+    />
+
+    <Container class="relative">
+      <div class="mx-auto max-w-2xl text-center" data-reveal>
+        <p class="text-xs uppercase tracking-widest2 text-muted">404</p>
+        <h1 class="mt-4 font-serif text-4xl leading-tight text-teal sm:text-5xl">
+          This path leads nowhere
+        </h1>
+        <p class="mt-5 leading-relaxed text-muted">
+          The page you were looking for may have been moved, renamed, or never
+          existed. Nothing is lost — here are the ways onward.
+        </p>
+        <PetalDivider class="mt-8" />
+
+        <div class="mt-8 flex flex-wrap justify-center gap-3">
+          <Button href="/" size="lg">Return home</Button>
+          <Button href="/contact" variant="secondary" size="lg">Get in touch</Button>
+        </div>
+      </div>
+
+      <div class="mx-auto mt-14 grid max-w-3xl gap-4 sm:grid-cols-2">
+        {
+          elsewhere.map((l, i) => (
+            <a
+              href={l.href}
+              class="group rounded-card border border-hair bg-surface p-6 text-left shadow-soft transition-all duration-300 hover:-translate-y-1 hover:border-gold/70 hover:shadow-lift focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-teal"
+              data-reveal
+              style={`transition-delay:${i * 60}ms`}
+            >
+              <span class="flex items-center justify-between gap-3">
+                <span class="font-serif text-lg text-teal">{l.label}</span>
+                <svg
+                  class="h-4 w-4 shrink-0 text-teal transition-transform duration-300 group-hover:translate-x-1"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.6"
+                  aria-hidden="true"
+                >
+                  <path d="M5 12h14M13 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </span>
+              <span class="mt-2 block text-sm text-muted">{l.note}</span>
+            </a>
+          ))
+        }
+      </div>
+    </Container>
+  </Section>
+</BaseLayout>

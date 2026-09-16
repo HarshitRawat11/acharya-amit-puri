@@ -5,12 +5,16 @@ import sitemap from "@astrojs/sitemap";
 import mdx from "@astrojs/mdx";
 
 // ─────────────────────────────────────────────────────────────────────────────
-//  ⚠️  SET YOUR DOMAIN HERE  ({{DOMAIN}})
-//  This single value powers canonical links + the auto-generated sitemap.
-//  It MUST be a full, valid URL. Until you have a real domain, this placeholder
-//  keeps everything building cleanly — just replace it when you're ready.
+//  ⚠️  THE SITE'S PUBLIC ADDRESS
+//  This single value powers canonical links, the auto-generated sitemap, the
+//  robots.txt Sitemap line, and the absolute URL of the social share image.
+//  It MUST be a full, valid URL with no trailing slash.
+//
+//  Currently set to the FREE Netlify address. When the real domain is bought
+//  (e.g. https://www.acharyaamitpuri.com), change this one line, commit and
+//  push — Netlify rebuilds and every link corrects itself automatically.
 // ─────────────────────────────────────────────────────────────────────────────
-const SITE_URL = "https://www.acharyaamitpuri.com";
+const SITE_URL = "https://acharya-amit-puri.netlify.app";
 
 // https://astro.build/config
 export default defineConfig({
