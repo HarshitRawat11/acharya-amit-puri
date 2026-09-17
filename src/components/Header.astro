@@ -4,11 +4,16 @@ import Button from "./ui/Button.astro";
 import Mandala from "./motifs/Mandala.astro";
 import { site } from "../data/site";
 
-const links = [
+/** `external: true` opens in a new browser tab. */
+const links: { href: string; label: string; external?: boolean }[] = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
   { href: "/services", label: "Services" },
   { href: "/articles", label: "Articles" },
+  // Design directions for the Acharya to choose from. This is a working
+  // document, not part of the public site — remove this entry once a
+  // direction is chosen and the site is handed over.
+  { href: "/design-options/", label: "Design Options", external: true },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -32,27 +37,33 @@ const isActive = (href: string) =>
       </span>
     </a>
 
-    <!-- Desktop navigation -->
-    <nav class="hidden items-center gap-8 md:flex" aria-label="Primary">
+    <!-- Desktop navigation.
+         Shown from `lg` (1024px), not `md` — with six links plus the CTA the
+         row overflows a 768px viewport and pushes the whole page sideways.
+         Tablets get the menu button below instead. -->
+    <nav class="hidden items-center gap-8 lg:flex" aria-label="Primary">
       {
         links.map((l) => (
           <a
             href={l.href}
-            aria-current={isActive(l.href) ? "page" : undefined}
+            target={l.external ? "_blank" : undefined}
+            rel={l.external ? "noopener noreferrer" : undefined}
+            aria-current={!l.external && isActive(l.href) ? "page" : undefined}
             class:list={[
               "text-sm transition-colors hover:text-teal",
-              isActive(l.href) ? "text-teal" : "text-ink",
+              !l.external && isActive(l.href) ? "text-teal" : "text-ink",
             ]}
           >
             {l.label}
+            {l.external && <span class="sr-only"> (opens in a new tab)</span>}
           </a>
         ))
       }
       <Button href="/contact">{site.primaryCta}</Button>
     </nav>
 
-    <!-- Mobile navigation (native <details> — fully keyboard accessible, no JS) -->
-    <details class="menu relative md:hidden">
+    <!-- Mobile + tablet navigation (native <details> — keyboard accessible, no JS) -->
+    <details class="menu relative lg:hidden">
       <summary
         class="flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg border border-hair text-teal"
         aria-label="Toggle menu"
@@ -70,15 +81,18 @@ const isActive = (href: string) =>
             links.map((l) => (
               <a
                 href={l.href}
-                aria-current={isActive(l.href) ? "page" : undefined}
+                target={l.external ? "_blank" : undefined}
+                rel={l.external ? "noopener noreferrer" : undefined}
+                aria-current={!l.external && isActive(l.href) ? "page" : undefined}
                 class:list={[
                   "rounded-md px-3 py-2.5 text-sm",
-                  isActive(l.href)
+                  !l.external && isActive(l.href)
                     ? "bg-surface-alt text-teal"
                     : "text-ink hover:bg-surface-alt",
                 ]}
               >
                 {l.label}
+                {l.external && <span class="sr-only"> (opens in a new tab)</span>}
               </a>
             ))
           }
