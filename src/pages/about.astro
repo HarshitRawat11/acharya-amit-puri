@@ -4,7 +4,7 @@ import PageHero from "../components/PageHero.astro";
 import Container from "../components/ui/Container.astro";
 import Section from "../components/ui/Section.astro";
 import Button from "../components/ui/Button.astro";
-import Mandala from "../components/motifs/Mandala.astro";
+import Mascot from "../components/motifs/Mascot.astro";
 import PetalDivider from "../components/motifs/PetalDivider.astro";
 import ContactCta from "../components/home/ContactCta.astro";
 import { site } from "../data/site";
@@ -45,10 +45,11 @@ const description =
   <Section variant="surface-alt">
     <Container class="grid items-start gap-12 md:grid-cols-12">
       <div class="md:col-span-5" data-reveal>
-        <div class="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-card border border-hair bg-surface shadow-soft">
-          <div class="flex h-full flex-col items-center justify-center gap-4 px-6 text-center">
-            <Mandala simple class="h-14 w-14 text-gold opacity-70" />
-            <p class="text-sm text-muted">{site.name}</p>
+        <!-- Stands in until a real portrait is supplied. -->
+        <div class="relative mx-auto aspect-[4/5] w-full max-w-sm overflow-hidden rounded-card border border-hair bg-gold-soft/25 shadow-soft">
+          <div class="flex h-full flex-col items-center justify-center px-6 text-center">
+            <Mascot halo class="h-48 w-48 text-teal sm:h-56 sm:w-56" />
+            <p class="mt-2 font-serif text-lg text-teal">{site.name}</p>
           </div>
         </div>
 

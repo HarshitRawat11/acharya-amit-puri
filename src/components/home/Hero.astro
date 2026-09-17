@@ -2,6 +2,7 @@
 import Container from "../ui/Container.astro";
 import Button from "../ui/Button.astro";
 import Mandala from "../motifs/Mandala.astro";
+import Mascot from "../motifs/Mascot.astro";
 import { site } from "../../data/site";
 import { whatsappLink, isFilled } from "../../lib/content";
 
@@ -18,8 +19,14 @@ const stats = site.stats.filter((s) => isFilled(s.value));
     class="pointer-events-none absolute -right-28 -top-28 h-[460px] w-[460px] text-gold opacity-[0.06] sm:-right-16 sm:-top-20"
   />
 
-  <Container class="relative py-24 sm:py-32 lg:py-40">
-    <div class="max-w-3xl" data-reveal>
+  <!-- Two columns from `lg`. The single-column hero left ~320px of the 699px
+       band empty with nothing on the right; the mascot now anchors that side.
+       Below `lg` it is hidden: a stacked hero has no dead space to fill, and
+       the illustration would only push the buttons under the fold. -->
+  <Container
+    class="relative grid items-center gap-12 py-24 sm:py-28 lg:grid-cols-12 lg:gap-6 lg:py-32"
+  >
+    <div class="max-w-3xl lg:col-span-7" data-reveal>
       <p class="flex items-center gap-3 text-xs uppercase tracking-widest2 text-muted">
         <span class="h-px w-8 bg-gold"></span>
         Guidance rooted in tradition
@@ -59,6 +66,14 @@ const stats = site.stats.filter((s) => isFilled(s.value));
           </dl>
         )
       }
+    </div>
+
+    <div class="hidden lg:col-span-5 lg:block" data-reveal>
+      <Mascot
+        halo
+        label={`An illustrated likeness of ${site.name}`}
+        class="mx-auto h-[340px] w-[340px] text-teal xl:h-[380px] xl:w-[380px]"
+      />
     </div>
   </Container>
 </section>

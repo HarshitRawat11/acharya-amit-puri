@@ -13,7 +13,11 @@ export default {
       colors: {
         paper: "#F7F3EC", // page background (warm aged paper)
         surface: "#FDFBF6", // cards / raised surfaces (warm white)
-        "surface-alt": "#F1EBE0", // alternating section bands
+        // Alternating section bands. Deepened from #F1EBE0, which sat only
+        // 1.07:1 from `paper` — far too close to read as a band, so the page
+        // scrolled as one unbroken field of cream. Now ~1.17:1: still gentle,
+        // but the rhythm is actually visible. Body text on it stays AA.
+        "surface-alt": "#EBE1D0",
         ink: "#1C2B2A", // body text (13.3:1 on paper)
         muted: "#4C5B56", // secondary text (6.7:1 on paper)
         teal: {
