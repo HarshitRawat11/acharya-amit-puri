@@ -19,6 +19,8 @@ interface Props {
   ogImage?: string;
   /** Extra JSON-LD objects to inject for this page (e.g. Service schema). */
   structuredData?: Record<string, unknown>[];
+  /** Keep this page out of search results (e.g. the 404 page). */
+  noindex?: boolean;
 }
 
 const {
@@ -26,6 +28,7 @@ const {
   description = site.seo.defaultDescription,
   ogImage = site.seo.ogImage,
   structuredData = [],
+  noindex = false,
 } = Astro.props;
 
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
@@ -95,7 +98,7 @@ const graph = {
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="robots" content="index, follow" />
+    <meta name="robots" content={noindex ? "noindex, follow" : "index, follow"} />
 
     <link rel="canonical" href={canonical} />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
