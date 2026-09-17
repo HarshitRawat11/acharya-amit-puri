@@ -78,7 +78,7 @@ Tick these off as you go. "Example" shows the format expected — not a real val
 | Placeholder    | What it is                                                                 | Where        | Done |
 | -------------- | -------------------------------------------------------------------------- | ------------ | :--: |
 | `{{FORM_KEY}}` | Free access key from [web3forms.com](https://web3forms.com) so the contact form can email you | `src/data/site.ts` |  ☐   |
-| `SITE_URL`     | The site address (used for SEO links). Currently the free Netlify address `https://acharya-amit-puri.netlify.app`. Change it once a real domain is bought | `astro.config.mjs` |  ☑   |
+| `SITE_URL`     | The site address (used for SEO links). Currently the free Cloudflare Pages address `https://acharya-amit-puri.pages.dev`. Change it once a real domain is bought | `astro.config.mjs` |  ☑   |
 
 ### Activating the contact form (Web3Forms — free, no server needed)
 

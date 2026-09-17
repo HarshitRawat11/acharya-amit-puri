@@ -10,11 +10,11 @@ import mdx from "@astrojs/mdx";
 //  robots.txt Sitemap line, and the absolute URL of the social share image.
 //  It MUST be a full, valid URL with no trailing slash.
 //
-//  Currently set to the FREE Netlify address. When the real domain is bought
-//  (e.g. https://www.acharyaamitpuri.com), change this one line, commit and
-//  push — Netlify rebuilds and every link corrects itself automatically.
+//  Currently set to the FREE Cloudflare Pages address. When the real domain is
+//  bought (e.g. https://www.acharyaamitpuri.com), change this one line, commit
+//  and push — the host rebuilds and every link corrects itself automatically.
 // ─────────────────────────────────────────────────────────────────────────────
-const SITE_URL = "https://acharya-amit-puri.netlify.app";
+const SITE_URL = "https://acharya-amit-puri.pages.dev";
 
 // https://astro.build/config
 export default defineConfig({

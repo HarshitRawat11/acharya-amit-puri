@@ -77,22 +77,29 @@ src/
   content/articles/     ← optional: add Markdown articles here later
   styles/global.css     ← design tokens / base styles
 public/                 ← favicon, icons, og-image (+ your future photos)
+  _headers              ← caching + security headers (Cloudflare & Netlify)
+  design-options/       ← the five design directions, published unlisted
 astro.config.mjs        ← the site address (SITE_URL)
-netlify.toml            ← how Netlify builds & serves it (no need to edit)
+netlify.toml            ← Netlify build config (kept; ignored by Cloudflare)
+design-options/         ← generator + notes for the five design directions
 ```
 
 ---
-## 🚀 Deploying on the internet (Netlify)
+## 🚀 Deploying on the internet (Cloudflare Pages)
 
-**Host: [Netlify](https://www.netlify.com) — free tier.** Automatic HTTPS, a
-global CDN, and a fresh deploy every time you push to GitHub. The build
-settings are already committed in **`netlify.toml`**, so Netlify configures
-itself — you never type a build command.
+**Host: [Cloudflare Pages](https://pages.cloudflare.com).** Permanently free —
+not a trial — with no credit system, no card required, automatic HTTPS, and a
+global CDN. It rebuilds and redeploys every time you push to GitHub.
+
+The site is a plain static build, so it is not tied to any one host. The
+`public/_headers` file (caching + security headers) is read by Cloudflare Pages
+and Netlify alike, and `netlify.toml` is kept in the repo so moving back to
+Netlify needs no work.
 
 ### Step 1 — Put the code on GitHub
 
 1. Create a new **empty** repository at <https://github.com/new>
-   (name it e.g. `acharya-amit-puri`; do **not** tick "Add a README").
+   (do **not** tick "Add a README").
 2. Connect it and push:
 
 ```bash
@@ -102,72 +109,70 @@ git push -u origin main
 
 > Later, whenever you change content:
 > `git add -A && git commit -m "Update content" && git push`
-> — Netlify rebuilds and redeploys within about a minute.
+> — the site rebuilds and redeploys within about a minute.
 
-### Step 2 — Connect the repo to Netlify
+### Step 2 — Connect the repo to Cloudflare Pages
 
-1. Log in at <https://app.netlify.com> → **Add new site** → **Import an
-   existing project** → **GitHub**.
-2. Authorise Netlify and pick your `acharya-amit-puri` repository.
-3. The build settings are read from `netlify.toml` automatically:
+1. Log in at <https://dash.cloudflare.com> → **Compute (Workers & Pages)** →
+   **Create** → **Pages** → **Connect to Git**.
+2. Authorise GitHub and pick your `acharya-amit-puri` repository.
+3. Set the build configuration:
 
-   | Setting | Value | Where it comes from |
-   | --- | --- | --- |
-   | Build command | `npm run build` | `netlify.toml` |
-   | Publish directory | `dist` | `netlify.toml` |
-   | Node version | `22` | `netlify.toml` |
+   | Setting | Value |
+   | --- | --- |
+   | Framework preset | `Astro` |
+   | Build command | `npm run build` |
+   | Build output directory | `dist` |
 
-4. Click **Deploy**. In a minute or two the site is live with HTTPS already on.
+4. Under **Environment variables**, add `NODE_VERSION` = `22`.
+   *(Cloudflare's default Node is older than Astro 5 needs.)*
+5. Click **Save and Deploy**.
 
-### Step 3 — Set the site name
+### Step 3 — Check the address matches
 
-Netlify assigns a random address like `spontaneous-tanuki-4f2a1c.netlify.app`.
-Change it under **Site configuration → Site details → Change site name** to:
+The project name decides the address. A project called `acharya-amit-puri`
+is served at **`https://acharya-amit-puri.pages.dev`**, which is what
+`SITE_URL` in `astro.config.mjs` is set to.
 
-```
-acharya-amit-puri
-```
-
-giving you **`https://acharya-amit-puri.netlify.app`**.
-
-> ⚠️ **This must match `SITE_URL` in `astro.config.mjs`.** If you pick a
-> different site name, change that one line to match, then commit and push —
-> otherwise the canonical links, sitemap and share image will point at the
-> wrong address.
+> ⚠️ **If you used a different project name**, change `SITE_URL` to match, then
+> commit and push — otherwise the canonical links, sitemap and social share
+> image will all point at the wrong address.
 
 ### Step 4 — Connect a custom domain (when you buy one)
 
-1. **Tell the site its address:** open `astro.config.mjs` and set `SITE_URL`
-   to the real domain (e.g. `https://www.acharyaamitpuri.com`), then commit
-   and push. This keeps canonical links, the sitemap, robots.txt and the share
-   image correct.
-2. In Netlify → your site → **Domain management** → **Add a domain**, enter the
-   domain and follow the prompts.
+1. **Tell the site its address:** set `SITE_URL` in `astro.config.mjs` to the
+   real domain (e.g. `https://www.acharyaamitpuri.com`), commit and push.
+2. In Cloudflare Pages → your project → **Custom domains** → **Set up a
+   domain**.
 
-   - **Easiest path:** let Netlify handle DNS — point your registrar's
-     nameservers at the ones Netlify shows you. Records are then created for you.
-   - **Keeping DNS at your registrar:** add a **`CNAME`** record — name `www`,
-     target `acharya-amit-puri.netlify.app`. For the bare/apex domain, use your
-     registrar's `ALIAS`/`ANAME`/CNAME-flattening to the same target, or
-     redirect the apex to `www`.
+   - **Easiest path:** if the domain's nameservers point to Cloudflare (free —
+     add it under *Websites* and update the nameservers at your registrar),
+     the DNS records are created for you.
+   - **Keeping DNS at your registrar:** add a **`CNAME`** — name `www`, target
+     `acharya-amit-puri.pages.dev`. For the bare domain use your registrar's
+     `ALIAS`/`ANAME`/CNAME-flattening to the same target, or redirect it to
+     `www`.
 
-3. **HTTPS** is issued automatically (free Let's Encrypt certificate) within a
-   few minutes — no action needed.
+3. **HTTPS** is issued automatically within a few minutes.
 
-### What `netlify.toml` already handles for you
+### What ships with the repo
 
-- **Build** — command, publish folder, and a pinned Node 22.
-- **Caching** — hashed assets cached for a year; HTML always revalidated, so
-  edits appear immediately.
-- **Security headers** — CSP, `X-Content-Type-Options`, `X-Frame-Options`,
-  `Referrer-Policy`, `Permissions-Policy`.
-- **404** — `src/pages/404.astro` builds to `dist/404.html`, which Netlify
-  serves for unknown URLs automatically.
-- **Deploy Previews** — every pull request gets its own preview URL.
+- **`public/_headers`** — caching (hashed assets for a year, HTML always
+  revalidated) and security headers (CSP, `X-Content-Type-Options`,
+  `X-Frame-Options`, `Referrer-Policy`, `Permissions-Policy`). Read by
+  Cloudflare Pages *and* Netlify.
+- **`netlify.toml`** — the same settings in Netlify's own format, plus its
+  build configuration. Ignored by Cloudflare; harmless to keep.
+- **404** — `src/pages/404.astro` builds to `dist/404.html`, which both hosts
+  serve for unknown URLs automatically.
+- **`/design-options/`** — the five home-page design directions, published with
+  the site but `noindex` and unlinked. See `design-options/README.md`.
 
 ### Alternative free hosts (same idea)
 
-- **Cloudflare Pages** — Connect to Git → build `npm run build`, output `dist`.
+- **Netlify** — Import from GitHub; `netlify.toml` configures everything.
+  Note its free plan is credit-based and blocks deploys once the monthly
+  credits run out.
 - **Vercel** — Add New Project → import repo → framework preset **Astro**.
 
 ---
