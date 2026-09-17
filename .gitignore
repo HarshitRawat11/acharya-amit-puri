@@ -1,3 +1,6 @@
+# netlify CLI local state (site id, cached functions)
+.netlify/
+
 # build output
 dist/
 
