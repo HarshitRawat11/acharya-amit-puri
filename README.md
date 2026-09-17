@@ -138,6 +138,23 @@ is served at **`https://acharya-amit-puri.pages.dev`**, which is what
 > commit and push — otherwise the canonical links, sitemap and social share
 > image will all point at the wrong address.
 
+### Deploying straight from your computer (no GitHub needed)
+
+The site is currently published this way. It uploads the built folder directly:
+
+```bash
+npm run build
+npx wrangler pages deploy dist --project-name acharya-amit-puri --branch main
+```
+
+The first time on a new machine you will be asked to sign in with
+`npx wrangler login`.
+
+> ⚠️ **This does not auto-deploy.** Pushing to GitHub will *not* update the live
+> site — you must run the command above after every change. To get automatic
+> deploys instead, do Step 2 above (Connect to Git) once, and from then on a
+> `git push` is all that is needed.
+
 ### Step 4 — Connect a custom domain (when you buy one)
 
 1. **Tell the site its address:** set `SITE_URL` in `astro.config.mjs` to the
