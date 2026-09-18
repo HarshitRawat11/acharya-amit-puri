@@ -39,6 +39,10 @@ export interface Service {
   whatYouReceive: string[];
   /** Optional gentle disclaimer shown at the foot of the detail page. */
   note?: string;
+  /** Optional <title> for search results. Use when the name + tagline would
+   *  run past ~60 characters, or when people search for this by another word
+   *  (e.g. "kundli", "palm reading"). Falls back to name — tagline | site. */
+  seoTitle?: string;
 }
 
 /** A single step in the "How a consultation works" section. */
@@ -130,14 +134,15 @@ export const site = {
       slug: "vastu-report",
       name: "Vastu Report",
       tagline: "Space & Energy Analysis",
+      seoTitle: "Vastu Report & Consultation | Acharya Amit Puri",
       summary:
         "A considered study of how your home or workplace is arranged — and how its layout, light, and flow can be brought into greater harmony.",
       intro:
-        "Vastu Shastra is the traditional Indian understanding of space and orientation. A Vastu Report looks closely at how your space is arranged and offers grounded, practical ways to invite more balance and ease into it.",
+        "Vastu Shastra is the traditional Indian understanding of space and orientation. Working as your Vastu consultant, Acharya Amit Puri looks closely at how your space is arranged and offers grounded, practical ways to invite more balance and ease into it.",
       whatItIs:
-        "A room-by-room review of the direction, proportion, and placement of the elements in your home or workplace, interpreted through Vastu principles.",
+        "A room-by-room Vastu review of the direction, proportion, and placement of the elements in your home or workplace, interpreted through the principles of Vastu Shastra.",
       whoItsFor:
-        "Anyone planning, building, renovating, or simply wishing to feel more settled in their space — homeowners, families, and business owners alike.",
+        "Anyone seeking Vastu for home or office — whether planning, building, renovating, or simply wishing to feel more settled in the space they already have. Homeowners, families and business owners alike.",
       whatYouReceive: [
         "A clear, written report covering each key area of your space",
         "Practical, non-intrusive suggestions you can apply at your own pace",
@@ -148,12 +153,13 @@ export const site = {
       slug: "astro-advice",
       name: "Astro Advice",
       tagline: "Vedic Birth Chart Reading",
+      seoTitle: "Kundli Reading & Vedic Astrology | Acharya Amit Puri",
       summary:
         "A thoughtful reading of your Vedic birth chart, offering perspective on your strengths, timing, and the seasons of your life.",
       intro:
-        "Drawing on Vedic astrology (Jyotish), this reading interprets the positions of the planets at the time of your birth. It is offered as a lens for reflection and self-understanding — not as a fixed prediction.",
+        "Drawing on Vedic astrology (Jyotish), this reading interprets your kundli — the birth chart formed by the positions of the planets at the moment you were born. It is offered as a lens for reflection and self-understanding, not as a fixed prediction.",
       whatItIs:
-        "A personalised study of your birth chart, considering the placements that shape your tendencies, opportunities, and the timing of life's chapters.",
+        "A personalised kundli analysis by an experienced Vedic astrologer, considering the placements that shape your tendencies, opportunities, and the timing of life's chapters.",
       whoItsFor:
         "Anyone seeking clarity about their natural tendencies, life direction, or the timing of an important decision.",
       whatYouReceive: [
@@ -167,14 +173,15 @@ export const site = {
       slug: "numero-advice",
       name: "Numero Advice",
       tagline: "Name & Number Alignment",
+      seoTitle: "Numerology & Name Correction | Acharya Amit Puri",
       summary:
         "An exploration of the numbers woven through your name and birth date — and how they might be brought into easier alignment.",
       intro:
-        "Numerology studies the patterns and meanings associated with the numbers in your name and date of birth. This advice looks at those patterns and, where helpful, suggests subtle, optional adjustments to invite greater harmony.",
+        "Numerology studies the patterns and meanings associated with the numbers in your name and date of birth. As a numerologist, Acharya Amit Puri looks at those patterns and, where helpful, suggests subtle and entirely optional adjustments to invite greater harmony.",
       whatItIs:
         "A reading of your core numbers — drawn from your name and date of birth — and what they may suggest about your nature and rhythm.",
       whoItsFor:
-        "Those curious about the numbers in their life, considering a name spelling, or naming a child or a new venture.",
+        "Those curious about the numbers in their life, weighing a name correction or a change of spelling, or naming a child or a new venture.",
       whatYouReceive: [
         "A written summary of your core numbers and what they suggest",
         "Any considered, optional adjustments — the choice always remains yours",
@@ -185,10 +192,11 @@ export const site = {
       slug: "prakriti-advice",
       name: "Prakriti Advice",
       tagline: "Know Your Natural Energy",
+      seoTitle: "Prakriti & Ayurvedic Constitution | Acharya Amit Puri",
       summary:
         "A gentle assessment of your natural constitution, to help you live and choose in tune with your own rhythm.",
       intro:
-        "Rooted in Ayurvedic understanding, Prakriti refers to your innate constitution — the natural balance of energies that shapes how you feel, rest, and respond. This advice helps you recognise and work with your own nature.",
+        "Rooted in Ayurveda, Prakriti refers to your innate constitution — the natural balance of doshas that shapes how you feel, rest, and respond. This advice helps you recognise and work with your own nature rather than against it.",
       whatItIs:
         "A reflective assessment of your natural disposition and the qualities that tend to bring it into balance.",
       whoItsFor:
@@ -204,6 +212,7 @@ export const site = {
       slug: "design-advice",
       name: "Design Advice",
       tagline: "Horoscope-Based Home Design",
+      seoTitle: "Horoscope-Based Home Design | Acharya Amit Puri",
       summary:
         "Guidance that brings together your horoscope and the principles of Vastu to shape a home that feels truly yours.",
       intro:
@@ -222,10 +231,11 @@ export const site = {
       slug: "palmistry-advice",
       name: "Palmistry Advice",
       tagline: "Palm & Astrology Guidance",
+      seoTitle: "Palm Reading & Palmistry | Acharya Amit Puri",
       summary:
-        "A reflective reading of the lines and form of your hand, considered alongside astrological insight.",
+        "A reflective palm reading of the lines and form of your hand, considered alongside astrological insight.",
       intro:
-        "Palmistry reads the lines, mounts, and shape of the hand as a reflection of character and tendency. Offered together with astrological perspective, it is intended as a mirror for self-reflection rather than a fixed forecast.",
+        "Palmistry, or palm reading, interprets the lines, mounts and shape of the hand as a reflection of character and tendency. Offered together with astrological perspective, it is intended as a mirror for self-reflection rather than a fixed forecast.",
       whatItIs:
         "An attentive reading of your hand, brought together with relevant astrological context for a fuller picture.",
       whoItsFor:
@@ -328,9 +338,9 @@ export const site = {
     // is set ONCE in astro.config.mjs as `site`, because Astro needs it at build
     // time. Pages read it via Astro.site, so it stays in a single place.
     /** Falls back on pages that don't set their own. */
-    defaultTitle: "Acharya Amit Puri — Vastu, Astrology & Numerology Guidance",
+    defaultTitle: "Acharya Amit Puri — Vastu Consultant & Vedic Astrologer",
     defaultDescription:
-      "Calm, considered guidance in Vastu, Vedic astrology, numerology, Prakriti, and palmistry from Acharya Amit Puri. Book a respectful, personal consultation.",
+      "Acharya Amit Puri — Vastu consultant, Vedic astrologer and numerologist. Calm, considered guidance in Vastu, kundli reading, numerology, Prakriti and palm reading. Consultations available online across India.",
     /** Social share image, placed in /public. Swap the file to change it. */
     ogImage: "/og-image.png",
   },

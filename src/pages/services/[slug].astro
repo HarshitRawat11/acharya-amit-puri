@@ -25,7 +25,10 @@ const wa = whatsappLink(
   `Namaste, I would like to enquire about the ${service.name} consultation.`,
 );
 
-const title = `${service.name} — ${service.tagline} | ${site.name}`;
+// Prefer the service's own search title when it has one — it is written to
+// stay under ~60 characters and to use the word people actually search for
+// ("kundli", "palm reading", "name correction") rather than the brand tagline.
+const title = service.seoTitle ?? `${service.name} — ${service.tagline} | ${site.name}`;
 const description = service.summary;
 
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
@@ -38,18 +41,27 @@ const serviceSchema = {
   description: service.summary,
   url: canonical,
   areaServed: "India",
-  provider: {
-    "@type": "ProfessionalService",
-    name: site.name,
-    url: `${origin}/`,
-  },
+  // Point at the site-wide ProfessionalService node rather than describing a
+  // second, duplicate one — otherwise search engines see two businesses.
+  provider: { "@id": `${origin}/#service` },
+};
+
+// Lets Google show Home › Services › this page instead of a bare URL.
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: `${origin}/` },
+    { "@type": "ListItem", position: 2, name: "Services", item: `${origin}/services/` },
+    { "@type": "ListItem", position: 3, name: service.name, item: canonical },
+  ],
 };
 ---
 
 <BaseLayout
   title={title}
   description={description}
-  structuredData={[serviceSchema]}
+  structuredData={[serviceSchema, breadcrumbSchema]}
 >
   <PageHero
     eyebrow={service.tagline}

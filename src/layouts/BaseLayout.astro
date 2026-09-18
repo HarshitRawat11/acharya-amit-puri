@@ -53,8 +53,11 @@ const person = {
   "@type": "Person",
   "@id": personId,
   name: site.name,
+  alternateName: "Amit Puri",
   url: `${origin}/`,
-  jobTitle: "Vastu, Astrology & Numerology Consultant",
+  jobTitle: "Vastu Consultant, Vedic Astrologer & Numerologist",
+  description:
+    "Acharya Amit Puri offers consultations in Vastu Shastra, Vedic astrology (kundli reading), numerology, Ayurvedic Prakriti and palm reading.",
   knowsAbout,
   ...(isFilled(site.contact.email) ? { email: site.contact.email } : {}),
   ...(isFilled(site.contact.phone) ? { telephone: site.contact.phone } : {}),
@@ -71,6 +74,22 @@ const professionalService = {
   founder: { "@id": personId },
   areaServed: "India",
   knowsAbout,
+  // Tells search engines what is actually offered, rather than leaving them
+  // to infer it from page copy. Built from the same six services as the site.
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Consultations",
+    itemListElement: site.services.map((s) => ({
+      "@type": "Offer",
+      itemOffered: {
+        "@type": "Service",
+        name: s.name,
+        serviceType: s.tagline,
+        description: s.summary,
+        url: `${origin}/services/${s.slug}/`,
+      },
+    })),
+  },
   address: {
     "@type": "PostalAddress",
     addressCountry: "IN",
