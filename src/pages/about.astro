@@ -8,11 +8,11 @@ import Mascot from "../components/motifs/Mascot.astro";
 import PetalDivider from "../components/motifs/PetalDivider.astro";
 import ContactCta from "../components/home/ContactCta.astro";
 import { site } from "../data/site";
-import { filled } from "../lib/content";
+import { filled, activeStats } from "../lib/content";
 
 const bio = filled(site.about.bio);
 const bioParas = bio ? bio.split(/\n\n+/) : [];
-const stats = site.stats.filter((s) => filled(s.value));
+const stats = activeStats();
 
 // Editable values — refine the wording freely.
 const values = [

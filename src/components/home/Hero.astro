@@ -4,13 +4,13 @@ import Button from "../ui/Button.astro";
 import Mandala from "../motifs/Mandala.astro";
 import Mascot from "../motifs/Mascot.astro";
 import { site } from "../../data/site";
-import { whatsappLink, isFilled } from "../../lib/content";
+import { whatsappLink, activeStats } from "../../lib/content";
 
 const wa = whatsappLink(
   `Namaste, I would like to book a consultation with ${site.name}.`,
 );
-// Show only stats that have a real value (placeholders stay hidden).
-const stats = site.stats.filter((s) => isFilled(s.value));
+// Withheld until at least two are real — see activeStats().
+const stats = activeStats();
 ---
 
 <section class="relative overflow-hidden bg-paper">

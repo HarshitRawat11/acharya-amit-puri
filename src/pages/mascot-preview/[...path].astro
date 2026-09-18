@@ -127,6 +127,40 @@ const geometry = [
       ))}
     </div>
 
+    <h2>Sizes — mark (the small-size / favicon version)</h2>
+    <div class="row">
+      {sizes.map((s) => (
+        <div class="cell">
+          <Mascot variant="mark" style={`width:${s.px}px;height:${s.px}px;color:var(--teal)`} />
+          <div class="cap">{s.label}</div>
+        </div>
+      ))}
+    </div>
+
+    <h2>The actual favicon, at the sizes a browser draws it</h2>
+    <div class="row">
+      {[64, 48, 32, 16].map((px) => (
+        <div class="cell">
+          <div style={`width:${px}px;height:${px}px;border-radius:50%;background:#163a37;display:flex;align-items:center;justify-content:center`}>
+            <Mascot variant="mark" style={`width:${px * 0.82}px;height:${px * 0.82}px;color:#c9a14a`} />
+          </div>
+          <div class="cap">{px}px</div>
+        </div>
+      ))}
+      <div class="cell">
+        <img src="/favicon.svg" width="48" height="48" alt="" />
+        <div class="cap">favicon.svg</div>
+      </div>
+      <div class="cell">
+        <img src="/favicon-32.png" width="32" height="32" alt="" />
+        <div class="cap">favicon-32.png</div>
+      </div>
+      <div class="cell">
+        <img src="/apple-touch-icon.png" width="60" height="60" alt="" style="border-radius:12px" />
+        <div class="cap">apple-touch-icon</div>
+      </div>
+    </div>
+
     <h2>With the halo</h2>
     <div class="row">
       <div class="cell">

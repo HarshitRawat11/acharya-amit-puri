@@ -41,6 +41,21 @@ export function activeSocials(): SocialLink[] {
   return all.filter((item) => isFilled(item.href));
 }
 
+/**
+ * Stats worth putting on screen.
+ *
+ * Only one of the three has a real value at the moment — "6 Areas of
+ * Guidance" is hard-coded, while years of practice and people guided are
+ * still placeholders. A lone counter sitting where three were designed reads
+ * as though the other two failed to load, drawing the eye straight to what is
+ * missing. So the row is withheld until at least two are real, and appears by
+ * itself once the values arrive.
+ */
+export function activeStats() {
+  const filled = site.stats.filter((s) => isFilled(s.value));
+  return filled.length >= 2 ? filled : [];
+}
+
 /** Testimonials that have BOTH a real quote and a real name. */
 export function activeTestimonials() {
   return site.testimonials.filter(

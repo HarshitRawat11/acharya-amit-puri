@@ -137,15 +137,46 @@
   transform: none;
 }
 
-/* Respect users who prefer reduced motion: no movement, no fade-in delay. */
+/*
+ * Respect users who prefer reduced motion.
+ *
+ * This used to cover only the scroll reveals, which left the cards still
+ * lifting on hover, the arrows still sliding and the FAQ chevron still
+ * spinning — the intent was there but half the motion on the site ignored it.
+ * Now nothing animates and nothing moves: transforms are neutralised outright
+ * rather than merely made instant, so a hover does not jump an element.
+ * Colour and border transitions are left alone; they are not motion.
+ */
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
   }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
   .js [data-reveal] {
     opacity: 1;
     transform: none;
-    transition: none;
+  }
+
+  /* Hold elements still on hover. Deliberately NOT touching the cards' hidden
+     gold rule (`scale-x-0`): neutralising its transform would reveal it
+     permanently rather than hold it still. Zeroing the duration above is
+     enough — it appears instantly instead of wiping across. */
+  [class*="translate"]:hover,
+  [class*="-translate"]:hover,
+  .group:hover [class*="translate"] {
+    transform: none !important;
+  }
+
+  .faq[open] > summary .faq-chevron {
+    transform: none;
   }
 }
 

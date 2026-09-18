@@ -106,6 +106,33 @@ const isActive = (href: string) =>
   </Container>
 </header>
 
+<!--
+  Close the menu on an outside tap or Escape. Without this it stayed open
+  until you found the X again, which on a phone means the panel sits over the
+  content you were trying to reach.
+
+  Progressive enhancement only: the <details> opens and closes by itself with
+  no JavaScript at all, so this adds a convenience and never a dependency.
+-->
+<script is:inline>
+  (function () {
+    var menu = document.querySelector("details.menu");
+    if (!menu) return;
+
+    document.addEventListener("click", function (e) {
+      if (menu.open && !menu.contains(e.target)) menu.open = false;
+    });
+
+    document.addEventListener("keydown", function (e) {
+      if (e.key !== "Escape" || !menu.open) return;
+      menu.open = false;
+      // Send focus back to the button, or it is left nowhere.
+      var summary = menu.querySelector("summary");
+      if (summary) summary.focus();
+    });
+  })();
+</script>
+
 <style>
   /* Hide the default disclosure triangle and swap the hamburger/close icons. */
   .menu > summary {
