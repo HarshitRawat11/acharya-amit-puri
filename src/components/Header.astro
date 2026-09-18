@@ -13,10 +13,7 @@ const links: { href: string; label: string; external?: boolean }[] = [
   // Design directions for the Acharya to choose from. This is a working
   // document, not part of the public site — remove this entry once a
   // direction is chosen and the site is handed over.
-  // Served as a real file, not a directory: `astro dev` does not resolve
-  // /design-options/ to an index.html inside public/, so the pretty URL worked
-  // in production and 404d locally. This path behaves the same in both.
-  { href: "/design-options.html", label: "Design Options", external: true },
+  { href: "/design-options", label: "Design Options" },
   { href: "/contact", label: "Contact" },
 ];
 

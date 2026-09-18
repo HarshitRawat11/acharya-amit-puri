@@ -1,0 +1,105 @@
+---
+/*
+ * DESIGN OPTIONS — the five home-page directions, as a page of the site.
+ *
+ * This used to be a loose HTML file in public/ that the navigation opened in
+ * a new tab. It is now a real route with the site's header, footer and
+ * navigation around it, built from the same source document so there is still
+ * only one place the deck is authored: design-options/home-designs.html.
+ *
+ * Working document. Remove this page, and its entry in Header.astro, once a
+ * direction is chosen and the site is handed over.
+ */
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/PageHero.astro";
+import Container from "../components/ui/Container.astro";
+import Section from "../components/ui/Section.astro";
+import PetalDivider from "../components/motifs/PetalDivider.astro";
+import { loadDesignDeck } from "../lib/deck";
+
+const { css, options } = loadDesignDeck();
+
+const title = "Design Options | Acharya Amit Puri";
+const description =
+  "Five design directions for the Acharya Amit Puri home page. The wording and the six services are identical in each — only the visual design changes.";
+---
+
+<BaseLayout title={title} description={description} noindex>
+  <PageHero
+    eyebrow="Working document"
+    title="Five design directions"
+    subtitle="The wording, the six services and the page structure are identical in all five. Only the visual design changes — palette, typography, layout and motifs."
+  />
+
+  <Section variant="surface-alt">
+    <Container>
+      <div class="mx-auto max-w-2xl text-center" data-reveal>
+        <p class="leading-relaxed text-muted">
+          Scroll through them, or jump to one. Each block below is a complete
+          home page, top to bottom. Elements from different directions can be
+          combined — if you like the hero of one and the service cards of
+          another, say so.
+        </p>
+        <PetalDivider class="mt-7" />
+        <nav class="mt-7 flex flex-wrap justify-center gap-2" aria-label="Design directions">
+          {
+            options.map((o, i) => (
+              <a
+                href={`#${o.id}`}
+                class="rounded-full border border-hair px-4 py-2 text-sm text-ink transition-colors hover:border-gold hover:text-teal"
+              >
+                {i + 1} · {o.name}
+              </a>
+            ))
+          }
+        </nav>
+      </div>
+    </Container>
+  </Section>
+
+  {
+    options.map((o, i) => (
+      <>
+        <Section variant="paper" class="!pb-8">
+          <Container>
+            <div id={o.id} class="scroll-mt-24" data-reveal>
+              <p class="text-xs uppercase tracking-widest2 text-muted">
+                Option {i + 1} of {options.length}
+              </p>
+              <h2 class="mt-3 font-serif text-3xl text-teal sm:text-4xl">{o.name}</h2>
+              <p class="mt-4 max-w-prose2 leading-relaxed text-muted">{o.blurb}</p>
+            </div>
+          </Container>
+        </Section>
+
+        {/* The pane itself, full-bleed, with the deck's own styling scoped to
+            `.deck` so none of it reaches the rest of the site. */}
+        <div class="deck border-y border-hair">
+          <Fragment set:html={o.html} />
+        </div>
+      </>
+    ))
+  }
+
+  <Section variant="surface-alt">
+    <Container>
+      <div class="mx-auto max-w-2xl text-center" data-reveal>
+        <h2 class="font-serif text-2xl text-teal">A note on these previews</h2>
+        <p class="mt-4 leading-relaxed text-muted">
+          Testimonials, the portrait and the statistics appear as clearly
+          labelled placeholders — no quotes have been invented. Headings use
+          each direction's intended typeface where your device has it, and fall
+          back gracefully where it does not.
+        </p>
+      </div>
+    </Container>
+  </Section>
+</BaseLayout>
+
+{/* The deck's stylesheet, every selector rewritten in scopeCss() to sit under
+    `.deck`, so none of it can reach the rest of the site — it carries a dark
+    `body` rule and a `.faq` rule that would otherwise collide with the site's
+    own accordions. No `is:global` needed: Astro does not parse set:html
+    content, so it cannot scope it and the attribute would only survive into
+    the markup as a stray. */}
+<style set:html={css}></style>
