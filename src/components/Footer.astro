@@ -111,7 +111,12 @@ const socialPaths: Record<string, string> = {
   <Container>
     <div class="flex flex-col items-center justify-between gap-2 border-t border-hair py-6 text-xs text-muted sm:flex-row">
       <p>© {year} {site.name}. All rights reserved.</p>
-      <p>Guidance offered for reflection and wellbeing.</p>
+      <div class="flex items-center gap-4">
+        <p>Guidance offered for reflection and wellbeing.</p>
+        <a href="/privacy" class="underline underline-offset-2 transition-colors hover:text-teal">
+          Privacy
+        </a>
+      </div>
     </div>
   </Container>
 </footer>

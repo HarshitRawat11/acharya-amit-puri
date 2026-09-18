@@ -1,0 +1,238 @@
+---
+/*
+ * PRIVACY — a plain-English account of what the site and the practice do with
+ * personal information.
+ *
+ * ⚠️  TWO THINGS BEFORE THIS IS RELIED ON
+ *
+ *  1. It needs a real contact route. A privacy notice with no way to reach
+ *     anyone is worse than none, because it promises rights it cannot honour.
+ *     Fill {{EMAIL}} in src/data/site.ts. Until then the page says so plainly
+ *     rather than pretending.
+ *
+ *  2. It is written honestly from what the site verifiably does — no cookies,
+ *     no analytics, no third-party requests, all confirmed against the live
+ *     site — but it is NOT legal advice. Have someone qualified read it,
+ *     particularly for India's DPDP Act, before treating it as compliance.
+ *
+ * The retention periods are marked below and are the Acharya's decision, not
+ * a default to leave as-is.
+ */
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/PageHero.astro";
+import Container from "../components/ui/Container.astro";
+import Section from "../components/ui/Section.astro";
+import { site } from "../data/site";
+import { filled, emailLink, phoneLink } from "../lib/content";
+
+const email = filled(site.contact.email);
+const mail = emailLink();
+const tel = phoneLink();
+const location = filled(site.contact.location);
+const canContact = Boolean(email || tel);
+
+/** Update this whenever the wording below changes materially. */
+const lastUpdated = "18 September 2026";
+
+const title = "Privacy | Acharya Amit Puri";
+const description =
+  "How Acharya Amit Puri handles your personal information: what is collected, why, who else sees it, how long it is kept, and your rights. No cookies, no analytics, no tracking.";
+---
+
+<BaseLayout title={title} description={description}>
+  <PageHero
+    eyebrow="Privacy"
+    title="Your information, and what happens to it"
+    subtitle="Written plainly, because a promise of confidentiality is worth little if you cannot tell what it covers."
+  />
+
+  <Section variant="paper">
+    <Container>
+      <div class="prose-content mx-auto max-w-prose2" data-reveal>
+        <p class="rounded-card border border-hair bg-surface-alt p-5 not-italic">
+          <strong class="text-teal">In short.</strong> This website sets no cookies,
+          runs no analytics, and loads nothing from anyone else's servers. Nothing
+          is gathered as you read. Information reaches {site.name} only when you
+          choose to send it — and is used only to answer you and to prepare your
+          consultation.
+        </p>
+
+        <h2>Who is responsible</h2>
+        <p>
+          {site.name}{location ? `, ${location}` : ""}. Reach out about anything on
+          this page using the details at the foot of it.
+        </p>
+
+        <h2>What is collected, and why</h2>
+
+        <h3>When you write to me</h3>
+        <p>
+          Whatever you choose to put in the enquiry form or a message: your name,
+          your email address, your phone number if you give it, the service you
+          are interested in, and what you write. It is used to reply to you and,
+          if you go ahead, to arrange your consultation. Nothing more.
+        </p>
+
+        <h3>When you book a consultation</h3>
+        <p>
+          Different services need different things, and you are told what before
+          you share it:
+        </p>
+        <ul>
+          <li>
+            <strong>Astro Advice and Design Advice</strong> — your date, time and
+            place of birth, to cast and read your kundli.
+          </li>
+          <li>
+            <strong>Numero Advice</strong> — your name as written, and your date
+            of birth.
+          </li>
+          <li>
+            <strong>Vastu Report and Design Advice</strong> — photographs, plans
+            or measurements of your home or workplace.
+          </li>
+          <li>
+            <strong>Palmistry Advice</strong> — photographs of your hands.
+          </li>
+          <li>
+            <strong>Prakriti Advice</strong> — what you tell me about your
+            routine, sleep, digestion and general constitution.
+          </li>
+        </ul>
+        <p>
+          This is personal, and some of it is sensitive. It is used to prepare
+          your reading or report and for nothing else. It is never published,
+          quoted or used as an example without asking you first, and a
+          testimonial is only ever used with your express permission.
+        </p>
+
+        <h3>Automatically, when a page loads</h3>
+        <p>
+          The site is hosted by Cloudflare, whose servers record the ordinary
+          technical details of any web request — the IP address it came from,
+          the browser, the page asked for, the time. This keeps the site online
+          and guards against abuse. It shows me only aggregate traffic figures,
+          not who you are.
+        </p>
+
+        <h2>What this site does not do</h2>
+        <ul>
+          <li>No cookies of any kind.</li>
+          <li>No analytics, no visitor tracking, no tracking pixels.</li>
+          <li>No advertising, and no advertising networks.</li>
+          <li>No social media buttons or embeds that report back.</li>
+          <li>No profiling, and no automated decisions about you.</li>
+          <li>
+            Nothing is ever sold, rented or handed over for anyone else's
+            marketing.
+          </li>
+        </ul>
+
+        <h2>Who else handles it</h2>
+        <p>As few people as possible:</p>
+        <ul>
+          <li>
+            <strong>Web3Forms</strong> receives what you submit through the
+            enquiry form and forwards it to me by email. See their
+            <a href="https://web3forms.com/privacy" target="_blank" rel="noopener noreferrer">
+              privacy policy</a>.
+          </li>
+          <li>
+            <strong>Cloudflare</strong> hosts and serves these pages. See their
+            <a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">
+              privacy policy</a>.
+          </li>
+          <li>
+            <strong>My email and messaging providers</strong> hold our
+            correspondence, in the same way they hold anyone's.
+          </li>
+        </ul>
+        <p>
+          No one else. Your details are not shared with other practitioners,
+          agencies or advertisers.
+        </p>
+
+        <h2>How long it is kept</h2>
+        <p>
+          Consultation records are kept while your consultation is in progress
+          and for a reasonable period afterwards, so that I can answer follow-up
+          questions or revisit earlier readings if you return. Enquiries that do
+          not lead to a consultation are kept only as long as needed to conclude
+          the conversation.
+        </p>
+        <p>
+          If you would like anything deleted sooner, ask, and it will be — see
+          below.
+        </p>
+
+        <h2>Your rights</h2>
+        <p>You may, at any time and without giving a reason:</p>
+        <ul>
+          <li>ask what information about you is held;</li>
+          <li>ask for a copy of it;</li>
+          <li>ask for anything inaccurate to be corrected;</li>
+          <li>ask for it to be deleted;</li>
+          <li>withdraw your consent to my holding it at all;</li>
+          <li>
+            complain, to me first, and to the relevant data protection authority
+            if you are not satisfied.
+          </li>
+        </ul>
+        <p>Asking costs nothing and changes nothing about how you are treated.</p>
+
+        <h2>Keeping it safe</h2>
+        <p>
+          The site is served only over an encrypted HTTPS connection. What you
+          send is treated as confidential and kept to as few places as possible.
+          No one can promise perfect security over the internet, and I will not
+          pretend otherwise — but your information is not left lying about, and
+          it is not passed around.
+        </p>
+
+        <h2>Children</h2>
+        <p>
+          This site is not directed at children. Where a consultation concerns a
+          child — a naming, for instance — the details are provided by a parent
+          or guardian, who gives consent on the child's behalf.
+        </p>
+
+        <h2>Changes to this page</h2>
+        <p>
+          If how information is handled changes, this page changes with it and
+          the date below is updated. Last updated: <strong>{lastUpdated}</strong>.
+        </p>
+
+        <h2>Getting in touch</h2>
+        {
+          canContact ? (
+            <>
+              <p>
+                For anything on this page — a question, a correction, a request
+                to delete something, or a complaint:
+              </p>
+              <ul>
+                {mail && (
+                  <li>
+                    Email: <a href={mail}>{site.contact.email}</a>
+                  </li>
+                )}
+                {tel && (
+                  <li>
+                    Phone: <a href={tel}>{site.contact.phone}</a>
+                  </li>
+                )}
+              </ul>
+              <p>You will have a reply from me personally.</p>
+            </>
+          ) : (
+            <p class="rounded-card border border-gold/50 bg-gold-soft/40 p-5">
+              The contact details for privacy requests are being finalised and
+              will appear here shortly. Until then, please use the
+              <a href="/contact"> contact page</a> to reach {site.name}.
+            </p>
+          )
+        }
+      </div>
+    </Container>
+  </Section>
+</BaseLayout>
