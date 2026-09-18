@@ -15,12 +15,12 @@ all five — only the visual design changes (palette, typography, layout, motifs
 | File | Purpose |
 | --- | --- |
 | `design-options/build.mjs` | The generator. Source of truth — edit this. |
-| `public/design-options/index.html` | The generated deck, **published with the site**. |
+| `public/design-options.html` | The generated deck, **published with the site**. |
 
 `public/` is copied to the deployed site untouched, so the deck is reachable at:
 
 ```
-https://<your-site>/design-options/
+https://<your-site>/design-options.html
 ```
 
 ## Regenerating
@@ -31,7 +31,7 @@ After editing `build.mjs`:
 node design-options/build.mjs
 ```
 
-Then copy its output over `public/design-options/index.html`, commit, and push.
+Then copy its output over `public/design-options.html`, commit, and push.
 
 ## Notes
 
@@ -39,9 +39,10 @@ Then copy its output over `public/design-options/index.html`, commit, and push.
   external requests. It works offline and needs no build step to view; just
   open the HTML file in a browser.
 - It carries `<meta name="robots" content="noindex, nofollow">`, so search
-  engines will not list it. It is **not** linked from the site's navigation and
-  is **not** in the sitemap — but it is not password-protected either, so treat
-  the URL as unlisted rather than private.
+  engines will not list it, and it is **not** in the sitemap. It **is** linked
+  from the main navigation as "Design Options" while a direction is being
+  chosen — remove that entry in `src/components/Header.astro` before handover.
+  It is not password-protected, so treat the URL as unlisted, not private.
 - Testimonials, the portrait, and the statistics appear as clearly-labelled
   placeholders. No quotes have been invented.
 

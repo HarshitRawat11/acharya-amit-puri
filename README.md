@@ -78,7 +78,7 @@ src/
   styles/global.css     ← design tokens / base styles
 public/                 ← favicon, icons, og-image (+ your future photos)
   _headers              ← caching + security headers (Cloudflare & Netlify)
-  design-options/       ← the five design directions, published unlisted
+  design-options.html   ← the five design directions, published unlisted
 astro.config.mjs        ← the site address (SITE_URL)
 netlify.toml            ← Netlify build config (kept; ignored by Cloudflare)
 design-options/         ← generator + notes for the five design directions
@@ -182,8 +182,8 @@ The first time on a new machine you will be asked to sign in with
   build configuration. Ignored by Cloudflare; harmless to keep.
 - **404** — `src/pages/404.astro` builds to `dist/404.html`, which both hosts
   serve for unknown URLs automatically.
-- **`/design-options/`** — the five home-page design directions, published with
-  the site but `noindex` and unlinked. See `design-options/README.md`.
+- **`/design-options.html`** — the five home-page design directions, published
+  with the site but `noindex`. See `design-options/README.md`.
 
 ### Alternative free hosts (same idea)
 
