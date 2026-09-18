@@ -1,15 +1,17 @@
 ---
 /*
- * Mascot — a warm, monoline portrait glyph of the Acharya: bald, a drooping
- * horseshoe moustache, a small chin tuft, serene eyes, a tilak on the brow.
+ * Mascot — a warm, monoline portrait glyph of the Acharya: bald, a long
+ * drooping horseshoe moustache, an urdhva-pundra tilak, a rudraksha mala,
+ * and serene eyes. No beard — the Acharya is clean-shaven but for the
+ * moustache.
  *
  * Drawn in the SAME hand as Mandala / PetalDivider / ServiceIcon: one stroke
  * weight, coloured entirely through `currentColor`. A full-colour cartoon
  * would break the restraint the rest of the brand depends on.
  *
- * The moustache and tuft are the FILLED shapes (as the mandala's dots and
- * bindu are filled). Drawn as strokes the moustache read as a pair of stray
- * curves — at this scale hair only reads when it has mass.
+ * The moustache, the tilak mark and the mala beads are the FILLED shapes (as
+ * the mandala's dots and bindu are filled). Drawn as strokes the moustache
+ * read as a pair of stray curves — at this scale hair only reads with mass.
  *
  * It is a HORSESHOE, not a handlebar: full beneath the nose with both arms
  * descending past the corners of the mouth, matching the Acharya's own. An
@@ -75,10 +77,18 @@ const petals = [0, 45, 90, 135, 180, 225, 270, 315];
         <path d="M27.8 35.9 V 43.2" />
         <path d="M36.2 35.9 V 43.2" />
         <path d="M13.5 60 C 14.4 50.4 21.2 45.6 32 45.6 C 42.8 45.6 49.6 50.4 50.5 60" />
-        {/* shawl draped over the shoulders */}
+        {/* angavastram draped over both shoulders */}
         <path d="M24.8 46.6 L 32 53.4 L 39.2 46.6" />
         <path d="M19.2 48.6 C 18.4 52.6 18.1 56.2 18.2 60" />
         <path d="M44.8 48.6 C 45.6 52.6 45.9 56.2 45.8 60" />
+        {/* rudraksha mala — the clearest mark of an acharya at this scale */}
+        <path d="M26.2 46.0 C 27.2 51.2 36.8 51.2 37.8 46.0" stroke-width="1" />
+        {[
+          [26.5, 46.9], [27.6, 49.0], [29.4, 50.3],
+          [32, 50.8], [34.6, 50.3], [36.4, 49.0], [37.5, 46.9],
+        ].map(([cx, cy]) => (
+          <circle cx={cx} cy={cy} r="0.85" fill="currentColor" stroke="none" />
+        ))}
       </>
     )
   }
@@ -88,9 +98,11 @@ const petals = [0, 45, 90, 135, 180, 225, 270, 315];
   <path d="M20.4 21.6 C 17.9 21.4 17.4 26.6 20.4 27.6" />
   <path d="M43.6 21.6 C 46.1 21.4 46.6 26.6 43.6 27.6" />
 
-  {/* tilak — a small filled mark, kept clear of the nose so it reads as a
-      brow mark rather than a stalk */}
-  <ellipse cx="32" cy="15.6" rx="0.95" ry="2" fill="currentColor" stroke="none" />
+  {/* tilak — an urdhva pundra: two fine uprights meeting in a rounded base,
+      with the filled mark between them. Reads as an acharya's brow mark
+      rather than the single stroke it was, which looked like a smudge. */}
+  <path d="M30.2 12.6 C 30.0 15.4 30.4 17.0 32 18.2 C 33.6 17.0 34.0 15.4 33.8 12.6" />
+  <ellipse cx="32" cy="15.4" rx="0.85" ry="2.2" fill="currentColor" stroke="none" />
 
   {/* brows */}
   <path d="M25.3 21.2 C 26.8 19.9 29 19.9 30.3 21.1" />
@@ -103,20 +115,15 @@ const petals = [0, 45, 90, 135, 180, 225, 270, 315];
   {/* a short nose, so the moustache has room to carry real weight */}
   <path d="M32 25.2 V 28.0 C 32 28.8 32.7 29.1 33.3 28.9" />
 
-  {/* the moustache — full under the nose, both arms descending */}
+  {/* the moustache — full under the nose, both arms running well past the
+      jaw. The arms sit at x 21.6–26.4 and 37.6–42.4, outside the neck lines
+      at x 27.8 and 36.2, so nothing crosses. */}
   <path
     fill="currentColor"
     stroke="none"
-    d="M23.8 35.4 C 23.1 32.5 24.0 30.3 26.4 29.5 C 28.7 28.8 35.3 28.8 37.6 29.5 C 40.0 30.3 40.9 32.5 40.2 35.4 C 39.5 33.3 38.8 32.7 37.0 32.3 C 35.0 31.9 29.0 31.9 27.0 32.3 C 25.2 32.7 24.5 33.3 23.8 35.4 Z"
+    d="M21.6 39.2 C 21.0 34.6 22.2 31.0 25.6 29.8 C 28.0 29.0 36.0 29.0 38.4 29.8 C 41.8 31.0 43.0 34.6 42.4 39.2 C 41.4 35.4 40.2 33.4 37.6 32.8 C 35.2 32.3 28.8 32.3 26.4 32.8 C 23.8 33.4 22.6 35.4 21.6 39.2 Z"
   />
 
   {/* mouth, framed between the descending arms */}
-  <path d="M30.2 34.6 C 31.2 35.4 32.8 35.4 33.8 34.6" />
-
-  {/* small chin tuft */}
-  <path
-    fill="currentColor"
-    stroke="none"
-    d="M30.6 36.4 C 31.1 35.9 32.9 35.9 33.4 36.4 C 33.1 37.9 32.6 38.6 32 38.8 C 31.4 38.6 30.9 37.9 30.6 36.4 Z"
-  />
+  <path d="M30.2 34.8 C 31.2 35.6 32.8 35.6 33.8 34.8" />
 </svg>
