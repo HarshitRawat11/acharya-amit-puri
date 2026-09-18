@@ -1,0 +1,200 @@
+---
+/*
+ * ─────────────────────────────────────────────────────────────────────────────
+ *  MASCOT PREVIEW — a development-only workbench
+ * ─────────────────────────────────────────────────────────────────────────────
+ *  Open http://localhost:4322/mascot-preview while `npm run dev` is running.
+ *
+ *  This page is NOT built for production. getStaticPaths returns an empty list
+ *  outside dev, so `npm run build` emits no such route and nothing reaches the
+ *  live site — unlike the design deck, there is nothing to remember to delete
+ *  before handover.
+ *
+ *  It exists because checking the mascot by rebuilding the whole site and
+ *  hunting for it in the hero was slow and unreliable. Here every size, colour
+ *  and variant is on one screen, with the measurements that actually decide
+ *  whether the drawing works.
+ * ─────────────────────────────────────────────────────────────────────────────
+ */
+import type { GetStaticPaths } from "astro";
+import Mascot from "../../components/motifs/Mascot.astro";
+
+export const getStaticPaths = (() =>
+  import.meta.env.DEV ? [{ params: { path: undefined } }] : []) satisfies GetStaticPaths;
+
+// The sizes the mascot is actually used at, plus the small end where line art
+// tends to fall apart.
+const sizes = [
+  { px: 340, label: "340 — hero" },
+  { px: 224, label: "224 — About portrait" },
+  { px: 120, label: "120" },
+  { px: 64, label: "64" },
+  { px: 40, label: "40" },
+  { px: 28, label: "28 — favicon size" },
+];
+
+// Key geometry, kept here so a change can be discussed in numbers rather than
+// adjectives. Update these when the component's paths change.
+const geometry = [
+  ["Head", "cx 32, cy 24 · rx 11.8, ry 12.7 → face 23.6 wide, chin at y 36.7"],
+  ["Moustache", "x 21.6–42.4 (20.8 wide) · y 29.0–39.2 (10.2 tall) · arms end 2.5 below the jaw"],
+  ["Arms vs neck", "arms at x 21.6–26.4 and 37.6–42.4 · neck at x 27.8 and 36.2 → no crossing"],
+  ["Tilak", "urdhva pundra, y 12.6–18.2 · filled mark at cy 15.4"],
+  ["Mala", "7 beads, r 0.85, on an arc from (26.2, 46) to (37.8, 46)"],
+  ["Eyes / brows", "eyes cy ~24.4–25.7 · brows cy ~19.9–21.2"],
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Mascot preview — development only</title>
+    <style>
+      :root {
+        --paper: #f7f3ec;
+        --surface: #fdfbf6;
+        --alt: #ebe1d0;
+        --ink: #1c2b2a;
+        --muted: #4c5b56;
+        --teal: #0e5a52;
+        --gold: #a67c2e;
+        --goldsoft: #e7d4a8;
+        --hair: #c9bca0;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font: 15px/1.6 "Segoe UI", system-ui, -apple-system, sans-serif;
+        padding: 28px;
+      }
+      h1 { font-size: 21px; margin: 0 0 4px; color: var(--teal); }
+      .sub { color: var(--muted); font-size: 13px; margin: 0 0 26px; }
+      .sub code { background: var(--alt); padding: 1px 5px; border-radius: 4px; }
+      h2 {
+        font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase;
+        color: var(--muted); margin: 32px 0 12px;
+        border-top: 1px solid var(--hair); padding-top: 12px;
+      }
+      .row { display: flex; align-items: flex-end; gap: 22px; flex-wrap: wrap; }
+      .cell { text-align: center; }
+      .cap { font-size: 11px; color: var(--muted); margin-top: 6px; }
+      .swatch { padding: 16px; border-radius: 12px; border: 1px solid var(--hair); }
+      .on-paper { background: var(--paper); }
+      .on-surface { background: var(--surface); }
+      .on-alt { background: var(--alt); }
+      .on-teal { background: var(--teal); border-color: var(--teal); }
+      table { border-collapse: collapse; font-size: 13px; margin-top: 4px; }
+      td { padding: 5px 14px 5px 0; vertical-align: top; }
+      td:first-child { color: var(--teal); font-weight: 600; white-space: nowrap; }
+      td:last-child { color: var(--muted); font-family: ui-monospace, Consolas, monospace; font-size: 12px; }
+      .note {
+        background: var(--alt); border-left: 3px solid var(--gold);
+        padding: 10px 14px; font-size: 13px; color: var(--muted);
+        border-radius: 0 8px 8px 0; max-width: 70ch;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Mascot preview</h1>
+    <p class="sub">
+      Development only — <code>npm run build</code> does not emit this route.
+      Edit <code>src/components/motifs/Mascot.astro</code> and this reloads.
+    </p>
+
+    <h2>Sizes — bust</h2>
+    <div class="row">
+      {sizes.map((s) => (
+        <div class="cell">
+          <Mascot class="mascot" style={`width:${s.px}px;height:${s.px}px;color:var(--teal)`} />
+          <div class="cap">{s.label}</div>
+        </div>
+      ))}
+    </div>
+
+    <h2>Sizes — face only (the `face` variant)</h2>
+    <div class="row">
+      {sizes.map((s) => (
+        <div class="cell">
+          <Mascot variant="face" style={`width:${s.px}px;height:${s.px}px;color:var(--teal)`} />
+          <div class="cap">{s.label}</div>
+        </div>
+      ))}
+    </div>
+
+    <h2>With the halo</h2>
+    <div class="row">
+      <div class="cell">
+        <Mascot halo style="width:280px;height:280px;color:var(--teal)" />
+        <div class="cap">bust · teal</div>
+      </div>
+      <div class="cell">
+        <Mascot halo style="width:280px;height:280px;color:var(--gold)" />
+        <div class="cap">bust · gold</div>
+      </div>
+      <div class="cell">
+        <Mascot variant="face" halo style="width:280px;height:280px;color:var(--teal)" />
+        <div class="cap">face · teal</div>
+      </div>
+    </div>
+
+    <h2>On every brand background</h2>
+    <div class="row">
+      <div class="cell">
+        <div class="swatch on-paper"><Mascot style="width:150px;height:150px;color:var(--teal)" /></div>
+        <div class="cap">teal on paper</div>
+      </div>
+      <div class="cell">
+        <div class="swatch on-surface"><Mascot style="width:150px;height:150px;color:var(--gold)" /></div>
+        <div class="cap">gold on surface</div>
+      </div>
+      <div class="cell">
+        <div class="swatch on-alt"><Mascot style="width:150px;height:150px;color:var(--teal)" /></div>
+        <div class="cap">teal on alt band</div>
+      </div>
+      <div class="cell">
+        <div class="swatch on-teal"><Mascot style="width:150px;height:150px;color:var(--goldsoft)" /></div>
+        <div class="cap">gold-soft on teal</div>
+      </div>
+      <div class="cell">
+        <div class="swatch on-teal"><Mascot style="width:150px;height:150px;color:#FBF7EF" /></div>
+        <div class="cap">onteal on teal</div>
+      </div>
+    </div>
+
+    <h2>As it appears in the About portrait card</h2>
+    <div class="row">
+      <div
+        style="position:relative;aspect-ratio:4/5;width:300px;overflow:hidden;border-radius:12px;border:1px solid var(--hair);background:rgba(231,212,168,.25);display:flex;flex-direction:column;align-items:center;justify-content:center"
+      >
+        <Mascot halo style="width:224px;height:224px;color:var(--teal)" />
+        <p style="margin:8px 0 0;font-family:Georgia,serif;font-size:18px;color:var(--teal)">
+          Acharya Amit Puri
+        </p>
+      </div>
+    </div>
+
+    <h2>Current geometry</h2>
+    <table>
+      {geometry.map(([k, v]) => (
+        <tr>
+          <td>{k}</td>
+          <td>{v}</td>
+        </tr>
+      ))}
+    </table>
+
+    <h2>Notes</h2>
+    <p class="note">
+      Everything is one stroke weight in <code>currentColor</code>, matching
+      Mandala, PetalDivider and the six ServiceIcons. Only the moustache, the
+      tilak mark and the mala beads are filled — the same places the mandala
+      fills. Watch the small sizes: line art muddies first at 40 and 28, and
+      the <code>face</code> variant exists for exactly that reason.
+    </p>
+  </body>
+</html>

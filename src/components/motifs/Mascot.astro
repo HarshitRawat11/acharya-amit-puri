@@ -28,12 +28,15 @@ interface Props {
   variant?: "bust" | "face";
   halo?: boolean;
   class?: string;
+  /** Inline style, mainly for the dev preview to set an exact pixel size. */
+  style?: string;
   label?: string;
 }
 const {
   variant = "bust",
   halo = false,
   class: className = "",
+  style,
   label,
 } = Astro.props;
 
@@ -54,6 +57,7 @@ const petals = [0, 45, 90, 135, 180, 225, 270, 315];
   stroke-linejoin="round"
   data-motif
   class={className}
+  style={style}
   {...a11y}
 >
   {
