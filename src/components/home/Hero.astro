@@ -23,8 +23,13 @@ const stats = site.stats.filter((s) => isFilled(s.value));
        band empty with nothing on the right; the mascot now anchors that side.
        Below `lg` it is hidden: a stacked hero has no dead space to fill, and
        the illustration would only push the buttons under the fold. -->
+  <!-- Asymmetric padding on purpose. The section below supplies its own 96px
+       of top padding, so a matching 96px here stacked into a 193px void under
+       the stats. It reads as a hole rather than breathing room because the
+       hero and the services band share the same `paper` background — with no
+       tonal change there is nothing for the space to separate. -->
   <Container
-    class="relative grid items-center gap-10 py-16 sm:py-20 lg:grid-cols-12 lg:gap-6 lg:py-24"
+    class="relative grid items-center gap-10 pb-6 pt-16 sm:pb-8 sm:pt-20 lg:grid-cols-12 lg:gap-6 lg:pb-10 lg:pt-24"
   >
     <div class="max-w-3xl lg:col-span-7" data-reveal>
       <p class="flex items-center gap-3 text-xs uppercase tracking-widest2 text-muted">
