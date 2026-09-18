@@ -81,6 +81,20 @@
     @apply placeholder:text-muted/70 focus:border-teal focus:outline-none focus:ring-2 focus:ring-teal/30;
   }
 
+  /* Disclosure panels used by the FAQ lists. Global rather than scoped to
+     FaqSection, because the service detail pages render their own FAQ list
+     too and Astro's scoped styles would not reach it — the panels would show
+     the browser's default triangle and the chevron would never turn. */
+  .faq > summary {
+    list-style: none;
+  }
+  .faq > summary::-webkit-details-marker {
+    display: none;
+  }
+  .faq[open] > summary .faq-chevron {
+    transform: rotate(180deg);
+  }
+
   /* Rendered Markdown (article pages). */
   .prose-content {
     @apply leading-relaxed text-muted;

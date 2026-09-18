@@ -37,9 +37,24 @@ const lastUpdated = "18 September 2026";
 const title = "Privacy | Acharya Amit Puri";
 const description =
   "How Acharya Amit Puri handles your personal information: what is collected, why, who else sees it, how long it is kept, and your rights. No cookies, no analytics, no tracking.";
+// Lets Google show a breadcrumb trail in place of a bare URL.
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: new URL("/", Astro.site).href },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Privacy",
+      item: new URL(Astro.url.pathname, Astro.site).href,
+    },
+  ],
+};
+
 ---
 
-<BaseLayout title={title} description={description}>
+<BaseLayout title={title} description={description} structuredData={[breadcrumbSchema]}>
   <PageHero
     eyebrow="Privacy"
     title="Your information, and what happens to it"

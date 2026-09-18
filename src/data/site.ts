@@ -39,6 +39,10 @@ export interface Service {
   whatYouReceive: string[];
   /** Optional gentle disclaimer shown at the foot of the detail page. */
   note?: string;
+  /** Questions specific to this service. Shown on its detail page and used
+   *  for FAQ rich-results. Keep them practical and honest — these describe
+   *  how the practice works, never what it promises. */
+  faqs?: FaqItem[];
   /** Optional <title> for search results. Use when the name + tagline would
    *  run past ~60 characters, or when people search for this by another word
    *  (e.g. "kundli", "palm reading"). Falls back to name — tagline | site. */
@@ -148,6 +152,20 @@ export const site = {
         "Practical, non-intrusive suggestions you can apply at your own pace",
         "The reasoning behind each recommendation, in plain language",
       ],
+      faqs: [
+        {
+          q: "Will I have to make structural changes to my home?",
+          a: "Almost never. Most of what is suggested concerns placement, light, colour, and which room is used for what — things you can change in an afternoon. Where something structural would genuinely help, it is offered as one option among several, never as a requirement.",
+        },
+        {
+          q: "What do you need from me for a Vastu report?",
+          a: "Photographs of each main room, or a simple floor plan, with the directions marked. A compass reading taken from the centre of the home is helpful. It also helps to know which rooms are used for sleeping, cooking, working and study.",
+        },
+        {
+          q: "Can Vastu be applied to a rented flat or a workplace?",
+          a: "Yes. Renting simply means the suggestions lean towards what is reversible — arrangement, storage, lighting, colour — rather than anything built in. The same principles apply to an office, a shop or a studio.",
+        },
+      ],
     },
     {
       slug: "astro-advice",
@@ -166,6 +184,20 @@ export const site = {
         "A personalised reading of your birth chart",
         "A calm, unhurried conversation about what it reflects",
         "Gentle, practical guidance you can carry forward",
+      ],
+      faqs: [
+        {
+          q: "Do I need my exact birth time?",
+          a: "As precise as you can manage. Some placements shift within a few minutes, so a time from a birth certificate or hospital record is ideal. If your time of birth is genuinely unknown, say so — the reading then concentrates on what does not depend on it, and you will be told plainly which parts cannot be spoken to.",
+        },
+        {
+          q: "What exactly is a kundli?",
+          a: "Your kundli, or birth chart, is a map of where the planets stood at the moment and place you were born. Vedic astrology reads that map for the tendencies and timings it suggests. It is a lens for reflection, not a fixed account of your life.",
+        },
+        {
+          q: "Will you tell me what is going to happen to me?",
+          a: "No. This reading is offered for perspective and self-understanding rather than prediction, and you will not be told that anything is fated or unavoidable. You remain free in every choice you make.",
+        },
       ],
       note: "Offered for reflection and perspective. You remain free in every choice you make.",
     },
@@ -187,6 +219,20 @@ export const site = {
         "Any considered, optional adjustments — the choice always remains yours",
         "Clear reasoning, free of pressure or alarm",
       ],
+      faqs: [
+        {
+          q: "Do I have to change my name?",
+          a: "No. Nothing is ever required of you. Where an adjustment to spelling might bring things into easier alignment it is offered as a possibility with the reasoning explained, and many people simply take the reading and change nothing at all.",
+        },
+        {
+          q: "What do you need from me?",
+          a: "Your full name as it is written, and as you are actually called day to day — the two often differ, and both matter — along with your date of birth.",
+        },
+        {
+          q: "Can you help with naming a child or a new business?",
+          a: "Yes. For a child, the date and place of birth are considered alongside the names you have in mind. For a business, the founding date and the shortlist. You are given the reasoning for each, and the decision stays entirely yours.",
+        },
+      ],
     },
     {
       slug: "prakriti-advice",
@@ -205,6 +251,20 @@ export const site = {
         "A description of your Prakriti and what it reflects",
         "Simple, livable suggestions for daily wellbeing",
         "Guidance on what tends to keep you in balance",
+      ],
+      faqs: [
+        {
+          q: "Is this medical advice?",
+          a: "No, and it should not be treated as such. Prakriti guidance concerns routine and general wellbeing in the traditional sense. It is not a diagnosis, it does not replace a doctor, and nothing here should be used in place of professional healthcare or prescribed treatment.",
+        },
+        {
+          q: "What are the doshas?",
+          a: "Ayurveda describes three qualities — vata, pitta and kapha — that combine differently in every person. Your particular balance is your Prakriti, your natural constitution. Knowing it makes it easier to see why certain routines, foods and climates suit you while others leave you out of sorts.",
+        },
+        {
+          q: "Will I have to change my diet completely?",
+          a: "No. The suggestions are small and livable — when you eat rather than only what, how you begin the day, what tends to settle you. Changes that cannot be sustained are of no use to anyone, so they are not recommended.",
+        },
       ],
       note: "Traditional guidance for general wellbeing. It is not medical advice and is not a substitute for professional healthcare.",
     },
@@ -226,6 +286,20 @@ export const site = {
         "Clear, practical notes you can share with your architect or interior designer",
         "Suggestions you can carry out all at once or gradually",
       ],
+      faqs: [
+        {
+          q: "How is this different from a Vastu Report?",
+          a: "A Vastu Report studies a space that already exists and suggests how to bring it into better balance. Design Advice works the other way round: it helps shape a space still being planned, and brings your horoscope into that planning alongside Vastu principles.",
+        },
+        {
+          q: "Can you work alongside my architect or interior designer?",
+          a: "Yes, and it usually works best that way. The guidance is written as clear, practical notes on orientation, layout, colour and materials that you can hand straight to them, rather than as anything needing knowledge of Vastu to interpret.",
+        },
+        {
+          q: "At what stage should I come to you?",
+          a: "Ideally before the plan is finalised, while orientation and room placement can still be influenced at no cost. That said, useful guidance can be offered at any stage — including for a home already built, where the focus shifts to finishes, arrangement and light.",
+        },
+      ],
     },
     {
       slug: "palmistry-advice",
@@ -244,6 +318,20 @@ export const site = {
         "An attentive reading of the lines and form of your hand",
         "Relevant astrological context to round out the picture",
         "A grounded conversation about what it may reflect",
+      ],
+      faqs: [
+        {
+          q: "What do you need from me for a palm reading?",
+          a: "Clear photographs of both palms taken in natural daylight, fingers spread and the whole hand in frame, plus a side view of each hand. If any lines come out faint you will simply be asked for another photograph.",
+        },
+        {
+          q: "Why both hands?",
+          a: "By long convention the non-dominant hand is read for what is innate, and the dominant hand for what has been shaped by living. Read together they say considerably more than either does alone.",
+        },
+        {
+          q: "Does palmistry predict the future?",
+          a: "No. It is offered as a mirror for self-reflection, read alongside astrological context, and never as a fixed forecast. Nothing in a reading is presented as inevitable.",
+        },
       ],
       note: "Offered for reflection and perspective, not as a fixed forecast.",
     },

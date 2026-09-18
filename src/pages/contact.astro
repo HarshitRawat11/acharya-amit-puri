@@ -41,9 +41,24 @@ const socialPaths: Record<string, string> = {
 const title = "Book a Vastu or Astrology Consultation | Acharya Amit Puri";
 const description =
   "Book a consultation with Acharya Amit Puri — Vastu reports, kundli readings, numerology and name correction, Prakriti and palm reading. Available online across India.";
+// Lets Google show a breadcrumb trail in place of a bare URL.
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: new URL("/", Astro.site).href },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Book a Consultation",
+      item: new URL(Astro.url.pathname, Astro.site).href,
+    },
+  ],
+};
+
 ---
 
-<BaseLayout title={title} description={description}>
+<BaseLayout title={title} description={description} structuredData={[breadcrumbSchema]}>
   <PageHero
     eyebrow="Get in touch"
     title="Book a Consultation"

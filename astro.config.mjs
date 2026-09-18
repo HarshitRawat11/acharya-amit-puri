@@ -25,6 +25,28 @@ export default defineConfig({
     // src/styles/global.css so the design system stays in one place.
     tailwind({ applyBaseStyles: false }),
     mdx(),
-    sitemap(),
+    // The sitemap carried only bare <loc> entries.
+    //
+    // `lastmod` is the one Google genuinely acts on — it tells a crawler
+    // whether a page is worth re-fetching. `priority` and `changefreq` are
+    // weak-to-ignored signals these days; priority is set because it costs
+    // nothing and still guides some crawlers, and changefreq is left at a
+    // single site-wide value rather than varied per page, which would buy
+    // nothing and needs the sitemap package's own enum type to satisfy
+    // `astro check`.
+    sitemap({
+      lastmod: new Date(),
+      changefreq: "monthly",
+      serialize(item) {
+        const path = new URL(item.url).pathname;
+        if (path === "/") item.priority = 1.0;
+        else if (path.startsWith("/services/") && path !== "/services/") item.priority = 0.9;
+        else if (path === "/services/" || path === "/contact/") item.priority = 0.8;
+        else if (path === "/about/") item.priority = 0.7;
+        else if (path === "/articles/") item.priority = 0.6;
+        else if (path === "/privacy/") item.priority = 0.2;
+        return item;
+      },
+    }),
   ],
 });

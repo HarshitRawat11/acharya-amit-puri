@@ -46,6 +46,22 @@ const serviceSchema = {
   provider: { "@id": `${origin}/#service` },
 };
 
+// Questions specific to this service. These both deepen a page that was only
+// ~330 words — thin for a commercial term — and earn the page its own FAQ
+// rich-result, which previously only the home page could get.
+const faqs = service.faqs ?? [];
+const faqSchema = faqs.length
+  ? {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      mainEntity: faqs.map((f) => ({
+        "@type": "Question",
+        name: f.q,
+        acceptedAnswer: { "@type": "Answer", text: f.a },
+      })),
+    }
+  : null;
+
 // Lets Google show Home › Services › this page instead of a bare URL.
 const breadcrumbSchema = {
   "@context": "https://schema.org",
@@ -61,7 +77,7 @@ const breadcrumbSchema = {
 <BaseLayout
   title={title}
   description={description}
-  structuredData={[serviceSchema, breadcrumbSchema]}
+  structuredData={[serviceSchema, breadcrumbSchema, ...(faqSchema ? [faqSchema] : [])]}
 >
   <PageHero
     eyebrow={service.tagline}
@@ -140,8 +156,45 @@ const breadcrumbSchema = {
     </Container>
   </Section>
 
+  {
+    faqs.length > 0 && (
+      <Section variant="surface-alt" labelledby="service-faq-title">
+        <Container>
+          <div class="mx-auto max-w-2xl text-center" data-reveal>
+            <p class="text-xs uppercase tracking-widest2 text-muted">Good to know</p>
+            <h2 id="service-faq-title" class="mt-3 font-serif text-3xl text-teal sm:text-4xl">
+              {service.name} — your questions
+            </h2>
+            <PetalDivider class="mt-7" />
+          </div>
+
+          <div class="mx-auto mt-12 max-w-3xl space-y-4">
+            {faqs.map((item) => (
+              <details class="faq group rounded-card border border-hair bg-surface px-6 shadow-soft">
+                <summary class="flex cursor-pointer items-center justify-between gap-4 py-5 font-serif text-lg text-teal">
+                  <span>{item.q}</span>
+                  <svg
+                    class="faq-chevron h-5 w-5 shrink-0 text-gold transition-transform duration-300"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="1.6"
+                    aria-hidden="true"
+                  >
+                    <path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round" />
+                  </svg>
+                </summary>
+                <p class="pb-5 leading-relaxed text-muted">{item.a}</p>
+              </details>
+            ))}
+          </div>
+        </Container>
+      </Section>
+    )
+  }
+
   <!-- Other services -->
-  <Section variant="surface-alt">
+  <Section variant="paper">
     <Container>
       <div class="text-center" data-reveal>
         <h2 class="font-serif text-2xl text-teal sm:text-3xl">

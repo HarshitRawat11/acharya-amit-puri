@@ -12,9 +12,24 @@ import { site } from "../../data/site";
 const title = "Vastu, Kundli & Numerology Services | Acharya Amit Puri";
 const description =
   "Consultations with Acharya Amit Puri: Vastu reports, kundli readings, numerology and name correction, Prakriti, horoscope-based home design and palm reading.";
+// Lets Google show a breadcrumb trail in place of a bare URL.
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  itemListElement: [
+    { "@type": "ListItem", position: 1, name: "Home", item: new URL("/", Astro.site).href },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Services",
+      item: new URL(Astro.url.pathname, Astro.site).href,
+    },
+  ],
+};
+
 ---
 
-<BaseLayout title={title} description={description}>
+<BaseLayout title={title} description={description} structuredData={[breadcrumbSchema]}>
   <PageHero
     eyebrow="What I offer"
     title="Areas of Guidance"
