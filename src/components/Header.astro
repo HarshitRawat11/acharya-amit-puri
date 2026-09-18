@@ -10,12 +10,13 @@ const links: { href: string; label: string; external?: boolean }[] = [
   { href: "/about", label: "About" },
   { href: "/services", label: "Services" },
   { href: "/articles", label: "Articles" },
-  // Design directions for the Acharya to choose from. This is a working
-  // document, not part of the public site — remove this entry once a
-  // direction is chosen and the site is handed over.
-  { href: "/design-options", label: "Design Options" },
   { href: "/contact", label: "Contact" },
 ];
+
+// The design directions are deliberately NOT listed here. The page still
+// exists at /design-options and can be sent to the Acharya directly; it is
+// `noindex` and unlinked, so no visitor stumbles into five draft homepages
+// in a working consultant's menu.
 
 // Normalise the current path (strip trailing slash) for active-link styling.
 const path = Astro.url.pathname.replace(/\/+$/, "") || "/";
@@ -37,11 +38,8 @@ const isActive = (href: string) =>
       </span>
     </a>
 
-    <!-- Desktop navigation.
-         Shown from `lg` (1024px), not `md` — with six links plus the CTA the
-         row overflows a 768px viewport and pushes the whole page sideways.
-         Tablets get the menu button below instead. -->
-    <nav class="hidden items-center gap-8 lg:flex" aria-label="Primary">
+    <!-- Desktop navigation -->
+    <nav class="hidden items-center gap-8 md:flex" aria-label="Primary">
       {
         links.map((l) => (
           <a
@@ -62,8 +60,8 @@ const isActive = (href: string) =>
       <Button href="/contact">{site.primaryCta}</Button>
     </nav>
 
-    <!-- Mobile + tablet navigation (native <details> — keyboard accessible, no JS) -->
-    <details class="menu relative lg:hidden">
+    <!-- Mobile navigation (native <details> — keyboard accessible, no JS) -->
+    <details class="menu relative md:hidden">
       <summary
         class="flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg border border-hair text-teal"
         aria-label="Toggle menu"
