@@ -49,9 +49,9 @@ Plus two generated files: `/robots.txt` and `/sitemap-index.xml`.
 - [x] **C1** — All 13 routes return HTTP 200 on the live site. `/nonexistent` returns 404.
       *Verified 2026-09-19 by requesting all 15 URLs plus a nonexistent path.*
 - [x] **C2** — No `{{PLACEHOLDER}}` token appears in any built HTML file.
-      *Verified 2026-09-19 by scanning all 14 built HTML files. Zero occurrences.*
+      *Verified 2026-09-19 by scanning every built HTML file — 14 at lock, 13 after the gap closure. Zero occurrences in both passes.*
 - [x] **C3** — No developer-facing instruction appears in visitor-facing copy (no "see CONTENT.md", no "src/data/site.ts").
-      *Verified 2026-09-19 by scanning all 14 built HTML files for six such strings. Zero occurrences.*
+      *Verified 2026-09-19 by scanning every built HTML file for eight such strings, including the two removed working-document paths. Zero occurrences.*
 - [x] **C4** — Zero broken internal links and zero dangling in-page anchors across all built pages.
       *Verified by crawl during the audit at commit `29fceb6`.*
 - [x] **C5** — An article placed in a sub-folder of `src/content/articles/` still builds.
@@ -126,14 +126,14 @@ monoline SVG coloured through `currentColor`.
       *Verified 2026-09-19 against the single built stylesheet. Every hex found is a palette colour or an alpha variant of one, with two exceptions, both from the Tailwind Preflight reset and neither authored here: `#e5e7eb` (the default `border-color` on `*`, overridden by an explicit palette colour wherever a border is drawn) and `#9ca3af` (the default `::placeholder` colour, which paints nothing while the enquiry form is unrendered). These two are named here so they are not rediscovered as a defect.*
 - [x] **D2** — No page loads a webfont from a third-party origin.
       *Verified 2026-09-19 by scanning all built HTML and CSS for six third-party font and CDN origins. Zero references.*
-- [ ] **D3** — No horizontal scrolling at **320px, 768px, 1024px and 1440px** on any page.
-      *Not yet verified across all 13 pages — see G6.*
+- [x] **D3** — No horizontal scrolling at **320px, 768px, 1024px and 1440px** on any page.
+      *Verified 2026-09-19 against the production build: 52 checks (13 pages × 4 widths), 0 with a document scroll width exceeding the viewport.*
 - [x] **D4** — With JavaScript disabled, all page content is visible and the navigation opens and closes.
       *Verified by code inspection: the reveal rule is gated behind a `.js` class that only JavaScript adds, so nothing is hidden without it; the mobile menu is a native `<details>` element.*
 - [x] **D5** — With `prefers-reduced-motion: reduce`, no element animates or moves — including hover states and the FAQ chevron.
       *Verified during the audit by measuring the chevron's computed transform with the transition disabled.*
 - [x] **D6** — Every decorative SVG carries `aria-hidden`; every meaningful one carries an accessible name.
-      *Verified 2026-09-19: 273 `<svg>` elements across the built pages, 0 without `aria-hidden` or an accessible name.*
+      *Verified 2026-09-19: 273 `<svg>` elements at lock and 231 after the gap closure, 0 without `aria-hidden` or an accessible name in either pass.*
 
 **Design exclusions** — the five alternative directions in the design deck are
 rejected for v1; Temple Tank is the chosen system. No dark mode. No page
@@ -155,9 +155,9 @@ for a portrait photograph without breaching the line.
 | O7 | `npm run check` | 0 errors | **0 errors, 0 warnings, 0 hints across 42 files; exit 0** | ✅ |
 | O8 | `npm run build` | exits 0 | **14 pages built in 9.07s; exit 0** | ✅ |
 | O9 | Every page has a unique `<title>` ≤ 60 characters | all | **all 13 pass** | ✅ |
-| O10 | Every page has a meta description ≤ 165 characters | all | **3 fail** (`/` 208, `/privacy/` 175, `/contact/` 166) | ❌ |
+| O10 | Every page has a meta description ≤ 165 characters | all | **all 13 pass**, longest 160 | ✅ |
 | O11 | Every page has a canonical URL and Open Graph tags | all | **all 13 pass** | ✅ |
-| O12 | Body text meets WCAG AA contrast (4.5:1) | no failures | **0 failures** on the pages sampled | ⚠️ partial |
+| O12 | Body text meets WCAG AA contrast (4.5:1) | no failures | **0 failures** across 910 text elements, 13 pages × 2 widths | ✅ |
 | O13 | Security headers present on every response (CSP, X-Frame-Options, X-Content-Type-Options, Referrer-Policy) | all four | **all four** | ✅ |
 
 **Lighthouse is deliberately excluded.** There is no Lighthouse tooling in this
@@ -215,8 +215,9 @@ Profile · backlink work · paid advertising · any keyword work beyond what shi
 **Infrastructure** — custom domain · email hosting · a staging environment ·
 CI beyond the existing auto-deploy · automated tests · Lighthouse CI.
 
-**Working documents to be removed before v1** — `/design-options` and
-`/mascot-preview` (G1 and G2 below).
+**Working documents** — `/design-options` and `/mascot-preview` were removed
+from the project on 2026-09-19 (G1, G2). Both stay recoverable from git
+history. Neither is part of v1.
 
 ---
 
@@ -225,43 +226,57 @@ CI beyond the existing auto-deploy · automated tests · Lighthouse CI.
 This is the **only** remaining work in scope. Every unticked box above appears
 here, and nothing else does.
 
-- [ ] **G1 — Remove the design-options page and its source entirely.**
-  Delete `src/pages/design-options.astro`, `src/lib/deck.ts`,
-  `design-options/` (deck, generator, README), and every reference in
-  `README.md` and `Header.astro`'s comment. Confirmed live at 200 on
-  2026-09-19, so it is currently reachable by anyone with the URL.
-  **VERIFIED when:** `/design-options` returns 404 on the live site and
-  `grep -ri "design-options"` finds nothing outside git history.
-  *The deck remains recoverable from git history.*
+- [x] **G1 — Remove the design-options page and its source entirely.** *(2026-09-19)*
+  Removed `src/pages/design-options.astro`, `src/lib/deck.ts`, the whole
+  `design-options/` directory, the stale comment in `Header.astro` and three
+  `README.md` references — one of which pointed at `public/design-options.html`,
+  a file that had already ceased to exist. 2,212 lines removed.
+  **Verified:** `grep -rni "design-options"` across the project, excluding this
+  document and git history, returns nothing; the production build now emits
+  exactly the 13 routes named in §1.1, down from 14.
+  ⚠️ **One half outstanding:** the criterion also requires `/design-options` to
+  return 404 **on the live site**. It still returns 200 there until this commit
+  is pushed and Cloudflare rebuilds. *The deck remains recoverable from git history.*
 
-- [ ] **G2 — Remove the mascot preview workbench.**
-  Delete `src/pages/mascot-preview/`. It is already absent from production —
-  `/mascot-preview/` returned 404 live on 2026-09-19, because its
-  `getStaticPaths` returns `[]` outside dev — so this is source hygiene, not a
-  live leak. **VERIFIED when:** the directory is gone and `npm run build` still
+- [x] **G2 — Remove the mascot preview workbench.** *(2026-09-19)*
+  `src/pages/mascot-preview/` deleted. It was already absent from production —
+  its `getStaticPaths` returned `[]` outside dev — so this was source hygiene,
+  not a live leak. **Verified:** the directory is gone and `npm run build` still
   produces every route in §1.1.
 
-- [ ] **G3 — Bring three meta descriptions under 165 characters.**
-  `/` (208), `/privacy/` (175), `/contact/` (166). **VERIFIED when:** every
-  page measures ≤ 165 with HTML entities decoded. *(Criterion O10.)*
+- [x] **G3 — Bring three meta descriptions under 165 characters.** *(2026-09-19)*
+  Home 208 → **154**, privacy 175 → **157**, contact 166 → **160**. The home page
+  needed two attempts; the first rewrite still measured 178.
+  **Verified:** all 13 pages measured with HTML entities decoded, longest 160.
+  *(Criterion O10.)*
 
-- [ ] **G4 — Confirm WCAG AA contrast across all 13 pages.**
-  Measured on a sample only, with zero failures. **VERIFIED when:** every page
-  is measured and reports zero failures. *(Criterion O12.)*
+- [x] **G4 — Confirm WCAG AA contrast across all 13 pages.** *(2026-09-19)*
+  **Verified:** 910 text-bearing elements measured across 13 pages at 375px and
+  1280px, each against its own computed background with alpha blending applied,
+  using 4.5:1 for normal text and 3:1 for large. **0 failures.** *(Criterion O12.)*
 
-- [ ] **G5 — Resolve the README's unverified Lighthouse claim.**
-  Verify it, soften it, or remove it. **VERIFIED when:** `README.md` makes no
-  performance claim that is not backed by a recorded measurement.
+- [x] **G5 — Resolve the README's unverified Lighthouse claim.** *(2026-09-19)*
+  The "100/100/100/100 on Lighthouse" line had no recorded run behind it and was
+  replaced with two numbers that were actually measured — 77 KB over 4 requests —
+  and a pointer to §1.3 where they are recorded.
+  **Verified:** `README.md` makes no performance claim that is not backed by a
+  recorded measurement.
 
-- [ ] **G6 — Confirm no horizontal scrolling at the four responsive widths.**
-  **VERIFIED when:** all 13 pages are loaded at 320, 768, 1024 and 1440px and
-  none reports a document scroll width greater than its viewport width.
-  *(Criterion D3.)*
-
-Five of these six are removals, corrections or verification passes.
-**No new features remain in scope.**
+- [x] **G6 — Confirm no horizontal scrolling at the four responsive widths.** *(2026-09-19)*
+  **Verified:** 52 checks — 13 pages × 320, 768, 1024 and 1440px, against the
+  production build. **0 pages** reported a document scroll width greater than the
+  viewport. *(Criterion D3.)*
 
 ---
+
+### Remaining before v1 is complete
+
+1. **Deploy.** One push closes the live half of G1 and makes every criterion in
+   this document true at the same time.
+2. **Client acceptance.** Send `ACCEPTANCE-CHECKLIST.md`, then record the answer
+   in §3. The freeze is provisional until that line is filled in.
+
+Nothing else is in scope. Anything raised from here is EXTRA — see `CLAUDE.md`.
 
 ## 6. Recording mechanism
 
@@ -281,6 +296,13 @@ recorded in §3.
 
 ---
 
+## Verification log
+
+| Date | Pass | Result |
+| --- | --- | --- |
+| 2026-09-19 | Lock | 13 routes live 200, `/nonexistent` 404; `astro check` 0 errors; build exit 0; 0 placeholder tokens in built HTML; 273 SVGs all labelled; 3 meta descriptions over length |
+| 2026-09-19 | Gap closure | G1–G6 closed. 13 routes built (was 14); `astro check` 0 errors across 38 files; build exit 0; all 13 meta descriptions ≤ 165, longest 160; 52 responsive checks, 0 overflow; 910 text elements, 0 contrast failures; 231 SVGs all labelled |
+
 *Discovery for this document was carried out against commit `29fceb6`.
-Measurements were taken from the live site and a clean local build.
-Locked 2026-09-19.*
+Locked 2026-09-19. Gap closed the same day, except the deploy that makes
+G1's live half true.*
