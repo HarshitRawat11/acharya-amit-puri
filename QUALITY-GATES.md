@@ -3,7 +3,7 @@
 **Approved:** 2026-09-20 · **Fix loop completed:** 2026-09-20 · **Thresholds: final**
 **Intent:** `INTENT-BRIEF.md` · **Scope:** `FINISH-LINE.md`, amendment authorised by `UNFREEZE FOR QUALITY`
 **Decisions 1–3 resolved:** 2026-09-20 (delegated by the reviewer)
-**Quality status:** **PROVISIONAL — Stage 1 signed for 9 of 10 gates.** One sub-criterion (3a-ii) is unmet and needs a reviewer waiver or a design change. Gate 8 needs three human readers. See *Stage 1* at the foot of this document.
+**Quality status:** **PROVISIONAL — Stages 1 and 2 complete.** 3a-ii waived by the reviewer 2026-09-20. Stage 3 (client) and Gate 9 (30-day window) outstanding. **Gate 8 was not run before the lock** and remains NOT MEASURED.
 
 Every CURRENT value below was measured on 2026-09-20 against the production
 build in `dist/`, served locally, at 320 / 375 / 768 / 1024 / 1280 / 1440px.
@@ -23,7 +23,7 @@ thumbnail derivatives), and the reproducible harnesses `review/_gates-probe.mjs`
 | --- | --- | --- | --- | --- |
 | 1 | Intent alignment | above-fold action on 1 of 7 mobile pages; hero addressed homeowners | action on **13 of 13**; hero addresses the decision | ✅ **PASS** |
 | 2 | Visual system coherence | 13 sizes / 22 combinations | **8 sizes / 13 combinations** (caps 8 / 14) | ✅ **PASS** |
-| 3 | Hierarchy | squint on target 6 of 14 | **14 of 14** on an intended focal element, 0 on chrome — but 2–3 hot regions on desktop, not one | ⚠️ **PARTIAL** |
+| 3 | Hierarchy | squint on target 6 of 14 | **14 of 14** on an intended focal element, 0 on chrome; 3a-ii **WAIVED** | ✅ **PASS** (1 waiver) |
 | 4 | Distinctiveness | mascot on 2 of 13 pages | mascot on **12 of 13** with viewport parity; service cards redrawn as temple niches | ✅ **PASS** |
 | 5 | Imagery | 0 `<img>`, one SVG style | unchanged | ✅ **PASS** |
 | 6 | Motion | 32 controls without hover; panels snapped | **1** documented exception; panels animate at 0.3s | ✅ **PASS** |
@@ -32,7 +32,7 @@ thumbnail derivatives), and the reproducible harnesses `review/_gates-probe.mjs`
 | 9 | Behavioural | — | — | ⏳ **NOT MEASURED** |
 | 10 | Accessibility floor | 0 failures | **1,622 elements, 0 failures** | ✅ **PASS** |
 
-**7 passing · 0 failing · 1 partial · 0 waived · 2 not measurable yet.**
+**8 passing · 0 failing · 1 sub-criterion waived · 2 not measurable yet.**
 
 ### The three decisions, as resolved
 
@@ -95,12 +95,12 @@ no longer template-generic; **the verdict is a judgement call and belongs to Sta
 
 ---
 
-## Gate 3 — Hierarchy ⚠️
+## Gate 3 — Hierarchy ✅ *(one waiver)*
 
 - **3a-i — The dominant region is an intended focal element, never chrome.** METHOD: Gaussian blur at σ = 2% of viewport width, 16×16 luminance grid, the **peak** tile classified against the `<h1>`, the primary action, any action, the mascot, and the header/footer rectangles.
   CURRENT: **14 of 14 on an intended focal element, 0 on chrome.** VERIFIED. **PASS** — with the caveat recorded under Decision 1 about how many times this metric was reshaped.
 - **3a-ii — Exactly one dominant region per view.** METHOD: count 4-connected clusters among tiles within 75% of peak deviation.
-  CURRENT: **7 of 14.** All seven mobile views resolve to a single dominant region; all seven desktop views show **2–3** competing regions — the headline, the primary action and the mascot each hold their own mass in a two-column hero. **NOT MET.** This is the stable measurement and the one that decides the gate.
+  CURRENT: **7 of 14.** All seven mobile views resolve to a single dominant region; all seven desktop views show **2–3** competing regions — the headline, the primary action and the mascot each hold their own mass in a two-column hero. **NOT MET — WAIVED by the reviewer 2026-09-20.** See *Waivers*. This remains the stable measurement; the waiver does not turn it into a pass.
 - **3b — Greyscale test.** With "primary action" defined as the largest filled control in the fold, it ranks 1st on **10 of 14** views. In all four exceptions the top-ranked control is itself an enquiry action ("Book a Consultation" or "Start your enquiry") — **no decorative or secondary element out-ranks a call to action on any view.** VERIFIED.
 - **3c — Thumbnail test.** `<h1>` cap-height at 20%: **5.0px at 375, 6.7px at 1280**, floor 5px. **PASS**, marginal on mobile.
 
@@ -183,13 +183,18 @@ Cloudflare Web Analytics, approved in Phase B, **not yet installed**. Thresholds
 
 ## Waivers
 
-**None.** A gate may be waived only by the reviewer, in writing, with a one-line reason recorded here. A waived gate is listed separately and is not a passed gate.
+| Criterion | Waived by | Date | Reason |
+| --- | --- | --- | --- |
+| **3a-ii** — exactly one dominant region per view | Reviewer | 2026-09-20 | Instructed: "waive 3a-ii". A two-column editorial hero is meant to carry more than one focal mass; the criterion imported a single-subject assumption that does not fit this layout. Mobile meets it 7 of 7; desktop 0 of 7. |
+
+**A waived criterion is not a passed criterion.** 3a-ii is listed here, separately, and stays measured at **7 of 14** in the record above.
 
 ---
 
 ## Stage 1 — Claude Code self-review
 
-**Signed 2026-09-20 for 9 of 10 gates, with one sub-criterion outstanding.**
+**Signed 2026-09-20.** All applicable gates PASS, with **3a-ii waived by the reviewer**
+and Gate 8 carried into Stage 2 as its protocol requires.
 
 | Gate | Status | Evidence |
 | --- | --- | --- |
@@ -208,21 +213,17 @@ Build state at signing: `astro check` **0 errors, 0 warnings, 0 hints**; `npm ru
 exits 0 with 13 pages; **52 responsive checks, 0 overflow**; **1,622 text elements, 0
 contrast failures**; **0 console errors**.
 
-### The one thing blocking a full signature
+### 3a-ii — waived, not passed
 
-**Gate 3a-ii — exactly one dominant region per view.** Seven of fourteen. Every mobile
-view resolves to one; every desktop view shows two or three, because a two-column hero
-gives the headline, the primary action and the mascot their own mass. Your options:
+The reviewer waived **3a-ii (exactly one dominant region per view)** on 2026-09-20.
+The measurement is unchanged and stays on the record at **7 of 14** — every mobile
+view resolves to a single dominant region, no desktop view does. The waiver accepts
+that a two-column editorial hero is meant to carry more than one focal mass; it does
+not assert that the criterion was met.
 
-1. **Waive it in writing**, on the grounds that a two-column editorial hero is supposed
-   to have more than one focal mass and the criterion imported a single-subject
-   assumption that does not fit this layout.
-2. **Change the desktop hero** so one element clearly dominates — which would mean
-   shrinking the mascot, and that is the element Direction 3 chose to carry the warmth.
-3. **Accept the partial** and let Gate 3 stand as PARTIAL in the record.
-
-I am not choosing for you. Two of the three decisions you delegated ended in me
-relaxing my own criteria, and a third would be one too many.
+**Gate 8 was not run.** Its protocol needs three readers unfamiliar with the project,
+and none were shown the hero before the lock. It is recorded as NOT MEASURED, not as
+passed, and the empty answer table below is still waiting.
 
 ### Anti-adjective statement
 
@@ -266,7 +267,13 @@ Record the answers below. I cannot run this and will not simulate it.
 | 2 | | | |
 | 3 | | | |
 
-**Stage 2 decision:** _not yet given_ · **Date:** _—_
+**Stage 2 decision:** **PASSED** — recorded 2026-09-20 on the reviewer’s instruction to
+waive 3a-ii and re-lock at v1.1.
+
+> **Recorded honestly:** the reviewer did not run the 5-second test before giving this
+> verdict, so **Gate 8 remains NOT MEASURED**. Stage 2 passed on the scorecard, the
+> screenshots and the benchmark comparison. If the test is run later and fails, that is
+> a DEFECT against a written criterion and its fix is in scope.
 
 ---
 

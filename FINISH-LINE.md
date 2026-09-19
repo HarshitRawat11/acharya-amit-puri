@@ -1,14 +1,18 @@
 # FINISH LINE — v1
 
-**Version:** 1.1 · **Originally locked:** 2026-09-19 · **Amended:** 2026-09-20
-**Status:** **AMENDMENT IN PROGRESS** — re-locks at v1.1 when `QUALITY-GATES.md` shows Stage 2 PASSED
+**Version:** 1.1 · **Originally locked:** 2026-09-19 · **Re-locked:** 2026-09-20
+**Status:** **LOCKED**
 **Project:** Acharya Amit Puri — website
 
 > **v1.1 — quality gates added as v1 criteria under `UNFREEZE FOR QUALITY`, 2026-09-20.**
 > That phrase authorised exactly one change: adding the approved design-quality
 > gates to this document and bumping the version. It reopened nothing else —
 > every non-gate request remains EXTRA under the existing freeze. The `v1.0` tag
-> still marks the original freeze commit; a `v1.1` tag is added when Stage 2 passes.
+> still marks the original freeze commit; `v1.1` marks this one.
+>
+> **Stage 2 PASSED 2026-09-20.** One waiver: **Gate 3a-ii**, exactly one dominant
+> region per view, measured at 7 of 14 and waived by the reviewer. A waived
+> criterion is not a passed one; it stays on the record in `QUALITY-GATES.md`.
 **Completion authority:** client work. The client is **Acharya Amit Puri**.
 **Acceptance status:** **PROVISIONAL — awaiting client acceptance.**
 **Live at:** https://acharya-amit-puri.pages.dev
@@ -151,12 +155,12 @@ place to change them.
 
 - [x] **D7** — **Gate 1, intent alignment.** Every hero communicates the core message; a primary action is visible above the fold at every viewport; no element evokes an anti-adjective.
 - [x] **D8** — **Gate 2, visual system coherence.** ≤2 typefaces; ≤8 rendered font sizes, each on ≥2 pages; ≤14 size/weight/line-height combinations; ≤3 radii. Colour defers to **D1**.
-- [ ] **D9** — **Gate 3, hierarchy.** Squint, greyscale and thumbnail tests. *3a-i, 3b and 3c met; 3a-ii (exactly one dominant region) holds on mobile but not on desktop — see G7.*
+- [x] **D9** — **Gate 3, hierarchy.** Squint, greyscale and thumbnail tests. *3a-i, 3b and 3c met 2026-09-20. **3a-ii waived** by the reviewer the same day, measured at 7 of 14 — mobile 7 of 7, desktop 0 of 7.*
 - [x] **D10** — **Gate 4, distinctiveness.** Signature motif on every page; mascot parity across viewports; logo-cover, template-likeness and benchmark-distance tests. *Met 2026-09-20: mascot on 12 of 13 pages with viewport parity, service cards redrawn as temple niches. 4d is a judgement Stage 2 may overturn.*
 - [x] **D11** — **Gate 5, imagery.** Illustration only for v1: one style, brand-mapped, no purely decorative imagery, no GIF. Technical limits defer to **O1**.
 - [x] **D12** — **Gate 6, motion.** Scroll reveals, hover and focus states on every interactive element, animated disclosure panels, 150–400ms micro-interactions, ≤800ms reveals, no `linear`. Reduced motion defers to **D5**; layout shift to **O6**.
 - [x] **D13** — **Gate 7, typography craft.** Body ≥16px on mobile, no line over 80 characters, zero heading orphans, line-height 1.5–1.7. Contrast defers to **O12**. *Met 2026-09-20. The 45-character floor was dropped at Decision 2 — unachievable at 375px by arithmetic.*
-- [ ] **D14** — **Gate 8, the 5-second test.** ≥2 of 3 unfamiliar readers correctly answer what the site is, who it is for, and what they would click. *Not yet run.*
+- [ ] **D14** — **Gate 8, the 5-second test.** ≥2 of 3 unfamiliar readers correctly answer what the site is, who it is for, and what they would click. **Not run before the lock** — still open as G10.
 - [x] **D15** — **Gate 10, accessibility floor.** Not adjustable, and met: 1,622 text elements measured, zero contrast failures, universal focus indicators, all controls keyboard-navigable.
 
 **Design exclusions** — the five alternative directions in the design deck are
@@ -306,14 +310,12 @@ here, and nothing else does.
 
 ### Added at v1.1 — failing quality gates, in scope as defects
 
-- [ ] **G7 — Gate 3a-ii, exactly one dominant region.** *(Partly resolved 2026-09-20,
-  Decision 1.)* 3a was split. **3a-i — the dominant region is an intended focal
-  element and never page chrome — now passes 14 of 14.** **3a-ii — exactly one
-  dominant region per view — is 7 of 14**: every mobile view resolves to one, every
-  desktop view shows two or three, because a two-column hero gives the headline, the
-  action and the mascot each their own mass.
-  **Still needs the reviewer:** waive it, shrink the desktop mascot (the element
-  Direction 3 chose to carry the warmth), or accept Gate 3 as PARTIAL.
+- [x] **G7 — Gate 3a-ii, exactly one dominant region.** *(Waived 2026-09-20.)*
+  3a was split at Decision 1. **3a-i — the dominant region is an intended focal element
+  and never page chrome — passes 14 of 14.** **3a-ii — exactly one dominant region —
+  measured 7 of 14** (mobile 7 of 7, desktop 0 of 7) and was **waived by the reviewer**:
+  a two-column editorial hero is meant to carry more than one focal mass. The waiver
+  closes the item; it does not turn the measurement into a pass.
   *Note: 3a-i’s metric was reshaped four times (6 → 9 → 8 → 14) before it passed.
   3a-ii is the stable measurement.*
 
@@ -342,8 +344,11 @@ here, and nothing else does.
 
 1. ~~**Deploy.**~~ **Done 2026-09-20.** Every content criterion (C1–C7) and both
    deployment criteria (P1–P2) are now true against the live site.
-2. **Resolve G7–G11**, then Stage 2 of `QUALITY-GATES.md`, then re-LOCK at v1.1
-   and tag the commit.
+2. ~~**Resolve G7–G11, then Stage 2, then re-LOCK.**~~ **Done 2026-09-20.** G7 waived,
+   G8 and G9 resolved, Stage 1 signed, Stage 2 PASSED, re-locked at v1.1 and tagged.
+   **G10 and G11 remain open** — the 5-second test was not run before the lock, and
+   analytics is not installed. Locking freezes *scope*, not completion: both are
+   written criteria, so both are DEFECTS and in scope to finish.
 3. **Client acceptance.** Send `ACCEPTANCE-CHECKLIST.md`, then record the answer
    in §3. The freeze is provisional until that line is filled in.
 
@@ -374,6 +379,7 @@ recorded in §3.
 | 2026-09-19 | Lock | 13 routes live 200, `/nonexistent` 404; `astro check` 0 errors; build exit 0; 0 placeholder tokens in built HTML; 273 SVGs all labelled; 3 meta descriptions over length |
 | 2026-09-19 | Gap closure | G1–G6 closed. 13 routes built (was 14); `astro check` 0 errors across 38 files; build exit 0; all 13 meta descriptions ≤ 165, longest 160; 52 responsive checks, 0 overflow; 910 text elements, 0 contrast failures; 231 SVGs all labelled |
 | 2026-09-20 | Quality-gate fix loop | 10 fixes applied. Type scale 13 sizes/22 combinations → **8/13**; body copy 14px → **≥16px** on all 13 pages; heading orphans 11 → **0**; controls without hover 32 → **1** (documented); FAQ and menu panels animate at 0.3s; mascot on 2 → **12 of 13** pages with viewport parity; mobile above-fold action 1 → **13 of 13** pages. `astro check` 0/0/0; build exit 0; 52 overflow checks 0 failures; **1,622 text elements 0 contrast failures**; 0 console errors |
+| 2026-09-20 | Quality gates, Stages 1–2 | 10 fixes plus 3 decisions. Type scale **8 sizes / 13 combinations**; body ≥16px on all 13 pages; **0 heading orphans**; **0 lines over 80 characters**; controls without hover 32 → **1**; FAQ and menu panels animate at 0.3s; mascot on **12 of 13** pages with viewport parity; above-fold action on **13 of 13**; service cards redrawn as temple niches. Stage 1 signed, Stage 2 PASSED, **3a-ii waived**. Gate 8 not run |
 | 2026-09-20 | Live verification | Deployed. 12 content routes + `robots.txt` + `sitemap-index.xml` all **200**; `/design-options`, `/design-options/`, `/mascot-preview/` and unknown paths all **404**. First-visit weight **76 KB over 4 requests**, 0 third-party origins, CLS **0**, all four security headers present |
 
 *Discovery for this document was carried out against commit `29fceb6`.
