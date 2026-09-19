@@ -26,3 +26,13 @@ pnpm-debug.log*
 Thumbs.db
 .vscode/
 .idea/
+
+# Design-review screenshots (review/*.jpg).
+#
+# 13 MB of JPEGs that any of the harnesses beside them regenerate
+# deterministically in about three minutes, against the production build.
+# The harnesses and their raw measurements ARE committed, so the evidence is
+# reproducible without carrying the images in git history. Delete these two
+# lines if you would rather keep the screenshots permanently.
+review/*.jpg
+review/gate3/*.jpg

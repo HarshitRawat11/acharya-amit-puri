@@ -1,7 +1,14 @@
 # FINISH LINE — v1
 
-**Version:** 1.0 · **Locked:** 2026-09-19 · **Status:** LOCKED
+**Version:** 1.1 · **Originally locked:** 2026-09-19 · **Amended:** 2026-09-20
+**Status:** **AMENDMENT IN PROGRESS** — re-locks at v1.1 when `QUALITY-GATES.md` shows Stage 2 PASSED
 **Project:** Acharya Amit Puri — website
+
+> **v1.1 — quality gates added as v1 criteria under `UNFREEZE FOR QUALITY`, 2026-09-20.**
+> That phrase authorised exactly one change: adding the approved design-quality
+> gates to this document and bumping the version. It reopened nothing else —
+> every non-gate request remains EXTRA under the existing freeze. The `v1.0` tag
+> still marks the original freeze commit; a `v1.1` tag is added when Stage 2 passes.
 **Completion authority:** client work. The client is **Acharya Amit Puri**.
 **Acceptance status:** **PROVISIONAL — awaiting client acceptance.**
 **Live at:** https://acharya-amit-puri.pages.dev
@@ -135,6 +142,22 @@ monoline SVG coloured through `currentColor`.
 - [x] **D6** — Every decorative SVG carries `aria-hidden`; every meaningful one carries an accessible name.
       *Verified 2026-09-19: 273 `<svg>` elements at lock and 231 after the gap closure, 0 without `aria-hidden` or an accessible name in either pass.*
 
+#### Quality gates — added at v1.1
+
+These are v1 criteria. The method and threshold for each live in
+`QUALITY-GATES.md`; they are referenced here, not restated, so there is one
+place to change them.
+
+- [x] **D7** — **Gate 1, intent alignment.** Every hero communicates the core message; a primary action is visible above the fold at every viewport; no element evokes an anti-adjective.
+- [x] **D8** — **Gate 2, visual system coherence.** ≤2 typefaces; ≤8 rendered font sizes, each on ≥2 pages; ≤14 size/weight/line-height combinations; ≤3 radii. Colour defers to **D1**.
+- [ ] **D9** — **Gate 3, hierarchy.** Squint, greyscale and thumbnail tests. *Currently 9 of 14 views on target against a 90% threshold — see §5.*
+- [ ] **D10** — **Gate 4, distinctiveness.** Signature motif on every page; mascot parity across viewports; logo-cover, template-likeness and benchmark-distance tests. *Template-likeness partial — see §5.*
+- [x] **D11** — **Gate 5, imagery.** Illustration only for v1: one style, brand-mapped, no purely decorative imagery, no GIF. Technical limits defer to **O1**.
+- [x] **D12** — **Gate 6, motion.** Scroll reveals, hover and focus states on every interactive element, animated disclosure panels, 150–400ms micro-interactions, ≤800ms reveals, no `linear`. Reduced motion defers to **D5**; layout shift to **O6**.
+- [ ] **D13** — **Gate 7, typography craft.** Body ≥16px on mobile, line measure within band, zero heading orphans, line-height 1.5–1.7. Contrast defers to **O12**. *Measure band unmet — see §5.*
+- [ ] **D14** — **Gate 8, the 5-second test.** ≥2 of 3 unfamiliar readers correctly answer what the site is, who it is for, and what they would click. *Not yet run.*
+- [x] **D15** — **Gate 10, accessibility floor.** Not adjustable, and met: 1,622 text elements measured, zero contrast failures, universal focus indicators, all controls keyboard-navigable.
+
 **Design exclusions** — the five alternative directions in the design deck are
 rejected for v1; Temple Tank is the chosen system. No dark mode. No page
 transitions. No carousel or slider anywhere.
@@ -189,6 +212,10 @@ v1 is complete only when the client has accepted. This freeze is **PROVISIONAL**
 it becomes final when acceptance is recorded below with a date and how it was
 given. The plain-language checklist to send is `ACCEPTANCE-CHECKLIST.md`.
 
+> **Added at v1.1.** LOCK is not permitted until `QUALITY-GATES.md` shows
+> **Stage 2 PASSED**. Gate 9 (behavioural) is exempt from this precondition and
+> is verified post-launch.
+
 **Acceptance recorded:** _not yet_
 **Date:** _—_
 **How it was given:** _—_
@@ -214,6 +241,12 @@ Profile · backlink work · paid advertising · any keyword work beyond what shi
 
 **Infrastructure** — custom domain · email hosting · a staging environment ·
 CI beyond the existing auto-deploy · automated tests · Lighthouse CI.
+
+**Gate 9, behavioural metrics (added at v1.1)** — time on page, scroll depth,
+returning visitors and bounce rate are a **post-launch verification, not a v1
+criterion**. They need 30 days of live traffic, so they can never be a LOCK
+precondition. Thresholds are recorded in `QUALITY-GATES.md` and are provisional
+until real data exists.
 
 **Working documents** — `/design-options` and `/mascot-preview` were removed
 from the project on 2026-09-19 (G1, G2). Both stay recoverable from git
@@ -269,11 +302,40 @@ here, and nothing else does.
 
 ---
 
+### Added at v1.1 — failing quality gates, in scope as defects
+
+- [ ] **G7 — Gate 3a, squint hierarchy.** 9 of 14 views land on the `<h1>` or the
+  primary action; threshold is 90%. In tension with **D10**: the mascot added for
+  Gate 4 is part of what pulls the blurred centre of mass off the headline.
+  **Needs a reviewer decision** — reduce the mascot on inner pages, reword the
+  criterion to "within the hero region", or waive it. `QUALITY-GATES.md`, Decision 1.
+
+- [ ] **G8 — Gate 7b, body line measure.** The 45-character floor **cannot be met
+  at 375px**: a 343px column at 16px yields ~43 characters, so every paragraph
+  fails by arithmetic rather than by design. The 80-character ceiling is missed
+  too (widest 93), because the recorded **68ch** prose measure resolves to ~81–93
+  actual characters in Inter. **Needs a reviewer decision** — scope the floor to
+  ≥768px, narrow the prose token, or widen the band. `QUALITY-GATES.md`, Decision 2.
+
+- [ ] **G9 — Gate 4d, template-likeness.** The three-across service-card grid still
+  reads as a stock Tailwind marketing layout. A real fix is a deliberate design
+  change, not a fix-loop tweak. `QUALITY-GATES.md`, Decision 3.
+
+- [ ] **G10 — Gate 8, the 5-second test.** Reviewer runs it with 3 unfamiliar
+  readers; answers recorded in `QUALITY-GATES.md`.
+
+- [ ] **G11 — Install Cloudflare Web Analytics and amend the privacy page.** The
+  page states "No cookies, no analytics, no tracking", which becomes false on
+  installation. Gate 9's 30-day window starts at launch. Gate 9 itself is **not**
+  a v1 criterion — see §4.
+
 ### Remaining before v1 is complete
 
-1. **Deploy.** One push closes the live half of G1 and makes every criterion in
-   this document true at the same time.
-2. **Client acceptance.** Send `ACCEPTANCE-CHECKLIST.md`, then record the answer
+1. **Deploy.** One push closes the live half of G1 and makes every content and
+   deployment criterion true at the same time.
+2. **Resolve G7–G11**, then Stage 2 of `QUALITY-GATES.md`, then re-LOCK at v1.1
+   and tag the commit.
+3. **Client acceptance.** Send `ACCEPTANCE-CHECKLIST.md`, then record the answer
    in §3. The freeze is provisional until that line is filled in.
 
 Nothing else is in scope. Anything raised from here is EXTRA — see `CLAUDE.md`.

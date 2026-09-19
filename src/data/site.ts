@@ -76,9 +76,16 @@ export const site = {
   name: "Acharya Amit Puri",
   /** Short role line shown under the name. Editable. */
   role: "Vastu · Vedic Astrology · Numerology · Prakriti · Palmistry",
-  /** The hero headline value line. Editable. */
+  /** The hero headline value line. Editable.
+   *
+   *  Written for the audience recorded in INTENT-BRIEF.md: professionals
+   *  facing a decision that will not settle. The previous line led with
+   *  "your home", which addressed a different reader entirely.
+   *
+   *  ⚠️ First person, and published under the Acharya's name — he should
+   *  confirm this reads like him before it goes live. */
   heroValueLine:
-    "Calm, considered guidance to bring your home, your choices, and your nature into greater harmony.",
+    "People come to me when a decision will not settle — a job offer, a marriage, the right time to move. We talk it through, with your chart as a starting point, not a verdict.",
   /** Primary call-to-action label used on buttons across the site. */
   primaryCta: "Book a Consultation",
 

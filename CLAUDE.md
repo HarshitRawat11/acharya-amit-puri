@@ -22,6 +22,12 @@ Reopening scope is a deliberate act, not a drift. It requires the explicit word 
 
 ---
 
+## QUALITY GATES
+
+This project has approved quality gates in QUALITY-GATES.md and an intent brief in INTENT-BRIEF.md. The gates are v1 criteria of FINISH-LINE.md. A failing gate is a DEFECT and its fix is in scope. Any proposed visual change must name the gate it serves; a change that serves no gate is EXTRA under FINISH-LINE.md's rule. A change that would cause any gate to fail is refused unless the gate is waived in writing. The imagery policy, motion minimum, and accessibility floor in QUALITY-GATES.md are standing rules for this repository.
+
+---
+
 ## Where things are
 
 - **All copy, contact details and service content** — `src/data/site.ts`. Nothing

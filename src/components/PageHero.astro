@@ -1,14 +1,39 @@
 ---
-/* PageHero — a compact, branded hero for the inner pages. */
+/* PageHero — a compact, branded hero for the inner pages.
+ *
+ * Carries two things every inner page needs and previously lacked:
+ *
+ *   1. A primary action. Without one, twelve of the thirteen pages offered a
+ *      phone visitor nothing tappable in the first screen — the header's
+ *      button sits inside the collapsed menu, so it is not visible until the
+ *      menu is opened. Pass `cta={false}` only where the page IS the
+ *      destination.
+ *   2. The mascot. It is the brand's one distinctive figure and it appeared
+ *      on two pages out of thirteen. The `mark` variant is the small-size
+ *      drawing, so it survives at 64px on a phone.
+ */
 import Container from "./ui/Container.astro";
+import Button from "./ui/Button.astro";
 import Mandala from "./motifs/Mandala.astro";
+import Mascot from "./motifs/Mascot.astro";
+import { site } from "../data/site";
 
 interface Props {
   eyebrow?: string;
   title: string;
   subtitle?: string;
+  /** Primary action. `false` suppresses it. Defaults to Book a Consultation. */
+  cta?: { href: string; label: string } | false;
+  /** Optional quiet link beside the primary action. */
+  secondary?: { href: string; label: string };
 }
-const { eyebrow, title, subtitle } = Astro.props;
+const {
+  eyebrow,
+  title,
+  subtitle,
+  cta = { href: "/contact", label: site.primaryCta },
+  secondary,
+} = Astro.props;
 ---
 
 <section class="relative overflow-hidden bg-paper">
@@ -16,23 +41,49 @@ const { eyebrow, title, subtitle } = Astro.props;
     class="pointer-events-none absolute -right-24 -top-28 h-[360px] w-[360px] text-gold opacity-[0.05]"
   />
   <Container class="relative py-16 sm:py-20">
-    <div class="max-w-3xl" data-reveal>
-      {
-        eyebrow && (
-          <p class="flex items-center gap-3 text-xs uppercase tracking-widest2 text-muted">
-            <span class="h-px w-8 bg-gold" />
-            {eyebrow}
-          </p>
-        )
-      }
-      <h1 class="mt-5 font-serif text-4xl leading-tight text-teal sm:text-5xl">
-        {title}
-      </h1>
-      {
-        subtitle && (
-          <p class="mt-5 max-w-2xl text-lg leading-relaxed text-muted">{subtitle}</p>
-        )
-      }
+    <div
+      class="flex flex-col gap-7 sm:flex-row sm:items-center sm:justify-between sm:gap-12"
+      data-reveal
+    >
+      <div class="max-w-3xl">
+        {
+          eyebrow && (
+            <p class="flex items-center gap-3 text-xs uppercase tracking-widest2 text-muted">
+              <span class="h-px w-8 bg-gold" />
+              {eyebrow}
+            </p>
+          )
+        }
+        <h1 class="mt-5 font-serif text-4xl text-teal sm:text-5xl">
+          {title}
+        </h1>
+        {
+          subtitle && (
+            <p class="mt-5 max-w-2xl text-lg leading-relaxed text-muted">{subtitle}</p>
+          )
+        }
+        {
+          (cta || secondary) && (
+            <div class="mt-8 flex flex-wrap items-center gap-x-6 gap-y-4">
+              {cta && <Button href={cta.href}>{cta.label}</Button>}
+              {secondary && (
+                <a
+                  href={secondary.href}
+                  class="text-sm font-medium text-teal underline-offset-4 transition-colors hover:text-teal-dark hover:underline"
+                >
+                  {secondary.label} →
+                </a>
+              )}
+            </div>
+          )
+        }
+      </div>
+
+      <Mascot
+        variant="mark"
+        label={`An illustrated likeness of ${site.name}`}
+        class="h-16 w-16 shrink-0 self-start text-gold sm:h-28 sm:w-28 sm:self-auto"
+      />
     </div>
   </Container>
 </section>

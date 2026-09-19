@@ -60,12 +60,13 @@ const breadcrumbSchema = {
 
 <BaseLayout title={title} description={description} structuredData={[breadcrumbSchema]}>
   <PageHero
-    eyebrow="Get in touch"
-    title="Book a Consultation"
-    subtitle="Reach out with a little about what you're seeking. There's no pressure — only a calm conversation to begin."
+    eyebrow="Book a consultation"
+    title="Let us begin"
+    subtitle="Tell me a little about what you're weighing up. There's no pressure and no obligation — only a calm conversation to begin."
+    cta={{ href: "#enquire", label: "Start your enquiry" }}
   />
 
-  <Section variant="paper">
+  <Section variant="paper" id="enquire" class="scroll-mt-24">
     <Container class="grid gap-12 lg:grid-cols-12">
       <!-- Form -->
       <div class="lg:col-span-7" data-reveal>

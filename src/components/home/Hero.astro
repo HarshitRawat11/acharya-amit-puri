@@ -21,8 +21,10 @@ const stats = activeStats();
 
   <!-- Two columns from `lg`. The single-column hero left ~320px of the 699px
        band empty with nothing on the right; the mascot now anchors that side.
-       Below `lg` it is hidden: a stacked hero has no dead space to fill, and
-       the illustration would only push the buttons under the fold. -->
+       Below `lg` it sits ABOVE the text at 160px rather than being hidden.
+       Hiding it cost the brand its one distinctive figure on every phone —
+       and phones are most of this audience. At 160px it adds ~190px to the
+       fold, which still leaves the buttons above it at 375x812 (measured). -->
   <!-- Asymmetric padding on purpose. The section below supplies its own 96px
        of top padding, so a matching 96px here stacked into a 193px void under
        the stats. It reads as a hole rather than breathing room because the
@@ -37,7 +39,7 @@ const stats = activeStats();
         Guidance rooted in tradition
       </p>
 
-      <h1 class="mt-6 font-serif text-[2.7rem] leading-[1.08] text-teal sm:text-6xl">
+      <h1 class="mt-6 font-serif text-4xl text-teal sm:text-5xl">
         {site.name}
       </h1>
 
@@ -73,11 +75,11 @@ const stats = activeStats();
       }
     </div>
 
-    <div class="hidden lg:col-span-5 lg:block" data-reveal>
+    <div class="order-first lg:order-none lg:col-span-5" data-reveal>
       <Mascot
         halo
         label={`An illustrated likeness of ${site.name}`}
-        class="mx-auto h-[340px] w-[340px] text-teal xl:h-[380px] xl:w-[380px]"
+        class="mx-auto h-40 w-40 text-teal sm:h-56 sm:w-56 lg:h-[340px] lg:w-[340px] xl:h-[380px] xl:w-[380px]"
       />
     </div>
   </Container>

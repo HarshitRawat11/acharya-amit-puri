@@ -1,0 +1,6954 @@
+{
+ "home@375": {
+  "url": "/",
+  "vw": 375,
+  "interactive": 32,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [214x40]",
+   "a:About [214x40]",
+   "a:Services [214x40]",
+   "a:Articles [214x40]",
+   "a:Contact [214x40]",
+   "a:Book a Consultation [214x40]",
+   "a:View services → [109x20]",
+   "a:More about the Acharya [203x42]",
+   "a:Acharya Amit Puri [327x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Acharya Amit Puri",
+    "lines": 1,
+    "maxChars": 17,
+    "orphan": false,
+    "lastWord": [
+     "Acharya",
+     "Amit",
+     "Puri"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Six paths of guidance",
+    "lines": 1,
+    "maxChars": 21,
+    "orphan": false,
+    "lastWord": [
+     "Six",
+     "paths",
+     "of",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Acharya Amit Puri",
+    "lines": 1,
+    "maxChars": 17,
+    "orphan": false,
+    "lastWord": [
+     "Acharya",
+     "Amit",
+     "Puri"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "How a consultation works",
+    "lines": 2,
+    "maxChars": 18,
+    "orphan": false,
+    "lastWord": [
+     "consultation",
+     "works"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Questions, answered",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Questions,",
+     "answered"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 37,
+    "lines": 5,
+    "px": 18
+   },
+   {
+    "maxChars": 37,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 30,
+    "lines": 5,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 31,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 41,
+    "lines": 5,
+    "px": 16
+   },
+   {
+    "maxChars": 43,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 34,
+    "lines": 6,
+    "px": 16
+   },
+   {
+    "maxChars": 37,
+    "lines": 7,
+    "px": 16
+   },
+   {
+    "maxChars": 37,
+    "lines": 6,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 6,
+    "px": 16
+   },
+   {
+    "maxChars": 37,
+    "lines": 5,
+    "px": 16
+   },
+   {
+    "maxChars": 41,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 16,
+   "0 0 200 200": 2,
+   "0 0 64 64": 2,
+   "0 0 40 40": 6
+  },
+  "petal": 5,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "about@375": {
+  "url": "/about/",
+  "vw": 375,
+  "interactive": 20,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [214x40]",
+   "a:About [214x40]",
+   "a:Services [214x40]",
+   "a:Articles [214x40]",
+   "a:Contact [214x40]",
+   "a:Book a Consultation [214x40]",
+   "a:Book a Consultation [174x40]",
+   "a:See what I offer → [121x20]",
+   "a:Explore the services [176x40]",
+   "a:Acharya Amit Puri [327x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Meet Acharya Amit Puri",
+    "lines": 2,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Amit",
+     "Puri"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "A calm approach to ancient guidance",
+    "lines": 2,
+    "maxChars": 18,
+    "orphan": false,
+    "lastWord": [
+     "ancient",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Guided by three principles",
+    "lines": 2,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "three",
+     "principles"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 40,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 40,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 41,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 3,
+   "0 0 200 200": 2,
+   "0 0 64 64": 2
+  },
+  "petal": 3,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "services@375": {
+  "url": "/services/",
+  "vw": 375,
+  "interactive": 24,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [214x40]",
+   "a:About [214x40]",
+   "a:Services [214x40]",
+   "a:Articles [214x40]",
+   "a:Contact [214x40]",
+   "a:Book a Consultation [214x40]",
+   "a:Book a Consultation [174x40]",
+   "a:Acharya Amit Puri [327x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Areas of Guidance",
+    "lines": 1,
+    "maxChars": 17,
+    "orphan": false,
+    "lastWord": [
+     "Areas",
+     "of",
+     "Guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "The six areas of guidance",
+    "lines": 1,
+    "maxChars": 25,
+    "orphan": false,
+    "lastWord": [
+     "The",
+     "six",
+     "areas",
+     "of",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "How a consultation works",
+    "lines": 2,
+    "maxChars": 18,
+    "orphan": false,
+    "lastWord": [
+     "consultation",
+     "works"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 30,
+    "lines": 5,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 31,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 43,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 41,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 8,
+   "0 0 200 200": 2,
+   "0 0 64 64": 1,
+   "0 0 40 40": 6
+  },
+  "petal": 1,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "vastu@375": {
+  "url": "/services/vastu-report/",
+  "vw": 375,
+  "interactive": 27,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [214x40]",
+   "a:About [214x40]",
+   "a:Services [214x40]",
+   "a:Articles [214x40]",
+   "a:Contact [214x40]",
+   "a:Book a Consultation [214x40]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [269x40]",
+   "a:Acharya Amit Puri [327x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Vastu Report",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Vastu",
+     "Report"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What it is",
+    "lines": 1,
+    "maxChars": 10,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "it",
+     "is"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Who it's for",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Who",
+     "it's",
+     "for"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What you receive",
+    "lines": 1,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "you",
+     "receive"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Begin with Vastu Report",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Begin",
+     "with",
+     "Vastu",
+     "Report"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Vastu Report — your questions",
+    "lines": 2,
+    "maxChars": 14,
+    "orphan": false,
+    "lastWord": [
+     "your",
+     "questions"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Other areas of guidance",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Other",
+     "areas",
+     "of",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 18
+   },
+   {
+    "maxChars": 32,
+    "lines": 9,
+    "px": 16
+   },
+   {
+    "maxChars": 39,
+    "lines": 5,
+    "px": 16
+   },
+   {
+    "maxChars": 41,
+    "lines": 5,
+    "px": 16
+   },
+   {
+    "maxChars": 32,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 38,
+    "lines": 8,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 8,
+    "px": 16
+   },
+   {
+    "maxChars": 37,
+    "lines": 7,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 31,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 41,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 15,
+   "0 0 200 200": 2,
+   "0 0 64 64": 1,
+   "0 0 40 40": 6
+  },
+  "petal": 5,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "astro@375": {
+  "url": "/services/astro-advice/",
+  "vw": 375,
+  "interactive": 27,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [214x40]",
+   "a:About [214x40]",
+   "a:Services [214x40]",
+   "a:Articles [214x40]",
+   "a:Contact [214x40]",
+   "a:Book a Consultation [214x40]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [269x40]",
+   "a:Acharya Amit Puri [327x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Astro Advice",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Astro",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What it is",
+    "lines": 1,
+    "maxChars": 10,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "it",
+     "is"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Who it's for",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Who",
+     "it's",
+     "for"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What you receive",
+    "lines": 1,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "you",
+     "receive"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Begin with Astro Advice",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Begin",
+     "with",
+     "Astro",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Astro Advice — your questions",
+    "lines": 2,
+    "maxChars": 14,
+    "orphan": false,
+    "lastWord": [
+     "your",
+     "questions"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Other areas of guidance",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Other",
+     "areas",
+     "of",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 36,
+    "lines": 4,
+    "px": 18
+   },
+   {
+    "maxChars": 38,
+    "lines": 9,
+    "px": 16
+   },
+   {
+    "maxChars": 41,
+    "lines": 5,
+    "px": 16
+   },
+   {
+    "maxChars": 32,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 40,
+    "lines": 10,
+    "px": 16
+   },
+   {
+    "maxChars": 38,
+    "lines": 7,
+    "px": 16
+   },
+   {
+    "maxChars": 37,
+    "lines": 6,
+    "px": 16
+   },
+   {
+    "maxChars": 30,
+    "lines": 5,
+    "px": 16
+   },
+   {
+    "maxChars": 31,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 41,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 15,
+   "0 0 200 200": 2,
+   "0 0 64 64": 1,
+   "0 0 40 40": 6
+  },
+  "petal": 5,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "numero@375": {
+  "url": "/services/numero-advice/",
+  "vw": 375,
+  "interactive": 27,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [214x40]",
+   "a:About [214x40]",
+   "a:Services [214x40]",
+   "a:Articles [214x40]",
+   "a:Contact [214x40]",
+   "a:Book a Consultation [214x40]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [269x40]",
+   "a:Acharya Amit Puri [327x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Numero Advice",
+    "lines": 1,
+    "maxChars": 13,
+    "orphan": false,
+    "lastWord": [
+     "Numero",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What it is",
+    "lines": 1,
+    "maxChars": 10,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "it",
+     "is"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Who it's for",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Who",
+     "it's",
+     "for"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What you receive",
+    "lines": 1,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "you",
+     "receive"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Begin with Numero Advice",
+    "lines": 2,
+    "maxChars": 13,
+    "orphan": false,
+    "lastWord": [
+     "Numero",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Numero Advice — your questions",
+    "lines": 2,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "—",
+     "your",
+     "questions"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Other areas of guidance",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Other",
+     "areas",
+     "of",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 18
+   },
+   {
+    "maxChars": 31,
+    "lines": 10,
+    "px": 16
+   },
+   {
+    "maxChars": 39,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 42,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 32,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 8,
+    "px": 16
+   },
+   {
+    "maxChars": 39,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 7,
+    "px": 16
+   },
+   {
+    "maxChars": 30,
+    "lines": 5,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 41,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 15,
+   "0 0 200 200": 2,
+   "0 0 64 64": 1,
+   "0 0 40 40": 6
+  },
+  "petal": 5,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "prakriti@375": {
+  "url": "/services/prakriti-advice/",
+  "vw": 375,
+  "interactive": 27,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [214x40]",
+   "a:About [214x40]",
+   "a:Services [214x40]",
+   "a:Articles [214x40]",
+   "a:Contact [214x40]",
+   "a:Book a Consultation [214x40]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [269x40]",
+   "a:Acharya Amit Puri [327x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Prakriti Advice",
+    "lines": 1,
+    "maxChars": 15,
+    "orphan": false,
+    "lastWord": [
+     "Prakriti",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What it is",
+    "lines": 1,
+    "maxChars": 10,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "it",
+     "is"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Who it's for",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Who",
+     "it's",
+     "for"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What you receive",
+    "lines": 1,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "you",
+     "receive"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Begin with Prakriti Advice",
+    "lines": 2,
+    "maxChars": 15,
+    "orphan": false,
+    "lastWord": [
+     "Prakriti",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Prakriti Advice — your questions",
+    "lines": 2,
+    "maxChars": 17,
+    "orphan": false,
+    "lastWord": [
+     "your",
+     "questions"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Other areas of guidance",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Other",
+     "areas",
+     "of",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 29,
+    "lines": 9,
+    "px": 16
+   },
+   {
+    "maxChars": 42,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 32,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 8,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 9,
+    "px": 16
+   },
+   {
+    "maxChars": 34,
+    "lines": 7,
+    "px": 16
+   },
+   {
+    "maxChars": 30,
+    "lines": 5,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 31,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 41,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 15,
+   "0 0 200 200": 2,
+   "0 0 64 64": 1,
+   "0 0 40 40": 6
+  },
+  "petal": 5,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "design@375": {
+  "url": "/services/design-advice/",
+  "vw": 375,
+  "interactive": 27,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [214x40]",
+   "a:About [214x40]",
+   "a:Services [214x40]",
+   "a:Articles [214x40]",
+   "a:Contact [214x40]",
+   "a:Book a Consultation [214x40]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [269x40]",
+   "a:Acharya Amit Puri [327x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Design Advice",
+    "lines": 1,
+    "maxChars": 13,
+    "orphan": false,
+    "lastWord": [
+     "Design",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What it is",
+    "lines": 1,
+    "maxChars": 10,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "it",
+     "is"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Who it's for",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Who",
+     "it's",
+     "for"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What you receive",
+    "lines": 1,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "you",
+     "receive"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Begin with Design Advice",
+    "lines": 2,
+    "maxChars": 13,
+    "orphan": false,
+    "lastWord": [
+     "Design",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Design Advice — your questions",
+    "lines": 2,
+    "maxChars": 15,
+    "orphan": false,
+    "lastWord": [
+     "your",
+     "questions"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Other areas of guidance",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Other",
+     "areas",
+     "of",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 32,
+    "lines": 8,
+    "px": 16
+   },
+   {
+    "maxChars": 42,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 32,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 8,
+    "px": 16
+   },
+   {
+    "maxChars": 38,
+    "lines": 7,
+    "px": 16
+   },
+   {
+    "maxChars": 37,
+    "lines": 8,
+    "px": 16
+   },
+   {
+    "maxChars": 30,
+    "lines": 5,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 31,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 41,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 15,
+   "0 0 200 200": 2,
+   "0 0 64 64": 1,
+   "0 0 40 40": 6
+  },
+  "petal": 5,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "palmistry@375": {
+  "url": "/services/palmistry-advice/",
+  "vw": 375,
+  "interactive": 27,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [214x40]",
+   "a:About [214x40]",
+   "a:Services [214x40]",
+   "a:Articles [214x40]",
+   "a:Contact [214x40]",
+   "a:Book a Consultation [214x40]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [269x40]",
+   "a:Acharya Amit Puri [327x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Palmistry Advice",
+    "lines": 1,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "Palmistry",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What it is",
+    "lines": 1,
+    "maxChars": 10,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "it",
+     "is"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Who it's for",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Who",
+     "it's",
+     "for"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What you receive",
+    "lines": 1,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "you",
+     "receive"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Begin with Palmistry Advice",
+    "lines": 2,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "Palmistry",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Palmistry Advice — your questions",
+    "lines": 2,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "—",
+     "your",
+     "questions"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Other areas of guidance",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Other",
+     "areas",
+     "of",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 32,
+    "lines": 9,
+    "px": 16
+   },
+   {
+    "maxChars": 32,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 37,
+    "lines": 6,
+    "px": 16
+   },
+   {
+    "maxChars": 35,
+    "lines": 6,
+    "px": 16
+   },
+   {
+    "maxChars": 50,
+    "lines": 5,
+    "px": 16
+   },
+   {
+    "maxChars": 30,
+    "lines": 5,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 31,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 41,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 15,
+   "0 0 200 200": 2,
+   "0 0 64 64": 1,
+   "0 0 40 40": 6
+  },
+  "petal": 5,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "contact@375": {
+  "url": "/contact/",
+  "vw": 375,
+  "interactive": 17,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [214x40]",
+   "a:About [214x40]",
+   "a:Services [214x40]",
+   "a:Articles [214x40]",
+   "a:Contact [214x40]",
+   "a:Book a Consultation [214x40]",
+   "a:Start your enquiry [161x40]",
+   "a:Acharya Amit Puri [327x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Let us begin",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Let",
+     "us",
+     "begin"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "The enquiry form is being prepared",
+    "lines": 2,
+    "maxChars": 17,
+    "orphan": false,
+    "lastWord": [
+     "is",
+     "being",
+     "prepared"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Other ways to reach me",
+    "lines": 1,
+    "maxChars": 22,
+    "orphan": false,
+    "lastWord": [
+     "Other",
+     "ways",
+     "to",
+     "reach",
+     "me"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 36,
+    "lines": 4,
+    "px": 18
+   },
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 41,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 3,
+   "0 0 24 24": 2,
+   "0 0 200 200": 1,
+   "0 0 64 64": 1
+  },
+  "petal": 1,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "articles@375": {
+  "url": "/articles/",
+  "vw": 375,
+  "interactive": 19,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [214x40]",
+   "a:About [214x40]",
+   "a:Services [214x40]",
+   "a:Articles [214x40]",
+   "a:Contact [214x40]",
+   "a:Book a Consultation [214x40]",
+   "a:Book a Consultation [174x40]",
+   "a:Explore services [151x40]",
+   "a:Get in touch [123x42]",
+   "a:Acharya Amit Puri [327x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Articles & Writings",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Articles",
+     "&",
+     "Writings"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Writings are on the way",
+    "lines": 2,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "on",
+     "the",
+     "way"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 26,
+    "lines": 6,
+    "px": 16
+   },
+   {
+    "maxChars": 41,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 3,
+   "0 0 24 24": 2,
+   "0 0 200 200": 1,
+   "0 0 64 64": 1
+  },
+  "petal": 1,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "privacy@375": {
+  "url": "/privacy/",
+  "vw": 375,
+  "interactive": 20,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [214x40]",
+   "a:About [214x40]",
+   "a:Services [214x40]",
+   "a:Articles [214x40]",
+   "a:Contact [214x40]",
+   "a:Book a Consultation [214x40]",
+   "a:Book a Consultation [174x40]",
+   "a:privacy policy [104x20]",
+   "a:contact page [99x20]",
+   "a:Acharya Amit Puri [327x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Your information, and what happens to it",
+    "lines": 3,
+    "maxChars": 17,
+    "orphan": false,
+    "lastWord": [
+     "happens",
+     "to",
+     "it"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Who is responsible",
+    "lines": 1,
+    "maxChars": 18,
+    "orphan": false,
+    "lastWord": [
+     "Who",
+     "is",
+     "responsible"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What is collected, and why",
+    "lines": 1,
+    "maxChars": 26,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "is",
+     "collected,",
+     "and",
+     "why"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What this site does not do",
+    "lines": 1,
+    "maxChars": 26,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "this",
+     "site",
+     "does",
+     "not",
+     "do"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Who else handles it",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Who",
+     "else",
+     "handles",
+     "it"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "How long it is kept",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "How",
+     "long",
+     "it",
+     "is",
+     "kept"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Your rights",
+    "lines": 1,
+    "maxChars": 11,
+    "orphan": false,
+    "lastWord": [
+     "Your",
+     "rights"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Keeping it safe",
+    "lines": 1,
+    "maxChars": 15,
+    "orphan": false,
+    "lastWord": [
+     "Keeping",
+     "it",
+     "safe"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Children",
+    "lines": 1,
+    "maxChars": 8,
+    "orphan": false,
+    "lastWord": [
+     "Children"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Changes to this page",
+    "lines": 1,
+    "maxChars": 20,
+    "orphan": false,
+    "lastWord": [
+     "Changes",
+     "to",
+     "this",
+     "page"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Getting in touch",
+    "lines": 1,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "Getting",
+     "in",
+     "touch"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 37,
+    "lines": 8,
+    "px": 16
+   },
+   {
+    "maxChars": 45,
+    "lines": 7,
+    "px": 16
+   },
+   {
+    "maxChars": 45,
+    "lines": 7,
+    "px": 16
+   },
+   {
+    "maxChars": 40,
+    "lines": 8,
+    "px": 16
+   },
+   {
+    "maxChars": 43,
+    "lines": 8,
+    "px": 16
+   },
+   {
+    "maxChars": 46,
+    "lines": 8,
+    "px": 16
+   },
+   {
+    "maxChars": 44,
+    "lines": 5,
+    "px": 16
+   },
+   {
+    "maxChars": 38,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 37,
+    "lines": 5,
+    "px": 16
+   },
+   {
+    "maxChars": 41,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 2,
+   "0 0 200 200": 1,
+   "0 0 64 64": 1
+  },
+  "petal": 1,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "404@375": {
+  "url": "/404.html",
+  "vw": 375,
+  "interactive": 22,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [214x40]",
+   "a:About [214x40]",
+   "a:Services [214x40]",
+   "a:Articles [214x40]",
+   "a:Contact [214x40]",
+   "a:Book a Consultation [214x40]",
+   "a:Acharya Amit Puri [327x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "This path leads nowhere",
+    "lines": 2,
+    "maxChars": 13,
+    "orphan": false,
+    "lastWord": [
+     "leads",
+     "nowhere"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 39,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 41,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 7,
+   "0 0 200 200": 1
+  },
+  "petal": 3,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "home@768": {
+  "url": "/",
+  "vw": 768,
+  "interactive": 31,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:View services → [109x20]",
+   "a:More about the Acharya [203x42]",
+   "a:Acharya Amit Puri [270x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Acharya Amit Puri",
+    "lines": 1,
+    "maxChars": 17,
+    "orphan": false,
+    "lastWord": [
+     "Acharya",
+     "Amit",
+     "Puri"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Six paths of guidance",
+    "lines": 1,
+    "maxChars": 21,
+    "orphan": false,
+    "lastWord": [
+     "Six",
+     "paths",
+     "of",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Acharya Amit Puri",
+    "lines": 1,
+    "maxChars": 17,
+    "orphan": false,
+    "lastWord": [
+     "Acharya",
+     "Amit",
+     "Puri"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "How a consultation works",
+    "lines": 1,
+    "maxChars": 24,
+    "orphan": false,
+    "lastWord": [
+     "How",
+     "a",
+     "consultation",
+     "works"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Questions, answered",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Questions,",
+     "answered"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 69,
+    "lines": 3,
+    "px": 18
+   },
+   {
+    "maxChars": 83,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 33,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 41,
+    "lines": 5,
+    "px": 16
+   },
+   {
+    "maxChars": 43,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 84,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 86,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 84,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 86,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 83,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 34,
+    "lines": 4,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 16,
+   "0 0 200 200": 2,
+   "0 0 64 64": 2,
+   "0 0 40 40": 6
+  },
+  "petal": 5,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "about@768": {
+  "url": "/about/",
+  "vw": 768,
+  "interactive": 19,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Book a Consultation [174x40]",
+   "a:See what I offer → [121x20]",
+   "a:Explore the services [176x40]",
+   "a:Acharya Amit Puri [270x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Meet Acharya Amit Puri",
+    "lines": 1,
+    "maxChars": 22,
+    "orphan": false,
+    "lastWord": [
+     "Meet",
+     "Acharya",
+     "Amit",
+     "Puri"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "A calm approach to ancient guidance",
+    "lines": 2,
+    "maxChars": 18,
+    "orphan": false,
+    "lastWord": [
+     "ancient",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Guided by three principles",
+    "lines": 1,
+    "maxChars": 26,
+    "orphan": false,
+    "lastWord": [
+     "Guided",
+     "by",
+     "three",
+     "principles"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 51,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 53,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 34,
+    "lines": 4,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 3,
+   "0 0 200 200": 2,
+   "0 0 64 64": 2
+  },
+  "petal": 3,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "services@768": {
+  "url": "/services/",
+  "vw": 768,
+  "interactive": 23,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Book a Consultation [174x40]",
+   "a:Acharya Amit Puri [270x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Areas of Guidance",
+    "lines": 1,
+    "maxChars": 17,
+    "orphan": false,
+    "lastWord": [
+     "Areas",
+     "of",
+     "Guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "The six areas of guidance",
+    "lines": 1,
+    "maxChars": 25,
+    "orphan": false,
+    "lastWord": [
+     "The",
+     "six",
+     "areas",
+     "of",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "How a consultation works",
+    "lines": 1,
+    "maxChars": 24,
+    "orphan": false,
+    "lastWord": [
+     "How",
+     "a",
+     "consultation",
+     "works"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 33,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 43,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 34,
+    "lines": 4,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 8,
+   "0 0 200 200": 2,
+   "0 0 64 64": 1,
+   "0 0 40 40": 6
+  },
+  "petal": 1,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "vastu@768": {
+  "url": "/services/vastu-report/",
+  "vw": 768,
+  "interactive": 26,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [646x40]",
+   "a:Acharya Amit Puri [270x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Vastu Report",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Vastu",
+     "Report"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What it is",
+    "lines": 1,
+    "maxChars": 10,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "it",
+     "is"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Who it's for",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Who",
+     "it's",
+     "for"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What you receive",
+    "lines": 1,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "you",
+     "receive"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Begin with Vastu Report",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Begin",
+     "with",
+     "Vastu",
+     "Report"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Vastu Report — your questions",
+    "lines": 1,
+    "maxChars": 29,
+    "orphan": false,
+    "lastWord": [
+     "Vastu",
+     "Report",
+     "—",
+     "your",
+     "questions"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Other areas of guidance",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Other",
+     "areas",
+     "of",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 60,
+    "lines": 3,
+    "px": 18
+   },
+   {
+    "maxChars": 80,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 90,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 91,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 81,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 84,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 84,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 80,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 33,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 34,
+    "lines": 4,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 15,
+   "0 0 200 200": 2,
+   "0 0 64 64": 1,
+   "0 0 40 40": 6
+  },
+  "petal": 5,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "astro@768": {
+  "url": "/services/astro-advice/",
+  "vw": 768,
+  "interactive": 26,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [646x40]",
+   "a:Acharya Amit Puri [270x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Astro Advice",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Astro",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What it is",
+    "lines": 1,
+    "maxChars": 10,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "it",
+     "is"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Who it's for",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Who",
+     "it's",
+     "for"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What you receive",
+    "lines": 1,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "you",
+     "receive"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Begin with Astro Advice",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Begin",
+     "with",
+     "Astro",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Astro Advice — your questions",
+    "lines": 1,
+    "maxChars": 29,
+    "orphan": false,
+    "lastWord": [
+     "Astro",
+     "Advice",
+     "—",
+     "your",
+     "questions"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Other areas of guidance",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Other",
+     "areas",
+     "of",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 57,
+    "lines": 3,
+    "px": 18
+   },
+   {
+    "maxChars": 77,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 82,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 81,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 88,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 85,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 86,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 33,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 34,
+    "lines": 4,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 15,
+   "0 0 200 200": 2,
+   "0 0 64 64": 1,
+   "0 0 40 40": 6
+  },
+  "petal": 5,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "numero@768": {
+  "url": "/services/numero-advice/",
+  "vw": 768,
+  "interactive": 26,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [646x40]",
+   "a:Acharya Amit Puri [270x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Numero Advice",
+    "lines": 1,
+    "maxChars": 13,
+    "orphan": false,
+    "lastWord": [
+     "Numero",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What it is",
+    "lines": 1,
+    "maxChars": 10,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "it",
+     "is"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Who it's for",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Who",
+     "it's",
+     "for"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What you receive",
+    "lines": 1,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "you",
+     "receive"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Begin with Numero Advice",
+    "lines": 1,
+    "maxChars": 24,
+    "orphan": false,
+    "lastWord": [
+     "Begin",
+     "with",
+     "Numero",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Numero Advice — your questions",
+    "lines": 1,
+    "maxChars": 30,
+    "orphan": false,
+    "lastWord": [
+     "Numero",
+     "Advice",
+     "—",
+     "your",
+     "questions"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Other areas of guidance",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Other",
+     "areas",
+     "of",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 53,
+    "lines": 3,
+    "px": 18
+   },
+   {
+    "maxChars": 81,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 87,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 88,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 81,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 89,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 84,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 84,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 34,
+    "lines": 4,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 15,
+   "0 0 200 200": 2,
+   "0 0 64 64": 1,
+   "0 0 40 40": 6
+  },
+  "petal": 5,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "prakriti@768": {
+  "url": "/services/prakriti-advice/",
+  "vw": 768,
+  "interactive": 26,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [646x40]",
+   "a:Acharya Amit Puri [270x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Prakriti Advice",
+    "lines": 1,
+    "maxChars": 15,
+    "orphan": false,
+    "lastWord": [
+     "Prakriti",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What it is",
+    "lines": 1,
+    "maxChars": 10,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "it",
+     "is"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Who it's for",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Who",
+     "it's",
+     "for"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What you receive",
+    "lines": 1,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "you",
+     "receive"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Begin with Prakriti Advice",
+    "lines": 1,
+    "maxChars": 26,
+    "orphan": false,
+    "lastWord": [
+     "Begin",
+     "with",
+     "Prakriti",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Prakriti Advice — your questions",
+    "lines": 1,
+    "maxChars": 32,
+    "orphan": false,
+    "lastWord": [
+     "Prakriti",
+     "Advice",
+     "—",
+     "your",
+     "questions"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Other areas of guidance",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Other",
+     "areas",
+     "of",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 80,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 86,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 81,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 81,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 88,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 85,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 84,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 33,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 34,
+    "lines": 4,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 15,
+   "0 0 200 200": 2,
+   "0 0 64 64": 1,
+   "0 0 40 40": 6
+  },
+  "petal": 5,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "design@768": {
+  "url": "/services/design-advice/",
+  "vw": 768,
+  "interactive": 26,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [646x40]",
+   "a:Acharya Amit Puri [270x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Design Advice",
+    "lines": 1,
+    "maxChars": 13,
+    "orphan": false,
+    "lastWord": [
+     "Design",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What it is",
+    "lines": 1,
+    "maxChars": 10,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "it",
+     "is"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Who it's for",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Who",
+     "it's",
+     "for"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What you receive",
+    "lines": 1,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "you",
+     "receive"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Begin with Design Advice",
+    "lines": 1,
+    "maxChars": 24,
+    "orphan": false,
+    "lastWord": [
+     "Begin",
+     "with",
+     "Design",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Design Advice — your questions",
+    "lines": 1,
+    "maxChars": 30,
+    "orphan": false,
+    "lastWord": [
+     "Design",
+     "Advice",
+     "—",
+     "your",
+     "questions"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Other areas of guidance",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Other",
+     "areas",
+     "of",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 83,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 92,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 81,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 81,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 86,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 84,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 33,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 34,
+    "lines": 4,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 15,
+   "0 0 200 200": 2,
+   "0 0 64 64": 1,
+   "0 0 40 40": 6
+  },
+  "petal": 5,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "palmistry@768": {
+  "url": "/services/palmistry-advice/",
+  "vw": 768,
+  "interactive": 26,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [646x40]",
+   "a:Acharya Amit Puri [270x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Palmistry Advice",
+    "lines": 1,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "Palmistry",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What it is",
+    "lines": 1,
+    "maxChars": 10,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "it",
+     "is"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Who it's for",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Who",
+     "it's",
+     "for"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What you receive",
+    "lines": 1,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "you",
+     "receive"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Begin with Palmistry Advice",
+    "lines": 1,
+    "maxChars": 27,
+    "orphan": false,
+    "lastWord": [
+     "Begin",
+     "with",
+     "Palmistry",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Palmistry Advice — your questions",
+    "lines": 1,
+    "maxChars": 33,
+    "orphan": false,
+    "lastWord": [
+     "Palmistry",
+     "Advice",
+     "—",
+     "your",
+     "questions"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Other areas of guidance",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Other",
+     "areas",
+     "of",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 78,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 81,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 88,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 76,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 91,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 33,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 34,
+    "lines": 4,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 15,
+   "0 0 200 200": 2,
+   "0 0 64 64": 1,
+   "0 0 40 40": 6
+  },
+  "petal": 5,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "contact@768": {
+  "url": "/contact/",
+  "vw": 768,
+  "interactive": 16,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Start your enquiry [161x40]",
+   "a:Acharya Amit Puri [270x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Let us begin",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Let",
+     "us",
+     "begin"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "The enquiry form is being prepared",
+    "lines": 1,
+    "maxChars": 34,
+    "orphan": false,
+    "lastWord": [
+     "The",
+     "enquiry",
+     "form",
+     "is",
+     "being",
+     "prepared"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Other ways to reach me",
+    "lines": 1,
+    "maxChars": 22,
+    "orphan": false,
+    "lastWord": [
+     "Other",
+     "ways",
+     "to",
+     "reach",
+     "me"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 58,
+    "lines": 3,
+    "px": 18
+   },
+   {
+    "maxChars": 89,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 34,
+    "lines": 4,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 3,
+   "0 0 24 24": 2,
+   "0 0 200 200": 1,
+   "0 0 64 64": 1
+  },
+  "petal": 1,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "articles@768": {
+  "url": "/articles/",
+  "vw": 768,
+  "interactive": 18,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Book a Consultation [174x40]",
+   "a:Explore services [151x42]",
+   "a:Get in touch [123x42]",
+   "a:Acharya Amit Puri [270x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Articles & Writings",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Articles",
+     "&",
+     "Writings"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Writings are on the way",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Writings",
+     "are",
+     "on",
+     "the",
+     "way"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 58,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 34,
+    "lines": 4,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 3,
+   "0 0 24 24": 2,
+   "0 0 200 200": 1,
+   "0 0 64 64": 1
+  },
+  "petal": 1,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "privacy@768": {
+  "url": "/privacy/",
+  "vw": 768,
+  "interactive": 19,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Book a Consultation [174x40]",
+   "a:privacy policy [104x20]",
+   "a:privacy policy [104x20]",
+   "a:contact page [99x20]",
+   "a:Acharya Amit Puri [270x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Your information, and what happens to it",
+    "lines": 2,
+    "maxChars": 21,
+    "orphan": false,
+    "lastWord": [
+     "what",
+     "happens",
+     "to",
+     "it"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Who is responsible",
+    "lines": 1,
+    "maxChars": 18,
+    "orphan": false,
+    "lastWord": [
+     "Who",
+     "is",
+     "responsible"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What is collected, and why",
+    "lines": 1,
+    "maxChars": 26,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "is",
+     "collected,",
+     "and",
+     "why"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What this site does not do",
+    "lines": 1,
+    "maxChars": 26,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "this",
+     "site",
+     "does",
+     "not",
+     "do"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Who else handles it",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Who",
+     "else",
+     "handles",
+     "it"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "How long it is kept",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "How",
+     "long",
+     "it",
+     "is",
+     "kept"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Your rights",
+    "lines": 1,
+    "maxChars": 11,
+    "orphan": false,
+    "lastWord": [
+     "Your",
+     "rights"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Keeping it safe",
+    "lines": 1,
+    "maxChars": 15,
+    "orphan": false,
+    "lastWord": [
+     "Keeping",
+     "it",
+     "safe"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Children",
+    "lines": 1,
+    "maxChars": 8,
+    "orphan": false,
+    "lastWord": [
+     "Children"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Changes to this page",
+    "lines": 1,
+    "maxChars": 20,
+    "orphan": false,
+    "lastWord": [
+     "Changes",
+     "to",
+     "this",
+     "page"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Getting in touch",
+    "lines": 1,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "Getting",
+     "in",
+     "touch"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 83,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 89,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 91,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 89,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 91,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 92,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 92,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 86,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 81,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 34,
+    "lines": 4,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 2,
+   "0 0 200 200": 1,
+   "0 0 64 64": 1
+  },
+  "petal": 1,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "404@768": {
+  "url": "/404.html",
+  "vw": 768,
+  "interactive": 21,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Acharya Amit Puri [270x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "This path leads nowhere",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "This",
+     "path",
+     "leads",
+     "nowhere"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 77,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 34,
+    "lines": 4,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 7,
+   "0 0 200 200": 1
+  },
+  "petal": 3,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "home@1280": {
+  "url": "/",
+  "vw": 1280,
+  "interactive": 31,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Book a Consultation [174x40]",
+   "a:View services → [109x20]",
+   "a:More about the Acharya [203x42]",
+   "a:Acharya Amit Puri [430x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Acharya Amit Puri",
+    "lines": 1,
+    "maxChars": 17,
+    "orphan": false,
+    "lastWord": [
+     "Acharya",
+     "Amit",
+     "Puri"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Six paths of guidance",
+    "lines": 1,
+    "maxChars": 21,
+    "orphan": false,
+    "lastWord": [
+     "Six",
+     "paths",
+     "of",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Acharya Amit Puri",
+    "lines": 1,
+    "maxChars": 17,
+    "orphan": false,
+    "lastWord": [
+     "Acharya",
+     "Amit",
+     "Puri"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "How a consultation works",
+    "lines": 1,
+    "maxChars": 24,
+    "orphan": false,
+    "lastWord": [
+     "How",
+     "a",
+     "consultation",
+     "works"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Questions, answered",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Questions,",
+     "answered"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 69,
+    "lines": 3,
+    "px": 18
+   },
+   {
+    "maxChars": 83,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 66,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 25,
+    "lines": 6,
+    "px": 16
+   },
+   {
+    "maxChars": 84,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 93,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 91,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 86,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 87,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 47,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 16,
+   "0 0 200 200": 2,
+   "0 0 64 64": 2,
+   "0 0 40 40": 6
+  },
+  "petal": 5,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "about@1280": {
+  "url": "/about/",
+  "vw": 1280,
+  "interactive": 19,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [174x40]",
+   "a:See what I offer → [121x20]",
+   "a:Explore the services [176x40]",
+   "a:Acharya Amit Puri [430x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Meet Acharya Amit Puri",
+    "lines": 1,
+    "maxChars": 22,
+    "orphan": false,
+    "lastWord": [
+     "Meet",
+     "Acharya",
+     "Amit",
+     "Puri"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "A calm approach to ancient guidance",
+    "lines": 2,
+    "maxChars": 18,
+    "orphan": false,
+    "lastWord": [
+     "ancient",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Guided by three principles",
+    "lines": 1,
+    "maxChars": 26,
+    "orphan": false,
+    "lastWord": [
+     "Guided",
+     "by",
+     "three",
+     "principles"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 76,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 74,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 47,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 3,
+   "0 0 200 200": 2,
+   "0 0 64 64": 2
+  },
+  "petal": 3,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "services@1280": {
+  "url": "/services/",
+  "vw": 1280,
+  "interactive": 23,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [174x40]",
+   "a:Acharya Amit Puri [430x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Areas of Guidance",
+    "lines": 1,
+    "maxChars": 17,
+    "orphan": false,
+    "lastWord": [
+     "Areas",
+     "of",
+     "Guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "The six areas of guidance",
+    "lines": 1,
+    "maxChars": 25,
+    "orphan": false,
+    "lastWord": [
+     "The",
+     "six",
+     "areas",
+     "of",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "How a consultation works",
+    "lines": 1,
+    "maxChars": 24,
+    "orphan": false,
+    "lastWord": [
+     "How",
+     "a",
+     "consultation",
+     "works"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 25,
+    "lines": 6,
+    "px": 16
+   },
+   {
+    "maxChars": 47,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 8,
+   "0 0 200 200": 2,
+   "0 0 64 64": 1,
+   "0 0 40 40": 6
+  },
+  "petal": 1,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "vastu@1280": {
+  "url": "/services/vastu-report/",
+  "vw": 1280,
+  "interactive": 26,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [273x40]",
+   "a:Acharya Amit Puri [430x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Vastu Report",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Vastu",
+     "Report"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What it is",
+    "lines": 1,
+    "maxChars": 10,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "it",
+     "is"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Who it's for",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Who",
+     "it's",
+     "for"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What you receive",
+    "lines": 1,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "you",
+     "receive"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Begin with Vastu Report",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Begin",
+     "with",
+     "Vastu",
+     "Report"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Vastu Report — your questions",
+    "lines": 1,
+    "maxChars": 29,
+    "orphan": false,
+    "lastWord": [
+     "Vastu",
+     "Report",
+     "—",
+     "your",
+     "questions"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Other areas of guidance",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Other",
+     "areas",
+     "of",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 74,
+    "lines": 2,
+    "px": 18
+   },
+   {
+    "maxChars": 80,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 90,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 91,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 32,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 84,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 89,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 91,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 47,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 15,
+   "0 0 200 200": 2,
+   "0 0 64 64": 1,
+   "0 0 40 40": 6
+  },
+  "petal": 5,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "astro@1280": {
+  "url": "/services/astro-advice/",
+  "vw": 1280,
+  "interactive": 26,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [273x40]",
+   "a:Acharya Amit Puri [430x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Astro Advice",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Astro",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What it is",
+    "lines": 1,
+    "maxChars": 10,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "it",
+     "is"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Who it's for",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Who",
+     "it's",
+     "for"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What you receive",
+    "lines": 1,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "you",
+     "receive"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Begin with Astro Advice",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Begin",
+     "with",
+     "Astro",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Astro Advice — your questions",
+    "lines": 1,
+    "maxChars": 29,
+    "orphan": false,
+    "lastWord": [
+     "Astro",
+     "Advice",
+     "—",
+     "your",
+     "questions"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Other areas of guidance",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Other",
+     "areas",
+     "of",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 76,
+    "lines": 2,
+    "px": 18
+   },
+   {
+    "maxChars": 82,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 82,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 32,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 88,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 89,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 90,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 47,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 15,
+   "0 0 200 200": 2,
+   "0 0 64 64": 1,
+   "0 0 40 40": 6
+  },
+  "petal": 5,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "numero@1280": {
+  "url": "/services/numero-advice/",
+  "vw": 1280,
+  "interactive": 26,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [273x40]",
+   "a:Acharya Amit Puri [430x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Numero Advice",
+    "lines": 1,
+    "maxChars": 13,
+    "orphan": false,
+    "lastWord": [
+     "Numero",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What it is",
+    "lines": 1,
+    "maxChars": 10,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "it",
+     "is"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Who it's for",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Who",
+     "it's",
+     "for"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What you receive",
+    "lines": 1,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "you",
+     "receive"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Begin with Numero Advice",
+    "lines": 2,
+    "maxChars": 13,
+    "orphan": false,
+    "lastWord": [
+     "Numero",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Numero Advice — your questions",
+    "lines": 1,
+    "maxChars": 30,
+    "orphan": false,
+    "lastWord": [
+     "Numero",
+     "Advice",
+     "—",
+     "your",
+     "questions"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Other areas of guidance",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Other",
+     "areas",
+     "of",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 74,
+    "lines": 2,
+    "px": 18
+   },
+   {
+    "maxChars": 81,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 87,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 88,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 32,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 91,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 90,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 89,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 47,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 15,
+   "0 0 200 200": 2,
+   "0 0 64 64": 1,
+   "0 0 40 40": 6
+  },
+  "petal": 5,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "prakriti@1280": {
+  "url": "/services/prakriti-advice/",
+  "vw": 1280,
+  "interactive": 26,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [273x40]",
+   "a:Acharya Amit Puri [430x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Prakriti Advice",
+    "lines": 1,
+    "maxChars": 15,
+    "orphan": false,
+    "lastWord": [
+     "Prakriti",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What it is",
+    "lines": 1,
+    "maxChars": 10,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "it",
+     "is"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Who it's for",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Who",
+     "it's",
+     "for"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What you receive",
+    "lines": 1,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "you",
+     "receive"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Begin with Prakriti Advice",
+    "lines": 2,
+    "maxChars": 15,
+    "orphan": false,
+    "lastWord": [
+     "Prakriti",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Prakriti Advice — your questions",
+    "lines": 1,
+    "maxChars": 32,
+    "orphan": false,
+    "lastWord": [
+     "Prakriti",
+     "Advice",
+     "—",
+     "your",
+     "questions"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Other areas of guidance",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Other",
+     "areas",
+     "of",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 80,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 86,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 81,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 32,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 92,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 93,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 90,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 47,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 15,
+   "0 0 200 200": 2,
+   "0 0 64 64": 1,
+   "0 0 40 40": 6
+  },
+  "petal": 5,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "design@1280": {
+  "url": "/services/design-advice/",
+  "vw": 1280,
+  "interactive": 26,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [273x40]",
+   "a:Acharya Amit Puri [430x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Design Advice",
+    "lines": 1,
+    "maxChars": 13,
+    "orphan": false,
+    "lastWord": [
+     "Design",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What it is",
+    "lines": 1,
+    "maxChars": 10,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "it",
+     "is"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Who it's for",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Who",
+     "it's",
+     "for"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What you receive",
+    "lines": 1,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "you",
+     "receive"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Begin with Design Advice",
+    "lines": 2,
+    "maxChars": 13,
+    "orphan": false,
+    "lastWord": [
+     "Design",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Design Advice — your questions",
+    "lines": 1,
+    "maxChars": 30,
+    "orphan": false,
+    "lastWord": [
+     "Design",
+     "Advice",
+     "—",
+     "your",
+     "questions"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Other areas of guidance",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Other",
+     "areas",
+     "of",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 83,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 92,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 32,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 91,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 93,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 89,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 47,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 15,
+   "0 0 200 200": 2,
+   "0 0 64 64": 1,
+   "0 0 40 40": 6
+  },
+  "petal": 5,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "palmistry@1280": {
+  "url": "/services/palmistry-advice/",
+  "vw": 1280,
+  "interactive": 26,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [273x40]",
+   "a:Acharya Amit Puri [430x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Palmistry Advice",
+    "lines": 1,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "Palmistry",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What it is",
+    "lines": 1,
+    "maxChars": 10,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "it",
+     "is"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Who it's for",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Who",
+     "it's",
+     "for"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What you receive",
+    "lines": 1,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "you",
+     "receive"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Begin with Palmistry Advice",
+    "lines": 2,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "Palmistry",
+     "Advice"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Palmistry Advice — your questions",
+    "lines": 1,
+    "maxChars": 33,
+    "orphan": false,
+    "lastWord": [
+     "Palmistry",
+     "Advice",
+     "—",
+     "your",
+     "questions"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Other areas of guidance",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Other",
+     "areas",
+     "of",
+     "guidance"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Book a Consultation",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Book",
+     "a",
+     "Consultation"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 78,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 32,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 92,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 86,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 91,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 36,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 35,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 47,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 15,
+   "0 0 200 200": 2,
+   "0 0 64 64": 1,
+   "0 0 40 40": 6
+  },
+  "petal": 5,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "contact@1280": {
+  "url": "/contact/",
+  "vw": 1280,
+  "interactive": 16,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Book a Consultation [174x40]",
+   "a:Start your enquiry [161x40]",
+   "a:Acharya Amit Puri [430x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Let us begin",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Let",
+     "us",
+     "begin"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "The enquiry form is being prepared",
+    "lines": 1,
+    "maxChars": 34,
+    "orphan": false,
+    "lastWord": [
+     "The",
+     "enquiry",
+     "form",
+     "is",
+     "being",
+     "prepared"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Other ways to reach me",
+    "lines": 1,
+    "maxChars": 22,
+    "orphan": false,
+    "lastWord": [
+     "Other",
+     "ways",
+     "to",
+     "reach",
+     "me"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 74,
+    "lines": 2,
+    "px": 18
+   },
+   {
+    "maxChars": 75,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 47,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 3,
+   "0 0 24 24": 2,
+   "0 0 200 200": 1,
+   "0 0 64 64": 1
+  },
+  "petal": 1,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "articles@1280": {
+  "url": "/articles/",
+  "vw": 1280,
+  "interactive": 18,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [174x40]",
+   "a:Explore services [151x42]",
+   "a:Get in touch [123x42]",
+   "a:Acharya Amit Puri [430x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Articles & Writings",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Articles",
+     "&",
+     "Writings"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Writings are on the way",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "Writings",
+     "are",
+     "on",
+     "the",
+     "way"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 58,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 47,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 3,
+   "0 0 24 24": 2,
+   "0 0 200 200": 1,
+   "0 0 64 64": 1
+  },
+  "petal": 1,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "privacy@1280": {
+  "url": "/privacy/",
+  "vw": 1280,
+  "interactive": 19,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Book a Consultation [174x40]",
+   "a:Book a Consultation [174x40]",
+   "a:privacy policy [104x20]",
+   "a:privacy policy [104x20]",
+   "a:contact page [99x20]",
+   "a:Acharya Amit Puri [430x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "Your information, and what happens to it",
+    "lines": 2,
+    "maxChars": 21,
+    "orphan": false,
+    "lastWord": [
+     "what",
+     "happens",
+     "to",
+     "it"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Who is responsible",
+    "lines": 1,
+    "maxChars": 18,
+    "orphan": false,
+    "lastWord": [
+     "Who",
+     "is",
+     "responsible"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What is collected, and why",
+    "lines": 1,
+    "maxChars": 26,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "is",
+     "collected,",
+     "and",
+     "why"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "What this site does not do",
+    "lines": 1,
+    "maxChars": 26,
+    "orphan": false,
+    "lastWord": [
+     "What",
+     "this",
+     "site",
+     "does",
+     "not",
+     "do"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Who else handles it",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "Who",
+     "else",
+     "handles",
+     "it"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "How long it is kept",
+    "lines": 1,
+    "maxChars": 19,
+    "orphan": false,
+    "lastWord": [
+     "How",
+     "long",
+     "it",
+     "is",
+     "kept"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Your rights",
+    "lines": 1,
+    "maxChars": 11,
+    "orphan": false,
+    "lastWord": [
+     "Your",
+     "rights"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Keeping it safe",
+    "lines": 1,
+    "maxChars": 15,
+    "orphan": false,
+    "lastWord": [
+     "Keeping",
+     "it",
+     "safe"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Children",
+    "lines": 1,
+    "maxChars": 8,
+    "orphan": false,
+    "lastWord": [
+     "Children"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Changes to this page",
+    "lines": 1,
+    "maxChars": 20,
+    "orphan": false,
+    "lastWord": [
+     "Changes",
+     "to",
+     "this",
+     "page"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Getting in touch",
+    "lines": 1,
+    "maxChars": 16,
+    "orphan": false,
+    "lastWord": [
+     "Getting",
+     "in",
+     "touch"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 83,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 89,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 91,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 89,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 91,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 92,
+    "lines": 4,
+    "px": 16
+   },
+   {
+    "maxChars": 92,
+    "lines": 3,
+    "px": 16
+   },
+   {
+    "maxChars": 86,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 81,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 47,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 2,
+   "0 0 200 200": 1,
+   "0 0 64 64": 1
+  },
+  "petal": 1,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ },
+ "404@1280": {
+  "url": "/404.html",
+  "vw": 1280,
+  "interactive": 21,
+  "noHover": [
+   "a:Skip to content"
+  ],
+  "noFocus": [],
+  "globalFocus": true,
+  "smallTarget": [
+   "a:Skip to content [1x1]",
+   "a:Home [39x20]",
+   "a:About [39x20]",
+   "a:Services [57x20]",
+   "a:Articles [50x20]",
+   "a:Contact [52x20]",
+   "a:Book a Consultation [174x40]",
+   "a:Acharya Amit Puri [430x36]",
+   "a:Home [39x17]",
+   "a:About [39x17]",
+   "a:Services [57x17]",
+   "a:Articles [50x17]",
+   "a:Contact [52x17]",
+   "a:Privacy [42x16]"
+  ],
+  "headings": [
+   {
+    "tag": "H1",
+    "text": "This path leads nowhere",
+    "lines": 1,
+    "maxChars": 23,
+    "orphan": false,
+    "lastWord": [
+     "This",
+     "path",
+     "leads",
+     "nowhere"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Explore",
+    "lines": 1,
+    "maxChars": 7,
+    "orphan": false,
+    "lastWord": [
+     "Explore"
+    ]
+   },
+   {
+    "tag": "H2",
+    "text": "Get in touch",
+    "lines": 1,
+    "maxChars": 12,
+    "orphan": false,
+    "lastWord": [
+     "Get",
+     "in",
+     "touch"
+    ]
+   }
+  ],
+  "bodies": [
+   {
+    "maxChars": 77,
+    "lines": 2,
+    "px": 16
+   },
+   {
+    "maxChars": 47,
+    "lines": 3,
+    "px": 16
+   }
+  ],
+  "vb": {
+   "0 0 32 32": 2,
+   "0 0 24 24": 7,
+   "0 0 200 200": 1
+  },
+  "petal": 3,
+  "faqIconTransition": "0s",
+  "menuPanelTransition": "0s",
+  "hoverSelCount": 24,
+  "focusSelCount": 17
+ }
+}

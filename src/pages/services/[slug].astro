@@ -125,7 +125,7 @@ const breadcrumbSchema = {
 
           {
             service.note && (
-              <p class="rounded-card border border-hair bg-surface-alt p-5 text-sm italic leading-relaxed text-muted">
+              <p class="rounded-card border border-hair bg-surface-alt p-5 italic leading-relaxed text-muted">
                 {service.note}
               </p>
             )
@@ -136,8 +136,8 @@ const breadcrumbSchema = {
       <!-- Sticky CTA aside -->
       <aside class="lg:col-span-4" data-reveal>
         <div class="rounded-card border border-hair bg-surface p-7 shadow-soft lg:sticky lg:top-24">
-          <h2 class="font-serif text-xl text-teal">Begin with {service.name}</h2>
-          <p class="mt-3 text-sm leading-relaxed text-muted">
+          <h2 class="font-serif text-2xl text-teal">Begin with {service.name}</h2>
+          <p class="mt-3 leading-relaxed text-muted">
             Share a little about what you're seeking, and we'll take the next
             step together — calmly and without pressure.
           </p>
@@ -184,7 +184,7 @@ const breadcrumbSchema = {
                     <path d="M6 9l6 6 6-6" stroke-linecap="round" stroke-linejoin="round" />
                   </svg>
                 </summary>
-                <p class="pb-5 leading-relaxed text-muted">{item.a}</p>
+                <p class="max-w-prose2 pb-5 leading-relaxed text-muted">{item.a}</p>
               </details>
             ))}
           </div>
@@ -197,7 +197,7 @@ const breadcrumbSchema = {
   <Section variant="paper">
     <Container>
       <div class="text-center" data-reveal>
-        <h2 class="font-serif text-2xl text-teal sm:text-3xl">
+        <h2 class="font-serif text-2xl text-teal">
           Other areas of guidance
         </h2>
         <PetalDivider class="mt-6" />

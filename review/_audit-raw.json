@@ -1,0 +1,3307 @@
+{
+ "pages": {
+  "home@375": {
+   "url": "/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 36,
+    "rgb(NaN,91,86)": 34,
+    "rgb(NaN,247,239)": 4,
+    "rgb(NaN,43,42) a=0.90": 6,
+    "rgb(NaN,124,46)": 5,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 4,
+    "rgb(NaN,251,246)": 14,
+    "rgb(NaN,225,208)": 4,
+    "rgb(NaN,243,236)": 3,
+    "rgb(NaN,124,46)": 7,
+    "rgb(NaN,212,168) a=0.25": 1,
+    "rgb(NaN,188,160)": 5
+   },
+   "fams": {
+    "Inter Variable": 70,
+    "Marcellus": 33
+   },
+   "sizes": {
+    "10": 1,
+    "11": 6,
+    "12": 11,
+    "14": 38,
+    "16": 15,
+    "18": 14,
+    "20": 7,
+    "30": 10,
+    "43": 1
+   },
+   "weights": {
+    "400": 91,
+    "500": 12
+   },
+   "radii": {
+    "8px": 6,
+    "12px": 14,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 13,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 10,
+    "12px/400/lh1.33/Inter Variable": 9,
+    "43px/400/lh1.08/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/500/lh1.5/Inter Variable": 2,
+    "30px/400/lh1.2/Marcellus": 10,
+    "16px/400/lh1.63/Inter Variable": 10,
+    "20px/400/lh1.4/Marcellus": 7,
+    "11px/400/lh1.5/Inter Variable": 6,
+    "14px/400/lh1.63/Inter Variable": 12,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 5,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 19,
+    "all | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 6,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 18
+   },
+   "motionCount": 59,
+   "imgs": [],
+   "svgCount": 28,
+   "interactiveCount": 38,
+   "revealTotal": 19,
+   "revealHidden": 12,
+   "h1": "Acharya Amit Puri",
+   "h1Measure": 15,
+   "bodyMeasure": 41,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 7086,
+   "cls": 0.05197292662606065
+  },
+  "about@375": {
+   "url": "/about/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 12,
+    "rgb(NaN,91,86)": 17,
+    "rgb(NaN,247,239)": 4,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 4,
+    "rgb(NaN,251,246)": 5,
+    "rgb(NaN,225,208)": 3,
+    "rgb(NaN,243,236)": 2,
+    "rgb(NaN,124,46)": 1,
+    "rgb(NaN,212,168) a=0.25": 1
+   },
+   "fams": {
+    "Inter Variable": 39,
+    "Marcellus": 12
+   },
+   "sizes": {
+    "10": 1,
+    "12": 9,
+    "14": 23,
+    "16": 7,
+    "18": 3,
+    "20": 4,
+    "30": 3,
+    "36": 1
+   },
+   "weights": {
+    "400": 47,
+    "500": 4
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 5,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 2,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 3,
+    "12px/400/lh1.33/Inter Variable": 7,
+    "36px/400/lh1.25/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "30px/400/lh1.2/Marcellus": 3,
+    "16px/400/lh1.63/Inter Variable": 3,
+    "20px/400/lh1.4/Marcellus": 4,
+    "14px/400/lh1.63/Inter Variable": 4,
+    "16px/500/lh1.5/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 8
+   },
+   "motionCount": 23,
+   "imgs": [],
+   "svgCount": 8,
+   "interactiveCount": 24,
+   "revealTotal": 8,
+   "revealHidden": 3,
+   "h1": "Acharya Amit Puri",
+   "h1Measure": 18,
+   "bodyMeasure": 41,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 3304,
+   "cls": 0
+  },
+  "services@375": {
+   "url": "/services/",
+   "colours": {
+    "rgb(NaN,43,42)": 17,
+    "rgb(NaN,90,82)": 24,
+    "rgb(NaN,91,86)": 23,
+    "rgb(NaN,247,239)": 3,
+    "rgb(NaN,43,42) a=0.90": 6,
+    "rgb(NaN,124,46)": 5,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 3,
+    "rgb(NaN,251,246)": 8,
+    "rgb(NaN,225,208)": 3,
+    "rgb(NaN,243,236)": 2,
+    "rgb(NaN,124,46)": 7,
+    "rgb(NaN,188,160)": 5
+   },
+   "fams": {
+    "Inter Variable": 56,
+    "Marcellus": 24
+   },
+   "sizes": {
+    "10": 1,
+    "11": 6,
+    "12": 8,
+    "14": 36,
+    "16": 7,
+    "18": 7,
+    "20": 7,
+    "30": 7,
+    "36": 1
+   },
+   "weights": {
+    "400": 71,
+    "500": 9
+   },
+   "radii": {
+    "8px": 4,
+    "12px": 7,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 6,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 8,
+    "12px/400/lh1.33/Inter Variable": 6,
+    "36px/400/lh1.25/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/400/lh1.5/Marcellus": 1,
+    "20px/400/lh1.4/Marcellus": 7,
+    "11px/400/lh1.5/Inter Variable": 6,
+    "14px/400/lh1.63/Inter Variable": 12,
+    "30px/400/lh1.2/Marcellus": 7,
+    "16px/400/lh1.63/Inter Variable": 2,
+    "16px/500/lh1.5/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 3,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 14,
+    "all | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 6,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 12
+   },
+   "motionCount": 46,
+   "imgs": [],
+   "svgCount": 18,
+   "interactiveCount": 29,
+   "revealTotal": 14,
+   "revealHidden": 10,
+   "h1": "Areas of Guidance",
+   "h1Measure": 18,
+   "bodyMeasure": 38,
+   "bodyFontSize": 14,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 4785,
+   "cls": 0
+  },
+  "service-vastu-report@375": {
+   "url": "/services/vastu-report/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 25,
+    "rgb(NaN,91,86)": 26,
+    "rgb(NaN,247,239)": 4,
+    "rgb(NaN,43,42) a=0.90": 5,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 4,
+    "rgb(NaN,251,246)": 12,
+    "rgb(NaN,225,208)": 3,
+    "rgb(NaN,243,236)": 3,
+    "rgb(NaN,124,46)": 6
+   },
+   "fams": {
+    "Inter Variable": 58,
+    "Marcellus": 20
+   },
+   "sizes": {
+    "10": 1,
+    "11": 5,
+    "12": 8,
+    "14": 31,
+    "16": 14,
+    "18": 5,
+    "20": 7,
+    "24": 4,
+    "30": 2,
+    "36": 1
+   },
+   "weights": {
+    "400": 69,
+    "500": 9
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 11,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 4,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 8,
+    "12px/400/lh1.33/Inter Variable": 6,
+    "36px/400/lh1.25/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/400/lh1.63/Inter Variable": 10,
+    "24px/400/lh1.33/Marcellus": 4,
+    "20px/400/lh1.4/Marcellus": 7,
+    "14px/400/lh1.63/Inter Variable": 7,
+    "30px/400/lh1.2/Marcellus": 2,
+    "11px/400/lh1.5/Inter Variable": 5,
+    "16px/500/lh1.5/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 6,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 13,
+    "all | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 5
+   },
+   "motionCount": 39,
+   "imgs": [],
+   "svgCount": 25,
+   "interactiveCount": 32,
+   "revealTotal": 6,
+   "revealHidden": 2,
+   "h1": "Vastu Report",
+   "h1Measure": 18,
+   "bodyMeasure": 36,
+   "bodyFontSize": 18,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 5293,
+   "cls": 0
+  },
+  "service-astro-advice@375": {
+   "url": "/services/astro-advice/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 25,
+    "rgb(NaN,91,86)": 27,
+    "rgb(NaN,247,239)": 4,
+    "rgb(NaN,43,42) a=0.90": 5,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 4,
+    "rgb(NaN,251,246)": 12,
+    "rgb(NaN,225,208)": 4,
+    "rgb(NaN,243,236)": 3,
+    "rgb(NaN,124,46)": 6
+   },
+   "fams": {
+    "Inter Variable": 59,
+    "Marcellus": 20
+   },
+   "sizes": {
+    "10": 1,
+    "11": 5,
+    "12": 8,
+    "14": 32,
+    "16": 14,
+    "18": 5,
+    "20": 7,
+    "24": 4,
+    "30": 2,
+    "36": 1
+   },
+   "weights": {
+    "400": 70,
+    "500": 9
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 12,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 4,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 8,
+    "12px/400/lh1.33/Inter Variable": 6,
+    "36px/400/lh1.25/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/400/lh1.63/Inter Variable": 10,
+    "24px/400/lh1.33/Marcellus": 4,
+    "14px/400/lh1.63/Inter Variable": 8,
+    "20px/400/lh1.4/Marcellus": 7,
+    "30px/400/lh1.2/Marcellus": 2,
+    "11px/400/lh1.5/Inter Variable": 5,
+    "16px/500/lh1.5/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 6,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 13,
+    "all | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 5
+   },
+   "motionCount": 39,
+   "imgs": [],
+   "svgCount": 25,
+   "interactiveCount": 32,
+   "revealTotal": 6,
+   "revealHidden": 2,
+   "h1": "Astro Advice",
+   "h1Measure": 18,
+   "bodyMeasure": 36,
+   "bodyFontSize": 18,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 5340,
+   "cls": 0
+  },
+  "service-numero-advice@375": {
+   "url": "/services/numero-advice/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 25,
+    "rgb(NaN,91,86)": 26,
+    "rgb(NaN,247,239)": 4,
+    "rgb(NaN,43,42) a=0.90": 5,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 4,
+    "rgb(NaN,251,246)": 12,
+    "rgb(NaN,225,208)": 3,
+    "rgb(NaN,243,236)": 3,
+    "rgb(NaN,124,46)": 6
+   },
+   "fams": {
+    "Inter Variable": 58,
+    "Marcellus": 20
+   },
+   "sizes": {
+    "10": 1,
+    "11": 5,
+    "12": 8,
+    "14": 31,
+    "16": 14,
+    "18": 5,
+    "20": 7,
+    "24": 4,
+    "30": 2,
+    "36": 1
+   },
+   "weights": {
+    "400": 69,
+    "500": 9
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 11,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 4,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 8,
+    "12px/400/lh1.33/Inter Variable": 6,
+    "36px/400/lh1.25/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/400/lh1.63/Inter Variable": 10,
+    "24px/400/lh1.33/Marcellus": 4,
+    "20px/400/lh1.4/Marcellus": 7,
+    "14px/400/lh1.63/Inter Variable": 7,
+    "30px/400/lh1.2/Marcellus": 2,
+    "11px/400/lh1.5/Inter Variable": 5,
+    "16px/500/lh1.5/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 6,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 13,
+    "all | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 5
+   },
+   "motionCount": 39,
+   "imgs": [],
+   "svgCount": 25,
+   "interactiveCount": 32,
+   "revealTotal": 6,
+   "revealHidden": 2,
+   "h1": "Numero Advice",
+   "h1Measure": 18,
+   "bodyMeasure": 36,
+   "bodyFontSize": 18,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 5239,
+   "cls": 0
+  },
+  "service-prakriti-advice@375": {
+   "url": "/services/prakriti-advice/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 25,
+    "rgb(NaN,91,86)": 27,
+    "rgb(NaN,247,239)": 4,
+    "rgb(NaN,43,42) a=0.90": 5,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 4,
+    "rgb(NaN,251,246)": 12,
+    "rgb(NaN,225,208)": 4,
+    "rgb(NaN,243,236)": 3,
+    "rgb(NaN,124,46)": 6
+   },
+   "fams": {
+    "Inter Variable": 59,
+    "Marcellus": 20
+   },
+   "sizes": {
+    "10": 1,
+    "11": 5,
+    "12": 8,
+    "14": 32,
+    "16": 14,
+    "18": 5,
+    "20": 7,
+    "24": 4,
+    "30": 2,
+    "36": 1
+   },
+   "weights": {
+    "400": 70,
+    "500": 9
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 12,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 4,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 8,
+    "12px/400/lh1.33/Inter Variable": 6,
+    "36px/400/lh1.25/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/400/lh1.63/Inter Variable": 10,
+    "24px/400/lh1.33/Marcellus": 4,
+    "14px/400/lh1.63/Inter Variable": 8,
+    "20px/400/lh1.4/Marcellus": 7,
+    "30px/400/lh1.2/Marcellus": 2,
+    "11px/400/lh1.5/Inter Variable": 5,
+    "16px/500/lh1.5/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 6,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 13,
+    "all | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 5
+   },
+   "motionCount": 39,
+   "imgs": [],
+   "svgCount": 25,
+   "interactiveCount": 32,
+   "revealTotal": 6,
+   "revealHidden": 2,
+   "h1": "Prakriti Advice",
+   "h1Measure": 18,
+   "bodyMeasure": 30,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 5303,
+   "cls": 0
+  },
+  "service-design-advice@375": {
+   "url": "/services/design-advice/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 25,
+    "rgb(NaN,91,86)": 26,
+    "rgb(NaN,247,239)": 4,
+    "rgb(NaN,43,42) a=0.90": 5,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 4,
+    "rgb(NaN,251,246)": 12,
+    "rgb(NaN,225,208)": 3,
+    "rgb(NaN,243,236)": 3,
+    "rgb(NaN,124,46)": 6
+   },
+   "fams": {
+    "Inter Variable": 58,
+    "Marcellus": 20
+   },
+   "sizes": {
+    "10": 1,
+    "11": 5,
+    "12": 8,
+    "14": 31,
+    "16": 14,
+    "18": 5,
+    "20": 7,
+    "24": 4,
+    "30": 2,
+    "36": 1
+   },
+   "weights": {
+    "400": 69,
+    "500": 9
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 11,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 4,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 8,
+    "12px/400/lh1.33/Inter Variable": 6,
+    "36px/400/lh1.25/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/400/lh1.63/Inter Variable": 10,
+    "24px/400/lh1.33/Marcellus": 4,
+    "20px/400/lh1.4/Marcellus": 7,
+    "14px/400/lh1.63/Inter Variable": 7,
+    "30px/400/lh1.2/Marcellus": 2,
+    "11px/400/lh1.5/Inter Variable": 5,
+    "16px/500/lh1.5/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 6,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 13,
+    "all | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 5
+   },
+   "motionCount": 39,
+   "imgs": [],
+   "svgCount": 25,
+   "interactiveCount": 32,
+   "revealTotal": 6,
+   "revealHidden": 2,
+   "h1": "Design Advice",
+   "h1Measure": 18,
+   "bodyMeasure": 30,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 5210,
+   "cls": 0
+  },
+  "service-palmistry-advice@375": {
+   "url": "/services/palmistry-advice/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 25,
+    "rgb(NaN,91,86)": 27,
+    "rgb(NaN,247,239)": 4,
+    "rgb(NaN,43,42) a=0.90": 5,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 4,
+    "rgb(NaN,251,246)": 12,
+    "rgb(NaN,225,208)": 4,
+    "rgb(NaN,243,236)": 3,
+    "rgb(NaN,124,46)": 6
+   },
+   "fams": {
+    "Inter Variable": 59,
+    "Marcellus": 20
+   },
+   "sizes": {
+    "10": 1,
+    "11": 5,
+    "12": 8,
+    "14": 32,
+    "16": 14,
+    "18": 5,
+    "20": 7,
+    "24": 4,
+    "30": 2,
+    "36": 1
+   },
+   "weights": {
+    "400": 70,
+    "500": 9
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 12,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 4,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 8,
+    "12px/400/lh1.33/Inter Variable": 6,
+    "36px/400/lh1.25/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/400/lh1.63/Inter Variable": 10,
+    "24px/400/lh1.33/Marcellus": 4,
+    "14px/400/lh1.63/Inter Variable": 8,
+    "20px/400/lh1.4/Marcellus": 7,
+    "30px/400/lh1.2/Marcellus": 2,
+    "11px/400/lh1.5/Inter Variable": 5,
+    "16px/500/lh1.5/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 6,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 13,
+    "all | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 5
+   },
+   "motionCount": 39,
+   "imgs": [],
+   "svgCount": 25,
+   "interactiveCount": 32,
+   "revealTotal": 6,
+   "revealHidden": 2,
+   "h1": "Palmistry Advice",
+   "h1Measure": 18,
+   "bodyMeasure": 30,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 5282,
+   "cls": 0
+  },
+  "contact@375": {
+   "url": "/contact/",
+   "colours": {
+    "rgb(NaN,43,42)": 17,
+    "rgb(NaN,90,82)": 7,
+    "rgb(NaN,91,86)": 12,
+    "rgb(NaN,247,239)": 2
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 2,
+    "rgb(NaN,251,246)": 2,
+    "rgb(NaN,225,208)": 3,
+    "rgb(NaN,243,236)": 2,
+    "rgb(NaN,124,46)": 1
+   },
+   "fams": {
+    "Inter Variable": 31,
+    "Marcellus": 7
+   },
+   "sizes": {
+    "10": 1,
+    "12": 6,
+    "14": 20,
+    "16": 5,
+    "18": 2,
+    "20": 1,
+    "24": 2,
+    "36": 1
+   },
+   "weights": {
+    "400": 36,
+    "500": 2
+   },
+   "radii": {
+    "8px": 3,
+    "12px": 3,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 4,
+    "18px/400/lh1.56/Marcellus": 1,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 17,
+    "14px/500/lh1.43/Inter Variable": 2,
+    "12px/400/lh1.33/Inter Variable": 4,
+    "36px/400/lh1.25/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "24px/400/lh1.33/Marcellus": 2,
+    "16px/400/lh1.63/Inter Variable": 1,
+    "20px/400/lh1.4/Marcellus": 1,
+    "14px/400/lh1.63/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 2,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 3
+   },
+   "motionCount": 16,
+   "imgs": [],
+   "svgCount": 6,
+   "interactiveCount": 22,
+   "revealTotal": 3,
+   "revealHidden": 0,
+   "h1": "Book a Consultation",
+   "h1Measure": 18,
+   "bodyMeasure": 33,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 1737,
+   "cls": 0
+  },
+  "articles@375": {
+   "url": "/articles/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 7,
+    "rgb(NaN,91,86)": 11,
+    "rgb(NaN,247,239)": 3
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 3,
+    "rgb(NaN,251,246)": 2,
+    "rgb(NaN,225,208)": 2,
+    "rgb(NaN,243,236)": 2,
+    "rgb(NaN,124,46)": 1
+   },
+   "fams": {
+    "Inter Variable": 31,
+    "Marcellus": 6
+   },
+   "sizes": {
+    "10": 1,
+    "12": 6,
+    "14": 21,
+    "16": 4,
+    "18": 2,
+    "20": 1,
+    "24": 1,
+    "36": 1
+   },
+   "weights": {
+    "400": 33,
+    "500": 4
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 2,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 1,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 4,
+    "12px/400/lh1.33/Inter Variable": 4,
+    "36px/400/lh1.25/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "24px/400/lh1.33/Marcellus": 1,
+    "16px/400/lh1.63/Inter Variable": 1,
+    "20px/400/lh1.4/Marcellus": 1,
+    "14px/400/lh1.63/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 2
+   },
+   "motionCount": 17,
+   "imgs": [],
+   "svgCount": 6,
+   "interactiveCount": 24,
+   "revealTotal": 2,
+   "revealHidden": 0,
+   "h1": "Articles & Writings",
+   "h1Measure": 18,
+   "bodyMeasure": 29,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 1675,
+   "cls": 0
+  },
+  "privacy@375": {
+   "url": "/privacy/",
+   "colours": {
+    "rgb(NaN,43,42)": 28,
+    "rgb(NaN,90,82)": 19,
+    "rgb(NaN,91,86)": 46,
+    "rgb(NaN,247,239)": 2
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 2,
+    "rgb(NaN,251,246)": 1,
+    "rgb(NaN,243,236)": 2,
+    "rgb(NaN,124,46)": 1,
+    "rgb(NaN,225,208)": 2,
+    "rgb(NaN,212,168) a=0.40": 1
+   },
+   "fams": {
+    "Inter Variable": 77,
+    "Marcellus": 18
+   },
+   "sizes": {
+    "10": 1,
+    "12": 6,
+    "14": 19,
+    "16": 52,
+    "18": 2,
+    "20": 4,
+    "24": 10,
+    "36": 1
+   },
+   "weights": {
+    "400": 83,
+    "500": 2,
+    "600": 10
+   },
+   "radii": {
+    "8px": 3,
+    "12px": 3,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 1,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 2,
+    "12px/400/lh1.33/Inter Variable": 4,
+    "36px/400/lh1.25/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/400/lh1.63/Inter Variable": 39,
+    "16px/600/lh1.63/Inter Variable": 10,
+    "24px/400/lh1.33/Marcellus": 10,
+    "20px/400/lh1.4/Marcellus": 4,
+    "14px/400/lh1.63/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 2,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 2
+   },
+   "motionCount": 15,
+   "imgs": [],
+   "svgCount": 5,
+   "interactiveCount": 25,
+   "revealTotal": 2,
+   "revealHidden": 0,
+   "h1": "Your information, and what happens to it",
+   "h1Measure": 18,
+   "bodyMeasure": 41,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 5750,
+   "cls": 0
+  },
+  "404@375": {
+   "url": "/404.html",
+   "colours": {
+    "rgb(NaN,43,42)": 18,
+    "rgb(NaN,90,82)": 8,
+    "rgb(NaN,91,86)": 14,
+    "rgb(NaN,247,239)": 3
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 3,
+    "rgb(NaN,251,246)": 5,
+    "rgb(NaN,243,236)": 1,
+    "rgb(NaN,225,208)": 1
+   },
+   "fams": {
+    "Inter Variable": 34,
+    "Marcellus": 9
+   },
+   "sizes": {
+    "10": 1,
+    "12": 6,
+    "14": 23,
+    "16": 6,
+    "18": 5,
+    "20": 1,
+    "36": 1
+   },
+   "weights": {
+    "400": 39,
+    "500": 4
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 5,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 5,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 20,
+    "14px/500/lh1.43/Inter Variable": 2,
+    "12px/400/lh1.33/Inter Variable": 4,
+    "36px/400/lh1.25/Marcellus": 1,
+    "16px/400/lh1.63/Inter Variable": 1,
+    "16px/500/lh1.5/Inter Variable": 2,
+    "20px/400/lh1.4/Marcellus": 1,
+    "14px/400/lh1.63/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 5,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 4
+   },
+   "motionCount": 24,
+   "imgs": [],
+   "svgCount": 10,
+   "interactiveCount": 28,
+   "revealTotal": 5,
+   "revealHidden": 1,
+   "h1": "This path leads nowhere",
+   "h1Measure": 18,
+   "bodyMeasure": 41,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 1771,
+   "cls": 0
+  },
+  "home@768": {
+   "url": "/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 36,
+    "rgb(NaN,91,86)": 34,
+    "rgb(NaN,247,239)": 4,
+    "rgb(NaN,43,42) a=0.90": 6,
+    "rgb(NaN,124,46)": 5,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 4,
+    "rgb(NaN,251,246)": 14,
+    "rgb(NaN,225,208)": 4,
+    "rgb(NaN,243,236)": 3,
+    "rgb(NaN,124,46)": 7,
+    "rgb(NaN,212,168) a=0.25": 1,
+    "rgb(NaN,188,160)": 5
+   },
+   "fams": {
+    "Inter Variable": 70,
+    "Marcellus": 33
+   },
+   "sizes": {
+    "10": 1,
+    "11": 6,
+    "12": 11,
+    "14": 38,
+    "16": 15,
+    "18": 14,
+    "20": 7,
+    "30": 5,
+    "36": 5,
+    "60": 1
+   },
+   "weights": {
+    "400": 91,
+    "500": 12
+   },
+   "radii": {
+    "8px": 6,
+    "12px": 14,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 13,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 10,
+    "12px/400/lh1.33/Inter Variable": 9,
+    "60px/400/lh1/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/500/lh1.5/Inter Variable": 2,
+    "36px/400/lh1.11/Marcellus": 5,
+    "16px/400/lh1.63/Inter Variable": 10,
+    "20px/400/lh1.4/Marcellus": 7,
+    "11px/400/lh1.5/Inter Variable": 6,
+    "14px/400/lh1.63/Inter Variable": 12,
+    "30px/400/lh1.2/Marcellus": 5,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 5,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 19,
+    "all | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 6,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 18
+   },
+   "motionCount": 59,
+   "imgs": [],
+   "svgCount": 28,
+   "interactiveCount": 38,
+   "revealTotal": 19,
+   "revealHidden": 13,
+   "h1": "Acharya Amit Puri",
+   "h1Measure": 23,
+   "bodyMeasure": 84,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 4904,
+   "cls": 0
+  },
+  "about@768": {
+   "url": "/about/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 12,
+    "rgb(NaN,91,86)": 17,
+    "rgb(NaN,247,239)": 4,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 4,
+    "rgb(NaN,251,246)": 5,
+    "rgb(NaN,225,208)": 3,
+    "rgb(NaN,243,236)": 2,
+    "rgb(NaN,124,46)": 1,
+    "rgb(NaN,212,168) a=0.25": 1
+   },
+   "fams": {
+    "Inter Variable": 39,
+    "Marcellus": 12
+   },
+   "sizes": {
+    "10": 1,
+    "12": 9,
+    "14": 23,
+    "16": 7,
+    "18": 3,
+    "20": 4,
+    "30": 1,
+    "36": 2,
+    "48": 1
+   },
+   "weights": {
+    "400": 47,
+    "500": 4
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 5,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 2,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 3,
+    "12px/400/lh1.33/Inter Variable": 7,
+    "48px/400/lh1/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "30px/400/lh1.2/Marcellus": 1,
+    "16px/400/lh1.63/Inter Variable": 3,
+    "36px/400/lh1.11/Marcellus": 2,
+    "20px/400/lh1.4/Marcellus": 4,
+    "14px/400/lh1.63/Inter Variable": 4,
+    "16px/500/lh1.5/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 8
+   },
+   "motionCount": 23,
+   "imgs": [],
+   "svgCount": 8,
+   "interactiveCount": 24,
+   "revealTotal": 8,
+   "revealHidden": 4,
+   "h1": "Acharya Amit Puri",
+   "h1Measure": 29,
+   "bodyMeasure": 49,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 2321,
+   "cls": 0
+  },
+  "services@768": {
+   "url": "/services/",
+   "colours": {
+    "rgb(NaN,43,42)": 17,
+    "rgb(NaN,90,82)": 24,
+    "rgb(NaN,91,86)": 23,
+    "rgb(NaN,247,239)": 3,
+    "rgb(NaN,43,42) a=0.90": 6,
+    "rgb(NaN,124,46)": 5,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 3,
+    "rgb(NaN,251,246)": 8,
+    "rgb(NaN,225,208)": 3,
+    "rgb(NaN,243,236)": 2,
+    "rgb(NaN,124,46)": 7,
+    "rgb(NaN,188,160)": 5
+   },
+   "fams": {
+    "Inter Variable": 56,
+    "Marcellus": 24
+   },
+   "sizes": {
+    "10": 1,
+    "11": 6,
+    "12": 8,
+    "14": 36,
+    "16": 7,
+    "18": 7,
+    "20": 7,
+    "30": 5,
+    "36": 2,
+    "48": 1
+   },
+   "weights": {
+    "400": 71,
+    "500": 9
+   },
+   "radii": {
+    "8px": 4,
+    "12px": 7,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 6,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 8,
+    "12px/400/lh1.33/Inter Variable": 6,
+    "48px/400/lh1/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/400/lh1.5/Marcellus": 1,
+    "20px/400/lh1.4/Marcellus": 7,
+    "11px/400/lh1.5/Inter Variable": 6,
+    "14px/400/lh1.63/Inter Variable": 12,
+    "36px/400/lh1.11/Marcellus": 2,
+    "16px/400/lh1.63/Inter Variable": 2,
+    "30px/400/lh1.2/Marcellus": 5,
+    "16px/500/lh1.5/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 3,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 14,
+    "all | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 6,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 12
+   },
+   "motionCount": 46,
+   "imgs": [],
+   "svgCount": 18,
+   "interactiveCount": 29,
+   "revealTotal": 14,
+   "revealHidden": 9,
+   "h1": "Areas of Guidance",
+   "h1Measure": 29,
+   "bodyMeasure": 40,
+   "bodyFontSize": 14,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 3218,
+   "cls": 0
+  },
+  "service-vastu-report@768": {
+   "url": "/services/vastu-report/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 25,
+    "rgb(NaN,91,86)": 26,
+    "rgb(NaN,247,239)": 4,
+    "rgb(NaN,43,42) a=0.90": 5,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 4,
+    "rgb(NaN,251,246)": 12,
+    "rgb(NaN,225,208)": 3,
+    "rgb(NaN,243,236)": 3,
+    "rgb(NaN,124,46)": 6
+   },
+   "fams": {
+    "Inter Variable": 58,
+    "Marcellus": 20
+   },
+   "sizes": {
+    "10": 1,
+    "11": 5,
+    "12": 8,
+    "14": 31,
+    "16": 14,
+    "18": 5,
+    "20": 7,
+    "24": 3,
+    "30": 1,
+    "36": 2,
+    "48": 1
+   },
+   "weights": {
+    "400": 69,
+    "500": 9
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 11,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 4,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 8,
+    "12px/400/lh1.33/Inter Variable": 6,
+    "48px/400/lh1/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/400/lh1.63/Inter Variable": 10,
+    "24px/400/lh1.33/Marcellus": 3,
+    "20px/400/lh1.4/Marcellus": 7,
+    "14px/400/lh1.63/Inter Variable": 7,
+    "36px/400/lh1.11/Marcellus": 2,
+    "30px/400/lh1.2/Marcellus": 1,
+    "11px/400/lh1.5/Inter Variable": 5,
+    "16px/500/lh1.5/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 6,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 13,
+    "all | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 5
+   },
+   "motionCount": 39,
+   "imgs": [],
+   "svgCount": 25,
+   "interactiveCount": 32,
+   "revealTotal": 6,
+   "revealHidden": 3,
+   "h1": "Vastu Report",
+   "h1Measure": 29,
+   "bodyMeasure": 75,
+   "bodyFontSize": 18,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 4020,
+   "cls": 0
+  },
+  "service-astro-advice@768": {
+   "url": "/services/astro-advice/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 25,
+    "rgb(NaN,91,86)": 27,
+    "rgb(NaN,247,239)": 4,
+    "rgb(NaN,43,42) a=0.90": 5,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 4,
+    "rgb(NaN,251,246)": 12,
+    "rgb(NaN,225,208)": 4,
+    "rgb(NaN,243,236)": 3,
+    "rgb(NaN,124,46)": 6
+   },
+   "fams": {
+    "Inter Variable": 59,
+    "Marcellus": 20
+   },
+   "sizes": {
+    "10": 1,
+    "11": 5,
+    "12": 8,
+    "14": 32,
+    "16": 14,
+    "18": 5,
+    "20": 7,
+    "24": 3,
+    "30": 1,
+    "36": 2,
+    "48": 1
+   },
+   "weights": {
+    "400": 70,
+    "500": 9
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 12,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 4,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 8,
+    "12px/400/lh1.33/Inter Variable": 6,
+    "48px/400/lh1/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/400/lh1.63/Inter Variable": 10,
+    "24px/400/lh1.33/Marcellus": 3,
+    "14px/400/lh1.63/Inter Variable": 8,
+    "20px/400/lh1.4/Marcellus": 7,
+    "36px/400/lh1.11/Marcellus": 2,
+    "30px/400/lh1.2/Marcellus": 1,
+    "11px/400/lh1.5/Inter Variable": 5,
+    "16px/500/lh1.5/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 6,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 13,
+    "all | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 5
+   },
+   "motionCount": 39,
+   "imgs": [],
+   "svgCount": 25,
+   "interactiveCount": 32,
+   "revealTotal": 6,
+   "revealHidden": 2,
+   "h1": "Astro Advice",
+   "h1Measure": 29,
+   "bodyMeasure": 75,
+   "bodyFontSize": 18,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 4099,
+   "cls": 0
+  },
+  "service-numero-advice@768": {
+   "url": "/services/numero-advice/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 25,
+    "rgb(NaN,91,86)": 26,
+    "rgb(NaN,247,239)": 4,
+    "rgb(NaN,43,42) a=0.90": 5,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 4,
+    "rgb(NaN,251,246)": 12,
+    "rgb(NaN,225,208)": 3,
+    "rgb(NaN,243,236)": 3,
+    "rgb(NaN,124,46)": 6
+   },
+   "fams": {
+    "Inter Variable": 58,
+    "Marcellus": 20
+   },
+   "sizes": {
+    "10": 1,
+    "11": 5,
+    "12": 8,
+    "14": 31,
+    "16": 14,
+    "18": 5,
+    "20": 7,
+    "24": 3,
+    "30": 1,
+    "36": 2,
+    "48": 1
+   },
+   "weights": {
+    "400": 69,
+    "500": 9
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 11,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 4,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 8,
+    "12px/400/lh1.33/Inter Variable": 6,
+    "48px/400/lh1/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/400/lh1.63/Inter Variable": 10,
+    "24px/400/lh1.33/Marcellus": 3,
+    "20px/400/lh1.4/Marcellus": 7,
+    "14px/400/lh1.63/Inter Variable": 7,
+    "36px/400/lh1.11/Marcellus": 2,
+    "30px/400/lh1.2/Marcellus": 1,
+    "11px/400/lh1.5/Inter Variable": 5,
+    "16px/500/lh1.5/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 6,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 13,
+    "all | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 5
+   },
+   "motionCount": 39,
+   "imgs": [],
+   "svgCount": 25,
+   "interactiveCount": 32,
+   "revealTotal": 6,
+   "revealHidden": 3,
+   "h1": "Numero Advice",
+   "h1Measure": 29,
+   "bodyMeasure": 75,
+   "bodyFontSize": 18,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 3994,
+   "cls": 0
+  },
+  "service-prakriti-advice@768": {
+   "url": "/services/prakriti-advice/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 25,
+    "rgb(NaN,91,86)": 27,
+    "rgb(NaN,247,239)": 4,
+    "rgb(NaN,43,42) a=0.90": 5,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 4,
+    "rgb(NaN,251,246)": 12,
+    "rgb(NaN,225,208)": 4,
+    "rgb(NaN,243,236)": 3,
+    "rgb(NaN,124,46)": 6
+   },
+   "fams": {
+    "Inter Variable": 59,
+    "Marcellus": 20
+   },
+   "sizes": {
+    "10": 1,
+    "11": 5,
+    "12": 8,
+    "14": 32,
+    "16": 14,
+    "18": 5,
+    "20": 7,
+    "24": 3,
+    "30": 1,
+    "36": 2,
+    "48": 1
+   },
+   "weights": {
+    "400": 70,
+    "500": 9
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 12,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 4,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 8,
+    "12px/400/lh1.33/Inter Variable": 6,
+    "48px/400/lh1/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/400/lh1.63/Inter Variable": 10,
+    "24px/400/lh1.33/Marcellus": 3,
+    "14px/400/lh1.63/Inter Variable": 8,
+    "20px/400/lh1.4/Marcellus": 7,
+    "36px/400/lh1.11/Marcellus": 2,
+    "30px/400/lh1.2/Marcellus": 1,
+    "11px/400/lh1.5/Inter Variable": 5,
+    "16px/500/lh1.5/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 6,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 13,
+    "all | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 5
+   },
+   "motionCount": 39,
+   "imgs": [],
+   "svgCount": 25,
+   "interactiveCount": 32,
+   "revealTotal": 6,
+   "revealHidden": 2,
+   "h1": "Prakriti Advice",
+   "h1Measure": 29,
+   "bodyMeasure": 78,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 4118,
+   "cls": 0
+  },
+  "service-design-advice@768": {
+   "url": "/services/design-advice/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 25,
+    "rgb(NaN,91,86)": 26,
+    "rgb(NaN,247,239)": 4,
+    "rgb(NaN,43,42) a=0.90": 5,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 4,
+    "rgb(NaN,251,246)": 12,
+    "rgb(NaN,225,208)": 3,
+    "rgb(NaN,243,236)": 3,
+    "rgb(NaN,124,46)": 6
+   },
+   "fams": {
+    "Inter Variable": 58,
+    "Marcellus": 20
+   },
+   "sizes": {
+    "10": 1,
+    "11": 5,
+    "12": 8,
+    "14": 31,
+    "16": 14,
+    "18": 5,
+    "20": 7,
+    "24": 3,
+    "30": 1,
+    "36": 2,
+    "48": 1
+   },
+   "weights": {
+    "400": 69,
+    "500": 9
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 11,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 4,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 8,
+    "12px/400/lh1.33/Inter Variable": 6,
+    "48px/400/lh1/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/400/lh1.63/Inter Variable": 10,
+    "24px/400/lh1.33/Marcellus": 3,
+    "20px/400/lh1.4/Marcellus": 7,
+    "14px/400/lh1.63/Inter Variable": 7,
+    "36px/400/lh1.11/Marcellus": 2,
+    "30px/400/lh1.2/Marcellus": 1,
+    "11px/400/lh1.5/Inter Variable": 5,
+    "16px/500/lh1.5/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 6,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 13,
+    "all | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 5
+   },
+   "motionCount": 39,
+   "imgs": [],
+   "svgCount": 25,
+   "interactiveCount": 32,
+   "revealTotal": 6,
+   "revealHidden": 3,
+   "h1": "Design Advice",
+   "h1Measure": 29,
+   "bodyMeasure": 78,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 3991,
+   "cls": 0
+  },
+  "service-palmistry-advice@768": {
+   "url": "/services/palmistry-advice/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 25,
+    "rgb(NaN,91,86)": 27,
+    "rgb(NaN,247,239)": 4,
+    "rgb(NaN,43,42) a=0.90": 5,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 4,
+    "rgb(NaN,251,246)": 12,
+    "rgb(NaN,225,208)": 4,
+    "rgb(NaN,243,236)": 3,
+    "rgb(NaN,124,46)": 6
+   },
+   "fams": {
+    "Inter Variable": 59,
+    "Marcellus": 20
+   },
+   "sizes": {
+    "10": 1,
+    "11": 5,
+    "12": 8,
+    "14": 32,
+    "16": 14,
+    "18": 5,
+    "20": 7,
+    "24": 3,
+    "30": 1,
+    "36": 2,
+    "48": 1
+   },
+   "weights": {
+    "400": 70,
+    "500": 9
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 12,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 4,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 8,
+    "12px/400/lh1.33/Inter Variable": 6,
+    "48px/400/lh1/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/400/lh1.63/Inter Variable": 10,
+    "24px/400/lh1.33/Marcellus": 3,
+    "14px/400/lh1.63/Inter Variable": 8,
+    "20px/400/lh1.4/Marcellus": 7,
+    "36px/400/lh1.11/Marcellus": 2,
+    "30px/400/lh1.2/Marcellus": 1,
+    "11px/400/lh1.5/Inter Variable": 5,
+    "16px/500/lh1.5/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 6,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 13,
+    "all | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 5
+   },
+   "motionCount": 39,
+   "imgs": [],
+   "svgCount": 25,
+   "interactiveCount": 32,
+   "revealTotal": 6,
+   "revealHidden": 2,
+   "h1": "Palmistry Advice",
+   "h1Measure": 29,
+   "bodyMeasure": 78,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 4122,
+   "cls": 0
+  },
+  "contact@768": {
+   "url": "/contact/",
+   "colours": {
+    "rgb(NaN,43,42)": 17,
+    "rgb(NaN,90,82)": 7,
+    "rgb(NaN,91,86)": 12,
+    "rgb(NaN,247,239)": 2
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 2,
+    "rgb(NaN,251,246)": 2,
+    "rgb(NaN,225,208)": 3,
+    "rgb(NaN,243,236)": 2,
+    "rgb(NaN,124,46)": 1
+   },
+   "fams": {
+    "Inter Variable": 31,
+    "Marcellus": 7
+   },
+   "sizes": {
+    "10": 1,
+    "12": 6,
+    "14": 20,
+    "16": 5,
+    "18": 2,
+    "20": 1,
+    "24": 2,
+    "48": 1
+   },
+   "weights": {
+    "400": 36,
+    "500": 2
+   },
+   "radii": {
+    "8px": 3,
+    "12px": 3,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 4,
+    "18px/400/lh1.56/Marcellus": 1,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 17,
+    "14px/500/lh1.43/Inter Variable": 2,
+    "12px/400/lh1.33/Inter Variable": 4,
+    "48px/400/lh1/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "24px/400/lh1.33/Marcellus": 2,
+    "16px/400/lh1.63/Inter Variable": 1,
+    "20px/400/lh1.4/Marcellus": 1,
+    "14px/400/lh1.63/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 2,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 3
+   },
+   "motionCount": 16,
+   "imgs": [],
+   "svgCount": 6,
+   "interactiveCount": 22,
+   "revealTotal": 3,
+   "revealHidden": 0,
+   "h1": "Book a Consultation",
+   "h1Measure": 29,
+   "bodyMeasure": 80,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 1388,
+   "cls": 0
+  },
+  "articles@768": {
+   "url": "/articles/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 7,
+    "rgb(NaN,91,86)": 11,
+    "rgb(NaN,247,239)": 3
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 3,
+    "rgb(NaN,251,246)": 2,
+    "rgb(NaN,225,208)": 2,
+    "rgb(NaN,243,236)": 2,
+    "rgb(NaN,124,46)": 1
+   },
+   "fams": {
+    "Inter Variable": 31,
+    "Marcellus": 6
+   },
+   "sizes": {
+    "10": 1,
+    "12": 6,
+    "14": 21,
+    "16": 4,
+    "18": 2,
+    "20": 1,
+    "24": 1,
+    "48": 1
+   },
+   "weights": {
+    "400": 33,
+    "500": 4
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 2,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 1,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 4,
+    "12px/400/lh1.33/Inter Variable": 4,
+    "48px/400/lh1/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "24px/400/lh1.33/Marcellus": 1,
+    "16px/400/lh1.63/Inter Variable": 1,
+    "20px/400/lh1.4/Marcellus": 1,
+    "14px/400/lh1.63/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 2
+   },
+   "motionCount": 17,
+   "imgs": [],
+   "svgCount": 6,
+   "interactiveCount": 24,
+   "revealTotal": 2,
+   "revealHidden": 0,
+   "h1": "Articles & Writings",
+   "h1Measure": 29,
+   "bodyMeasure": 60,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 1312,
+   "cls": 0
+  },
+  "privacy@768": {
+   "url": "/privacy/",
+   "colours": {
+    "rgb(NaN,43,42)": 28,
+    "rgb(NaN,90,82)": 19,
+    "rgb(NaN,91,86)": 46,
+    "rgb(NaN,247,239)": 2
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 2,
+    "rgb(NaN,251,246)": 1,
+    "rgb(NaN,243,236)": 2,
+    "rgb(NaN,124,46)": 1,
+    "rgb(NaN,225,208)": 2,
+    "rgb(NaN,212,168) a=0.40": 1
+   },
+   "fams": {
+    "Inter Variable": 77,
+    "Marcellus": 18
+   },
+   "sizes": {
+    "10": 1,
+    "12": 6,
+    "14": 19,
+    "16": 52,
+    "18": 2,
+    "20": 4,
+    "24": 10,
+    "48": 1
+   },
+   "weights": {
+    "400": 83,
+    "500": 2,
+    "600": 10
+   },
+   "radii": {
+    "8px": 3,
+    "12px": 3,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 1,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 2,
+    "12px/400/lh1.33/Inter Variable": 4,
+    "48px/400/lh1/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/400/lh1.63/Inter Variable": 39,
+    "16px/600/lh1.63/Inter Variable": 10,
+    "24px/400/lh1.33/Marcellus": 10,
+    "20px/400/lh1.4/Marcellus": 4,
+    "14px/400/lh1.63/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 2,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 2
+   },
+   "motionCount": 15,
+   "imgs": [],
+   "svgCount": 5,
+   "interactiveCount": 25,
+   "revealTotal": 2,
+   "revealHidden": 0,
+   "h1": "Your information, and what happens to it",
+   "h1Measure": 29,
+   "bodyMeasure": 86,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 4078,
+   "cls": 0
+  },
+  "404@768": {
+   "url": "/404.html",
+   "colours": {
+    "rgb(NaN,43,42)": 18,
+    "rgb(NaN,90,82)": 8,
+    "rgb(NaN,91,86)": 14,
+    "rgb(NaN,247,239)": 3
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 3,
+    "rgb(NaN,251,246)": 5,
+    "rgb(NaN,243,236)": 1,
+    "rgb(NaN,225,208)": 1
+   },
+   "fams": {
+    "Inter Variable": 34,
+    "Marcellus": 9
+   },
+   "sizes": {
+    "10": 1,
+    "12": 6,
+    "14": 23,
+    "16": 6,
+    "18": 5,
+    "20": 1,
+    "48": 1
+   },
+   "weights": {
+    "400": 39,
+    "500": 4
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 5,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 5,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 20,
+    "14px/500/lh1.43/Inter Variable": 2,
+    "12px/400/lh1.33/Inter Variable": 4,
+    "48px/400/lh1/Marcellus": 1,
+    "16px/400/lh1.63/Inter Variable": 1,
+    "16px/500/lh1.5/Inter Variable": 2,
+    "20px/400/lh1.4/Marcellus": 1,
+    "14px/400/lh1.63/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 5,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 4
+   },
+   "motionCount": 24,
+   "imgs": [],
+   "svgCount": 10,
+   "interactiveCount": 28,
+   "revealTotal": 5,
+   "revealHidden": 0,
+   "h1": "This path leads nowhere",
+   "h1Measure": 28,
+   "bodyMeasure": 84,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation",
+    "Contact Book a consultation"
+   ],
+   "docHeight": 1227,
+   "cls": 0
+  },
+  "home@1280": {
+   "url": "/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 36,
+    "rgb(NaN,91,86)": 34,
+    "rgb(NaN,247,239)": 4,
+    "rgb(NaN,43,42) a=0.90": 6,
+    "rgb(NaN,124,46)": 5,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 4,
+    "rgb(NaN,251,246)": 14,
+    "rgb(NaN,225,208)": 4,
+    "rgb(NaN,243,236)": 3,
+    "rgb(NaN,124,46)": 7,
+    "rgb(NaN,212,168) a=0.25": 1,
+    "rgb(NaN,188,160)": 5
+   },
+   "fams": {
+    "Inter Variable": 70,
+    "Marcellus": 33
+   },
+   "sizes": {
+    "10": 1,
+    "11": 6,
+    "12": 11,
+    "14": 38,
+    "16": 15,
+    "18": 14,
+    "20": 7,
+    "30": 5,
+    "36": 5,
+    "60": 1
+   },
+   "weights": {
+    "400": 91,
+    "500": 12
+   },
+   "radii": {
+    "8px": 6,
+    "12px": 14,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 13,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 10,
+    "12px/400/lh1.33/Inter Variable": 9,
+    "60px/400/lh1/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/500/lh1.5/Inter Variable": 2,
+    "36px/400/lh1.11/Marcellus": 5,
+    "16px/400/lh1.63/Inter Variable": 10,
+    "20px/400/lh1.4/Marcellus": 7,
+    "11px/400/lh1.5/Inter Variable": 6,
+    "14px/400/lh1.63/Inter Variable": 12,
+    "30px/400/lh1.2/Marcellus": 5,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 5,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 19,
+    "all | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 6,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 18
+   },
+   "motionCount": 59,
+   "imgs": [],
+   "svgCount": 28,
+   "interactiveCount": 38,
+   "revealTotal": 19,
+   "revealHidden": 13,
+   "h1": "Acharya Amit Puri",
+   "h1Measure": 21,
+   "bodyMeasure": 84,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 4549,
+   "cls": 0
+  },
+  "about@1280": {
+   "url": "/about/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 12,
+    "rgb(NaN,91,86)": 17,
+    "rgb(NaN,247,239)": 4,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 4,
+    "rgb(NaN,251,246)": 5,
+    "rgb(NaN,225,208)": 3,
+    "rgb(NaN,243,236)": 2,
+    "rgb(NaN,124,46)": 1,
+    "rgb(NaN,212,168) a=0.25": 1
+   },
+   "fams": {
+    "Inter Variable": 39,
+    "Marcellus": 12
+   },
+   "sizes": {
+    "10": 1,
+    "12": 9,
+    "14": 23,
+    "16": 7,
+    "18": 3,
+    "20": 4,
+    "30": 1,
+    "36": 2,
+    "48": 1
+   },
+   "weights": {
+    "400": 47,
+    "500": 4
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 5,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 2,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 3,
+    "12px/400/lh1.33/Inter Variable": 7,
+    "48px/400/lh1/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "30px/400/lh1.2/Marcellus": 1,
+    "16px/400/lh1.63/Inter Variable": 3,
+    "36px/400/lh1.11/Marcellus": 2,
+    "20px/400/lh1.4/Marcellus": 4,
+    "14px/400/lh1.63/Inter Variable": 4,
+    "16px/500/lh1.5/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 8
+   },
+   "motionCount": 23,
+   "imgs": [],
+   "svgCount": 8,
+   "interactiveCount": 24,
+   "revealTotal": 8,
+   "revealHidden": 4,
+   "h1": "Acharya Amit Puri",
+   "h1Measure": 32,
+   "bodyMeasure": 77,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 2382,
+   "cls": 0
+  },
+  "services@1280": {
+   "url": "/services/",
+   "colours": {
+    "rgb(NaN,43,42)": 17,
+    "rgb(NaN,90,82)": 24,
+    "rgb(NaN,91,86)": 23,
+    "rgb(NaN,247,239)": 3,
+    "rgb(NaN,43,42) a=0.90": 6,
+    "rgb(NaN,124,46)": 5,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 3,
+    "rgb(NaN,251,246)": 8,
+    "rgb(NaN,225,208)": 3,
+    "rgb(NaN,243,236)": 2,
+    "rgb(NaN,124,46)": 7,
+    "rgb(NaN,188,160)": 5
+   },
+   "fams": {
+    "Inter Variable": 56,
+    "Marcellus": 24
+   },
+   "sizes": {
+    "10": 1,
+    "11": 6,
+    "12": 8,
+    "14": 36,
+    "16": 7,
+    "18": 7,
+    "20": 7,
+    "30": 5,
+    "36": 2,
+    "48": 1
+   },
+   "weights": {
+    "400": 71,
+    "500": 9
+   },
+   "radii": {
+    "8px": 4,
+    "12px": 7,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 6,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 8,
+    "12px/400/lh1.33/Inter Variable": 6,
+    "48px/400/lh1/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/400/lh1.5/Marcellus": 1,
+    "20px/400/lh1.4/Marcellus": 7,
+    "11px/400/lh1.5/Inter Variable": 6,
+    "14px/400/lh1.63/Inter Variable": 12,
+    "36px/400/lh1.11/Marcellus": 2,
+    "16px/400/lh1.63/Inter Variable": 2,
+    "30px/400/lh1.2/Marcellus": 5,
+    "16px/500/lh1.5/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 3,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 14,
+    "all | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 6,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 12
+   },
+   "motionCount": 46,
+   "imgs": [],
+   "svgCount": 18,
+   "interactiveCount": 29,
+   "revealTotal": 14,
+   "revealHidden": 9,
+   "h1": "Areas of Guidance",
+   "h1Measure": 32,
+   "bodyMeasure": 41,
+   "bodyFontSize": 14,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 2595,
+   "cls": 0
+  },
+  "service-vastu-report@1280": {
+   "url": "/services/vastu-report/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 25,
+    "rgb(NaN,91,86)": 26,
+    "rgb(NaN,247,239)": 4,
+    "rgb(NaN,43,42) a=0.90": 5,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 4,
+    "rgb(NaN,251,246)": 12,
+    "rgb(NaN,225,208)": 3,
+    "rgb(NaN,243,236)": 3,
+    "rgb(NaN,124,46)": 6
+   },
+   "fams": {
+    "Inter Variable": 58,
+    "Marcellus": 20
+   },
+   "sizes": {
+    "10": 1,
+    "11": 5,
+    "12": 8,
+    "14": 31,
+    "16": 14,
+    "18": 5,
+    "20": 7,
+    "24": 3,
+    "30": 1,
+    "36": 2,
+    "48": 1
+   },
+   "weights": {
+    "400": 69,
+    "500": 9
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 11,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 4,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 8,
+    "12px/400/lh1.33/Inter Variable": 6,
+    "48px/400/lh1/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/400/lh1.63/Inter Variable": 10,
+    "24px/400/lh1.33/Marcellus": 3,
+    "20px/400/lh1.4/Marcellus": 7,
+    "14px/400/lh1.63/Inter Variable": 7,
+    "36px/400/lh1.11/Marcellus": 2,
+    "30px/400/lh1.2/Marcellus": 1,
+    "11px/400/lh1.5/Inter Variable": 5,
+    "16px/500/lh1.5/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 6,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 13,
+    "all | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 5
+   },
+   "motionCount": 39,
+   "imgs": [],
+   "svgCount": 25,
+   "interactiveCount": 32,
+   "revealTotal": 6,
+   "revealHidden": 3,
+   "h1": "Vastu Report",
+   "h1Measure": 32,
+   "bodyMeasure": 75,
+   "bodyFontSize": 18,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 3502,
+   "cls": 0
+  },
+  "service-astro-advice@1280": {
+   "url": "/services/astro-advice/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 25,
+    "rgb(NaN,91,86)": 27,
+    "rgb(NaN,247,239)": 4,
+    "rgb(NaN,43,42) a=0.90": 5,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 4,
+    "rgb(NaN,251,246)": 12,
+    "rgb(NaN,225,208)": 4,
+    "rgb(NaN,243,236)": 3,
+    "rgb(NaN,124,46)": 6
+   },
+   "fams": {
+    "Inter Variable": 59,
+    "Marcellus": 20
+   },
+   "sizes": {
+    "10": 1,
+    "11": 5,
+    "12": 8,
+    "14": 32,
+    "16": 14,
+    "18": 5,
+    "20": 7,
+    "24": 3,
+    "30": 1,
+    "36": 2,
+    "48": 1
+   },
+   "weights": {
+    "400": 70,
+    "500": 9
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 12,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 4,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 8,
+    "12px/400/lh1.33/Inter Variable": 6,
+    "48px/400/lh1/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/400/lh1.63/Inter Variable": 10,
+    "24px/400/lh1.33/Marcellus": 3,
+    "14px/400/lh1.63/Inter Variable": 8,
+    "20px/400/lh1.4/Marcellus": 7,
+    "36px/400/lh1.11/Marcellus": 2,
+    "30px/400/lh1.2/Marcellus": 1,
+    "11px/400/lh1.5/Inter Variable": 5,
+    "16px/500/lh1.5/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 6,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 13,
+    "all | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 5
+   },
+   "motionCount": 39,
+   "imgs": [],
+   "svgCount": 25,
+   "interactiveCount": 32,
+   "revealTotal": 6,
+   "revealHidden": 3,
+   "h1": "Astro Advice",
+   "h1Measure": 32,
+   "bodyMeasure": 75,
+   "bodyFontSize": 18,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 3555,
+   "cls": 0
+  },
+  "service-numero-advice@1280": {
+   "url": "/services/numero-advice/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 25,
+    "rgb(NaN,91,86)": 26,
+    "rgb(NaN,247,239)": 4,
+    "rgb(NaN,43,42) a=0.90": 5,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 4,
+    "rgb(NaN,251,246)": 12,
+    "rgb(NaN,225,208)": 3,
+    "rgb(NaN,243,236)": 3,
+    "rgb(NaN,124,46)": 6
+   },
+   "fams": {
+    "Inter Variable": 58,
+    "Marcellus": 20
+   },
+   "sizes": {
+    "10": 1,
+    "11": 5,
+    "12": 8,
+    "14": 31,
+    "16": 14,
+    "18": 5,
+    "20": 7,
+    "24": 3,
+    "30": 1,
+    "36": 2,
+    "48": 1
+   },
+   "weights": {
+    "400": 69,
+    "500": 9
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 11,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 4,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 8,
+    "12px/400/lh1.33/Inter Variable": 6,
+    "48px/400/lh1/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/400/lh1.63/Inter Variable": 10,
+    "24px/400/lh1.33/Marcellus": 3,
+    "20px/400/lh1.4/Marcellus": 7,
+    "14px/400/lh1.63/Inter Variable": 7,
+    "36px/400/lh1.11/Marcellus": 2,
+    "30px/400/lh1.2/Marcellus": 1,
+    "11px/400/lh1.5/Inter Variable": 5,
+    "16px/500/lh1.5/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 6,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 13,
+    "all | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 5
+   },
+   "motionCount": 39,
+   "imgs": [],
+   "svgCount": 25,
+   "interactiveCount": 32,
+   "revealTotal": 6,
+   "revealHidden": 2,
+   "h1": "Numero Advice",
+   "h1Measure": 32,
+   "bodyMeasure": 75,
+   "bodyFontSize": 18,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 3476,
+   "cls": 0
+  },
+  "service-prakriti-advice@1280": {
+   "url": "/services/prakriti-advice/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 25,
+    "rgb(NaN,91,86)": 27,
+    "rgb(NaN,247,239)": 4,
+    "rgb(NaN,43,42) a=0.90": 5,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 4,
+    "rgb(NaN,251,246)": 12,
+    "rgb(NaN,225,208)": 4,
+    "rgb(NaN,243,236)": 3,
+    "rgb(NaN,124,46)": 6
+   },
+   "fams": {
+    "Inter Variable": 59,
+    "Marcellus": 20
+   },
+   "sizes": {
+    "10": 1,
+    "11": 5,
+    "12": 8,
+    "14": 32,
+    "16": 14,
+    "18": 5,
+    "20": 7,
+    "24": 3,
+    "30": 1,
+    "36": 2,
+    "48": 1
+   },
+   "weights": {
+    "400": 70,
+    "500": 9
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 12,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 4,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 8,
+    "12px/400/lh1.33/Inter Variable": 6,
+    "48px/400/lh1/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/400/lh1.63/Inter Variable": 10,
+    "24px/400/lh1.33/Marcellus": 3,
+    "14px/400/lh1.63/Inter Variable": 8,
+    "20px/400/lh1.4/Marcellus": 7,
+    "36px/400/lh1.11/Marcellus": 2,
+    "30px/400/lh1.2/Marcellus": 1,
+    "11px/400/lh1.5/Inter Variable": 5,
+    "16px/500/lh1.5/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 6,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 13,
+    "all | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 5
+   },
+   "motionCount": 39,
+   "imgs": [],
+   "svgCount": 25,
+   "interactiveCount": 32,
+   "revealTotal": 6,
+   "revealHidden": 2,
+   "h1": "Prakriti Advice",
+   "h1Measure": 32,
+   "bodyMeasure": 78,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 3577,
+   "cls": 0
+  },
+  "service-design-advice@1280": {
+   "url": "/services/design-advice/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 25,
+    "rgb(NaN,91,86)": 26,
+    "rgb(NaN,247,239)": 4,
+    "rgb(NaN,43,42) a=0.90": 5,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 4,
+    "rgb(NaN,251,246)": 12,
+    "rgb(NaN,225,208)": 3,
+    "rgb(NaN,243,236)": 3,
+    "rgb(NaN,124,46)": 6
+   },
+   "fams": {
+    "Inter Variable": 58,
+    "Marcellus": 20
+   },
+   "sizes": {
+    "10": 1,
+    "11": 5,
+    "12": 8,
+    "14": 31,
+    "16": 14,
+    "18": 5,
+    "20": 7,
+    "24": 3,
+    "30": 1,
+    "36": 2,
+    "48": 1
+   },
+   "weights": {
+    "400": 69,
+    "500": 9
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 11,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 4,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 8,
+    "12px/400/lh1.33/Inter Variable": 6,
+    "48px/400/lh1/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/400/lh1.63/Inter Variable": 10,
+    "24px/400/lh1.33/Marcellus": 3,
+    "20px/400/lh1.4/Marcellus": 7,
+    "14px/400/lh1.63/Inter Variable": 7,
+    "36px/400/lh1.11/Marcellus": 2,
+    "30px/400/lh1.2/Marcellus": 1,
+    "11px/400/lh1.5/Inter Variable": 5,
+    "16px/500/lh1.5/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 6,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 13,
+    "all | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 5
+   },
+   "motionCount": 39,
+   "imgs": [],
+   "svgCount": 25,
+   "interactiveCount": 32,
+   "revealTotal": 6,
+   "revealHidden": 2,
+   "h1": "Design Advice",
+   "h1Measure": 32,
+   "bodyMeasure": 78,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 3450,
+   "cls": 0
+  },
+  "service-palmistry-advice@1280": {
+   "url": "/services/palmistry-advice/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 25,
+    "rgb(NaN,91,86)": 27,
+    "rgb(NaN,247,239)": 4,
+    "rgb(NaN,43,42) a=0.90": 5,
+    "rgb(NaN,212,168)": 1,
+    "rgb(NaN,247,239) a=0.80": 1
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 4,
+    "rgb(NaN,251,246)": 12,
+    "rgb(NaN,225,208)": 4,
+    "rgb(NaN,243,236)": 3,
+    "rgb(NaN,124,46)": 6
+   },
+   "fams": {
+    "Inter Variable": 59,
+    "Marcellus": 20
+   },
+   "sizes": {
+    "10": 1,
+    "11": 5,
+    "12": 8,
+    "14": 32,
+    "16": 14,
+    "18": 5,
+    "20": 7,
+    "24": 3,
+    "30": 1,
+    "36": 2,
+    "48": 1
+   },
+   "weights": {
+    "400": 70,
+    "500": 9
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 12,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 4,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 8,
+    "12px/400/lh1.33/Inter Variable": 6,
+    "48px/400/lh1/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/400/lh1.63/Inter Variable": 10,
+    "24px/400/lh1.33/Marcellus": 3,
+    "14px/400/lh1.63/Inter Variable": 8,
+    "20px/400/lh1.4/Marcellus": 7,
+    "36px/400/lh1.11/Marcellus": 2,
+    "30px/400/lh1.2/Marcellus": 1,
+    "11px/400/lh1.5/Inter Variable": 5,
+    "16px/500/lh1.5/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 6,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 13,
+    "all | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 5
+   },
+   "motionCount": 39,
+   "imgs": [],
+   "svgCount": 25,
+   "interactiveCount": 32,
+   "revealTotal": 6,
+   "revealHidden": 3,
+   "h1": "Palmistry Advice",
+   "h1Measure": 32,
+   "bodyMeasure": 78,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 3581,
+   "cls": 0
+  },
+  "contact@1280": {
+   "url": "/contact/",
+   "colours": {
+    "rgb(NaN,43,42)": 17,
+    "rgb(NaN,90,82)": 7,
+    "rgb(NaN,91,86)": 12,
+    "rgb(NaN,247,239)": 2
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 2,
+    "rgb(NaN,251,246)": 2,
+    "rgb(NaN,225,208)": 3,
+    "rgb(NaN,243,236)": 2,
+    "rgb(NaN,124,46)": 1
+   },
+   "fams": {
+    "Inter Variable": 31,
+    "Marcellus": 7
+   },
+   "sizes": {
+    "10": 1,
+    "12": 6,
+    "14": 20,
+    "16": 5,
+    "18": 2,
+    "20": 1,
+    "24": 2,
+    "48": 1
+   },
+   "weights": {
+    "400": 36,
+    "500": 2
+   },
+   "radii": {
+    "8px": 3,
+    "12px": 3,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 4,
+    "18px/400/lh1.56/Marcellus": 1,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 17,
+    "14px/500/lh1.43/Inter Variable": 2,
+    "12px/400/lh1.33/Inter Variable": 4,
+    "48px/400/lh1/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "24px/400/lh1.33/Marcellus": 2,
+    "16px/400/lh1.63/Inter Variable": 1,
+    "20px/400/lh1.4/Marcellus": 1,
+    "14px/400/lh1.63/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 2,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 3
+   },
+   "motionCount": 16,
+   "imgs": [],
+   "svgCount": 6,
+   "interactiveCount": 22,
+   "revealTotal": 3,
+   "revealHidden": 0,
+   "h1": "Book a Consultation",
+   "h1Measure": 32,
+   "bodyMeasure": 69,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 1190,
+   "cls": 0
+  },
+  "articles@1280": {
+   "url": "/articles/",
+   "colours": {
+    "rgb(NaN,43,42)": 16,
+    "rgb(NaN,90,82)": 7,
+    "rgb(NaN,91,86)": 11,
+    "rgb(NaN,247,239)": 3
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 3,
+    "rgb(NaN,251,246)": 2,
+    "rgb(NaN,225,208)": 2,
+    "rgb(NaN,243,236)": 2,
+    "rgb(NaN,124,46)": 1
+   },
+   "fams": {
+    "Inter Variable": 31,
+    "Marcellus": 6
+   },
+   "sizes": {
+    "10": 1,
+    "12": 6,
+    "14": 21,
+    "16": 4,
+    "18": 2,
+    "20": 1,
+    "24": 1,
+    "48": 1
+   },
+   "weights": {
+    "400": 33,
+    "500": 4
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 2,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 1,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 4,
+    "12px/400/lh1.33/Inter Variable": 4,
+    "48px/400/lh1/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "24px/400/lh1.33/Marcellus": 1,
+    "16px/400/lh1.63/Inter Variable": 1,
+    "20px/400/lh1.4/Marcellus": 1,
+    "14px/400/lh1.63/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 2
+   },
+   "motionCount": 17,
+   "imgs": [],
+   "svgCount": 6,
+   "interactiveCount": 24,
+   "revealTotal": 2,
+   "revealHidden": 0,
+   "h1": "Articles & Writings",
+   "h1Measure": 32,
+   "bodyMeasure": 60,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 1296,
+   "cls": 0
+  },
+  "privacy@1280": {
+   "url": "/privacy/",
+   "colours": {
+    "rgb(NaN,43,42)": 28,
+    "rgb(NaN,90,82)": 19,
+    "rgb(NaN,91,86)": 46,
+    "rgb(NaN,247,239)": 2
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 2,
+    "rgb(NaN,251,246)": 1,
+    "rgb(NaN,243,236)": 2,
+    "rgb(NaN,124,46)": 1,
+    "rgb(NaN,225,208)": 2,
+    "rgb(NaN,212,168) a=0.40": 1
+   },
+   "fams": {
+    "Inter Variable": 77,
+    "Marcellus": 18
+   },
+   "sizes": {
+    "10": 1,
+    "12": 6,
+    "14": 19,
+    "16": 52,
+    "18": 2,
+    "20": 4,
+    "24": 10,
+    "48": 1
+   },
+   "weights": {
+    "400": 83,
+    "500": 2,
+    "600": 10
+   },
+   "radii": {
+    "8px": 3,
+    "12px": 3,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 1,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 16,
+    "14px/500/lh1.43/Inter Variable": 2,
+    "12px/400/lh1.33/Inter Variable": 4,
+    "48px/400/lh1/Marcellus": 1,
+    "18px/400/lh1.63/Inter Variable": 1,
+    "16px/400/lh1.63/Inter Variable": 39,
+    "16px/600/lh1.63/Inter Variable": 10,
+    "24px/400/lh1.33/Marcellus": 10,
+    "20px/400/lh1.4/Marcellus": 4,
+    "14px/400/lh1.63/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 2,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 2
+   },
+   "motionCount": 15,
+   "imgs": [],
+   "svgCount": 5,
+   "interactiveCount": 25,
+   "revealTotal": 2,
+   "revealHidden": 0,
+   "h1": "Your information, and what happens to it",
+   "h1Measure": 32,
+   "bodyMeasure": 86,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation"
+   ],
+   "docHeight": 4062,
+   "cls": 0
+  },
+  "404@1280": {
+   "url": "/404.html",
+   "colours": {
+    "rgb(NaN,43,42)": 18,
+    "rgb(NaN,90,82)": 8,
+    "rgb(NaN,91,86)": 14,
+    "rgb(NaN,247,239)": 3
+   },
+   "bgs": {
+    "rgb(NaN,243,236) a=0.70": 1,
+    "rgb(NaN,90,82)": 3,
+    "rgb(NaN,251,246)": 5,
+    "rgb(NaN,243,236)": 1,
+    "rgb(NaN,225,208)": 1
+   },
+   "fams": {
+    "Inter Variable": 34,
+    "Marcellus": 9
+   },
+   "sizes": {
+    "10": 1,
+    "12": 6,
+    "14": 23,
+    "16": 6,
+    "18": 5,
+    "20": 1,
+    "48": 1
+   },
+   "weights": {
+    "400": 39,
+    "500": 4
+   },
+   "radii": {
+    "8px": 5,
+    "12px": 5,
+    "6px": 5
+   },
+   "typeSteps": {
+    "16px/400/lh1.5/Inter Variable": 3,
+    "18px/400/lh1.56/Marcellus": 5,
+    "10px/400/lh1/Inter Variable": 1,
+    "14px/400/lh1.43/Inter Variable": 20,
+    "14px/500/lh1.43/Inter Variable": 2,
+    "12px/400/lh1.33/Inter Variable": 4,
+    "48px/400/lh1/Marcellus": 1,
+    "16px/400/lh1.63/Inter Variable": 1,
+    "16px/500/lh1.5/Inter Variable": 2,
+    "20px/400/lh1.4/Marcellus": 1,
+    "14px/400/lh1.63/Inter Variable": 1,
+    "12px/400/lh1.33/Marcellus": 2
+   },
+   "motionAgg": {
+    "color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color | 0.15s | cubic-bezier(0.4, 0, 0.2, 1)": 11,
+    "all | 0.2s | cubic-bezier(0.4, 0, 0.2, 1)": 4,
+    "opacity, transform | 0.7s, 0.7s | ease, ease": 5,
+    "transform | 0.3s | cubic-bezier(0.4, 0, 0.2, 1)": 4
+   },
+   "motionCount": 24,
+   "imgs": [],
+   "svgCount": 10,
+   "interactiveCount": 28,
+   "revealTotal": 5,
+   "revealHidden": 0,
+   "h1": "This path leads nowhere",
+   "h1Measure": 28,
+   "bodyMeasure": 84,
+   "bodyFontSize": 16,
+   "bodyLineHeight": 1.63,
+   "aboveFoldCtas": [
+    "Contact",
+    "Book a Consultation",
+    "Contact Book a consultation"
+   ],
+   "docHeight": 1211,
+   "cls": 0
+  }
+ },
+ "consoleErrors": []
+}

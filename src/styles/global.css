@@ -48,6 +48,17 @@
     font-family: var(--font-serif);
     font-weight: 400; /* Marcellus ships a single, elegant weight */
     letter-spacing: 0.01em;
+    /* Distribute the words evenly across lines so no heading ends on a single
+       stranded word. At 375px eleven headings did, including the home page's
+       own h1, which left "Puri" alone on line two. Ignored by browsers that
+       don't support it, which simply keeps today's wrapping. */
+    text-wrap: balance;
+  }
+
+  /* Prose wraps for readability rather than evenness — `pretty` only fixes
+     the last line, so long paragraphs stay cheap to lay out. */
+  p {
+    text-wrap: pretty;
   }
 
   /* Accessible, always-visible focus — teal ring, never colour-only. */
@@ -87,6 +98,9 @@
      the browser's default triangle and the chevron would never turn. */
   .faq > summary {
     list-style: none;
+    /* Every one of these triggers previously had no hover feedback at all —
+       on a site where the FAQ is the largest group of interactive controls. */
+    @apply transition-colors hover:text-teal-dark;
   }
   .faq > summary::-webkit-details-marker {
     display: none;
@@ -106,7 +120,7 @@
     @apply mt-10 font-serif text-2xl text-teal;
   }
   .prose-content h3 {
-    @apply mt-8 font-serif text-xl text-teal;
+    @apply mt-8 font-serif text-lg text-teal;
   }
   .prose-content p {
     @apply mt-4;
@@ -149,6 +163,38 @@
 .js [data-reveal].is-visible {
   opacity: 1;
   transform: none;
+}
+
+/*
+ * ── Disclosure panels open smoothly ──────────────────────────────────────
+ *  The FAQ chevron already turned over 300ms, but the panel beneath it
+ *  appeared instantly — a native <details> cannot animate to `auto` height.
+ *  `interpolate-size` lifts that restriction; `::details-content` is the
+ *  hidden wrapper around everything after the <summary>.
+ *
+ *  Feature-queried on purpose. Where it is unsupported the panels behave
+ *  exactly as they do today — they snap — so this can only add polish, never
+ *  break the disclosure. The reduced-motion block below zeroes it, because
+ *  this is real motion, not a colour change.
+ */
+@supports (interpolate-size: allow-keywords) {
+  :root {
+    interpolate-size: allow-keywords;
+  }
+
+  .faq::details-content,
+  .menu::details-content {
+    block-size: 0;
+    overflow: hidden;
+    transition:
+      block-size 300ms cubic-bezier(0.4, 0, 0.2, 1),
+      content-visibility 300ms cubic-bezier(0.4, 0, 0.2, 1) allow-discrete;
+  }
+
+  .faq[open]::details-content,
+  .menu[open]::details-content {
+    block-size: auto;
+  }
 }
 
 /*

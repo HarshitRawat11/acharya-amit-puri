@@ -23,11 +23,11 @@ const isActive = (href: string) =>
   class="sticky top-0 z-50 border-b border-hair/70 bg-paper/85 backdrop-blur supports-[backdrop-filter]:bg-paper/70"
 >
   <Container class="flex items-center justify-between py-4">
-    <a href="/" class="flex items-center gap-3" aria-label={`${site.name} — home`}>
-      <Mandala simple class="h-8 w-8 shrink-0 text-gold" />
+    <a href="/" class="group flex items-center gap-3 transition-colors hover:text-teal-dark" aria-label={`${site.name} — home`}>
+      <Mandala simple class="h-8 w-8 shrink-0 text-gold transition-colors group-hover:text-teal" />
       <span class="flex flex-col leading-none">
-        <span class="font-serif text-lg text-teal">{site.name}</span>
-        <span class="mt-1 text-[10px] uppercase tracking-widest2 text-muted" aria-hidden="true">
+        <span class="font-serif text-lg text-teal transition-colors group-hover:text-teal-dark">{site.name}</span>
+        <span class="mt-1 text-xs uppercase tracking-widest2 text-muted" aria-hidden="true">
           Vastu · Astrology · Numerology
         </span>
       </span>
@@ -43,7 +43,7 @@ const isActive = (href: string) =>
             rel={l.external ? "noopener noreferrer" : undefined}
             aria-current={!l.external && isActive(l.href) ? "page" : undefined}
             class:list={[
-              "text-sm transition-colors hover:text-teal",
+              "text-sm transition-colors hover:text-teal-dark",
               !l.external && isActive(l.href) ? "text-teal" : "text-ink",
             ]}
           >
@@ -58,7 +58,7 @@ const isActive = (href: string) =>
     <!-- Mobile navigation (native <details> — keyboard accessible, no JS) -->
     <details class="menu relative md:hidden">
       <summary
-        class="flex h-10 w-10 cursor-pointer items-center justify-center rounded-lg border border-hair text-teal"
+        class="flex h-11 w-11 cursor-pointer items-center justify-center rounded-lg border border-hair text-teal transition-colors hover:border-gold hover:text-teal-dark"
         aria-label="Toggle menu"
       >
         <svg class="icon-open h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
@@ -78,10 +78,8 @@ const isActive = (href: string) =>
                 rel={l.external ? "noopener noreferrer" : undefined}
                 aria-current={!l.external && isActive(l.href) ? "page" : undefined}
                 class:list={[
-                  "rounded-md px-3 py-2.5 text-sm",
-                  !l.external && isActive(l.href)
-                    ? "bg-surface-alt text-teal"
-                    : "text-ink hover:bg-surface-alt",
+                  "rounded-md px-3 py-2.5 text-sm transition-colors hover:bg-surface-alt",
+                  !l.external && isActive(l.href) ? "bg-surface-alt text-teal" : "text-ink",
                 ]}
               >
                 {l.label}
