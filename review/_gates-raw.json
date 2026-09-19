@@ -125,67 +125,106 @@
    {
     "maxChars": 37,
     "lines": 5,
-    "px": 18
+    "px": 18,
+    "cls": "mt-6 max-w-lg text-lg leading-relaxed text-muted",
+    "w": 327,
+    "head": "People come to me when a decision "
    },
    {
     "maxChars": 37,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mx-auto mt-4 max-w-prose2 leading-relaxed text-muted",
+    "w": 327,
+    "head": "Calm, considered counsel across th"
    },
    {
     "maxChars": 30,
     "lines": 5,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 269,
+    "head": "A considered study of how your hom"
    },
    {
     "maxChars": 36,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 269,
+    "head": "A thoughtful reading of your Vedic"
    },
    {
     "maxChars": 31,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 269,
+    "head": "An exploration of the numbers wove"
    },
    {
     "maxChars": 41,
     "lines": 5,
-    "px": 16
+    "px": 16,
+    "cls": "mt-5 max-w-prose2 leading-relaxed text-muted",
+    "w": 327,
+    "head": "A calm, respectful approach to Vas"
    },
    {
     "maxChars": 43,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-2 leading-relaxed text-muted",
+    "w": 327,
+    "head": "Share a little about what you're s"
    },
    {
     "maxChars": 34,
     "lines": 6,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 277,
+    "head": "Most consultations are arranged re"
    },
    {
     "maxChars": 37,
     "lines": 7,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 277,
+    "head": "It depends on the service. A Vedic"
    },
    {
     "maxChars": 37,
     "lines": 6,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 277,
+    "head": "A consultation conversation usuall"
    },
    {
     "maxChars": 36,
     "lines": 6,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 277,
+    "head": "No. This guidance is offered for r"
    },
    {
     "maxChars": 37,
     "lines": 5,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 277,
+    "head": "Absolutely. Many people come with "
    },
    {
     "maxChars": 41,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 327,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -193,12 +232,13 @@
    "0 0 24 24": 16,
    "0 0 200 200": 2,
    "0 0 64 64": 2,
+   "0 0 56 64": 6,
    "0 0 40 40": 6
   },
   "petal": 5,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "about@375": {
@@ -302,17 +342,26 @@
    {
     "maxChars": 40,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "",
+    "w": 327,
+    "head": "Acharya Amit Puri offers guidance "
    },
    {
     "maxChars": 40,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "",
+    "w": 327,
+    "head": "A fuller account of the Acharya's "
    },
    {
     "maxChars": 41,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 327,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -324,7 +373,7 @@
   "petal": 3,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "services@375": {
@@ -430,27 +479,42 @@
    {
     "maxChars": 30,
     "lines": 5,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 269,
+    "head": "A considered study of how your hom"
    },
    {
     "maxChars": 36,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 269,
+    "head": "A thoughtful reading of your Vedic"
    },
    {
     "maxChars": 31,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 269,
+    "head": "An exploration of the numbers wove"
    },
    {
     "maxChars": 43,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-2 leading-relaxed text-muted",
+    "w": 327,
+    "head": "Share a little about what you're s"
    },
    {
     "maxChars": 41,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 327,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -458,12 +522,13 @@
    "0 0 24 24": 8,
    "0 0 200 200": 2,
    "0 0 64 64": 1,
+   "0 0 56 64": 6,
    "0 0 40 40": 6
   },
   "petal": 1,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "vastu@375": {
@@ -617,57 +682,90 @@
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 18
+    "px": 18,
+    "cls": "mt-5 max-w-xl text-lg leading-relaxed text-muted",
+    "w": 327,
+    "head": "A considered study of how your hom"
    },
    {
     "maxChars": 32,
     "lines": 9,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 leading-relaxed text-muted",
+    "w": 243,
+    "head": "Vastu Shastra is the traditional I"
    },
    {
     "maxChars": 39,
     "lines": 5,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 327,
+    "head": "A room-by-room Vastu review of the"
    },
    {
     "maxChars": 41,
     "lines": 5,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 327,
+    "head": "Anyone seeking Vastu for home or o"
    },
    {
     "maxChars": 32,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 269,
+    "head": "Share a little about what you're s"
    },
    {
     "maxChars": 38,
     "lines": 8,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 277,
+    "head": "Almost never. Most of what is sugg"
    },
    {
     "maxChars": 36,
     "lines": 8,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 277,
+    "head": "Photographs of each main room, or "
    },
    {
     "maxChars": 37,
     "lines": 7,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 277,
+    "head": "Yes. Renting simply means the sugg"
    },
    {
     "maxChars": 36,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 269,
+    "head": "A thoughtful reading of your Vedic"
    },
    {
     "maxChars": 31,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 269,
+    "head": "An exploration of the numbers wove"
    },
    {
     "maxChars": 41,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 327,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -675,12 +773,13 @@
    "0 0 24 24": 15,
    "0 0 200 200": 2,
    "0 0 64 64": 1,
-   "0 0 40 40": 6
+   "0 0 40 40": 6,
+   "0 0 56 64": 5
   },
   "petal": 5,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "astro@375": {
@@ -834,52 +933,82 @@
    {
     "maxChars": 36,
     "lines": 4,
-    "px": 18
+    "px": 18,
+    "cls": "mt-5 max-w-xl text-lg leading-relaxed text-muted",
+    "w": 327,
+    "head": "A thoughtful reading of your Vedic"
    },
    {
     "maxChars": 38,
     "lines": 9,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 leading-relaxed text-muted",
+    "w": 243,
+    "head": "Drawing on Vedic astrology (Jyotis"
    },
    {
     "maxChars": 41,
     "lines": 5,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 327,
+    "head": "A personalised kundli analysis by "
    },
    {
     "maxChars": 32,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 269,
+    "head": "Share a little about what you're s"
    },
    {
     "maxChars": 40,
     "lines": 10,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 277,
+    "head": "As precise as you can manage. Some"
    },
    {
     "maxChars": 38,
     "lines": 7,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 277,
+    "head": "Your kundli, or birth chart, is a "
    },
    {
     "maxChars": 37,
     "lines": 6,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 277,
+    "head": "No. This reading is offered for pe"
    },
    {
     "maxChars": 30,
     "lines": 5,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 269,
+    "head": "A considered study of how your hom"
    },
    {
     "maxChars": 31,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 269,
+    "head": "An exploration of the numbers wove"
    },
    {
     "maxChars": 41,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 327,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -887,12 +1016,13 @@
    "0 0 24 24": 15,
    "0 0 200 200": 2,
    "0 0 64 64": 1,
-   "0 0 40 40": 6
+   "0 0 40 40": 6,
+   "0 0 56 64": 5
   },
   "petal": 5,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "numero@375": {
@@ -1045,57 +1175,90 @@
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 18
+    "px": 18,
+    "cls": "mt-5 max-w-xl text-lg leading-relaxed text-muted",
+    "w": 327,
+    "head": "An exploration of the numbers wove"
    },
    {
     "maxChars": 31,
     "lines": 10,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 leading-relaxed text-muted",
+    "w": 243,
+    "head": "Numerology studies the patterns an"
    },
    {
     "maxChars": 39,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 327,
+    "head": "A reading of your core numbers — d"
    },
    {
     "maxChars": 42,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 327,
+    "head": "Those curious about the numbers in"
    },
    {
     "maxChars": 32,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 269,
+    "head": "Share a little about what you're s"
    },
    {
     "maxChars": 36,
     "lines": 8,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 277,
+    "head": "No. Nothing is ever required of yo"
    },
    {
     "maxChars": 39,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 277,
+    "head": "Your full name as it is written, a"
    },
    {
     "maxChars": 36,
     "lines": 7,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 277,
+    "head": "Yes. For a child, the date and pla"
    },
    {
     "maxChars": 30,
     "lines": 5,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 269,
+    "head": "A considered study of how your hom"
    },
    {
     "maxChars": 36,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 269,
+    "head": "A thoughtful reading of your Vedic"
    },
    {
     "maxChars": 41,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 327,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -1103,12 +1266,13 @@
    "0 0 24 24": 15,
    "0 0 200 200": 2,
    "0 0 64 64": 1,
-   "0 0 40 40": 6
+   "0 0 40 40": 6,
+   "0 0 56 64": 5
   },
   "petal": 5,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "prakriti@375": {
@@ -1260,57 +1424,90 @@
    {
     "maxChars": 29,
     "lines": 9,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 leading-relaxed text-muted",
+    "w": 243,
+    "head": "Rooted in Ayurveda, Prakriti refer"
    },
    {
     "maxChars": 42,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 327,
+    "head": "Anyone wishing to understand their"
    },
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 rounded-card border border-hair bg-surface-alt p-5",
+    "w": 327,
+    "head": "Traditional guidance for general w"
    },
    {
     "maxChars": 32,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 269,
+    "head": "Share a little about what you're s"
    },
    {
     "maxChars": 36,
     "lines": 8,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 277,
+    "head": "No, and it should not be treated a"
    },
    {
     "maxChars": 36,
     "lines": 9,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 277,
+    "head": "Ayurveda describes three qualities"
    },
    {
     "maxChars": 34,
     "lines": 7,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 277,
+    "head": "No. The suggestions are small and "
    },
    {
     "maxChars": 30,
     "lines": 5,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 269,
+    "head": "A considered study of how your hom"
    },
    {
     "maxChars": 36,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 269,
+    "head": "A thoughtful reading of your Vedic"
    },
    {
     "maxChars": 31,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 269,
+    "head": "An exploration of the numbers wove"
    },
    {
     "maxChars": 41,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 327,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -1318,12 +1515,13 @@
    "0 0 24 24": 15,
    "0 0 200 200": 2,
    "0 0 64 64": 1,
-   "0 0 40 40": 6
+   "0 0 40 40": 6,
+   "0 0 56 64": 5
   },
   "petal": 5,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "design@375": {
@@ -1475,52 +1673,82 @@
    {
     "maxChars": 32,
     "lines": 8,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 leading-relaxed text-muted",
+    "w": 243,
+    "head": "This service blends astrological i"
    },
    {
     "maxChars": 42,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 327,
+    "head": "Those designing, building, or refr"
    },
    {
     "maxChars": 32,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 269,
+    "head": "Share a little about what you're s"
    },
    {
     "maxChars": 36,
     "lines": 8,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 277,
+    "head": "A Vastu Report studies a space tha"
    },
    {
     "maxChars": 38,
     "lines": 7,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 277,
+    "head": "Yes, and it usually works best tha"
    },
    {
     "maxChars": 37,
     "lines": 8,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 277,
+    "head": "Ideally before the plan is finalis"
    },
    {
     "maxChars": 30,
     "lines": 5,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 269,
+    "head": "A considered study of how your hom"
    },
    {
     "maxChars": 36,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 269,
+    "head": "A thoughtful reading of your Vedic"
    },
    {
     "maxChars": 31,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 269,
+    "head": "An exploration of the numbers wove"
    },
    {
     "maxChars": 41,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 327,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -1528,12 +1756,13 @@
    "0 0 24 24": 15,
    "0 0 200 200": 2,
    "0 0 64 64": 1,
-   "0 0 40 40": 6
+   "0 0 40 40": 6,
+   "0 0 56 64": 5
   },
   "petal": 5,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "palmistry@375": {
@@ -1686,47 +1915,74 @@
    {
     "maxChars": 32,
     "lines": 9,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 leading-relaxed text-muted",
+    "w": 243,
+    "head": "Palmistry, or palm reading, interp"
    },
    {
     "maxChars": 32,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 269,
+    "head": "Share a little about what you're s"
    },
    {
     "maxChars": 37,
     "lines": 6,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 277,
+    "head": "Clear photographs of both palms ta"
    },
    {
     "maxChars": 35,
     "lines": 6,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 277,
+    "head": "By long convention the non-dominan"
    },
    {
     "maxChars": 50,
     "lines": 5,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 277,
+    "head": "No. It is offered as a mirror for "
    },
    {
     "maxChars": 30,
     "lines": 5,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 269,
+    "head": "A considered study of how your hom"
    },
    {
     "maxChars": 36,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 269,
+    "head": "A thoughtful reading of your Vedic"
    },
    {
     "maxChars": 31,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 269,
+    "head": "An exploration of the numbers wove"
    },
    {
     "maxChars": 41,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 327,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -1734,12 +1990,13 @@
    "0 0 24 24": 15,
    "0 0 200 200": 2,
    "0 0 64 64": 1,
-   "0 0 40 40": 6
+   "0 0 40 40": 6,
+   "0 0 56 64": 5
   },
   "petal": 5,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "contact@375": {
@@ -1834,17 +2091,26 @@
    {
     "maxChars": 36,
     "lines": 4,
-    "px": 18
+    "px": 18,
+    "cls": "mt-5 max-w-xl text-lg leading-relaxed text-muted",
+    "w": 327,
+    "head": "Tell me a little about what you're"
    },
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 261,
+    "head": "It will be here shortly, along wit"
    },
    {
     "maxChars": 41,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 327,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -1856,7 +2122,7 @@
   "petal": 1,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "articles@375": {
@@ -1939,12 +2205,18 @@
    {
     "maxChars": 26,
     "lines": 6,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 leading-relaxed text-muted",
+    "w": 229,
+    "head": "There are no articles published ju"
    },
    {
     "maxChars": 41,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 327,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -1956,7 +2228,7 @@
   "petal": 1,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "privacy@375": {
@@ -2153,52 +2425,82 @@
    {
     "maxChars": 37,
     "lines": 8,
-    "px": 16
+    "px": 16,
+    "cls": "rounded-card border border-hair bg-surface-alt p-5 not-italic",
+    "w": 327,
+    "head": "In short. This website sets no coo"
    },
    {
     "maxChars": 45,
     "lines": 7,
-    "px": 16
+    "px": 16,
+    "cls": "",
+    "w": 327,
+    "head": "Whatever you choose to put in the "
    },
    {
     "maxChars": 45,
     "lines": 7,
-    "px": 16
+    "px": 16,
+    "cls": "",
+    "w": 327,
+    "head": "This is personal, and some of it i"
    },
    {
     "maxChars": 40,
     "lines": 8,
-    "px": 16
+    "px": 16,
+    "cls": "",
+    "w": 327,
+    "head": "The site is hosted by Cloudflare, "
    },
    {
     "maxChars": 43,
     "lines": 8,
-    "px": 16
+    "px": 16,
+    "cls": "",
+    "w": 327,
+    "head": "Consultation records are kept whil"
    },
    {
     "maxChars": 46,
     "lines": 8,
-    "px": 16
+    "px": 16,
+    "cls": "",
+    "w": 327,
+    "head": "The site is served only over an en"
    },
    {
     "maxChars": 44,
     "lines": 5,
-    "px": 16
+    "px": 16,
+    "cls": "",
+    "w": 327,
+    "head": "This site is not directed at child"
    },
    {
     "maxChars": 38,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "",
+    "w": 327,
+    "head": "If how information is handled chan"
    },
    {
     "maxChars": 37,
     "lines": 5,
-    "px": 16
+    "px": 16,
+    "cls": "rounded-card border border-gold/50 bg-gold-soft/40 p-5",
+    "w": 327,
+    "head": "The contact details for privacy re"
    },
    {
     "maxChars": 41,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 327,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -2210,7 +2512,7 @@
   "petal": 1,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "404@375": {
@@ -2277,12 +2579,18 @@
    {
     "maxChars": 39,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-5 leading-relaxed text-muted",
+    "w": 327,
+    "head": "The page you were looking for may "
    },
    {
     "maxChars": 41,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 327,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -2293,7 +2601,7 @@
   "petal": 3,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "home@768": {
@@ -2421,69 +2729,108 @@
   ],
   "bodies": [
    {
-    "maxChars": 69,
+    "maxChars": 62,
     "lines": 3,
-    "px": 18
+    "px": 18,
+    "cls": "mt-6 max-w-lg text-lg leading-relaxed text-muted",
+    "w": 512,
+    "head": "People come to me when a decision "
    },
    {
-    "maxChars": 83,
+    "maxChars": 71,
     "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "mx-auto mt-4 max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Calm, considered counsel across th"
    },
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 282,
+    "head": "A considered study of how your hom"
    },
    {
     "maxChars": 36,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 282,
+    "head": "A thoughtful reading of your Vedic"
    },
    {
     "maxChars": 33,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 282,
+    "head": "An exploration of the numbers wove"
    },
    {
     "maxChars": 41,
     "lines": 5,
-    "px": 16
+    "px": 16,
+    "cls": "mt-5 max-w-prose2 leading-relaxed text-muted",
+    "w": 328,
+    "head": "A calm, respectful approach to Vas"
    },
    {
     "maxChars": 43,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-2 leading-relaxed text-muted",
+    "w": 336,
+    "head": "Share a little about what you're s"
    },
    {
-    "maxChars": 84,
+    "maxChars": 67,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Most consultations are arranged re"
    },
    {
-    "maxChars": 86,
+    "maxChars": 72,
+    "lines": 4,
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "It depends on the service. A Vedic"
+   },
+   {
+    "maxChars": 71,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "A consultation conversation usuall"
    },
    {
-    "maxChars": 84,
+    "maxChars": 75,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "No. This guidance is offered for r"
    },
    {
-    "maxChars": 86,
+    "maxChars": 71,
     "lines": 3,
-    "px": 16
-   },
-   {
-    "maxChars": 83,
-    "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Absolutely. Many people come with "
    },
    {
     "maxChars": 34,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 270,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -2491,12 +2838,13 @@
    "0 0 24 24": 16,
    "0 0 200 200": 2,
    "0 0 64 64": 2,
+   "0 0 56 64": 6,
    "0 0 40 40": 6
   },
   "petal": 5,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "about@768": {
@@ -2603,17 +2951,26 @@
    {
     "maxChars": 51,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "",
+    "w": 391,
+    "head": "Acharya Amit Puri offers guidance "
    },
    {
     "maxChars": 53,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "",
+    "w": 391,
+    "head": "A fuller account of the Acharya's "
    },
    {
     "maxChars": 34,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 270,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -2625,7 +2982,7 @@
   "petal": 3,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "services@768": {
@@ -2732,27 +3089,42 @@
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 282,
+    "head": "A considered study of how your hom"
    },
    {
     "maxChars": 36,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 282,
+    "head": "A thoughtful reading of your Vedic"
    },
    {
     "maxChars": 33,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 282,
+    "head": "An exploration of the numbers wove"
    },
    {
     "maxChars": 43,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-2 leading-relaxed text-muted",
+    "w": 336,
+    "head": "Share a little about what you're s"
    },
    {
     "maxChars": 34,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 270,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -2760,12 +3132,13 @@
    "0 0 24 24": 8,
    "0 0 200 200": 2,
    "0 0 64 64": 1,
+   "0 0 56 64": 6,
    "0 0 40 40": 6
   },
   "petal": 1,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "vastu@768": {
@@ -2921,57 +3294,90 @@
    {
     "maxChars": 60,
     "lines": 3,
-    "px": 18
+    "px": 18,
+    "cls": "mt-5 max-w-xl text-lg leading-relaxed text-muted",
+    "w": 544,
+    "head": "A considered study of how your hom"
    },
    {
-    "maxChars": 80,
+    "maxChars": 73,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Vastu Shastra is the traditional I"
    },
    {
-    "maxChars": 90,
-    "lines": 2,
-    "px": 16
-   },
-   {
-    "maxChars": 91,
+    "maxChars": 71,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "A room-by-room Vastu review of the"
    },
    {
-    "maxChars": 81,
+    "maxChars": 69,
+    "lines": 3,
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Anyone seeking Vastu for home or o"
+   },
+   {
+    "maxChars": 70,
     "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Share a little about what you're s"
    },
    {
-    "maxChars": 84,
+    "maxChars": 73,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Almost never. Most of what is sugg"
    },
    {
-    "maxChars": 84,
-    "lines": 3,
-    "px": 16
+    "maxChars": 74,
+    "lines": 4,
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Photographs of each main room, or "
    },
    {
-    "maxChars": 80,
+    "maxChars": 73,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Yes. Renting simply means the sugg"
    },
    {
     "maxChars": 36,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 282,
+    "head": "A thoughtful reading of your Vedic"
    },
    {
     "maxChars": 33,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 282,
+    "head": "An exploration of the numbers wove"
    },
    {
     "maxChars": 34,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 270,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -2979,12 +3385,13 @@
    "0 0 24 24": 15,
    "0 0 200 200": 2,
    "0 0 64 64": 1,
-   "0 0 40 40": 6
+   "0 0 40 40": 6,
+   "0 0 56 64": 5
   },
   "petal": 5,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "astro@768": {
@@ -3140,52 +3547,82 @@
    {
     "maxChars": 57,
     "lines": 3,
-    "px": 18
+    "px": 18,
+    "cls": "mt-5 max-w-xl text-lg leading-relaxed text-muted",
+    "w": 544,
+    "head": "A thoughtful reading of your Vedic"
    },
    {
     "maxChars": 77,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Drawing on Vedic astrology (Jyotis"
    },
    {
-    "maxChars": 82,
+    "maxChars": 69,
+    "lines": 3,
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "A personalised kundli analysis by "
+   },
+   {
+    "maxChars": 70,
     "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Share a little about what you're s"
    },
    {
-    "maxChars": 81,
-    "lines": 2,
-    "px": 16
+    "maxChars": 80,
+    "lines": 5,
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "As precise as you can manage. Some"
    },
    {
-    "maxChars": 88,
+    "maxChars": 76,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Your kundli, or birth chart, is a "
    },
    {
-    "maxChars": 85,
+    "maxChars": 73,
     "lines": 3,
-    "px": 16
-   },
-   {
-    "maxChars": 86,
-    "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "No. This reading is offered for pe"
    },
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 282,
+    "head": "A considered study of how your hom"
    },
    {
     "maxChars": 33,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 282,
+    "head": "An exploration of the numbers wove"
    },
    {
     "maxChars": 34,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 270,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -3193,12 +3630,13 @@
    "0 0 24 24": 15,
    "0 0 200 200": 2,
    "0 0 64 64": 1,
-   "0 0 40 40": 6
+   "0 0 40 40": 6,
+   "0 0 56 64": 5
   },
   "petal": 5,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "numero@768": {
@@ -3354,57 +3792,90 @@
    {
     "maxChars": 53,
     "lines": 3,
-    "px": 18
+    "px": 18,
+    "cls": "mt-5 max-w-xl text-lg leading-relaxed text-muted",
+    "w": 544,
+    "head": "An exploration of the numbers wove"
    },
    {
-    "maxChars": 81,
+    "maxChars": 71,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Numerology studies the patterns an"
    },
    {
-    "maxChars": 87,
+    "maxChars": 65,
     "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "A reading of your core numbers — d"
    },
    {
-    "maxChars": 88,
+    "maxChars": 73,
     "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Those curious about the numbers in"
    },
    {
-    "maxChars": 81,
+    "maxChars": 70,
     "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Share a little about what you're s"
    },
    {
-    "maxChars": 89,
-    "lines": 3,
-    "px": 16
+    "maxChars": 74,
+    "lines": 4,
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "No. Nothing is ever required of yo"
    },
    {
-    "maxChars": 84,
+    "maxChars": 76,
     "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Your full name as it is written, a"
    },
    {
-    "maxChars": 84,
-    "lines": 3,
-    "px": 16
+    "maxChars": 74,
+    "lines": 4,
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Yes. For a child, the date and pla"
    },
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 282,
+    "head": "A considered study of how your hom"
    },
    {
     "maxChars": 36,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 282,
+    "head": "A thoughtful reading of your Vedic"
    },
    {
     "maxChars": 34,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 270,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -3412,12 +3883,13 @@
    "0 0 24 24": 15,
    "0 0 200 200": 2,
    "0 0 64 64": 1,
-   "0 0 40 40": 6
+   "0 0 40 40": 6,
+   "0 0 56 64": 5
   },
   "petal": 5,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "prakriti@768": {
@@ -3571,59 +4043,92 @@
   ],
   "bodies": [
    {
-    "maxChars": 80,
-    "lines": 3,
-    "px": 16
-   },
-   {
-    "maxChars": 86,
-    "lines": 2,
-    "px": 16
-   },
-   {
-    "maxChars": 81,
-    "lines": 2,
-    "px": 16
-   },
-   {
-    "maxChars": 81,
-    "lines": 2,
-    "px": 16
-   },
-   {
-    "maxChars": 88,
+    "maxChars": 77,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Rooted in Ayurveda, Prakriti refer"
    },
    {
-    "maxChars": 85,
-    "lines": 4,
-    "px": 16
-   },
-   {
-    "maxChars": 84,
+    "maxChars": 69,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Anyone wishing to understand their"
+   },
+   {
+    "maxChars": 68,
+    "lines": 2,
+    "px": 16,
+    "cls": "max-w-prose2 rounded-card border border-hair bg-surface-alt p-5",
+    "w": 565,
+    "head": "Traditional guidance for general w"
+   },
+   {
+    "maxChars": 70,
+    "lines": 2,
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Share a little about what you're s"
+   },
+   {
+    "maxChars": 78,
+    "lines": 4,
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "No, and it should not be treated a"
+   },
+   {
+    "maxChars": 74,
+    "lines": 5,
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Ayurveda describes three qualities"
+   },
+   {
+    "maxChars": 69,
+    "lines": 4,
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "No. The suggestions are small and "
    },
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 282,
+    "head": "A considered study of how your hom"
    },
    {
     "maxChars": 36,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 282,
+    "head": "A thoughtful reading of your Vedic"
    },
    {
     "maxChars": 33,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 282,
+    "head": "An exploration of the numbers wove"
    },
    {
     "maxChars": 34,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 270,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -3631,12 +4136,13 @@
    "0 0 24 24": 15,
    "0 0 200 200": 2,
    "0 0 64 64": 1,
-   "0 0 40 40": 6
+   "0 0 40 40": 6,
+   "0 0 56 64": 5
   },
   "petal": 5,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "design@768": {
@@ -3790,54 +4296,84 @@
   ],
   "bodies": [
    {
-    "maxChars": 83,
+    "maxChars": 76,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "This service blends astrological i"
    },
    {
-    "maxChars": 92,
+    "maxChars": 66,
     "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Those designing, building, or refr"
    },
    {
-    "maxChars": 81,
+    "maxChars": 70,
     "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Share a little about what you're s"
    },
    {
-    "maxChars": 81,
+    "maxChars": 73,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "A Vastu Report studies a space tha"
    },
    {
-    "maxChars": 86,
-    "lines": 3,
-    "px": 16
-   },
-   {
-    "maxChars": 84,
+    "maxChars": 74,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Yes, and it usually works best tha"
+   },
+   {
+    "maxChars": 74,
+    "lines": 4,
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Ideally before the plan is finalis"
    },
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 282,
+    "head": "A considered study of how your hom"
    },
    {
     "maxChars": 36,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 282,
+    "head": "A thoughtful reading of your Vedic"
    },
    {
     "maxChars": 33,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 282,
+    "head": "An exploration of the numbers wove"
    },
    {
     "maxChars": 34,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 270,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -3845,12 +4381,13 @@
    "0 0 24 24": 15,
    "0 0 200 200": 2,
    "0 0 64 64": 1,
-   "0 0 40 40": 6
+   "0 0 40 40": 6,
+   "0 0 56 64": 5
   },
   "petal": 5,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "palmistry@768": {
@@ -4004,49 +4541,76 @@
   ],
   "bodies": [
    {
-    "maxChars": 78,
+    "maxChars": 79,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Palmistry, or palm reading, interp"
    },
    {
-    "maxChars": 81,
+    "maxChars": 70,
     "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Share a little about what you're s"
    },
    {
-    "maxChars": 88,
+    "maxChars": 73,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Clear photographs of both palms ta"
    },
    {
-    "maxChars": 76,
+    "maxChars": 72,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "By long convention the non-dominan"
    },
    {
-    "maxChars": 91,
-    "lines": 2,
-    "px": 16
+    "maxChars": 78,
+    "lines": 3,
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "No. It is offered as a mirror for "
    },
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 282,
+    "head": "A considered study of how your hom"
    },
    {
     "maxChars": 36,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 282,
+    "head": "A thoughtful reading of your Vedic"
    },
    {
     "maxChars": 33,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 282,
+    "head": "An exploration of the numbers wove"
    },
    {
     "maxChars": 34,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 270,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -4054,12 +4618,13 @@
    "0 0 24 24": 15,
    "0 0 200 200": 2,
    "0 0 64 64": 1,
-   "0 0 40 40": 6
+   "0 0 40 40": 6,
+   "0 0 56 64": 5
   },
   "petal": 5,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "contact@768": {
@@ -4156,17 +4721,26 @@
    {
     "maxChars": 58,
     "lines": 3,
-    "px": 18
+    "px": 18,
+    "cls": "mt-5 max-w-xl text-lg leading-relaxed text-muted",
+    "w": 544,
+    "head": "Tell me a little about what you're"
    },
    {
-    "maxChars": 89,
+    "maxChars": 75,
     "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "It will be here shortly, along wit"
    },
    {
     "maxChars": 34,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 270,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -4178,7 +4752,7 @@
   "petal": 1,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "articles@768": {
@@ -4262,12 +4836,18 @@
    {
     "maxChars": 58,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 leading-relaxed text-muted",
+    "w": 478,
+    "head": "There are no articles published ju"
    },
    {
     "maxChars": 34,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 270,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -4279,7 +4859,7 @@
   "petal": 1,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "privacy@768": {
@@ -4475,54 +5055,84 @@
   ],
   "bodies": [
    {
-    "maxChars": 83,
-    "lines": 4,
-    "px": 16
+    "maxChars": 68,
+    "lines": 5,
+    "px": 16,
+    "cls": "rounded-card border border-hair bg-surface-alt p-5 not-italic",
+    "w": 565,
+    "head": "In short. This website sets no coo"
    },
    {
-    "maxChars": 89,
+    "maxChars": 76,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "",
+    "w": 565,
+    "head": "Whatever you choose to put in the "
    },
    {
-    "maxChars": 91,
+    "maxChars": 75,
+    "lines": 4,
+    "px": 16,
+    "cls": "",
+    "w": 565,
+    "head": "This is personal, and some of it i"
+   },
+   {
+    "maxChars": 73,
+    "lines": 5,
+    "px": 16,
+    "cls": "",
+    "w": 565,
+    "head": "The site is hosted by Cloudflare, "
+   },
+   {
+    "maxChars": 74,
+    "lines": 5,
+    "px": 16,
+    "cls": "",
+    "w": 565,
+    "head": "Consultation records are kept whil"
+   },
+   {
+    "maxChars": 74,
+    "lines": 5,
+    "px": 16,
+    "cls": "",
+    "w": 565,
+    "head": "The site is served only over an en"
+   },
+   {
+    "maxChars": 76,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "",
+    "w": 565,
+    "head": "This site is not directed at child"
    },
    {
-    "maxChars": 89,
-    "lines": 4,
-    "px": 16
+    "maxChars": 72,
+    "lines": 2,
+    "px": 16,
+    "cls": "",
+    "w": 565,
+    "head": "If how information is handled chan"
    },
    {
-    "maxChars": 91,
-    "lines": 4,
-    "px": 16
-   },
-   {
-    "maxChars": 92,
-    "lines": 4,
-    "px": 16
-   },
-   {
-    "maxChars": 92,
+    "maxChars": 69,
     "lines": 3,
-    "px": 16
-   },
-   {
-    "maxChars": 86,
-    "lines": 2,
-    "px": 16
-   },
-   {
-    "maxChars": 81,
-    "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "rounded-card border border-gold/50 bg-gold-soft/40 p-5",
+    "w": 565,
+    "head": "The contact details for privacy re"
    },
    {
     "maxChars": 34,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 270,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -4534,7 +5144,7 @@
   "petal": 1,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "404@768": {
@@ -4602,12 +5212,18 @@
    {
     "maxChars": 77,
     "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "mt-5 leading-relaxed text-muted",
+    "w": 672,
+    "head": "The page you were looking for may "
    },
    {
     "maxChars": 34,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 270,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -4618,7 +5234,7 @@
   "petal": 3,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "home@1280": {
@@ -4747,69 +5363,108 @@
   ],
   "bodies": [
    {
-    "maxChars": 69,
+    "maxChars": 62,
     "lines": 3,
-    "px": 18
+    "px": 18,
+    "cls": "mt-6 max-w-lg text-lg leading-relaxed text-muted",
+    "w": 512,
+    "head": "People come to me when a decision "
    },
    {
-    "maxChars": 83,
+    "maxChars": 71,
     "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "mx-auto mt-4 max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Calm, considered counsel across th"
    },
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 289,
+    "head": "A considered study of how your hom"
    },
    {
     "maxChars": 36,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 289,
+    "head": "A thoughtful reading of your Vedic"
    },
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 289,
+    "head": "An exploration of the numbers wove"
    },
    {
     "maxChars": 66,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-5 max-w-prose2 leading-relaxed text-muted",
+    "w": 520,
+    "head": "A calm, respectful approach to Vas"
    },
    {
     "maxChars": 25,
     "lines": 6,
-    "px": 16
+    "px": 16,
+    "cls": "mt-2 leading-relaxed text-muted",
+    "w": 192,
+    "head": "Share a little about what you're s"
    },
    {
-    "maxChars": 84,
+    "maxChars": 67,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Most consultations are arranged re"
    },
    {
-    "maxChars": 93,
+    "maxChars": 72,
+    "lines": 4,
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "It depends on the service. A Vedic"
+   },
+   {
+    "maxChars": 71,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "A consultation conversation usuall"
    },
    {
-    "maxChars": 91,
+    "maxChars": 75,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "No. This guidance is offered for r"
    },
    {
-    "maxChars": 86,
+    "maxChars": 71,
     "lines": 3,
-    "px": 16
-   },
-   {
-    "maxChars": 87,
-    "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Absolutely. Many people come with "
    },
    {
     "maxChars": 47,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 384,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -4817,12 +5472,13 @@
    "0 0 24 24": 16,
    "0 0 200 200": 2,
    "0 0 64 64": 2,
+   "0 0 56 64": 6,
    "0 0 40 40": 6
   },
   "petal": 5,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "about@1280": {
@@ -4930,17 +5586,26 @@
    {
     "maxChars": 76,
     "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "",
+    "w": 615,
+    "head": "Acharya Amit Puri offers guidance "
    },
    {
     "maxChars": 74,
     "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "",
+    "w": 615,
+    "head": "A fuller account of the Acharya's "
    },
    {
     "maxChars": 47,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 384,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -4952,7 +5617,7 @@
   "petal": 3,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "services@1280": {
@@ -5060,27 +5725,42 @@
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 289,
+    "head": "A considered study of how your hom"
    },
    {
     "maxChars": 36,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 289,
+    "head": "A thoughtful reading of your Vedic"
    },
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 289,
+    "head": "An exploration of the numbers wove"
    },
    {
     "maxChars": 25,
     "lines": 6,
-    "px": 16
+    "px": 16,
+    "cls": "mt-2 leading-relaxed text-muted",
+    "w": 192,
+    "head": "Share a little about what you're s"
    },
    {
     "maxChars": 47,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 384,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -5088,12 +5768,13 @@
    "0 0 24 24": 8,
    "0 0 200 200": 2,
    "0 0 64 64": 1,
+   "0 0 56 64": 6,
    "0 0 40 40": 6
   },
   "petal": 1,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "vastu@1280": {
@@ -5248,59 +5929,92 @@
   ],
   "bodies": [
    {
-    "maxChars": 74,
-    "lines": 2,
-    "px": 18
-   },
-   {
-    "maxChars": 80,
-    "lines": 4,
-    "px": 16
-   },
-   {
-    "maxChars": 90,
-    "lines": 2,
-    "px": 16
-   },
-   {
-    "maxChars": 91,
+    "maxChars": 60,
     "lines": 3,
-    "px": 16
+    "px": 18,
+    "cls": "mt-5 max-w-xl text-lg leading-relaxed text-muted",
+    "w": 576,
+    "head": "A considered study of how your hom"
+   },
+   {
+    "maxChars": 73,
+    "lines": 4,
+    "px": 16,
+    "cls": "max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Vastu Shastra is the traditional I"
+   },
+   {
+    "maxChars": 71,
+    "lines": 3,
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "A room-by-room Vastu review of the"
+   },
+   {
+    "maxChars": 69,
+    "lines": 3,
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Anyone seeking Vastu for home or o"
    },
    {
     "maxChars": 32,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 273,
+    "head": "Share a little about what you're s"
    },
    {
-    "maxChars": 84,
+    "maxChars": 73,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Almost never. Most of what is sugg"
    },
    {
-    "maxChars": 89,
-    "lines": 3,
-    "px": 16
+    "maxChars": 74,
+    "lines": 4,
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Photographs of each main room, or "
    },
    {
-    "maxChars": 91,
+    "maxChars": 73,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Yes. Renting simply means the sugg"
    },
    {
     "maxChars": 36,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 289,
+    "head": "A thoughtful reading of your Vedic"
    },
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 289,
+    "head": "An exploration of the numbers wove"
    },
    {
     "maxChars": 47,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 384,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -5308,12 +6022,13 @@
    "0 0 24 24": 15,
    "0 0 200 200": 2,
    "0 0 64 64": 1,
-   "0 0 40 40": 6
+   "0 0 40 40": 6,
+   "0 0 56 64": 5
   },
   "petal": 5,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "astro@1280": {
@@ -5468,54 +6183,84 @@
   ],
   "bodies": [
    {
-    "maxChars": 76,
+    "maxChars": 68,
     "lines": 2,
-    "px": 18
+    "px": 18,
+    "cls": "mt-5 max-w-xl text-lg leading-relaxed text-muted",
+    "w": 576,
+    "head": "A thoughtful reading of your Vedic"
    },
    {
-    "maxChars": 82,
+    "maxChars": 77,
+    "lines": 4,
+    "px": 16,
+    "cls": "max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Drawing on Vedic astrology (Jyotis"
+   },
+   {
+    "maxChars": 69,
     "lines": 3,
-    "px": 16
-   },
-   {
-    "maxChars": 82,
-    "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "A personalised kundli analysis by "
    },
    {
     "maxChars": 32,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 273,
+    "head": "Share a little about what you're s"
    },
    {
-    "maxChars": 88,
+    "maxChars": 80,
+    "lines": 5,
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "As precise as you can manage. Some"
+   },
+   {
+    "maxChars": 76,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Your kundli, or birth chart, is a "
    },
    {
-    "maxChars": 89,
+    "maxChars": 73,
     "lines": 3,
-    "px": 16
-   },
-   {
-    "maxChars": 90,
-    "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "No. This reading is offered for pe"
    },
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 289,
+    "head": "A considered study of how your hom"
    },
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 289,
+    "head": "An exploration of the numbers wove"
    },
    {
     "maxChars": 47,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 384,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -5523,12 +6268,13 @@
    "0 0 24 24": 15,
    "0 0 200 200": 2,
    "0 0 64 64": 1,
-   "0 0 40 40": 6
+   "0 0 40 40": 6,
+   "0 0 56 64": 5
   },
   "petal": 5,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "numero@1280": {
@@ -5681,59 +6427,92 @@
   ],
   "bodies": [
    {
-    "maxChars": 74,
+    "maxChars": 63,
     "lines": 2,
-    "px": 18
+    "px": 18,
+    "cls": "mt-5 max-w-xl text-lg leading-relaxed text-muted",
+    "w": 576,
+    "head": "An exploration of the numbers wove"
    },
    {
-    "maxChars": 81,
+    "maxChars": 71,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Numerology studies the patterns an"
    },
    {
-    "maxChars": 87,
+    "maxChars": 65,
     "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "A reading of your core numbers — d"
    },
    {
-    "maxChars": 88,
+    "maxChars": 73,
     "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Those curious about the numbers in"
    },
    {
     "maxChars": 32,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 273,
+    "head": "Share a little about what you're s"
    },
    {
-    "maxChars": 91,
-    "lines": 3,
-    "px": 16
+    "maxChars": 74,
+    "lines": 4,
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "No. Nothing is ever required of yo"
    },
    {
-    "maxChars": 90,
+    "maxChars": 76,
     "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Your full name as it is written, a"
    },
    {
-    "maxChars": 89,
-    "lines": 3,
-    "px": 16
+    "maxChars": 74,
+    "lines": 4,
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Yes. For a child, the date and pla"
    },
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 289,
+    "head": "A considered study of how your hom"
    },
    {
     "maxChars": 36,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 289,
+    "head": "A thoughtful reading of your Vedic"
    },
    {
     "maxChars": 47,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 384,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -5741,12 +6520,13 @@
    "0 0 24 24": 15,
    "0 0 200 200": 2,
    "0 0 64 64": 1,
-   "0 0 40 40": 6
+   "0 0 40 40": 6,
+   "0 0 56 64": 5
   },
   "petal": 5,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "prakriti@1280": {
@@ -5899,59 +6679,92 @@
   ],
   "bodies": [
    {
-    "maxChars": 80,
+    "maxChars": 77,
+    "lines": 4,
+    "px": 16,
+    "cls": "max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Rooted in Ayurveda, Prakriti refer"
+   },
+   {
+    "maxChars": 69,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Anyone wishing to understand their"
    },
    {
-    "maxChars": 86,
+    "maxChars": 68,
     "lines": 2,
-    "px": 16
-   },
-   {
-    "maxChars": 81,
-    "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 rounded-card border border-hair bg-surface-alt p-5",
+    "w": 565,
+    "head": "Traditional guidance for general w"
    },
    {
     "maxChars": 32,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 273,
+    "head": "Share a little about what you're s"
    },
    {
-    "maxChars": 92,
-    "lines": 3,
-    "px": 16
-   },
-   {
-    "maxChars": 93,
+    "maxChars": 78,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "No, and it should not be treated a"
    },
    {
-    "maxChars": 90,
-    "lines": 3,
-    "px": 16
+    "maxChars": 74,
+    "lines": 5,
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Ayurveda describes three qualities"
+   },
+   {
+    "maxChars": 69,
+    "lines": 4,
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "No. The suggestions are small and "
    },
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 289,
+    "head": "A considered study of how your hom"
    },
    {
     "maxChars": 36,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 289,
+    "head": "A thoughtful reading of your Vedic"
    },
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 289,
+    "head": "An exploration of the numbers wove"
    },
    {
     "maxChars": 47,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 384,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -5959,12 +6772,13 @@
    "0 0 24 24": 15,
    "0 0 200 200": 2,
    "0 0 64 64": 1,
-   "0 0 40 40": 6
+   "0 0 40 40": 6,
+   "0 0 56 64": 5
   },
   "petal": 5,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "design@1280": {
@@ -6117,54 +6931,84 @@
   ],
   "bodies": [
    {
-    "maxChars": 83,
+    "maxChars": 76,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "This service blends astrological i"
    },
    {
-    "maxChars": 92,
+    "maxChars": 66,
     "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Those designing, building, or refr"
    },
    {
     "maxChars": 32,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 273,
+    "head": "Share a little about what you're s"
    },
    {
-    "maxChars": 91,
-    "lines": 3,
-    "px": 16
+    "maxChars": 73,
+    "lines": 4,
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "A Vastu Report studies a space tha"
    },
    {
-    "maxChars": 93,
-    "lines": 3,
-    "px": 16
+    "maxChars": 74,
+    "lines": 4,
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Yes, and it usually works best tha"
    },
    {
-    "maxChars": 89,
-    "lines": 3,
-    "px": 16
+    "maxChars": 74,
+    "lines": 4,
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Ideally before the plan is finalis"
    },
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 289,
+    "head": "A considered study of how your hom"
    },
    {
     "maxChars": 36,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 289,
+    "head": "A thoughtful reading of your Vedic"
    },
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 289,
+    "head": "An exploration of the numbers wove"
    },
    {
     "maxChars": 47,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 384,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -6172,12 +7016,13 @@
    "0 0 24 24": 15,
    "0 0 200 200": 2,
    "0 0 64 64": 1,
-   "0 0 40 40": 6
+   "0 0 40 40": 6,
+   "0 0 56 64": 5
   },
   "petal": 5,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "palmistry@1280": {
@@ -6330,49 +7175,76 @@
   ],
   "bodies": [
    {
-    "maxChars": 78,
+    "maxChars": 79,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Palmistry, or palm reading, interp"
    },
    {
     "maxChars": 32,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 273,
+    "head": "Share a little about what you're s"
    },
    {
-    "maxChars": 92,
+    "maxChars": 73,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "Clear photographs of both palms ta"
    },
    {
-    "maxChars": 86,
+    "maxChars": 72,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "By long convention the non-dominan"
    },
    {
-    "maxChars": 91,
-    "lines": 2,
-    "px": 16
+    "maxChars": 78,
+    "lines": 3,
+    "px": 16,
+    "cls": "max-w-prose2 pb-5 leading-relaxed text-muted",
+    "w": 565,
+    "head": "No. It is offered as a mirror for "
    },
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 289,
+    "head": "A considered study of how your hom"
    },
    {
     "maxChars": 36,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 289,
+    "head": "A thoughtful reading of your Vedic"
    },
    {
     "maxChars": 35,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 flex-1 leading-relaxed text-ink/90",
+    "w": 289,
+    "head": "An exploration of the numbers wove"
    },
    {
     "maxChars": 47,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 384,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -6380,12 +7252,13 @@
    "0 0 24 24": 15,
    "0 0 200 200": 2,
    "0 0 64 64": 1,
-   "0 0 40 40": 6
+   "0 0 40 40": 6,
+   "0 0 56 64": 5
   },
   "petal": 5,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "contact@1280": {
@@ -6481,19 +7354,28 @@
   ],
   "bodies": [
    {
-    "maxChars": 74,
+    "maxChars": 67,
     "lines": 2,
-    "px": 18
+    "px": 18,
+    "cls": "mt-5 max-w-xl text-lg leading-relaxed text-muted",
+    "w": 576,
+    "head": "Tell me a little about what you're"
    },
    {
     "maxChars": 75,
     "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 max-w-prose2 leading-relaxed text-muted",
+    "w": 549,
+    "head": "It will be here shortly, along wit"
    },
    {
     "maxChars": 47,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 384,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -6505,7 +7387,7 @@
   "petal": 1,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "articles@1280": {
@@ -6590,12 +7472,18 @@
    {
     "maxChars": 58,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-3 leading-relaxed text-muted",
+    "w": 478,
+    "head": "There are no articles published ju"
    },
    {
     "maxChars": 47,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 384,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -6607,7 +7495,7 @@
   "petal": 1,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "privacy@1280": {
@@ -6804,54 +7692,84 @@
   ],
   "bodies": [
    {
-    "maxChars": 83,
-    "lines": 4,
-    "px": 16
+    "maxChars": 68,
+    "lines": 5,
+    "px": 16,
+    "cls": "rounded-card border border-hair bg-surface-alt p-5 not-italic",
+    "w": 565,
+    "head": "In short. This website sets no coo"
    },
    {
-    "maxChars": 89,
+    "maxChars": 76,
     "lines": 4,
-    "px": 16
+    "px": 16,
+    "cls": "",
+    "w": 565,
+    "head": "Whatever you choose to put in the "
    },
    {
-    "maxChars": 91,
+    "maxChars": 75,
+    "lines": 4,
+    "px": 16,
+    "cls": "",
+    "w": 565,
+    "head": "This is personal, and some of it i"
+   },
+   {
+    "maxChars": 73,
+    "lines": 5,
+    "px": 16,
+    "cls": "",
+    "w": 565,
+    "head": "The site is hosted by Cloudflare, "
+   },
+   {
+    "maxChars": 74,
+    "lines": 5,
+    "px": 16,
+    "cls": "",
+    "w": 565,
+    "head": "Consultation records are kept whil"
+   },
+   {
+    "maxChars": 74,
+    "lines": 5,
+    "px": 16,
+    "cls": "",
+    "w": 565,
+    "head": "The site is served only over an en"
+   },
+   {
+    "maxChars": 76,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "",
+    "w": 565,
+    "head": "This site is not directed at child"
    },
    {
-    "maxChars": 89,
-    "lines": 4,
-    "px": 16
+    "maxChars": 72,
+    "lines": 2,
+    "px": 16,
+    "cls": "",
+    "w": 565,
+    "head": "If how information is handled chan"
    },
    {
-    "maxChars": 91,
-    "lines": 4,
-    "px": 16
-   },
-   {
-    "maxChars": 92,
-    "lines": 4,
-    "px": 16
-   },
-   {
-    "maxChars": 92,
+    "maxChars": 69,
     "lines": 3,
-    "px": 16
-   },
-   {
-    "maxChars": 86,
-    "lines": 2,
-    "px": 16
-   },
-   {
-    "maxChars": 81,
-    "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "rounded-card border border-gold/50 bg-gold-soft/40 p-5",
+    "w": 565,
+    "head": "The contact details for privacy re"
    },
    {
     "maxChars": 47,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 384,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -6863,7 +7781,7 @@
   "petal": 1,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  },
  "404@1280": {
@@ -6932,12 +7850,18 @@
    {
     "maxChars": 77,
     "lines": 2,
-    "px": 16
+    "px": 16,
+    "cls": "mt-5 leading-relaxed text-muted",
+    "w": 672,
+    "head": "The page you were looking for may "
    },
    {
     "maxChars": 47,
     "lines": 3,
-    "px": 16
+    "px": 16,
+    "cls": "mt-4 max-w-sm leading-relaxed text-muted",
+    "w": 384,
+    "head": "Calm, considered guidance in Vastu"
    }
   ],
   "vb": {
@@ -6948,7 +7872,7 @@
   "petal": 3,
   "faqIconTransition": "0s",
   "menuPanelTransition": "0s",
-  "hoverSelCount": 24,
+  "hoverSelCount": 25,
   "focusSelCount": 17
  }
 }

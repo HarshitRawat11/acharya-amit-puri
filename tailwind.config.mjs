@@ -54,7 +54,11 @@ export default {
         widest2: "0.22em",
       },
       maxWidth: {
-        prose2: "68ch",
+        // Prose measure. Was 68ch, which reads as ~93 actual characters per
+        // line: `ch` is the advance width of "0", and Inter's average letter
+        // is narrower than its zero. Gate 7b caps a line at 80 characters, so
+        // the token had to come down to match the criterion it is measured by.
+        prose2: "56ch",
       },
     },
   },

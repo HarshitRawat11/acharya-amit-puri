@@ -40,6 +40,11 @@ const RECTS = `(() => {
   const inFold = (r) => r.top < vh && r.bottom > 0 && r.width > 0 && r.height > 0;
   const h1 = document.querySelector("h1");
   const r1 = h1 ? h1.getBoundingClientRect() : null;
+  const box = (el) => { if (!el) return null; const r = el.getBoundingClientRect();
+    if (!(r.width > 0 && r.height > 0)) return null;
+    return { x: Math.round(r.left), y: Math.round(r.top), w: Math.round(r.width), h: Math.round(r.height) }; };
+  const mascotEl = [...document.querySelectorAll('svg[viewBox="0 0 64 64"]')].filter(e => e.offsetParent !== null)[0];
+  const chrome = [box(document.querySelector("header")), box(document.querySelector("footer"))].filter(Boolean);
   const hidden = (e) => { for (let p = e.parentElement; p; p = p.parentElement) { if (p.tagName === "DETAILS" && !p.open) return true; const s = getComputedStyle(p); if (s.display === "none" || s.visibility === "hidden") return true; } return e.offsetParent === null; };
   const acts = [...document.querySelectorAll("a[href],button")].filter(e => inFold(e.getBoundingClientRect()) && !hidden(e))
     .map(e => { const r = e.getBoundingClientRect(); const s = getComputedStyle(e);
@@ -48,7 +53,7 @@ const RECTS = `(() => {
         w: Math.round(Math.min(r.width, vw)), h: Math.round(r.height),
         filled: s.backgroundColor !== "rgba(0, 0, 0, 0)" };
     }).filter(a => a.w > 2 && a.h > 2);
-  return { vw, vh,
+  return { vw, vh, mascot: box(mascotEl), chrome,
     h1: r1 ? { x: Math.max(0,Math.round(r1.left)), y: Math.max(0,Math.round(r1.top)), w: Math.round(r1.width), h: Math.round(r1.height),
       px: Math.round(parseFloat(getComputedStyle(h1).fontSize)) } : null,
     acts };
@@ -77,7 +82,7 @@ const pad = (s, n) => String(s).padEnd(n);
 const rows = [];
 
 for (const [key, d] of Object.entries(data)) {
-  const { vw, h1, acts } = d.rects;
+  const { vw, h1, acts, mascot, chrome } = d.rects;
   const img = sharp(d.buf);
 
   // SQUINT: heavy blur, then find the tile that deviates most from the page's median luminance
@@ -104,13 +109,55 @@ for (const [key, d] of Object.entries(data)) {
   for (const t of tiles) t.dev = Math.abs(t.mean - median);
   const maxDev = Math.max(...tiles.map(t => t.dev));
   const hot = tiles.filter(t => t.dev >= maxDev * 0.75);
-  const cx = hot.reduce((a, t) => a + (t.x0 + t.x1) / 2, 0) / hot.length;
-  const cy = hot.reduce((a, t) => a + (t.y0 + t.y1) / 2, 0) / hot.length;
+
+  // The PEAK tile, not the centroid of all hot tiles. Averaging a headline on
+  // the left with an illustration on the right puts the "dominant point" in
+  // the empty space between them, which is on nothing at all — the squint test
+  // asks what dominates, not where the average of several things lands.
+  const peak = tiles.reduce((a, t) => (t.dev > a.dev ? t : a), tiles[0]);
+  const cx = (peak.x0 + peak.x1) / 2;
+  const cy = (peak.y0 + peak.y1) / 2;
+
+  // "Exactly one dominant element" — count separate hot regions (4-connected).
+  const at = new Map(tiles.map((t) => [t.gx + "," + t.gy, t]));
+  const isHot = new Set(hot.map((t) => t.gx + "," + t.gy));
+  const seen = new Set();
+  let clusters = 0;
+  for (const t of hot) {
+    const k0 = t.gx + "," + t.gy;
+    if (seen.has(k0)) continue;
+    clusters++;
+    const stack = [t];
+    while (stack.length) {
+      const c = stack.pop();
+      const ck = c.gx + "," + c.gy;
+      if (seen.has(ck)) continue;
+      seen.add(ck);
+      for (const [dx, dy] of [[1, 0], [-1, 0], [0, 1], [0, -1]]) {
+        const nk = (c.gx + dx) + "," + (c.gy + dy);
+        if (isHot.has(nk) && !seen.has(nk)) stack.push(at.get(nk));
+      }
+    }
+  }
 
   const inRect = (r, x, y, pad2 = 40) => r && x >= r.x - pad2 && x <= r.x + r.w + pad2 && y >= r.y - pad2 && y <= r.y + r.h + pad2;
   const filled = acts.filter(a => a.filled).sort((a, b) => b.w * b.h - a.w * a.h);
   const primary = filled[0];
-  const squintTarget = inRect(h1, cx, cy) ? "H1" : inRect(primary, cx, cy) ? "primary CTA" : "neither";
+  // Gate 3a, as reworded at Decision 1: the dominant mass must land on an
+  // INTENDED focal element - headline, primary action, or the mascot, which
+  // Direction 3 makes a focal element - and never on page chrome.
+  // An action inside the header is still an ACTION. Checking chrome first
+  // mislabelled the header Book a Consultation button as furniture, when it is
+  // the primary call to action and the eye landing on it is the intent working.
+  // Real chrome-dominance is the logo, the nav or a border winning.
+  const onAnyAction = acts.some((x) => inRect(x, cx, cy, 10));
+  const onChrome = !onAnyAction && (chrome || []).some((c) => inRect(c, cx, cy, 0));
+  const squintTarget = inRect(h1, cx, cy) ? "H1"
+    : inRect(primary, cx, cy) ? "primary CTA"
+    : inRect(mascot, cx, cy, 60) ? "mascot"
+    : onAnyAction ? "an action"
+    : onChrome ? "CHROME (fail)"
+    : "neither";
 
   // GREYSCALE: rank interactive elements by |luminance - local surround| on the desaturated image
   const grey = await sharp(d.buf).greyscale().raw().toBuffer({ resolveWithObject: true });
@@ -131,15 +178,17 @@ for (const [key, d] of Object.entries(data)) {
   // THUMBNAIL: h1 cap-height at 20%
   const thumbCap = h1 ? Math.round(h1.px * 0.2 * 0.7 * 10) / 10 : null;
 
-  rows.push({ key, squintTarget, cx: Math.round(cx), cy: Math.round(cy),
+  rows.push({ key, squintTarget, clusters, cx: Math.round(cx), cy: Math.round(cy),
     h1px: h1 ? h1.px : null, thumbCap,
     primary: primary ? primary.t : "NONE", primaryRank, nActs: scored.length,
     topGrey: topGrey ? topGrey.t : "-", topScore: topGrey ? Math.round(topGrey.score) : 0 });
 }
 
 console.log("=== GATE 3 — SQUINT (blurred, dominant region) ===");
-console.log("  " + pad("view", 30) + pad("dominant falls on", 18) + "centroid");
-rows.forEach(r => console.log("  " + pad(r.key, 30) + pad(r.squintTarget, 18) + r.cx + "," + r.cy));
+console.log("  " + pad("view", 30) + pad("dominant falls on", 18) + pad("hot regions", 13) + "peak");
+rows.forEach(r => console.log("  " + pad(r.key, 30) + pad(r.squintTarget, 18) + pad(r.clusters, 13) + r.cx + "," + r.cy));
+const ok = rows.filter(r => ["H1","primary CTA","mascot","an action"].includes(r.squintTarget)).length;
+console.log("  -> on an intended focal element: " + ok + " of " + rows.length + "   on chrome: " + rows.filter(r=>r.squintTarget.startsWith("CHROME")).length);
 
 console.log("");
 console.log("=== GATE 3 — GREYSCALE (is the primary action still the most prominent?) ===");

@@ -95,7 +95,10 @@ const PROBE = String.raw`(() => {
     if ((p.textContent || "").trim().length < 120) continue;
     const g = lineGroups(p); if (g.length < 2) continue;
     bodies.push({ maxChars: Math.max(...g.slice(0, -1).map(x => x.chars)), lines: g.length,
-      px: Math.round(parseFloat(getComputedStyle(p).fontSize)) });
+      px: Math.round(parseFloat(getComputedStyle(p).fontSize)),
+      cls: (typeof p.className === "string" ? p.className.trim().split(/\s+/).slice(0, 6).join(" ") : ""),
+      w: Math.round(p.getBoundingClientRect().width),
+      head: (p.textContent || "").trim().replace(/\s+/g, " ").slice(0, 34) });
   }
 
   // ---- motifs by viewBox signature ----

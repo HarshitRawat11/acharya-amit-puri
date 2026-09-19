@@ -1,4 +1,17 @@
 ---
+/*
+ * ServiceCard.
+ *
+ * Gate 4d (template-likeness): a bordered rectangle with a floating icon, a
+ * title and an "Explore →" link is the exact card every Tailwind marketing
+ * template ships with — the grid was the one part of this site a visitor could
+ * plausibly have mistaken for a starter theme.
+ *
+ * The six services are the practice's six shrines, so each icon now stands in
+ * a drawn temple niche. It is an arch outline, not a border-radius, which
+ * keeps Gate 2d at three radii and D1's palette untouched: one hairline stroke
+ * that warms to gold with the rest of the card on hover.
+ */
 import ServiceIcon from "./motifs/ServiceIcon.astro";
 
 interface Props {
@@ -19,7 +32,21 @@ const { slug, name, tagline, summary } = Astro.props;
     class="absolute inset-x-0 top-0 h-px origin-left scale-x-0 bg-gold transition-transform duration-300 group-hover:scale-x-100"
   ></span>
 
-  <ServiceIcon slug={slug} class="h-10 w-10 text-gold" />
+  <!-- the niche, with the service's icon standing in it -->
+  <span class="relative flex h-16 w-14 items-center justify-center">
+    <svg
+      class="absolute inset-0 h-full w-full text-hair transition-colors duration-300 group-hover:text-gold"
+      viewBox="0 0 56 64"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="1.1"
+      aria-hidden="true"
+    >
+      <path d="M3 64V27C3 13.7 14.2 3 28 3s25 10.7 25 24v37" stroke-linecap="round"></path>
+      <path d="M28 3V0" stroke-linecap="round" opacity="0.6"></path>
+    </svg>
+    <ServiceIcon slug={slug} class="relative mb-1 h-8 w-8 text-gold" />
+  </span>
 
   <h3 class="mt-5 font-serif text-2xl text-teal">{name}</h3>
   <p class="mt-1 text-xs uppercase tracking-widest text-muted">{tagline}</p>
