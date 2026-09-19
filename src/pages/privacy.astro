@@ -10,9 +10,14 @@
  *     Fill {{EMAIL}} in src/data/site.ts. Until then the page says so plainly
  *     rather than pretending.
  *
- *  2. It is written honestly from what the site verifiably does — no cookies,
- *     no analytics, no third-party requests, all confirmed against the live
- *     site — but it is NOT legal advice. Have someone qualified read it,
+ *  2. It is written honestly from what the site verifiably does, and it
+ *     REWRITES ITSELF when that changes: every statement about analytics is
+ *     wired to `site.analytics.cfBeaconToken`. Fill the token and the page
+ *     starts saying the site measures visits; leave it empty and the page
+ *     keeps saying it does not. The page cannot fall out of step with the
+ *     behaviour, which is the usual way privacy notices become lies.
+ *
+ *     It is still NOT legal advice. Have someone qualified read it,
  *     particularly for India's DPDP Act, before treating it as compliance.
  *
  * The retention periods are marked below and are the Acharya's decision, not
@@ -23,20 +28,24 @@ import PageHero from "../components/PageHero.astro";
 import Container from "../components/ui/Container.astro";
 import Section from "../components/ui/Section.astro";
 import { site } from "../data/site";
-import { filled, emailLink, phoneLink } from "../lib/content";
+import { filled, isFilled, emailLink, phoneLink } from "../lib/content";
 
 const email = filled(site.contact.email);
 const mail = emailLink();
 const tel = phoneLink();
 const location = filled(site.contact.location);
 const canContact = Boolean(email || tel);
+/** Cloudflare Web Analytics is on only once a beacon token exists. Everything
+ *  this page says about measurement follows from this one boolean. */
+const analytics = isFilled(site.analytics.cfBeaconToken);
 
 /** Update this whenever the wording below changes materially. */
 const lastUpdated = "18 September 2026";
 
 const title = "Privacy | Acharya Amit Puri";
-const description =
-  "How Acharya Amit Puri handles your personal information: what is collected, why, how long it is kept, and your rights. No cookies, no analytics, no tracking.";
+const description = analytics
+  ? "How Acharya Amit Puri handles your personal information: what is collected, why, how long it is kept, and your rights. No cookies, and privacy-friendly visitor counts only."
+  : "How Acharya Amit Puri handles your personal information: what is collected, why, how long it is kept, and your rights. No cookies, no analytics, no tracking.";
 // Lets Google show a breadcrumb trail in place of a bare URL.
 const breadcrumbSchema = {
   "@context": "https://schema.org",
@@ -65,11 +74,13 @@ const breadcrumbSchema = {
     <Container>
       <div class="prose-content mx-auto max-w-prose2" data-reveal>
         <p class="rounded-card border border-hair bg-surface-alt p-5 not-italic">
-          <strong class="text-teal">In short.</strong> This website sets no cookies,
-          runs no analytics, and loads nothing from anyone else's servers. Nothing
-          is gathered as you read. Information reaches {site.name} only when you
-          choose to send it — and is used only to answer you and to prepare your
-          consultation.
+          <strong class="text-teal">In short.</strong> This website sets no cookies
+          and never identifies you.{" "}
+          {analytics
+            ? "It counts visits using a privacy-friendly tool that stores nothing on your device and builds no profile."
+            : "It runs no analytics and loads nothing from anyone else's servers."}{" "}
+          Information reaches {site.name} only when you choose to send it — and is
+          used only to answer you and to prepare your consultation.
         </p>
 
         <h2>Who is responsible</h2>
@@ -130,10 +141,47 @@ const breadcrumbSchema = {
           not who you are.
         </p>
 
+        {
+          analytics && (
+            <Fragment>
+              <h2>Counting visits</h2>
+              <p>
+                This site uses <strong>Cloudflare Web Analytics</strong> to see how
+                many people read which pages. It is deliberately the least invasive
+                option available: it sets <strong>no cookies</strong>, stores nothing
+                on your device, builds no profile, and cannot follow you to any other
+                website. There is no consent banner because there is nothing to
+                consent to.
+              </p>
+              <p>
+                What it records is the page address, the referring page, and coarse
+                details of the browser and country — never your IP address, and never
+                anything that identifies you. I see totals, not people. See
+                Cloudflare's{" "}
+                <a
+                  href="https://www.cloudflare.com/web-analytics-privacy/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  account of what it collects</a>.
+              </p>
+            </Fragment>
+          )
+        }
+
         <h2>What this site does not do</h2>
         <ul>
           <li>No cookies of any kind.</li>
-          <li>No analytics, no visitor tracking, no tracking pixels.</li>
+          {
+            analytics ? (
+              <li>
+                No tracking across other websites, no advertising profiles and no
+                tracking pixels. Visits are counted, but never tied to a person.
+              </li>
+            ) : (
+              <li>No analytics, no visitor tracking, no tracking pixels.</li>
+            )
+          }
           <li>No advertising, and no advertising networks.</li>
           <li>No social media buttons or embeds that report back.</li>
           <li>No profiling, and no automated decisions about you.</li>

@@ -159,6 +159,22 @@ const graph = {
     <script is:inline>
       document.documentElement.classList.add("js");
     </script>
+
+    {
+      /* Cloudflare Web Analytics. Cookie-free and consent-banner-free, and it
+         collects no personal data — but it IS a third-party script, so it is
+         rendered only once a token exists. Until then the site keeps its zero
+         third-party request record (FINISH-LINE.md O3, O4) and the privacy
+         page continues to say, truthfully, that nothing is measured. */
+      isFilled(site.analytics.cfBeaconToken) && (
+        <script
+          is:inline
+          defer
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon={`{"token": "${site.analytics.cfBeaconToken}"}`}
+        />
+      )
+    }
   </head>
 
   <body class="min-h-screen bg-paper font-sans text-ink antialiased">

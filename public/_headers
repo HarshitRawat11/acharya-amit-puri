@@ -13,14 +13,20 @@
 
 # ── Security, on every response ─────────────────────────────────────────────
 # The Content-Security-Policy permits exactly what this site uses and nothing
-# else: its own files, its own inline styles and scripts, and the Web3Forms
-# endpoint the contact form submits to.
+# else: its own files, its own inline styles and scripts, the Web3Forms
+# endpoint the contact form submits to, and the Cloudflare Web Analytics
+# beacon.
+#
+# The two cloudflareinsights.com entries are PERMISSIONS, not loads. Nothing
+# is fetched from them until `analytics.cfBeaconToken` is filled in
+# src/data/site.ts. A CSP that allows an origin costs nothing; a CSP that
+# forgets to allow one fails silently in production, which is worse.
 /*
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
-  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://api.web3forms.com; form-action 'self' https://api.web3forms.com; frame-ancestors 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests
+  Content-Security-Policy: default-src 'self'; script-src 'self' 'unsafe-inline' https://static.cloudflareinsights.com; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; connect-src 'self' https://api.web3forms.com https://cloudflareinsights.com; form-action 'self' https://api.web3forms.com; frame-ancestors 'none'; base-uri 'self'; object-src 'none'; upgrade-insecure-requests
 
 # ── Caching ─────────────────────────────────────────────────────────────────
 # Astro fingerprints everything in /_astro/ with a content hash, so these can

@@ -426,6 +426,23 @@ export const site = {
   },
 
   // ──────────────────────────────────────────────────────────────────────────
+  //  ANALYTICS  (optional — off until a token is pasted in)
+  //  Cloudflare Web Analytics: no cookies, no cross-site tracking, no consent
+  //  banner needed. Get the token from the Cloudflare dashboard →
+  //  Web Analytics → your site → the `data-cf-beacon` token.
+  //
+  //  Two things happen the moment this is filled in, both deliberate:
+  //    1. A script loads from static.cloudflareinsights.com. That breaks
+  //       FINISH-LINE.md O3 and O4 (zero third-party scripts / requests).
+  //       Nothing else on the site touches another origin.
+  //    2. The privacy page rewrites itself to say so. It is wired to this
+  //       value, so the page and the behaviour cannot drift apart.
+  // ──────────────────────────────────────────────────────────────────────────
+  analytics: {
+    cfBeaconToken: "{{CF_BEACON_TOKEN}}",
+  },
+
+  // ──────────────────────────────────────────────────────────────────────────
   //  SEO DEFAULTS
   // ──────────────────────────────────────────────────────────────────────────
   seo: {

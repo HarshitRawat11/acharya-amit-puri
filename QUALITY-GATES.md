@@ -158,11 +158,17 @@ Policy: illustration only for v1. **0 `<img>` elements**; 231 SVGs in one monoli
 
 ## Gate 9 — Behavioural metrics ⏳
 
-Cloudflare Web Analytics, approved in Phase B, **not yet installed**. Thresholds (provisional — no baseline traffic exists for this site or sector): median time on page ≥45s · ≥40% of home sessions reach 50% scroll depth · ≥15% returning visitors after 30 days · bounce ≤70%.
+Cloudflare Web Analytics, approved in Phase B. **Wired in 2026-09-20 and switched off.**
+The beacon renders only when `analytics.cfBeaconToken` is filled in `src/data/site.ts`,
+and the privacy page reads the same value, so it describes the site accurately either
+way. Filling the token starts Gate 9’s 30-day window — and breaks O3 and O4, which
+needs UNFREEZE. See `FINISH-LINE.md` G11. Thresholds (provisional — no baseline traffic exists for this site or sector): median time on page ≥45s · ≥40% of home sessions reach 50% scroll depth · ≥15% returning visitors after 30 days · bounce ≤70%.
 
 **Never blocks LOCK.** Recorded in `FINISH-LINE.md` §4 as post-launch verification.
 
-> **Before launch:** the privacy page states *"No cookies, no analytics, no tracking."* That sentence becomes **false** the day analytics is installed. A privacy amendment ships with it.
+> **Resolved.** The privacy page no longer needs remembering: it is wired to the same
+> token the beacon is, so the amendment ships in the same deploy by construction.
+> Verified both ways on 2026-09-20.
 
 ---
 

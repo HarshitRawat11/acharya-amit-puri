@@ -78,7 +78,32 @@ Tick these off as you go. "Example" shows the format expected — not a real val
 | Placeholder    | What it is                                                                 | Where        | Done |
 | -------------- | -------------------------------------------------------------------------- | ------------ | :--: |
 | `{{FORM_KEY}}` | Free access key from [web3forms.com](https://web3forms.com) so the contact form can email you | `src/data/site.ts` |  ☐   |
+| `{{CF_BEACON_TOKEN}}` | **Optional.** Cloudflare Web Analytics token, to count visits. Leave it alone and no analytics runs | `src/data/site.ts` |  ☐   |
 | `SITE_URL`     | The site address (used for SEO links). Currently the free Cloudflare Pages address `https://acharya-amit-puri.pages.dev`. Change it once a real domain is bought | `astro.config.mjs` |  ☑   |
+
+### Turning on visitor counts (Cloudflare Web Analytics — free, no cookie banner)
+
+Entirely optional. The site works perfectly without it.
+
+1. In the **Cloudflare dashboard**, open **Web Analytics** and add the site.
+2. Cloudflare shows a snippet containing `data-cf-beacon='{"token": "…"}'`. Copy
+   just the **token** — the long string inside the quotes.
+3. Open `src/data/site.ts`, find `analytics: { cfBeaconToken: "{{CF_BEACON_TOKEN}}" }`,
+   and paste the token between the quotes.
+4. Deploy. Visit counts start appearing in the Cloudflare dashboard.
+
+> **The privacy page rewrites itself.** With the token empty it says the site runs
+> no analytics. With the token filled it gains a "Counting visits" section
+> explaining exactly what is measured, and the "no analytics" line disappears.
+> You never have to remember to update it — the page reads the same setting the
+> beacon does, so the two cannot disagree.
+
+> **One trade-off, stated plainly.** Cloudflare Web Analytics loads a small script
+> from `static.cloudflareinsights.com`. Today this site loads **nothing** from any
+> other company's servers, which is unusual and genuinely good. Turning analytics
+> on gives that up. It sets no cookies and identifies nobody, so the privacy cost
+> is small — but it is not zero, and `FINISH-LINE.md` records it as breaking two
+> criteria (O3 and O4).
 
 ### Activating the contact form (Web3Forms — free, no server needed)
 

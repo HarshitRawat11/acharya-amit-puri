@@ -88,11 +88,13 @@ is finished; the client owes the content. A placeholder found in the project and
 | `{{INSTAGRAM}}` `{{FACEBOOK}}` `{{YOUTUBE}}` | `src/data/site.ts:104–106` | Client | Social icons hidden |
 | `{{TESTIMONIAL_1..3}}` + 3 names | `src/data/site.ts:376–378` | Client | Testimonials section hidden entirely |
 | `welcome.md` `draft: true` | `src/content/articles/` | Client | `/articles/` shows its empty state |
+| `{{CF_BEACON_TOKEN}}` | `src/data/site.ts` | **You, not the client** | No visitor counts; privacy page states the site runs no analytics *(added 2026-09-20 with G11)* |
 
-That is **17 placeholder tokens**. Two further bracketed strings exist in the
-file — `{{DOUBLE_BRACES}}` at line 10 and `{{DOMAIN}}` at line 425 — and both
-are **inside code comments** explaining the convention. They are not placeholders,
-they render nothing, and C6 excludes them by wording.
+That is **18 placeholder tokens** (17 at lock, plus `{{CF_BEACON_TOKEN}}` added
+with G11 on 2026-09-20). Two further bracketed strings exist in the file —
+`{{DOUBLE_BRACES}}` and `{{DOMAIN}}` — and both are **inside code comments**
+explaining the convention. They are not placeholders, they render nothing, and
+C6 excludes them by wording.
 
 > **Acknowledged consequence.** With the six README-"Required" placeholders
 > unfilled, **v1 ships with no working contact route** — no phone, WhatsApp,
@@ -100,7 +102,7 @@ they render nothing, and C6 excludes them by wording.
 > enquiry. This is a deliberate decision, recorded so it is not a surprise.
 
 - [x] **C6** — Every placeholder token in `src/data/site.ts` that is **not inside a code comment** appears in the table above.
-      *Verified 2026-09-19: 19 distinct tokens found, 2 in comments, 17 in the register, 0 unaccounted for.*
+      *Re-verified 2026-09-20: 20 distinct tokens found, 2 in comments, 18 in the register, 0 unaccounted for.*
 - [x] **C7** — No unfilled placeholder is visible to a visitor; each hides its own section.
       *Verified by C2 — no token reaches the built HTML — and by the `isFilled()` guard in `src/lib/content.ts`.*
 
@@ -335,10 +337,29 @@ here, and nothing else does.
 - [ ] **G10 — Gate 8, the 5-second test.** Reviewer runs it with 3 unfamiliar
   readers; answers recorded in `QUALITY-GATES.md`.
 
-- [ ] **G11 — Install Cloudflare Web Analytics and amend the privacy page.** The
-  page states "No cookies, no analytics, no tracking", which becomes false on
-  installation. Gate 9's 30-day window starts at launch. Gate 9 itself is **not**
-  a v1 criterion — see §4.
+- [x] **G11 — Cloudflare Web Analytics wired in; privacy page amended.** *(2026-09-20.)*
+  Built, but **switched off**, because switching it on is a trade-off that should be
+  made deliberately rather than by me:
+
+  - The beacon renders only when `analytics.cfBeaconToken` is filled in
+    `src/data/site.ts`. It is an owed-content placeholder like any other.
+  - The privacy page is **wired to the same value**. Empty token: the page says the
+    site runs no analytics. Filled token: it gains a "Counting visits" section and
+    the "no analytics" line disappears, in the same deploy. The page and the
+    behaviour cannot drift apart, which is the usual way privacy notices become lies.
+  - The CSP in `public/_headers` already permits the two Cloudflare origins.
+    Permissions, not loads — a CSP that forgets an origin fails silently in production.
+  - **Verified both ways** on 2026-09-20: with the token empty, zero beacon in the
+    built HTML and the privacy page unchanged; with a test token, the beacon and the
+    "Counting visits" section both appear and the meta description updates. The test
+    token was reverted.
+
+  ⚠️ **Filling the token breaks O3 and O4.** Both are **0** — zero third-party scripts,
+  zero third-party requests — and the beacon loads from `static.cloudflareinsights.com`.
+  G11 and O3/O4 are both written criteria of this locked document and they contradict
+  each other. **Resolving that needs UNFREEZE** to amend O3/O4 to permit the analytics
+  origin. Until then the token stays empty, every criterion holds, and Gate 9 stays
+  NOT MEASURED.
 
 ### Remaining before v1 is complete
 
