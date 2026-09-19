@@ -428,7 +428,7 @@ export const site = {
     /** Falls back on pages that don't set their own. */
     defaultTitle: "Acharya Amit Puri — Vastu Consultant & Vedic Astrologer",
     defaultDescription:
-      "Acharya Amit Puri — Vastu consultant, Vedic astrologer and numerologist. Calm, considered guidance in Vastu, kundli reading, numerology, Prakriti and palm reading. Consultations available online across India.",
+      "Vastu, Vedic astrology and numerology with Acharya Amit Puri. Kundli reading, name correction, Prakriti and palmistry — consultations online across India.",
     /** Social share image, placed in /public. Swap the file to change it. */
     ogImage: "/og-image.png",
   },

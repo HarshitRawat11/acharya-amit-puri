@@ -2,8 +2,12 @@
 
 A fast, calm, accessible website for **Acharya Amit Puri** (Vastu · Vedic
 Astrology · Numerology · Prakriti · Palmistry), built with **Astro** +
-**Tailwind CSS**. Ships almost no JavaScript, scores **100/100/100/100** on
-Lighthouse, and is edited from one simple config file.
+**Tailwind CSS**. Ships almost no JavaScript — the home page weighs
+**77 KB over 4 requests**, with no third-party scripts and no tracking — and
+is edited from one simple config file.
+
+*(Those two numbers are measured and recorded in [FINISH-LINE.md](FINISH-LINE.md)
+§1.3, alongside the other optimization thresholds this site is held to.)*
 
 ---
 
@@ -78,10 +82,8 @@ src/
   styles/global.css     ← design tokens / base styles
 public/                 ← favicon, icons, og-image (+ your future photos)
   _headers              ← caching + security headers (Cloudflare & Netlify)
-  design-options.html   ← the five design directions, published unlisted
 astro.config.mjs        ← the site address (SITE_URL)
 netlify.toml            ← Netlify build config (kept; ignored by Cloudflare)
-design-options/         ← generator + notes for the five design directions
 ```
 
 ---
@@ -182,8 +184,6 @@ The first time on a new machine you will be asked to sign in with
   build configuration. Ignored by Cloudflare; harmless to keep.
 - **404** — `src/pages/404.astro` builds to `dist/404.html`, which both hosts
   serve for unknown URLs automatically.
-- **`/design-options.html`** — the five home-page design directions, published
-  with the site but `noindex`. See `design-options/README.md`.
 
 ### Alternative free hosts (same idea)
 

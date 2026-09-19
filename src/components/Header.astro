@@ -13,11 +13,6 @@ const links: { href: string; label: string; external?: boolean }[] = [
   { href: "/contact", label: "Contact" },
 ];
 
-// The design directions are deliberately NOT listed here. The page still
-// exists at /design-options and can be sent to the Acharya directly; it is
-// `noindex` and unlinked, so no visitor stumbles into five draft homepages
-// in a working consultant's menu.
-
 // Normalise the current path (strip trailing slash) for active-link styling.
 const path = Astro.url.pathname.replace(/\/+$/, "") || "/";
 const isActive = (href: string) =>
