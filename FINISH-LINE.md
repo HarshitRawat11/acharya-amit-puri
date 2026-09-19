@@ -267,9 +267,10 @@ here, and nothing else does.
   **Verified:** `grep -rni "design-options"` across the project, excluding this
   document and git history, returns nothing; the production build now emits
   exactly the 13 routes named in §1.1, down from 14.
-  ⚠️ **One half outstanding:** the criterion also requires `/design-options` to
-  return 404 **on the live site**. It still returns 200 there until this commit
-  is pushed and Cloudflare rebuilds. *The deck remains recoverable from git history.*
+  ✅ **Live half closed 2026-09-20.** Deployed to Cloudflare Pages; both
+  `/design-options` and `/design-options/` now return **404** in production, as
+  do `/mascot-preview/` and any unknown path. *The deck remains recoverable from
+  git history.* **G1 is fully verified.**
 
 - [x] **G2 — Remove the mascot preview workbench.** *(2026-09-19)*
   `src/pages/mascot-preview/` deleted. It was already absent from production —
@@ -331,8 +332,8 @@ here, and nothing else does.
 
 ### Remaining before v1 is complete
 
-1. **Deploy.** One push closes the live half of G1 and makes every content and
-   deployment criterion true at the same time.
+1. ~~**Deploy.**~~ **Done 2026-09-20.** Every content criterion (C1–C7) and both
+   deployment criteria (P1–P2) are now true against the live site.
 2. **Resolve G7–G11**, then Stage 2 of `QUALITY-GATES.md`, then re-LOCK at v1.1
    and tag the commit.
 3. **Client acceptance.** Send `ACCEPTANCE-CHECKLIST.md`, then record the answer
@@ -364,6 +365,8 @@ recorded in §3.
 | --- | --- | --- |
 | 2026-09-19 | Lock | 13 routes live 200, `/nonexistent` 404; `astro check` 0 errors; build exit 0; 0 placeholder tokens in built HTML; 273 SVGs all labelled; 3 meta descriptions over length |
 | 2026-09-19 | Gap closure | G1–G6 closed. 13 routes built (was 14); `astro check` 0 errors across 38 files; build exit 0; all 13 meta descriptions ≤ 165, longest 160; 52 responsive checks, 0 overflow; 910 text elements, 0 contrast failures; 231 SVGs all labelled |
+| 2026-09-20 | Quality-gate fix loop | 10 fixes applied. Type scale 13 sizes/22 combinations → **8/13**; body copy 14px → **≥16px** on all 13 pages; heading orphans 11 → **0**; controls without hover 32 → **1** (documented); FAQ and menu panels animate at 0.3s; mascot on 2 → **12 of 13** pages with viewport parity; mobile above-fold action 1 → **13 of 13** pages. `astro check` 0/0/0; build exit 0; 52 overflow checks 0 failures; **1,622 text elements 0 contrast failures**; 0 console errors |
+| 2026-09-20 | Live verification | Deployed. 12 content routes + `robots.txt` + `sitemap-index.xml` all **200**; `/design-options`, `/design-options/`, `/mascot-preview/` and unknown paths all **404**. First-visit weight **76 KB over 4 requests**, 0 third-party origins, CLS **0**, all four security headers present |
 
 *Discovery for this document was carried out against commit `29fceb6`.
 Locked 2026-09-19. Gap closed the same day, except the deploy that makes
