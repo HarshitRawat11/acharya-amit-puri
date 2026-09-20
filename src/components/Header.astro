@@ -39,7 +39,11 @@ const isActive = (href: string) =>
     </a>
 
     <!-- Desktop navigation -->
-    <nav class="hidden items-center gap-8 md:flex" aria-label="Primary">
+    <!-- gap tightens at md: the sixth item (the temporary Design Options tab)
+         pushed the row 41px past a 768px viewport at gap-8, which overflowed
+         every page on a tablet, not just that one. Restore gap-8 here when the
+         tab is removed. -->
+    <nav class="hidden items-center gap-4 md:flex lg:gap-8" aria-label="Primary">
       {
         links.map((l) => (
           <a

@@ -19,7 +19,6 @@ import fs from "node:fs";
 import path from "node:path";
 
 const SOURCE = path.join(process.cwd(), "design-options", "home-designs.html");
-const INTENT = path.join(process.cwd(), "design-options", "intent-directions.html");
 
 export interface DesignOption {
   /** "opt1" … "opt5" — the anchor this page gives the option. */
@@ -139,59 +138,4 @@ export function loadDesignDeck(): { css: string; options: DesignOption[] } {
 
   cache = { css, options };
   return cache;
-}
-
-/* ───────────────────────────────────────────────────────────────────────────
- *  INTENT DIRECTIONS — the four hero treatments behind the adjectives
- *
- *  A different kind of deck from the five above. Each pane is one hero, built
- *  inside the locked palette and the Marcellus/Inter pairing, differing only
- *  in type scale, weight, spacing, motif density and copy register. They exist
- *  to answer "which of these should the site feel like", not "which layout".
- *
- *  Produced by design-options/build-intent.mjs. Styling is entirely inline, so
- *  unlike home-designs.html there is no stylesheet to scope — nothing here can
- *  reach the rest of the page.
- * ─────────────────────────────────────────────────────────────────────────── */
-
-export interface IntentOption {
-  id: string;
-  name: string;
-  blurb: string;
-  /** True for the direction the Acharya's site was actually built on. */
-  chosen: boolean;
-  html: string;
-}
-
-let intentCache: IntentOption[] | null = null;
-
-export function loadIntentDeck(): IntentOption[] {
-  if (intentCache) return intentCache;
-
-  const raw = fs.readFileSync(INTENT, "utf8");
-  const out: IntentOption[] = [];
-
-  let from = 0;
-  for (;;) {
-    const open = raw.indexOf('<div class="ipane"', from);
-    if (open === -1) break;
-    const head = raw.slice(open, raw.indexOf(">", open) + 1);
-    const attr = (n: string) => head.match(new RegExp(n + '="([^"]*)"'))?.[1] ?? "";
-    const close = findCloseOfDiv(raw, open);
-    out.push({
-      id: `intent${out.length + 1}`,
-      name: attr("data-name").replace(/&amp;/g, "&").replace(/&quot;/g, '"'),
-      blurb: attr("data-blurb").replace(/&amp;/g, "&").replace(/&quot;/g, '"'),
-      chosen: attr("data-chosen") === "true",
-      // the wrapper itself is ours; hand back only what is inside it
-      html: raw.slice(head.length + open, close - "</div>".length),
-    });
-    from = close;
-  }
-
-  if (out.length !== 4) {
-    throw new Error(`Expected 4 intent directions in ${INTENT}, found ${out.length}`);
-  }
-  intentCache = out;
-  return out;
 }
