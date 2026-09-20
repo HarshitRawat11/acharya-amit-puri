@@ -1,0 +1,246 @@
+---
+/*
+ * DESIGN OPTIONS — ⚠️ TEMPORARY, FOR THE CLIENT PRESENTATION ONLY.
+ *
+ * This page was removed on 2026-09-20 as G1 of FINISH-LINE.md and restored the
+ * same day, deliberately and with the removal already scheduled: "push it live
+ * now for the presentation, will remove after feedback".
+ *
+ * It is EXTRA under CLAUDE.md's routing rule and is logged in BACKLOG.md. It is
+ * NOT a v1 route — FINISH-LINE.md §1.1 lists thirteen pages and this is not one
+ * of them. While it exists, G1's live half is suspended.
+ *
+ *   TO REMOVE, after the feedback is in:
+ *     git rm -r design-options src/lib/deck.ts src/pages/design-options.astro
+ *     …then drop the Design Options entry from src/components/Header.astro
+ *     and purge the Cloudflare cache for /design-options/.
+ *
+ * Two decks, two tabs, because they answer different questions:
+ *   · Home page directions — five complete layouts. "Which shape?"
+ *   · Intent directions   — four hero treatments inside ONE layout and the
+ *                           locked palette. "Which feeling?"
+ */
+import BaseLayout from "../layouts/BaseLayout.astro";
+import PageHero from "../components/PageHero.astro";
+import Container from "../components/ui/Container.astro";
+import Section from "../components/ui/Section.astro";
+import PetalDivider from "../components/motifs/PetalDivider.astro";
+import { loadDesignDeck, loadIntentDeck } from "../lib/deck";
+
+const { css, options } = loadDesignDeck();
+const intents = loadIntentDeck();
+
+const title = "Design Options | Acharya Amit Puri";
+const description =
+  "Working document: five home-page layouts and four hero treatments for the Acharya Amit Puri website.";
+---
+
+<BaseLayout title={title} description={description} noindex>
+  <PageHero
+    eyebrow="Working document"
+    title="Design options"
+    subtitle="Two different questions, on two tabs. The first asks which shape the home page should take; the second asks what the site should feel like."
+    cta={false}
+  />
+
+  <Section variant="surface-alt" class="!py-10">
+    <Container>
+      <div class="mx-auto max-w-3xl text-center" data-reveal>
+        <div class="tabs inline-flex flex-wrap justify-center gap-2 rounded-card border border-hair bg-surface p-2">
+          <button type="button" class="tab is-active" data-tab="layouts">
+            Home page directions <span class="count">5</span>
+          </button>
+          <button type="button" class="tab" data-tab="intent">
+            Intent directions <span class="count">4</span>
+          </button>
+        </div>
+        <p class="mt-6 leading-relaxed text-muted">
+          The live site is built on <strong class="text-teal">Temple Tank</strong>,
+          the first layout, and on <strong class="text-teal">Warm · Grounded ·
+          Approachable</strong>, the third intent direction.
+        </p>
+      </div>
+    </Container>
+  </Section>
+
+  <!-- ── Tab one: five complete home-page layouts ─────────────────────────── -->
+  <div id="panel-layouts" class="tabpanel">
+    <Section variant="paper" class="!pb-8">
+      <Container>
+        <div class="mx-auto max-w-2xl text-center" data-reveal>
+          <p class="leading-relaxed text-muted">
+            Five complete home pages. The wording and the six services are
+            identical in every one — only the visual design changes. Elements can
+            be combined: if the hero of one and the service cards of another are
+            the right pair, say so.
+          </p>
+          <PetalDivider class="mt-7" />
+          <nav class="mt-7 flex flex-wrap justify-center gap-2" aria-label="Home page directions">
+            {
+              options.map((o, i) => (
+                <a
+                  href={`#${o.id}`}
+                  class="rounded-full border border-hair px-4 py-2 text-sm text-ink transition-colors hover:border-gold hover:text-teal-dark"
+                >
+                  {i + 1} · {o.name}
+                </a>
+              ))
+            }
+          </nav>
+        </div>
+      </Container>
+    </Section>
+
+    {
+      options.map((o, i) => (
+        <>
+          <Section variant="paper" class="!py-8">
+            <Container>
+              <div id={o.id} class="scroll-mt-24" data-reveal>
+                <p class="text-xs uppercase tracking-widest2 text-muted">
+                  Layout {i + 1} of {options.length}
+                  {i === 0 && <span class="ml-2 text-gold">· built</span>}
+                </p>
+                <h2 class="mt-3 font-serif text-3xl text-teal sm:text-4xl">{o.name}</h2>
+                <p class="mt-4 max-w-prose2 leading-relaxed text-muted">{o.blurb}</p>
+              </div>
+            </Container>
+          </Section>
+
+          {/* Full-bleed, with the deck's own stylesheet scoped to `.deck`.
+              The panes carry their own minimum widths, which overflowed the
+              document by ~348px at 375px. The wrapper scrolls instead, so a
+              phone gets a pannable preview rather than a broken page. */}
+          <div class="deck border-y border-hair">
+            <div class="deckscroll">
+              <Fragment set:html={o.html} />
+            </div>
+          </div>
+        </>
+      ))
+    }
+  </div>
+
+  <!-- ── Tab two: four hero treatments ────────────────────────────────────── -->
+  <div id="panel-intent" class="tabpanel" hidden>
+    <Section variant="paper" class="!pb-8">
+      <Container>
+        <div class="mx-auto max-w-2xl text-center" data-reveal>
+          <p class="leading-relaxed text-muted">
+            All four use the same palette and the same two typefaces. They differ
+            in type scale, weight, spacing, motif density and the register of the
+            writing — four answers to "what should this feel like", not four
+            layouts.
+          </p>
+          <PetalDivider class="mt-7" />
+        </div>
+      </Container>
+    </Section>
+
+    {
+      intents.map((o, i) => (
+        <>
+          <Section variant="paper" class="!py-8">
+            <Container>
+              <div id={o.id} class="scroll-mt-24" data-reveal>
+                <p class="text-xs uppercase tracking-widest2 text-muted">
+                  Direction {i + 1} of {intents.length}
+                  {o.chosen && <span class="ml-2 text-gold">· chosen</span>}
+                </p>
+                <h2 class="mt-3 font-serif text-3xl text-teal sm:text-4xl">{o.name}</h2>
+                <p class="mt-4 max-w-prose2 leading-relaxed text-muted">{o.blurb}</p>
+              </div>
+            </Container>
+          </Section>
+
+          {/* Fixed 880px artboards. The wrapper scrolls, not the document, so a
+              phone never gets a horizontally scrolling page. */}
+          <div class="iframe-wrap border-y border-hair bg-surface-alt">
+            <div class="iscroll">
+              <Fragment set:html={o.html} />
+            </div>
+          </div>
+        </>
+      ))
+    }
+  </div>
+
+  <Section variant="surface-alt">
+    <Container>
+      <div class="mx-auto max-w-2xl text-center" data-reveal>
+        <h2 class="font-serif text-2xl text-teal">A note on these previews</h2>
+        <p class="mt-4 leading-relaxed text-muted">
+          Testimonials, the portrait and the statistics appear as clearly
+          labelled placeholders — no quotes have been invented. Where a real
+          number belongs in the intent directions you will see
+          <code>[YEARS]</code> or <code>[TURNAROUND]</code>; those are the
+          Acharya's to supply, not ours to guess.
+        </p>
+      </div>
+    </Container>
+  </Section>
+</BaseLayout>
+
+<script is:inline>
+  (function () {
+    var tabs = document.querySelectorAll(".tab");
+    if (!tabs.length) return;
+    function show(name) {
+      tabs.forEach(function (t) {
+        var on = t.getAttribute("data-tab") === name;
+        t.classList.toggle("is-active", on);
+        t.setAttribute("aria-selected", on ? "true" : "false");
+      });
+      ["layouts", "intent"].forEach(function (n) {
+        var p = document.getElementById("panel-" + n);
+        if (p) p.hidden = n !== name;
+      });
+      if (history.replaceState) history.replaceState(null, "", "#" + name);
+    }
+    tabs.forEach(function (t) {
+      t.setAttribute("role", "tab");
+      t.addEventListener("click", function () {
+        show(t.getAttribute("data-tab"));
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    });
+    if (location.hash === "#intent") show("intent");
+  })();
+</script>
+
+<style>
+  .tab {
+    @apply rounded-lg px-5 py-2.5 text-sm text-ink transition-colors;
+  }
+  .tab:hover {
+    @apply bg-surface-alt text-teal-dark;
+  }
+  .tab.is-active {
+    @apply bg-teal text-onteal;
+  }
+  .tab .count {
+    @apply ml-1.5 text-xs opacity-70;
+  }
+  /* Both decks hold content wider than a phone. In each case the WRAPPER
+     scrolls, so the document itself never gains a horizontal scrollbar. */
+  .deckscroll {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  /* The artboards are a fixed 880px. Scroll the wrapper on narrow screens so
+     the document itself never gains a horizontal scrollbar. */
+  .iscroll {
+    overflow-x: auto;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  .iscroll > :global(div) {
+    flex: 0 0 auto;
+    box-shadow: 0 10px 30px rgba(28, 43, 42, 0.1);
+  }
+</style>
+
+{/* The deck's stylesheet, every selector rewritten in scopeCss() to sit under
+    `.deck`, so none of it can reach the rest of the site. */}
+<style set:html={css}></style>

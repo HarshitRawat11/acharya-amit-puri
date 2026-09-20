@@ -11,4 +11,4 @@ repeated here. This file records extras raised **after** 2026-09-19.
 
 | Date | Description | Source |
 | --- | --- | --- |
-| — | _nothing logged yet_ | — |
+| 2026-09-20 | Add a Design Options tab to the site navigation, as a real page rather than a link out — reverses G1 and adds a 14th route not listed in FINISH-LINE.md §1.1 | user |

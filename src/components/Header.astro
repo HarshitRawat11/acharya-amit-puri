@@ -11,6 +11,11 @@ const links: { href: string; label: string; external?: boolean }[] = [
   { href: "/services", label: "Services" },
   { href: "/articles", label: "Articles" },
   { href: "/contact", label: "Contact" },
+  // ⚠️ TEMPORARY — for the client presentation only. Remove this entry when
+  // /design-options goes, along with the page, design-options/ and lib/deck.ts.
+  // It is EXTRA under CLAUDE.md's rule and logged in BACKLOG.md; the page is
+  // not one of the thirteen routes FINISH-LINE.md §1.1 defines.
+  { href: "/design-options", label: "Design Options" },
 ];
 
 // Normalise the current path (strip trailing slash) for active-link styling.

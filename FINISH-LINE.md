@@ -274,10 +274,28 @@ here, and nothing else does.
   **Verified:** `grep -rni "design-options"` across the project, excluding this
   document and git history, returns nothing; the production build now emits
   exactly the 13 routes named in §1.1, down from 14.
-  ✅ **Live half closed 2026-09-20.** Deployed to Cloudflare Pages; both
-  `/design-options` and `/design-options/` now return **404** in production, as
+  ⛔ **SUSPENDED 2026-09-20 — deliberately, temporarily, and with the removal
+  already agreed.** The page was put back for the client presentation on the
+  user's instruction: *"push it live now for the presentation, will remove
+  after feedback."* It now carries two tabs — the five home-page layouts and
+  the four intent directions. It is **EXTRA**, logged in `BACKLOG.md`, and is
+  **not** one of the thirteen routes §1.1 defines. **While it exists, G1 is not
+  met.** To restore: delete `design-options/`, `src/lib/deck.ts`,
+  `src/pages/design-options.astro` and the Header entry, then re-verify.
+
+  ✅ ~~Live half closed 2026-09-20.~~ Deployed to Cloudflare Pages; both
+  `/design-options` and `/design-options/` returned **404** in production, as
   do `/mascot-preview/` and any unknown path. *The deck remains recoverable from
-  git history.* **G1 is fully verified.**
+  git history.* **G1 was fully verified before the suspension above.**
+
+  ⚠️ **A stale-cache defect was found the same day.** After the removal,
+  Cloudflare's edge kept serving the deleted page from a 7-day cache
+  (`CF-Cache-Status: HIT`, `Age` ~33h) while the origin correctly returned 404 —
+  so G1 read as met but was not, for visitors hitting that edge. Cloudflare
+  Pages purges the paths a deploy publishes and a deleted page is not one of
+  them. Re-publishing the page at that path clears the entry; **if it is
+  removed again, purge the Cloudflare cache rather than trusting a plain
+  request.** Verify deletions with a cache-busting query string.
 
 - [x] **G2 — Remove the mascot preview workbench.** *(2026-09-19)*
   `src/pages/mascot-preview/` deleted. It was already absent from production —
