@@ -43,7 +43,7 @@ const description =
 <BaseLayout title={title} description={description} noindex>
   <PageHero
     eyebrow="Working document"
-    title="Five design directions"
+    title="Design directions"
     subtitle="The wording and the six services are identical in all five. Only the design changes — colour, lettering, layout and ornament."
     cta={false}
   />
@@ -51,12 +51,12 @@ const description =
   <Section variant="surface-alt" class="!py-12">
     <Container>
       <div class="mx-auto max-w-2xl text-center" data-reveal>
-        <p class="leading-relaxed text-muted">
+        <p class="mx-auto max-w-prose2 leading-relaxed text-muted">
           Scroll through them, or jump to one. Each block below is a complete
           home page, top to bottom. They can be mixed — if the top of one and
           the service cards of another are the right pair, say so.
         </p>
-        <p class="mt-4 leading-relaxed text-muted">
+        <p class="mx-auto mt-4 max-w-prose2 leading-relaxed text-muted">
           The live site is built on <strong class="text-teal">Temple Tank</strong>,
           the first of the five.
         </p>
@@ -73,7 +73,7 @@ const description =
             ))
           }
         </nav>
-        <p class="mt-7 text-sm leading-relaxed text-muted sm:hidden">
+        <p class="mx-auto mt-7 max-w-prose2 leading-relaxed text-muted sm:hidden">
           These are designs for a full-size screen, shown here scaled to fit
           your phone. Open the page on a laptop to read them properly.
         </p>
@@ -89,7 +89,7 @@ const description =
             <div id={o.id} class="scroll-mt-24" data-reveal>
               <p class="text-xs uppercase tracking-widest2 text-muted">
                 Direction {i + 1} of {options.length}
-                {i === 0 && <span class="ml-2 text-gold">· built</span>}
+                {i === 0 && <span class="ml-2 text-teal">· built</span>}
               </p>
               <h2 class="mt-3 font-serif text-3xl text-teal sm:text-4xl">{o.name}</h2>
               <p class="mt-4 max-w-prose2 leading-relaxed text-muted">{o.blurb}</p>
@@ -116,7 +116,7 @@ const description =
     <Container>
       <div class="mx-auto max-w-2xl text-center" data-reveal>
         <h2 class="font-serif text-2xl text-teal">A note on these previews</h2>
-        <p class="mt-4 leading-relaxed text-muted">
+        <p class="mx-auto mt-4 max-w-prose2 leading-relaxed text-muted">
           Testimonials, the portrait and the statistics appear as clearly
           labelled placeholders — no quotes have been invented. Headings use
           each direction's intended typeface where your device has it, and fall

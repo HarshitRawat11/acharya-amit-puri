@@ -226,6 +226,38 @@ Build state at signing: `astro check` **0 errors, 0 warnings, 0 hints**; `npm ru
 exits 0 with 13 pages; **52 responsive checks, 0 overflow**; **1,622 text elements, 0
 contrast failures**; **0 console errors**.
 
+### Re-verified 2026-09-22
+
+Stage 1 was signed on 2026-09-20 from measurements taken **before** the last
+round of changes — the design-options restoration, the deck scaling and the
+header nav-gap fix. That fix touched the header on every page at every width
+and only three pages were spot-checked afterwards, so the signature was stale.
+
+Re-run over **14 routes × 6 widths = 84 page loads** (`review/_reverify.mjs`):
+
+| Check | Result |
+| --- | --- |
+| D3 horizontal overflow | **0** of 84 |
+| O12 WCAG AA contrast | **1,751** text elements, **0** failures |
+| 7c heading orphans | **0** |
+| 7b body line over 80 characters | **0** |
+| 7a body under 16px | **0** |
+| 1b action above the fold | present on every page |
+| 2c font sizes / combinations | **8** and **14**, both at cap |
+| O3/O4 third-party origins | **0** |
+| O5 console errors | **0** |
+
+**It caught five real regressions, all of my own making, all on the temporary
+design-options page:** a 12px gold label at 3.42:1 (gold is ornament and
+large-text only — it failed contrast on all six widths), an orphaned heading at
+375px, three paragraphs running past 80 characters, a 14px note below the mobile
+floor, and a fifteenth type combination. All fixed; the thirteen v1 routes were
+clean throughout.
+
+One reported failure was the probe's, not the site's: it counted `rel=canonical`
+and `og:url` as third-party requests, which only showed when running against
+localhost. Those are metadata, never fetched. Corrected.
+
 ### 3a-ii — waived, not passed
 
 The reviewer waived **3a-ii (exactly one dominant region per view)** on 2026-09-20.
