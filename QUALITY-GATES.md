@@ -3,13 +3,20 @@
 **Approved:** 2026-09-20 · **Fix loop completed:** 2026-09-20 · **Thresholds: final**
 **Intent:** `INTENT-BRIEF.md` · **Scope:** `FINISH-LINE.md`, amendment authorised by `UNFREEZE FOR QUALITY`
 **Decisions 1–3 resolved:** 2026-09-20 (delegated by the reviewer)
-**Quality status:** **PROVISIONAL — Stages 1 and 2 complete.** 3a-ii waived by the reviewer 2026-09-20. Stage 3 (client) and Gate 9 (30-day window) outstanding. **Gate 8 was not run before the lock** and remains NOT MEASURED.
+**Quality status:** **PROVISIONAL — Stages 1 and 2 complete, Stage 3 sent.** 3a-ii waived by the reviewer 2026-09-20. Stage 3 (client) and Gate 9 (30-day window) outstanding. **Gate 8 was not run before the lock** and remains NOT MEASURED.
 
 Every CURRENT value below was measured on 2026-09-20 against the production
 build in `dist/`, served locally, at 320 / 375 / 768 / 1024 / 1280 / 1440px.
-Evidence: `review/` (78 page captures), `review/gate3/` (squint, greyscale and
-thumbnail derivatives), and the reproducible harnesses `review/_gates-probe.mjs`,
-`review/_gate3.mjs`, `review/_verify2.mjs`, `review/_final.mjs`.
+Evidence: the reproducible harnesses in `review/` — `_gates-probe.mjs`,
+`_gate3.mjs`, `_verify2.mjs`, `_final.mjs`, `_capture.mjs`.
+
+**Screenshots refreshed 2026-09-22.** The earlier 121 captures predated the
+temple-niche service cards, the nav gap fix and the design-options rework, so
+they showed a site that no longer existed. They were deleted and **56 captured
+fresh** — 14 routes × phone and laptop × fold and full page — with zero
+unrevealed content and zero console errors. The `gate3/` derivatives were
+cleared with them; regenerate from `_gate3.mjs` if the squint, greyscale and
+thumbnail images are needed again.
 
 > **Intent, restated, because every gate serves it:** urban Indian professionals
 > facing a decision that will not settle. **Warm · Grounded · Approachable.**
@@ -280,6 +287,37 @@ waive 3a-ii and re-lock at v1.1.
 > verdict, so **Gate 8 remains NOT MEASURED**. Stage 2 passed on the scorecard, the
 > screenshots and the benchmark comparison. If the test is run later and fails, that is
 > a DEFECT against a written criterion and its fix is in scope.
+
+---
+
+## Stage 3 — client
+
+**Package ready 2026-09-22. Awaiting the Acharya's response.**
+
+`CLIENT-DESIGN-REVIEW.md` is written and ready to send: ten plain-language
+questions, one per gate group, no jargon, with tick-boxes and room for notes.
+It points at the live site rather than at screenshots, because the live site
+moves and can be tapped.
+
+It discloses the one waiver in plain terms, without naming it as a waiver —
+that on a wide screen the headline, the button and the drawing each hold their
+own weight rather than one dominating, that this was a deliberate judgement,
+and that he should say so if it reads as unfocused.
+
+It also states how his feedback will be handled: each item is classified as
+something the site was always meant to do and does not, or as new work quoted
+separately. Nothing absorbed quietly, nothing dropped quietly.
+
+**Evidence refreshed the same day.** The previous 121 screenshots predated the
+temple-niche service cards, the nav gap fix and the design-options rework — they
+showed a site that no longer existed. All were deleted and **56 captured fresh**
+(14 routes × phone and laptop × fold and full page), with zero unrevealed
+content and zero console errors.
+
+**Client response:** _not yet_ · **Date:** _—_
+
+Failures re-enter the fix loop. Anything he raises that is not a gate is
+classified under `FINISH-LINE.md`'s rule as DEFECT or EXTRA.
 
 ---
 
