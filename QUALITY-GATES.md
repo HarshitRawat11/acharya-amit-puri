@@ -155,11 +155,40 @@ Policy: illustration only for v1. **0 `<img>` elements**; 231 SVGs in one monoli
 
 ## Gate 8 — Perceptual proxy: the 5-second test ⏳
 
-**You run this.** Show `review/home--fold-375.jpg` and `review/home--fold-1280.jpg` to 3 people unfamiliar with the project, 5 seconds each: *What is this site? Who is it for? What would you click?* PASS if ≥2 of 3 answer all three correctly. Record the answers here.
+**You run this.** Show **`review/gate8/home--fold-375.jpg`** and
+**`review/gate8/home--fold-1280.jpg`** to 3 people unfamiliar with the project,
+5 seconds each: *What is this site? Who is it for? What would you click?*
+PASS if ≥2 of 3 answer all three correctly. Record the answers in the table in
+Stage 2.
 
-*Note: unlike at the last audit, every page now has something to click above the fold, so question three has a correct answer on any page you test.*
+⚠️ **Use the `review/gate8/` pair, not the everyday `review/` screenshots.** The
+everyday set shows the temporary **Design Options** tab in the desktop nav. This gate
+asks a stranger what they would click, so a sixth nav link that will not exist in the
+shipped site would corrupt question three. The `gate8/` pair was captured 2026-09-25
+from a local build with that entry removed and `gap-8` restored — v1 as it will ship.
+The nav was asserted clean at capture time (`Home, About, Services, Articles,
+Contact, Book a Consultation`). **Recapture them if the hero changes.**
 
-**CURRENT: NOT MEASURED.**
+**What counts as correct** — fixed in advance, so the result cannot be argued into a
+pass afterwards. Score each answer before any discussion; write down what was actually
+said, not a tidied version, and do not prompt or explain the site first.
+
+| | Correct | Not correct |
+| --- | --- | --- |
+| **What is this site?** | Names astrology, vastu, numerology, kundli/horoscope, or "an astrologer / a consultant" in those traditions | A shop, a temple, a blog, a yoga or wellness studio, a meditation app, "not sure" |
+| **Who is it for?** | Ordinary individuals wanting guidance on a personal decision | Businesses only, students of astrology, religious devotees, "people who already believe in it", "not sure" |
+| **What would you click?** | **Book a Consultation** or **View services** — the two actions in the hero | A nav link, the logo, the mascot, "nothing", "not sure" |
+
+Question three is the strict one on purpose: naming a nav item instead of the hero
+action means the intended action did not win attention, which is what the gate
+measures. Every page now has something to click above the fold (Gate 1b, re-verified
+2026-09-22), so a correct answer exists on any page you choose to test.
+
+**A reader is only a pass if all three answers are correct.** Two such readers out of
+three passes the gate. **If it fails, that is a DEFECT against a written criterion and
+the fix is in scope** — record the answers anyway; the failing ones are the useful data.
+
+**CURRENT: NOT MEASURED.** Instrument ready 2026-09-25; awaiting three readers.
 
 ---
 
@@ -301,16 +330,20 @@ passed, and the empty answer table below is still waiting.
    Gate 4e names one thing this site does that each of them does not.
 
 **The 5-second test (Gate 8) — yours to run**
-Show `review/home--fold-375.jpg` and `review/home--fold-1280.jpg` to **three people
-unfamiliar with the project**, five seconds each. Ask: *What is this site? Who is it
+Show **`review/gate8/home--fold-375.jpg`** and **`review/gate8/home--fold-1280.jpg`**
+to **three people unfamiliar with the project**, five seconds each. *(Use the
+`gate8/` pair — the everyday screenshots still show the temporary Design Options tab.
+See Gate 8 for why, and for what counts as a correct answer.)* Ask: *What is this site? Who is it
 for? What would you click?* PASS if at least two of three answer all three correctly.
 Record the answers below. I cannot run this and will not simulate it.
 
-| Reader | What is this site? | Who is it for? | What would you click? |
-| --- | --- | --- | --- |
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
+| Reader | What is this site? | Who is it for? | What would you click? | All three correct? |
+| --- | --- | --- | --- | --- |
+| 1 | | | | |
+| 2 | | | | |
+| 3 | | | | |
+
+**Result:** ___ of 3 readers correct on all three · **Gate 8:** ☐ PASS ☐ FAIL · **Date:** ______
 
 **Stage 2 decision:** **PASSED** — recorded 2026-09-20 on the reviewer’s instruction to
 waive 3a-ii and re-lock at v1.1.

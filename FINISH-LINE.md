@@ -354,6 +354,23 @@ here, and nothing else does.
 
 - [ ] **G10 — Gate 8, the 5-second test.** Reviewer runs it with 3 unfamiliar
   readers; answers recorded in `QUALITY-GATES.md`.
+  **Instrument ready 2026-09-25 — the test itself is still unrun.** Two things were
+  wrong with it and both are fixed:
+  - The screenshots it named showed the temporary **Design Options** tab in the
+    desktop nav. The gate asks a stranger what they would click, so a sixth nav link
+    that will not ship would have corrupted question three. A clean pair now sits in
+    `review/gate8/`, captured from a local build with that entry removed and
+    `gap-8` restored, with the nav asserted clean at capture time. Reproducible via
+    `review/_gate8.mjs`. Production is untouched — the tab is still live for the
+    client, exactly as agreed.
+  - The protocol said "answer correctly" without defining correct, so the result could
+    have been argued into a pass after the fact. `QUALITY-GATES.md` now fixes an
+    acceptance key in advance for all three questions, and the answer table scores
+    per reader.
+
+  **This still needs three people and I will not simulate it.** A simulated answer
+  would be me grading my own work through a proxy, which is the one thing this gate
+  exists to prevent.
 
 - [x] **G11 — Cloudflare Web Analytics wired in; privacy page amended.** *(2026-09-20.)*
   Built, but **switched off**, because switching it on is a trade-off that should be
