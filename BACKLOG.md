@@ -12,3 +12,4 @@ repeated here. This file records extras raised **after** 2026-09-19.
 | Date | Description | Source |
 | --- | --- | --- |
 | 2026-09-20 | Add a Design Options tab to the site navigation, as a real page rather than a link out — reverses G1 and adds a 14th route not listed in FINISH-LINE.md §1.1 | user |
+| 2026-09-28 | `npm audit` reports 18 vulnerabilities (1 critical, 8 high, 6 moderate, 3 low) in the build-time dependency tree; none ship to the browser on a static site | Claude |
